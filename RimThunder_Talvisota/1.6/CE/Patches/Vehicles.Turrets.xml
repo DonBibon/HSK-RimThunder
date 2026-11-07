@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_122mmHowitzer_HE</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/warmUpTimer</xpath>
+		<value>
+			<warmUpTimer>2.8</warmUpTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/magazineCapacity</xpath>
+		<value>
+			<magazineCapacity>1</magazineCapacity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>86</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_122mmHowitzer</ammoSet>
+				<shotHeight>2.0</shotHeight>
+				<sway>0.82</sway>
+				<spread>0.01</spread>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]</xpath>
+		<value>
+			<projectile>Bullet_762x54mmR_FMJ</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/reloadTimer</xpath>
+		<value>
+			<reloadTimer>8</reloadTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/shotSound</xpath>
+		<value>
+			<shotSound>MediumMG</shotSound>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/warmUpTimer</xpath>
+		<value>
+			<warmUpTimer>1.3</warmUpTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]</xpath>
+		<value>
+			<maxRange>62</maxRange>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_762x54mmR</ammoSet>
+				<shotHeight>1.5</shotHeight>
+				<speed>155</speed>
+				<sway>0.94</sway>
+				<spread>0.05</spread>
+				<recoil>0.8</recoil>
+			</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_57x480mmR_AP</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>86</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_57x480mmR</ammoSet>
+				<shotHeight>2.0</shotHeight>
+				<sway>0.82</sway>
+				<spread>0.01</spread>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_762x385mmRCannonShell_APHE</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>86</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_762x385mmRCannonShell</ammoSet>
+				<shotHeight>2.0</shotHeight>
+				<sway>0.82</sway>
+				<spread>0.01</spread>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_Flamethrower_Napalm</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/magazineCapacity</xpath>
+		<value>
+			<magazineCapacity>100</magazineCapacity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/maxRange</xpath>
+		<value>
+			<maxRange>36</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_Flamethrower</ammoSet>
+				<shotHeight>2.0</shotHeight>
+				<speed>20</speed>
+				<sway>0.94</sway>
+				<spread>1</spread>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]/fireModes</xpath>
+		<value>
+			<fireModes>
+				<li>
+					<shotsPerBurst>20</shotsPerBurst>
+					<ticksBetweenShots>2</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Auto</label>
+					<texPath>UI/Gizmos/FireRate_Auto</texPath>
+				</li>
+				<li>
+					<shotsPerBurst>10</shotsPerBurst>
+					<ticksBetweenShots>2</ticksBetweenShots>
+					<ticksBetweenBursts>60</ticksBetweenBursts>
+					<label>Burst</label>
+					<texPath>UI/Gizmos/FireRate_Burst</texPath>
+				</li>
+			</fireModes>
+		</value>
+	</Operation>
+</Patch>

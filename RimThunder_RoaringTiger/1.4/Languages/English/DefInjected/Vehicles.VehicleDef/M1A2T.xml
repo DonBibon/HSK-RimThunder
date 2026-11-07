@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1A2_MainBattleTank.label>M1A2T Abrams</RT_M1A2_MainBattleTank.label>
+  <RT_M1A2_MainBattleTank.description>Taiwanese export variant of the M1A2 Abrams with 120mm M256 gun, .50 BMG heavy MG, and coaxial M240 MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Loader x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 120mm M256 Gun: 120mm NATO (HE / APFSDS / Canister)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M1A2_MainBattleTank.description>
+</LanguageData>

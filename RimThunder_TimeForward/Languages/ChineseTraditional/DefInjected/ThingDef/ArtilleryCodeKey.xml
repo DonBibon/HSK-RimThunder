@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RT_ArtilleryCodeKey.label>火炮支援授權秘鑰</RT_ArtilleryCodeKey.label>
+	<RT_ArtilleryCodeKey.description>用於呼叫位於軌道上的邊緣雷霆船隊發起遠程火炮支援。</RT_ArtilleryCodeKey.description>
+</LanguageData>

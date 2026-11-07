@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_125mmNG_HE.label>Make 125mm 3OF82 HE cannon shells x5</MakeAmmo_125mmNG_HE.label>
+	<MakeAmmo_125mmNG_HE.description>Craft 5 125mm 3OF82 HE cannon shells</MakeAmmo_125mmNG_HE.description>
+	<MakeAmmo_125mmNG_HE.jobString>Making 5 125mm 3OF82 HE cannon shells</MakeAmmo_125mmNG_HE.jobString>
+
+	<MakeAmmo_125mmNG_HEAT.label>Make 125mm 3BK29M HEAT cannon shells x5</MakeAmmo_125mmNG_HEAT.label>
+	<MakeAmmo_125mmNG_HEAT.description>Craft 5 125mm 3BK29M HEAT cannon shells</MakeAmmo_125mmNG_HEAT.description>
+	<MakeAmmo_125mmNG_HEAT.jobString>Making 5 125mm 3BK29M HEAT cannon shells</MakeAmmo_125mmNG_HEAT.jobString>
+
+	<MakeAmmo_125mmNG_Sabot.label>Make 125mm 3BM69 APFSDS cannon shells x5</MakeAmmo_125mmNG_Sabot.label>
+	<MakeAmmo_125mmNG_Sabot.description>Craft 5 125mm 3BM69 APFSDS cannon shells</MakeAmmo_125mmNG_Sabot.description>
+	<MakeAmmo_125mmNG_Sabot.jobString>Making 5 125mm 3BM69 APFSDS cannon shells</MakeAmmo_125mmNG_Sabot.jobString>
+
+	<MakeAmmo_125mmNG_Missile.label>Make 125mm 3UBK21F1 Missiles x5</MakeAmmo_125mmNG_Missile.label>
+	<MakeAmmo_125mmNG_Missile.description>Craft 5 125mm 3UBK21F1 Missiles</MakeAmmo_125mmNG_Missile.description>
+	<MakeAmmo_125mmNG_Missile.jobString>Making 5 125mm 3UBK21F1 Missiles</MakeAmmo_125mmNG_Missile.jobString>
+
+	<MakeAmmo_125mmNG_EMP.label>Make 125mm 3BV15 EMP cannon shells x5</MakeAmmo_125mmNG_EMP.label>
+	<MakeAmmo_125mmNG_EMP.description>Craft 5 125mm 3BV15 EMP cannon shells</MakeAmmo_125mmNG_EMP.description>
+	<MakeAmmo_125mmNG_EMP.jobString>Making 5 125mm 3BV15 EMP cannon shells</MakeAmmo_125mmNG_EMP.jobString>
+</LanguageData>

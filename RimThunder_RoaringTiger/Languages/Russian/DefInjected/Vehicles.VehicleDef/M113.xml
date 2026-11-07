@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M113_APC.label>M113 БТР</RT_M113_APC.label>
+  <RT_M113_APC.description>Гусеничный бронетранспортёр с лёгким алюминиевым бронированием, пулемётом Browning .50 BMG и десантным отделением на 11 человек.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Командир-стрелок x1, Десант x11
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_M113_APC.description>
+</LanguageData>

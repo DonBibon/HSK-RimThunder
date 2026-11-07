@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BaseFragment">
+		<defName>Fragment_APFSDS</defName>
+		<label>Fragments</label>
+		<graphicData>
+			<texPath>Things/Projectile/Fragments/Fragment_Large</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>75</damageAmountBase>
+			<speed>60</speed>
+			<armorPenetrationSharp>125</armorPenetrationSharp>
+			<armorPenetrationBlunt>12000</armorPenetrationBlunt>
+			<gravityFactor>5</gravityFactor>
+		</projectile>
+	</ThingDef>
+</Defs>

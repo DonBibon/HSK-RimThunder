@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1075_HEMTT.label>M1075 HEMTT</RT_M1075_HEMTT.label>
+  <RT_M1075_HEMTT.description>Тяжёлый тактический грузовик армии США (10х10) с огромной грузоподъёмностью для транспортировки грузов и колонистов.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Пассажир x1, Десант в кузове x10
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- Без штатного вооружения (Транспортный грузовик)</RT_M1075_HEMTT.description>
+</LanguageData>

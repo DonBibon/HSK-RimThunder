@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BMP3_Vehicle.label>БМП-3</RT_BMP3_Vehicle.label>
+  <RT_BMP3_Vehicle.description>Боевая машина пехоты с уникальным комплексом вооружения (100-мм орудие 2А70 и спаренная 30-мм автопушка 2А72). Возможно улучшение боевым модулем 2С38 «Деривация».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Наводчик-оператор x2, Десант x5
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 100-мм орудие 2А70: 3UOF19 (HE) [ОФС], 9M117M (HEAT) [ПТУР]
+- 30-мм автопушка 2А72: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62-мм пулемёт ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Модуль 2С38 «Деривация»): 57x348mmSR (AP / AP-HE / Sabot)</RT_BMP3_Vehicle.description>
+</LanguageData>

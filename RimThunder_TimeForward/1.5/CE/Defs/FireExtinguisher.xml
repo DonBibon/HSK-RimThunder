@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BaseExplosiveBullet">
+		<defName>Bullet_FireExtinguisherCE</defName>
+		<label>FireExtinguisher</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>nothing</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Extinguish</damageDef>
+			<speed>1</speed>
+			<gravityFactor>20</gravityFactor>
+			<explosionRadius>7.0</explosionRadius>
+			<postExplosionSpawnThingDef>RT_Filth_FireFoam</postExplosionSpawnThingDef>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+		</projectile>
+	</ThingDef>
+</Defs>

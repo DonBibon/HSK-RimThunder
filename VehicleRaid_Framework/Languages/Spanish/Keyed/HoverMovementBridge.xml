@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_HoverCancelRoute>Cancelar ruta de vuelo</VRF_HoverCancelRoute>
+  <VRF_HoverCancelRouteDesc>Cancela la ruta y las órdenes de apuntado. El aeroplano sigue volando y el motor permanece encendido.</VRF_HoverCancelRouteDesc>
+  <VRF_HoverStopMovementDesc>Frena hasta quedar suspendido sin apagar el motor.</VRF_HoverStopMovementDesc>
+</LanguageData>

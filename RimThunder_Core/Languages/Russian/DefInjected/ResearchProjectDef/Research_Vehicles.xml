@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Tier 1 -->
+  <RT_EarlyMotorization.label>ранняя моторизация</RT_EarlyMotorization.label>
+  <RT_EarlyMotorization.description>Первые шаги к моторизации колонии: велосипеды, мотоциклы, аэросани и легкие пулеметные бронеавтомобили, а также базовые 45-мм танковые орудия.</RT_EarlyMotorization.description>
+
+  <!-- Tier 2 -->
+  <RT_WW2MediumArmor.label>танкостроение ВОВ: легкие и средние</RT_WW2MediumArmor.label>
+  <RT_WW2MediumArmor.description>Создание легких маневренных танков БТ-5 и Т-70, а также знаменитых средних танков Т-28 и Т-34. Открывает производство орудий и снарядов калибров 57-мм, 76.2-мм и 85-мм.</RT_WW2MediumArmor.description>
+
+  <!-- Tier 3 -->
+  <RT_WW2HeavyArmor.label>тяжелые танки прорыва и РСЗО</RT_WW2HeavyArmor.label>
+  <RT_WW2HeavyArmor.description>Тяжелые танки прорыва ИС-2 и ИС-3 с мощным противоснарядным бронированием, а также легендарная реактивная артиллерия БМ-13 «Катюша». Открывает производство 122-мм танковых снарядов и 132-мм реактивных снарядов М-13.</RT_WW2HeavyArmor.description>
+
+  <!-- Tier 4 -->
+  <RT_ModernIFV.label>современные БМП и легкая броня</RT_ModernIFV.label>
+  <RT_ModernIFV.description>Современные боевые машины пехоты (БМП-3, M2A3 Bradley, Бумеранг, Курганец-25), БМПТ «Терминатор», армейские грузовики и бронеавтомобили MRAP (КамАЗ-5350, Oshkosh M-ATV, Тайфун-ВДВ). Открывает производство автоматических пушек 25-мм, 30-мм, современных 57-мм автопушечных снарядов (57x348mmSR) и базовых ПТУР.</RT_ModernIFV.description>
+
+  <!-- Tier 5 -->
+  <RT_ModernMBTs.label>основные боевые танки</RT_ModernMBTs.label>
+  <RT_ModernMBTs.description>Производство основных боевых танков третьего поколения: M1A2 Abrams SEP, Т-80БВМ, Т-90М «Прорыв» и танка огневой поддержки M10 Booker. Открывает танковые орудия 120-мм НАТО и 125-мм РФ, современные ОБПС, кумулятивные снаряды и управляемые ракеты танковых пушек («Корнет», «Рефлекс»).</RT_ModernMBTs.description>
+
+  <!-- Tier 6 -->
+  <RT_NextGenArmata.label>платформа следующего поколения «Армата»</RT_NextGenArmata.label>
+  <RT_NextGenArmata.description>Вершина современного танкостроения: новейший танк Т-14 «Армата» с изолированной бронекапсулой экипажа и необитаемой цифровой башней, а также тяжелая БМП Т-15 «Армата» с комплексами активной защиты.</RT_NextGenArmata.description>
+
+  <!-- Aviation 1 -->
+  <RT_AviationHelicopters.label>тактическая армейская авиация</RT_AviationHelicopters.label>
+  <RT_AviationHelicopters.description>Разработка тактических многоцелевых вертолетов (UH-60 Black Hawk) для быстрой переброски десанта и эвакуации раненых.</RT_AviationHelicopters.description>
+
+  <!-- Aviation 2 -->
+  <RT_AviationHeavyTransport.label>тяжелая военно-транспортная авиация</RT_AviationHeavyTransport.label>
+  <RT_AviationHeavyTransport.description>Тяжелые десантные вертолеты CH-53E Super Stallion и дальнемагистральные тактические транспортные самолеты C-130 Hercules.</RT_AviationHeavyTransport.description>
+</LanguageData>

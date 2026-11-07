@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  	<_2S38_Tank_Turret.label>2A90 main gun</_2S38_Tank_Turret.label>
+	<_2S38_Tank_Turret.fireModes.0.label>Single</_2S38_Tank_Turret.fireModes.0.label>
+	<_2S38_Tank_Turret.fireModes.1.label>Burst</_2S38_Tank_Turret.fireModes.1.label>
+	<_2S38_Tank_Turret.fireModes.2.label>Auto</_2S38_Tank_Turret.fireModes.2.label>
+	<_2S38_Tank_Turret.gizmoDescription>Select target.\n\n&lt;color=#b0e0e6&gt;CE ammo type:&lt;/color&gt; 57x348mmSR</_2S38_Tank_Turret.gizmoDescription>
+  
+</LanguageData>

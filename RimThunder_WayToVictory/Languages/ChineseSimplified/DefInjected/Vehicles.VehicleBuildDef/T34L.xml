@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T3485_Vehicle_Blueprint.label>T-34/85</RT_T3485_Vehicle_Blueprint.label>
+	<RT_T3485_Vehicle_Blueprint.description>一种后期型T-34，换装了更大炮塔的同时增设了车长席以提升观测指挥能力。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3, 机枪手 x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n85x629mmR（主炮）\n7.62x54mmR（同轴机枪/车体机枪）</RT_T3485_Vehicle_Blueprint.description>
+
+
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Make_M1A2SEP_Blueprint.label>组装M1A2 艾布拉姆斯</RT_Make_M1A2SEP_Blueprint.label>
+	<RT_Make_M1A2SEP_Blueprint.description>组装M1A2 艾布拉姆斯。</RT_Make_M1A2SEP_Blueprint.description>
+
+	<RT_Make_M10_Blueprint.label>组装M10 布克</RT_Make_M10_Blueprint.label>
+	<RT_Make_M10_Blueprint.description>组装M10 布克。</RT_Make_M10_Blueprint.description>
+
+	<RT_Make_M2A3_Blueprint.label>组装M2A3 布莱德利</RT_Make_M2A3_Blueprint.label>
+	<RT_Make_M2A3_Blueprint.description>组装M2A3 布莱德利。</RT_Make_M2A3_Blueprint.description>
+
+</LanguageData>

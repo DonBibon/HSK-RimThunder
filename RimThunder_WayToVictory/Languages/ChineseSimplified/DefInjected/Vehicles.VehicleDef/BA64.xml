@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+  <RT_BA64_Vehicle.label>BA-64</RT_BA64_Vehicle.label>
+  <RT_BA64_Vehicle.description>一种基于Gaz-64开发的装甲车，只装备了一挺机枪，装甲贫弱但廉价而快速。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 机枪手 x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n7.62x54mmR（机枪）</RT_BA64_Vehicle.description>
+  <RT_BA64_Vehicle.properties.roles.0.label>驾驶员</RT_BA64_Vehicle.properties.roles.0.label>
+  <RT_BA64_Vehicle.properties.roles.1.label>机枪手</RT_BA64_Vehicle.properties.roles.1.label>
+  <RT_BA64_Vehicle.components.0.label>发动机</RT_BA64_Vehicle.components.0.label>
+  <RT_BA64_Vehicle.components.1.label>油箱</RT_BA64_Vehicle.components.1.label>
+  <RT_BA64_Vehicle.components.2.label>变速箱</RT_BA64_Vehicle.components.2.label>
+  <RT_BA64_Vehicle.components.3.label>传动轴</RT_BA64_Vehicle.components.3.label>
+  <RT_BA64_Vehicle.components.4.label>左前轮</RT_BA64_Vehicle.components.4.label>
+  <RT_BA64_Vehicle.components.5.label>右前轮</RT_BA64_Vehicle.components.5.label>
+  <RT_BA64_Vehicle.components.6.label>左后轮</RT_BA64_Vehicle.components.6.label>
+  <RT_BA64_Vehicle.components.7.label>右后轮</RT_BA64_Vehicle.components.7.label>
+  <RT_BA64_Vehicle.components.8.label>前方装甲</RT_BA64_Vehicle.components.8.label>
+  <RT_BA64_Vehicle.components.9.label>左侧装甲</RT_BA64_Vehicle.components.9.label>
+  <RT_BA64_Vehicle.components.10.label>右侧装甲</RT_BA64_Vehicle.components.10.label>
+  <RT_BA64_Vehicle.components.11.label>顶部装甲</RT_BA64_Vehicle.components.11.label>
+  <RT_BA64_Vehicle.components.12.label>后方装甲</RT_BA64_Vehicle.components.12.label>
+  <RT_BA64_Vehicle.components.13.label>主炮塔</RT_BA64_Vehicle.components.13.label>
+  <RT_BA64_Vehicle.components.14.label>备胎</RT_BA64_Vehicle.components.14.label>
+  <RT_BA64_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>DT机枪</RT_BA64_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+</LanguageData>

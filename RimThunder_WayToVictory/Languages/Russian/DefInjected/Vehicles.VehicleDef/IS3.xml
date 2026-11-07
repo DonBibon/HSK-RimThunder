@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_IS3_Vehicle.label>ИС-3</RT_IS3_Vehicle.label>
+  <RT_IS3_Vehicle.description>Советский тяжёлый танк послевоенной концепции с революционным лобовым бронированием «щучий нос», литой башней-полусферой и 122-мм пушкой Д-25Т.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Заряжающий x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 122-мм орудие Д-25Т: 122mmHowitzer Cannon shell (HE / APHE)
+- 12.7-мм зенитный ДШК: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_IS3_Vehicle.description>
+</LanguageData>

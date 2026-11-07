@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_UH60_Vehicle.label>UH-60 Black Hawk</RT_UH60_Vehicle.label>
+  <RT_UH60_Vehicle.description>US tactical transport helicopter equipped with twin 7.62mm M134 Miniguns in door mounts.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x2, Door Gunner x2, Passenger x11
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 2x 7.62mm M134 Minigun: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_UH60_Vehicle.description>
+</LanguageData>

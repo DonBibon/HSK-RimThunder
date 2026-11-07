@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Kamaz5350_vehicle.label>КамАЗ-5350 «Мустанг»</RT_Kamaz5350_vehicle.label>
+  <RT_Kamaz5350_vehicle.description>Российский полноприводный армейский грузовой автомобиль (6х6) высокой проходимости. Поддерживает установку миномёта 2С41 «Дрок».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x2, Пассажиры x14
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- Без штатного вооружения (Транспортный грузовик)
+- (Улучшение миномёт 2С41 «Дрок»): 81mm Mortar shell (HE / EMP / Smoke)</RT_Kamaz5350_vehicle.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_RF8_Vehicle_Blueprint.label>NKL-26 戰鬥雪橇</RT_RF8_Vehicle_Blueprint.label>
+	<RT_RF8_Vehicle_Blueprint.description>一種裝甲雪橇，裝備有一挺7.62公釐機槍，用於在雪地掩護和運輸滑雪步兵。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 機槍手 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n7.62x54mmR（機槍）</RT_RF8_Vehicle_Blueprint.description>
+
+
+</LanguageData>

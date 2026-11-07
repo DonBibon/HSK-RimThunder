@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 平衡相关 -->
+
+  <RT_Apoch57_Turret.label>LShO-57 57mm机炮</RT_Apoch57_Turret.label>
+  <RT_Apoch57_Turret.fireModes.0.label>点射</RT_Apoch57_Turret.fireModes.0.label>
+  <RT_Apoch57_Turret.fireModes.1.label>短点射</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.fireModes.1.label>连发射击</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 57mmAC</RT_Apoch57_Turret.gizmoDescription>
+
+  <RT_Bo_PKT_Turret.label>PKT同轴机枪</RT_Bo_PKT_Turret.label>
+
+  <RT_Min_Missile_Turret.label>“布拉特”微型导弹系统</RT_Min_Missile_Turret.label>
+  <RT_Min_Missile_Turret.fireModes.1.label>单发射击</RT_Min_Missile_Turret.fireModes.1.label>
+  <RT_Min_Missile_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; “布拉特”微型导弹</RT_Min_Missile_Turret.gizmoDescription>
+	
+</LanguageData>

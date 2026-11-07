@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+	<BMPT_Tank_Turret.label>雙聯30mm 2A42機炮</BMPT_Tank_Turret.label>
+	<BMPT_Tank_Turret.fireModes.0.label>連發</BMPT_Tank_Turret.fireModes.0.label>
+	<BMPT_Tank_Turret.fireModes.1.label>短點射</BMPT_Tank_Turret.fireModes.1.label>
+	<BMPT_Tank_Turret.fireModes.2.label>單發</BMPT_Tank_Turret.fireModes.2.label>
+	<BMPT_Tank_Turret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 30x165mm</BMPT_Tank_Turret.gizmoDescription>
+
+  <!-- 炮1 -->
+
+	<RT_AtakaTurret.label>9M120M攻擊反坦克導彈</RT_AtakaTurret.label>
+	<RT_AtakaTurret.fireModes.0.label>單發</RT_AtakaTurret.fireModes.0.label>
+	<RT_AtakaTurret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 9M120M</RT_AtakaTurret.gizmoDescription>
+  <!-- 同轴 -->
+
+	<RT_AG17DTurret.label>30mm AG-17D榴彈發射器</RT_AG17DTurret.label>
+	<RT_AG17DTurret.fireModes.0.label>連發</RT_AG17DTurret.fireModes.0.label>
+	<RT_AG17DTurret.fireModes.1.label>短點射</RT_AG17DTurret.fireModes.1.label>
+	<RT_AG17DTurret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 30x29mm Grenade</RT_AG17DTurret.gizmoDescription>
+
+
+</LanguageData>

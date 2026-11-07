@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_LMTV_Blueprint.description>Сборка техники M1078 LMTV на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- Без штатного вооружения (Средний грузовик)</RT_Make_LMTV_Blueprint.description>
+  <RT_Make_LMTV_Blueprint.label>Собрать M1078 LMTV</RT_Make_LMTV_Blueprint.label>
+  <RT_Make_MATV_Blueprint.description>Сборка техники Oshkosh M-ATV на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_MATV_Blueprint.description>
+  <RT_Make_MATV_Blueprint.label>Собрать Oshkosh M-ATV</RT_Make_MATV_Blueprint.label>
+</LanguageData>

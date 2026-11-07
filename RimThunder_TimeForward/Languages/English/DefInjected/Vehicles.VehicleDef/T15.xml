@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T15_Vehicle.label>T-15 Armata IFV</RT_T15_Vehicle.label>
+  <RT_T15_Vehicle.description>Heavy tracked IFV on the Armata platform equipped with a 57mm Baikal/Kinzhal unmanned combat module, Kornet ATGMs, and PKTM MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Passenger x9
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 57mm Baikal Autocannon: 57x348mmSR (AP / AP-HE / Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T15_Vehicle.description>
+</LanguageData>

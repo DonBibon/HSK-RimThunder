@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_M2A3_Tank_Turret.label>25mm M242</RT_M2A3_Tank_Turret.label>
+  	<RT_M2A3_Tank_Turret.fireModes.0.label>Auto</RT_M2A3_Tank_Turret.fireModes.0.label>
+	<RT_M2A3_Tank_Turret.fireModes.1.label>Burst</RT_M2A3_Tank_Turret.fireModes.1.label>
+  	<RT_M2A3_Tank_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 25x137mmNATO</RT_M2A3_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_TOW2A_Turret.label>TOW</RT_TOW2A_Turret.label>
+  	<RT_TOW2A_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; TOW</RT_TOW2A_Turret.gizmoDescription>
+
+</LanguageData>

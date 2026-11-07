@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T34_Vehicle_Blueprint.label>T-34 1940</RT_T34_Vehicle_Blueprint.label>
+	<RT_T34_Vehicle_Blueprint.description>一種應用了傾斜裝甲的中戰車，易於生產，裝備一門76公釐炮，提供了多種升級以應對不同需求。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x2, 機槍手 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n76.2x385mmR（主炮）\n7.62x54mmR（同軸機槍/車體機槍）</RT_T34_Vehicle_Blueprint.description>
+
+
+</LanguageData>

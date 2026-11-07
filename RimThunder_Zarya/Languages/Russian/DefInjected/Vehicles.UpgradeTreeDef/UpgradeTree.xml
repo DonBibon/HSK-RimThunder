@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>Башня «Эпоха-Алматы»</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>Переоборудован в Башню «Эпоха-Алматы», оснащенную пушкой 2А42 и двумя спаренными противотанковыми ракетами 9М133 «Корнет».</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2А42</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>ПКТ</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel> 9М133 Корнет</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel> 9М133 Корнет</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel>
+	
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>Башня АУ220М «Байкал»</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>Переоборудован в Башню АУ220М «Байкал», оснащенную пушкой 2А91 и двумя спаренными противотанковыми ракетами 9М133 «Корнет».</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>
+
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>2А91</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>ПКТ</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>9М133 Корнет</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.label>Пакет взрывоопасной реактивной брони Т-90</RT_T90M_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.description>Добавить «ископаемый» пакет взрывоопасной реактивной брони на Т-90М для усиления защиты борта танка.</RT_T90M_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>Башня 2С25М</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>Переоборудован в Башню 2С25М, оснащенную 125-мм основной пушкой 2А75.</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>
+
+	<RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2А75</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>ПКТ</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+
+</LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.label>152mm 2A83</RT_T14_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.description>Equip the powerful 2A83 152mm main gun and 2A72 Autocannon was replaced with PKT machine gun.</RT_T14_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>152mm 2A83</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+	
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.label>FPE</RT_T14_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.description>Equip the Fire Extinguisher.</RT_T14_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>FPE</RT_T14_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>
+	
+	<RT_T14_Vehicle_UpgradeTree.nodes.2.label>Unmanned Upgrade</RT_T14_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.description>Upgrade to unmanned prototype with 2A82.\n\n&lt;color=#ff5252&gt;(Caution: According to Protocol No.227 with Trade Fleet using this vehicle in ANY combat not in the colony is prohibited.)&lt;/color&gt;</RT_T14_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.3.label>Spall Liners</RT_T14_Vehicle_UpgradeTree.nodes.3.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.3.description>Equip the Spall Liners to protect core components.</RT_T14_Vehicle_UpgradeTree.nodes.3.description>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.label>Baikal Turret</RT_T15_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.description>Equip the Baikal Turret with 2A90 and 9M133 Kornet anti-tank Missile launcher.</RT_T15_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>2A91</RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.label>Apoch57 Turret</RT_T15_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.description>Equip the Epoch57 Turret with LShO-57 autocannon and Blart mini missiles.</RT_T15_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>LShO-57</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.label>FPE</RT_T15_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.description>Equip the Fire Extinguisher.</RT_T15_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.upgrades.1.turrets.0.gizmoLabel>FPE</RT_T15_Vehicle_UpgradeTree.nodes.2.upgrades.1.turrets.0.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.label>Orbital Artillery support</RT_T15_Vehicle_UpgradeTree.nodes.3.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.description>Equip advanced radio station to call Artillery support.</RT_T15_Vehicle_UpgradeTree.nodes.3.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.upgrades.1.turrets.0.gizmoLabel>Artillery support</RT_T15_Vehicle_UpgradeTree.nodes.3.upgrades.1.turrets.0.gizmoLabel>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.label>Unmanned Upgrade</RT_T15_Vehicle_UpgradeTree.nodes.4.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.description>Upgrade to unmanned prototype with Apoch57 turret.\n\n&lt;color=#ff5252&gt;(Caution: According to Protocol No.227 with Trade Fleet using this vehicle in ANY combat not in the colony is prohibited.)&lt;/color&gt;</RT_T15_Vehicle_UpgradeTree.nodes.4.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.5.label>Spall Liners</RT_T15_Vehicle_UpgradeTree.nodes.5.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.5.description>Equip the Spall Liners to protect core components.</RT_T15_Vehicle_UpgradeTree.nodes.5.description>
+
+
+
+</LanguageData>

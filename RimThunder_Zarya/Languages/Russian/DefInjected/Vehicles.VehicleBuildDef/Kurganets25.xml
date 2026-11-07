@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Kurganets25_Blueprint.label>Боевая машина пехоты Курганец-25</RT_Kurganets25_Blueprint.label>
+	<RT_Kurganets25_Blueprint.description>«Курган 25» — это новое универсальное шасси среднего размера с превосходной адаптируемостью башни и может нести множество новых беспилотных башен.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; водитель x1, Наводчик x1, командир x1，Пассажиры x8\n&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химическое топливо\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; \n14.5x114mm（Главная пушка）</RT_Kurganets25_Blueprint.description>
+
+
+</LanguageData>

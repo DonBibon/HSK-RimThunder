@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_RF8_Vehicle.label>Аэросани НКЛ-26 / РФ-8</RT_RF8_Vehicle.label>
+  <RT_RF8_Vehicle.description>Боевые бронированные аэросани с авиамотором и толкающим винтом. Развивают высокую скорость по глубокому снегу и льду.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Стрелок x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_RF8_Vehicle.description>
+</LanguageData>

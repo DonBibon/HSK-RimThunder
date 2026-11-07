@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T14_MainBattleTank_Blueprint.label>組裝T-14“阿瑪塔”主戰坦克</RT_T14_MainBattleTank_Blueprint.label>
+	<RT_T14_MainBattleTank_Blueprint.description>組裝T-14“阿瑪塔”主戰坦克。</RT_T14_MainBattleTank_Blueprint.description>
+
+	<RT_T15_IFV_Blueprint.label>組裝T-15“阿瑪塔”重型步兵戰車</RT_T15_IFV_Blueprint.label>
+	<RT_T15_IFV_Blueprint.description>組裝T-15“阿瑪塔”重型步兵戰车。</RT_T15_IFV_Blueprint.description>
+
+
+</LanguageData>

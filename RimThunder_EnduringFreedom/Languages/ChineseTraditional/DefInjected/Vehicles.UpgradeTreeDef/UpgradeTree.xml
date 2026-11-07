@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>LMTV 貨運改裝</RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>切換為優先貨運。</RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>MTV 貨運改裝</RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>升級為M1083 6x6 MTV，提升運力。</RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>MTV 客運改裝</RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>升級為M1083 6x6 MTV，提升運力。</RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.label>M134 武器站</RT_MATV_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.description>在車頂加裝M134遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.label>M230LF 武器站</RT_MATV_Vehicle_UpgradeTree.nodes.1.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.description>在車頂加裝M230LF遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.label>M2HB 武器站</RT_MATV_Vehicle_UpgradeTree.nodes.2.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.description>在車頂加裝M2HB遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.3.label>M2HB 武器站 + 標槍</RT_MATV_Vehicle_UpgradeTree.nodes.3.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.3.description>在車頂加裝挂载標槍飛彈發射器的M2HB遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.3.description>
+  
+  <RT_MATV_Vehicle_UpgradeTree.nodes.4.label>Mk19 武器站</RT_MATV_Vehicle_UpgradeTree.nodes.4.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.4.description>在車頂加裝Mk19遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.4.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.5.label>Mk19 武器站 + 標槍</RT_MATV_Vehicle_UpgradeTree.nodes.5.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.5.description>在車頂加裝挂载標槍飛彈發射器的Mk19遙控武器站。</RT_MATV_Vehicle_UpgradeTree.nodes.5.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.6.label>拖式飛彈發射器</RT_MATV_Vehicle_UpgradeTree.nodes.6.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.6.description>在車頂加裝拖式飛彈發射器。</RT_MATV_Vehicle_UpgradeTree.nodes.6.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.7.label>Mk19榴彈發射器</RT_MATV_Vehicle_UpgradeTree.nodes.7.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.7.description>在車頂加裝Mk19自動榴彈發射器。</RT_MATV_Vehicle_UpgradeTree.nodes.7.description>
+
+</LanguageData>

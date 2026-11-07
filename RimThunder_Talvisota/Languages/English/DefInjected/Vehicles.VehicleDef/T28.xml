@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T28_Vehicle.label>T-28 Medium Tank</RT_T28_Vehicle.label>
+  <RT_T28_Vehicle.description>Multi-turreted Soviet medium infantry support tank armed with a 76.2mm KT-28 short gun and 3 machine guns.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Machine Gunners x2
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 76.2mm KT-28 Gun: 76.2x385mmR (APHE / HE / Shrapnel)
+- 3x 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T28_Vehicle.description>
+</LanguageData>

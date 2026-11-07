@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_MATV_Vehicle.label>Oshkosh M-ATV</RT_MATV_Vehicle.label>
+  <RT_MATV_Vehicle.description>Mine-Resistant Ambush Protected vehicle (MRAP) with V-shaped hull and a rooftop .50 BMG machine gun.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x3
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_MATV_Vehicle.description>
+</LanguageData>

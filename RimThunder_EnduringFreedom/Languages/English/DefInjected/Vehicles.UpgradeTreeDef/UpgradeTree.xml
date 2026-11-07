@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>LMTV Cargo</RT_LMTV_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>Switch to cargo transport.</RT_LMTV_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>MTV Cargo</RT_LMTV_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>Upgrade to M1083 6x6 MTV with better capacity.</RT_LMTV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>MTV Passenger</RT_LMTV_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>Upgrade to M1083 6x6 MTV with better capacity.</RT_LMTV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.label>M134 RWS</RT_MATV_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.0.description>Add M134 RWS on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.label>M230LF RWS</RT_MATV_Vehicle_UpgradeTree.nodes.1.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.1.description>Add M230LF RWS on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.label>M2HB RWS</RT_MATV_Vehicle_UpgradeTree.nodes.2.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.2.description>Add M2HB RWS on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.3.label>M2HB RWS + Javelin</RT_MATV_Vehicle_UpgradeTree.nodes.3.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.3.description>Add M2HB RWS with Javelin launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.3.description>
+  
+  <RT_MATV_Vehicle_UpgradeTree.nodes.4.label>Mk19 RWS</RT_MATV_Vehicle_UpgradeTree.nodes.4.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.4.description>Add Mk19 RWS on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.4.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.5.label>Mk19 RWS + Javelin</RT_MATV_Vehicle_UpgradeTree.nodes.5.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.5.description>Add Mk19 RWS with Javelin launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.5.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.6.label>TOW Launcher</RT_MATV_Vehicle_UpgradeTree.nodes.6.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.6.description>Add TOW Launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.6.description>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.7.label>Mk19 Grenade Launcher</RT_MATV_Vehicle_UpgradeTree.nodes.7.label>
+
+  <RT_MATV_Vehicle_UpgradeTree.nodes.7.description>Add Mk19 Grenade Launcher on the top of the vehicle.</RT_MATV_Vehicle_UpgradeTree.nodes.7.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1078_LMTV.label>M1078 LMTV</RT_M1078_LMTV.label>
+  <RT_M1078_LMTV.description>Medium tactical utility truck with 2.5-ton payload capacity for logistics and troop movement.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x2, Passenger x12
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- Unarmed (Medium tactical truck)</RT_M1078_LMTV.description>
+</LanguageData>

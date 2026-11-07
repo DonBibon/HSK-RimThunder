@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T3485_Vehicle.label>T-34-85</RT_T3485_Vehicle.label>
+  <RT_T3485_Vehicle.description>Main Soviet medium tank of the late WW2 equipped with a 3-man turret and 85mm ZIS-S-53 cannon.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Loader x1, Bow Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 85mm ZIS-S-53 Cannon: 85x629mmR (AP / APHE / HE)
+- 7.62mm DTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T3485_Vehicle.description>
+</LanguageData>

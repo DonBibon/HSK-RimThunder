@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Vehicles.UpgradeTreeDef>
+    <defName>RT_C130_Vehicle_UpgradeTree</defName>
+    <nodes>
+      <li>
+        <key>Cargo</key>
+        <label>Cargo</label>
+        <description>Switch to cargo transport.</description>
+        <icon>UI/cargo</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Passenger</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>5000</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>3</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>350</Steel>
+          <AluminiumBar>180</AluminiumBar>
+          <Mechanism>20</Mechanism>
+          <AdvMechanism>8</AdvMechanism>
+          <ComponentIndustrial>12</ComponentIndustrial>
+          <ComponentAdvanced>4</ComponentAdvanced>
+          <ElectronicComponents>8</ElectronicComponents>
+        </ingredients>
+      </li>
+      <li>
+        <key>Passenger</key>
+        <label>Passenger</label>
+        <description>Switch to passenger transport.</description>
+        <icon>UI/passenger</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,10)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Cargo</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-12000</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>64</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>300</Steel>
+          <AluminiumBar>150</AluminiumBar>
+          <Mechanism>15</Mechanism>
+          <Cloth>150</Cloth>
+          <Plastic>50</Plastic>
+          <ComponentIndustrial>15</ComponentIndustrial>
+          <ElectronicComponents>6</ElectronicComponents>
+        </ingredients>
+      </li>
+    </nodes>
+  </Vehicles.UpgradeTreeDef>
+  <Vehicles.UpgradeTreeDef>
+    <defName>RT_CH53E_Vehicle_UpgradeTree</defName>
+    <nodes>
+      <li>
+        <key>Cargo</key>
+        <label>Cargo</label>
+        <description>Switch to cargo transport.</description>
+        <icon>UI/cargo</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Passenger</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>3000</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>3</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>260</Steel>
+          <AluminiumBar>140</AluminiumBar>
+          <Mechanism>16</Mechanism>
+          <AdvMechanism>6</AdvMechanism>
+          <ComponentIndustrial>10</ComponentIndustrial>
+          <ComponentAdvanced>3</ComponentAdvanced>
+          <ElectronicComponents>6</ElectronicComponents>
+        </ingredients>
+      </li>
+      <li>
+        <key>Passenger</key>
+        <label>Passenger</label>
+        <description>Switch to passenger transport.</description>
+        <icon>UI/passenger</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,10)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Cargo</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-10000</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>37</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>220</Steel>
+          <AluminiumBar>110</AluminiumBar>
+          <Mechanism>12</Mechanism>
+          <Cloth>90</Cloth>
+          <Plastic>35</Plastic>
+          <ComponentIndustrial>10</ComponentIndustrial>
+          <ElectronicComponents>4</ElectronicComponents>
+        </ingredients>
+      </li>
+    </nodes>
+  </Vehicles.UpgradeTreeDef>
+  <Vehicles.UpgradeTreeDef>
+    <defName>RT_UH60_Vehicle_UpgradeTree</defName>
+    <nodes>
+      <li>
+        <key>Cargo</key>
+        <label>Cargo</label>
+        <description>Switch to cargo transport.</description>
+        <icon>UI/cargo</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Passenger</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>700</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>2</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>150</Steel>
+          <AluminiumBar>80</AluminiumBar>
+          <Mechanism>10</Mechanism>
+          <AdvMechanism>4</AdvMechanism>
+          <ComponentIndustrial>6</ComponentIndustrial>
+          <ElectronicComponents>4</ElectronicComponents>
+        </ingredients>
+      </li>
+      <li>
+        <key>Passenger</key>
+        <label>Passenger</label>
+        <description>Switch to passenger transport.</description>
+        <icon>UI/passenger</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,10)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodeEnabled>Cargo</disableIfUpgradeNodeEnabled>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <!--基础属性修改，可用add/set，具体修改范围参考文档-->
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-400</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>11</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>120</Steel>
+          <AluminiumBar>60</AluminiumBar>
+          <Mechanism>8</Mechanism>
+          <Cloth>40</Cloth>
+          <Plastic>20</Plastic>
+          <ComponentIndustrial>6</ComponentIndustrial>
+          <ElectronicComponents>4</ElectronicComponents>
+        </ingredients>
+      </li>
+    </nodes>
+  </Vehicles.UpgradeTreeDef>
+</Defs>

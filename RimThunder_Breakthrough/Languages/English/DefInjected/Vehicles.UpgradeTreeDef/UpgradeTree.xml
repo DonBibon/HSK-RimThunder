@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.label>2S38 Turret</RT_BMP3_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.description>Equip the AU220 Turret with 2A90</RT_BMP3_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>2A90</RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+
+</LanguageData>

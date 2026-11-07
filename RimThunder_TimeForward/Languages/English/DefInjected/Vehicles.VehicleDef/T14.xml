@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T14_MainBattleTank.label>T-14 Armata MBT</RT_T14_MainBattleTank.label>
+  <RT_T14_MainBattleTank.description>4th generation Russian MBT with unmanned turret, isolated crew capsule, high-power 125mm 2A82-1M cannon, and 12.7mm Kord RWS.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 125mm 2A82-1M Cannon: 125mm 3OF82 (HE), 125mm 3BK29M (HEAT), 125mm 3BM69 (APFSDS), 125mm 3UBK21F1 (Thermobaric)
+- 12.7mm Remote Kord RWS: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)</RT_T14_MainBattleTank.description>
+</LanguageData>

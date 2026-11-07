@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_3OF91_HE.label>Изготовить 57-мм 3ОФ91 Бронетранспортер (HE) x505</MakeAmmo_3OF91_HE.label>
+	<MakeAmmo_3OF91_HE.description>Изготовить 57-мм 3ОФ91 Бронетранспортер (HE)</MakeAmmo_3OF91_HE.description>
+	<MakeAmmo_3OF91_HE.jobString>Изготовить 57-мм 3ОФ91 Бронетранспортер (HE)</MakeAmmo_3OF91_HE.jobString>
+
+	<MakeAmmo_3UBM21_Sabot.label>Изготовить 57-мм 3УБМ21 Стабильный бронебойный снаряд x50</MakeAmmo_3UBM21_Sabot.label>
+	<MakeAmmo_3UBM21_Sabot.description>Изготовить 57-мм 3УБМ21 Стабильный бронебойный снаряд</MakeAmmo_3UBM21_Sabot.description>
+	<MakeAmmo_3UBM21_Sabot.jobString>Изготовить 57-мм 3УБМ21 Стабильный бронебойный снаряд</MakeAmmo_3UBM21_Sabot.jobString>
+
+</LanguageData>

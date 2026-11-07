@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_C130_Blueprint.description>Сборка техники C-130 Hercules на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- Без штатного вооружения (Военно-транспортный самолёт)</RT_Make_C130_Blueprint.description>
+  <RT_Make_C130_Blueprint.label>Собрать C-130 Hercules</RT_Make_C130_Blueprint.label>
+  <RT_Make_CH53E_Blueprint.description>Сборка техники CH-53E Super Stallion на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 2x 12.7-мм пулемёта GAU-21: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_CH53E_Blueprint.description>
+  <RT_Make_CH53E_Blueprint.label>Собрать CH-53E Super Stallion</RT_Make_CH53E_Blueprint.label>
+  <RT_Make_UH60_Blueprint.description>Сборка техники UH-60 Black Hawk на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 2x 7.62-мм минигана M134: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_UH60_Blueprint.description>
+  <RT_Make_UH60_Blueprint.label>Собрать UH-60 Black Hawk</RT_Make_UH60_Blueprint.label>
+</LanguageData>

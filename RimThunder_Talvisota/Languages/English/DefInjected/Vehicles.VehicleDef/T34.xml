@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T34_Vehicle.label>T-34-76</RT_T34_Vehicle.label>
+  <RT_T34_Vehicle.description>Famous Soviet medium tank with sloped armor and 76.2mm F-34 gun. Upgradable with 57mm ZIS-2, 122mm howitzer, or OT-34 flamethrower.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander/Gunner x1, Loader x1, Bow Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 76.2mm F-34 Cannon: 76.2x385mmR (APHE / HE / Shrapnel)
+- 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Upgrade 57mm ZIS-2): 57x480mmR (APHE / HE)
+- (Upgrade 122mm Howitzer): 122mmHowitzer Cannon shell (HE / APHE)
+- (Upgrade OT-34 Flamethrower): Prometheum canister</RT_T34_Vehicle.description>
+</LanguageData>

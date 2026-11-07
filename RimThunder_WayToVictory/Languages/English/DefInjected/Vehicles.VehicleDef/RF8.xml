@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+  <RT_RF8_Vehicle.label>NKL-26</RT_RF8_Vehicle.label>
+  <RT_RF8_Vehicle.description>An armored aerosan equipped with a 7.62mm MG, used to cover and transport ski infantry in snow.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n7.62x54mmR（MG）</RT_RF8_Vehicle.description>
+  <RT_RF8_Vehicle.properties.roles.0.label>driver</RT_RF8_Vehicle.properties.roles.0.label>
+  <RT_RF8_Vehicle.properties.roles.1.label>gunner</RT_RF8_Vehicle.properties.roles.1.label>
+  <RT_RF8_Vehicle.components.0.label>Engine</RT_RF8_Vehicle.components.0.label>
+  <RT_RF8_Vehicle.components.1.label>fuel tank</RT_RF8_Vehicle.components.1.label>
+  <RT_RF8_Vehicle.components.2.label>gearbox</RT_RF8_Vehicle.components.2.label>
+  <RT_RF8_Vehicle.components.3.label>ammo rack</RT_RF8_Vehicle.components.3.label>
+  <RT_RF8_Vehicle.components.4.label>transmission shaft</RT_RF8_Vehicle.components.4.label>
+  <RT_RF8_Vehicle.components.5.label>left front ski</RT_RF8_Vehicle.components.5.label>
+  <RT_RF8_Vehicle.components.6.label>right front ski</RT_RF8_Vehicle.components.6.label>
+  <RT_RF8_Vehicle.components.7.label>left rear ski</RT_RF8_Vehicle.components.7.label>
+  <RT_RF8_Vehicle.components.8.label>right rear ski</RT_RF8_Vehicle.components.8.label>
+  <RT_RF8_Vehicle.components.9.label>left front suspension</RT_RF8_Vehicle.components.9.label>
+  <RT_RF8_Vehicle.components.10.label>right front suspension</RT_RF8_Vehicle.components.10.label>
+  <RT_RF8_Vehicle.components.11.label>left rear suspension</RT_RF8_Vehicle.components.11.label>
+  <RT_RF8_Vehicle.components.12.label>right rear suspension</RT_RF8_Vehicle.components.12.label>
+  <RT_RF8_Vehicle.components.13.label>front armor Plating</RT_RF8_Vehicle.components.13.label>
+  <RT_RF8_Vehicle.components.14.label>left armor plating</RT_RF8_Vehicle.components.14.label>
+  <RT_RF8_Vehicle.components.15.label>right armor plating</RT_RF8_Vehicle.components.15.label>
+  <RT_RF8_Vehicle.components.16.label>roof armor plating</RT_RF8_Vehicle.components.16.label>
+  <RT_RF8_Vehicle.components.17.label>rear armor plating</RT_RF8_Vehicle.components.17.label>
+</LanguageData>

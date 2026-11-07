@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T34_Vehicle.label>Т-34-76</RT_T34_Vehicle.label>
+  <RT_T34_Vehicle.description>Средний танк периода 1941-1943 гг. с наклонным бронированием и 76.2-мм орудием Ф-34. Поддерживает установку 57-мм ЗИС-2, 122-мм гаубицы или огнемёта ОТ-34.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир-наводчик x1, Заряжающий x1, Стрелок-радист x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 76.2-мм пушка Ф-34: 76.2x385mmR (APHE / HE / Shrapnel)
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Улучшение 57-мм ЗИС-2): 57x480mmR (APHE / HE)
+- (Улучшение 122-мм гаубица): 122mmHowitzer Cannon shell (HE / APHE)
+- (Улучшение огнемёт ОТ-34): Prometheum canister</RT_T34_Vehicle.description>
+</LanguageData>

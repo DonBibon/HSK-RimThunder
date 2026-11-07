@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_T14_Blueprint.description>Assembly of T-14 Armata MBT at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 125mm 2A82-1M Cannon: 125mm 3OF82 (HE), 125mm 3BK29M (HEAT), 125mm 3BM69 (APFSDS), 125mm 3UBK21F1 (Thermobaric)
+- 12.7mm Remote Kord RWS: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)</RT_Make_T14_Blueprint.description>
+  <RT_Make_T14_Blueprint.label>Assemble T-14 Armata MBT</RT_Make_T14_Blueprint.label>
+  <RT_Make_T15_Blueprint.description>Assembly of T-15 Armata IFV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 57mm Baikal Autocannon: 57x348mmSR (AP / AP-HE / Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T15_Blueprint.description>
+  <RT_Make_T15_Blueprint.label>Assemble T-15 Armata IFV</RT_Make_T15_Blueprint.label>
+</LanguageData>

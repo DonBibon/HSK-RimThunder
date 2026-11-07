@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T15_IFV_Blueprint.label>T-15 "Armata"</RT_T15_IFV_Blueprint.label>
+	<RT_T15_IFV_Blueprint.description>The T-15 "Armata" IFV is a new generation of unique medium-sized tracked in the Russian Federation, with unparalleled protection and advanced digital command system. capable of adapting to a variety of turret modules.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1, Passenger x8\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n30x165mm（Main Gun）\n9M133"Kornet" Missile（Missile Launcher）\n7.62x54mmR（Coaxial MG）</RT_T15_IFV_Blueprint.description>
+
+
+</LanguageData>

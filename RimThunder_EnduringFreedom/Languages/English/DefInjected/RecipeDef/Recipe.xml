@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_LMTV_Blueprint.description>Assembly of M1078 LMTV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- Unarmed (Medium tactical truck)</RT_Make_LMTV_Blueprint.description>
+  <RT_Make_LMTV_Blueprint.label>Assemble M1078 LMTV</RT_Make_LMTV_Blueprint.label>
+  <RT_Make_MATV_Blueprint.description>Assembly of Oshkosh M-ATV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_MATV_Blueprint.description>
+  <RT_Make_MATV_Blueprint.label>Assemble Oshkosh M-ATV</RT_Make_MATV_Blueprint.label>
+</LanguageData>

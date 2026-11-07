@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+	<RT_T80BVM_MainBattleTank.label>T-80BVM主战坦克</RT_T80BVM_MainBattleTank.label>
+	<RT_T80BVM_MainBattleTank.description>T-80BVM主战坦克是T-80BV坦克的最终升级版,也是俄联邦武装力量的绝对主力.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x1, 车长 x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n125mmCannon（主炮）\n12.7x108mm（车顶机枪）\n7.62x54mmR（同轴机枪）</RT_T80BVM_MainBattleTank.description>
+	<RT_T80BVM_MainBattleTank.properties.roles.0.label>驾驶员</RT_T80BVM_MainBattleTank.properties.roles.0.label>
+	<RT_T80BVM_MainBattleTank.properties.roles.1.label>炮手</RT_T80BVM_MainBattleTank.properties.roles.1.label>
+	<RT_T80BVM_MainBattleTank.properties.roles.2.label>车长</RT_T80BVM_MainBattleTank.properties.roles.2.label>
+	<RT_T80BVM_MainBattleTank.components.0.label>涡轮引擎</RT_T80BVM_MainBattleTank.components.0.label>
+	<RT_T80BVM_MainBattleTank.components.1.label>油箱</RT_T80BVM_MainBattleTank.components.1.label>
+	<RT_T80BVM_MainBattleTank.components.2.label>变速箱</RT_T80BVM_MainBattleTank.components.2.label>
+	<RT_T80BVM_MainBattleTank.components.3.label>弹药架</RT_T80BVM_MainBattleTank.components.3.label>
+	<RT_T80BVM_MainBattleTank.components.4.label>传动轴</RT_T80BVM_MainBattleTank.components.4.label>
+	<RT_T80BVM_MainBattleTank.components.5.label>左履带</RT_T80BVM_MainBattleTank.components.5.label>
+	<RT_T80BVM_MainBattleTank.components.6.label>右履带</RT_T80BVM_MainBattleTank.components.6.label>
+	<RT_T80BVM_MainBattleTank.components.7.label>左负重轮组</RT_T80BVM_MainBattleTank.components.7.label>
+	<RT_T80BVM_MainBattleTank.components.8.label>右负重轮组</RT_T80BVM_MainBattleTank.components.8.label>
+	<RT_T80BVM_MainBattleTank.components.9.label>左驱动轮</RT_T80BVM_MainBattleTank.components.9.label>
+	<RT_T80BVM_MainBattleTank.components.10.label>右驱动轮</RT_T80BVM_MainBattleTank.components.10.label>
+	<RT_T80BVM_MainBattleTank.components.11.label>左张紧轮</RT_T80BVM_MainBattleTank.components.11.label>
+	<RT_T80BVM_MainBattleTank.components.12.label>右张紧轮</RT_T80BVM_MainBattleTank.components.12.label>
+	<RT_T80BVM_MainBattleTank.components.13.label>正面装甲</RT_T80BVM_MainBattleTank.components.13.label>
+	<RT_T80BVM_MainBattleTank.components.14.label>左侧装甲</RT_T80BVM_MainBattleTank.components.14.label>
+	<RT_T80BVM_MainBattleTank.components.15.label>右侧装甲</RT_T80BVM_MainBattleTank.components.15.label>
+	<RT_T80BVM_MainBattleTank.components.16.label>左侧爆反</RT_T80BVM_MainBattleTank.components.16.label>
+	<RT_T80BVM_MainBattleTank.components.17.label>右侧爆反</RT_T80BVM_MainBattleTank.components.17.label>
+	<RT_T80BVM_MainBattleTank.components.18.label>顶部装甲</RT_T80BVM_MainBattleTank.components.18.label>
+	<RT_T80BVM_MainBattleTank.components.19.label>后方装甲</RT_T80BVM_MainBattleTank.components.19.label>
+	<RT_T80BVM_MainBattleTank.components.20.label>炮塔</RT_T80BVM_MainBattleTank.components.20.label>
+	<RT_T80BVM_MainBattleTank.components.21.label>前部爆反</RT_T80BVM_MainBattleTank.components.21.label>
+	<RT_T80BVM_MainBattleTank.components.22.label>炮塔爆反</RT_T80BVM_MainBattleTank.components.22.label>
+
+	<RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.0.gizmoLabel>125mm 2A46M主炮</RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+	<RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.1.gizmoLabel>12.7mm KORD高射机枪</RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.1.gizmoLabel>
+	<RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.2.gizmoLabel>7.62mm PKT同轴机枪</RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.2.gizmoLabel>
+	<RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.3.gizmoLabel>烟雾发射器</RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.3.gizmoLabel>
+	<RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.4.gizmoLabel>烟雾发射器</RT_T80BVM_MainBattleTank.comps.CompVehicleTurrets.turrets.4.gizmoLabel>
+
+
+  <!-- 载具本体 -->
+
+</LanguageData>

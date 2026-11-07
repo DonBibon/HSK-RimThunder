@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_BMP3_Blueprint.description>Сборка техники БМП-3 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 100-мм орудие 2А70: 3UOF19 (HE) [ОФС], 9M117M (HEAT) [ПТУР]
+- 30-мм автопушка 2А72: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62-мм пулемёт ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Модуль 2С38 «Деривация»): 57x348mmSR (AP / AP-HE / Sabot)</RT_Make_BMP3_Blueprint.description>
+  <RT_Make_BMP3_Blueprint.label>Собрать БМП-3</RT_Make_BMP3_Blueprint.label>
+  <RT_Make_BMPT_Blueprint.description>Сборка техники БМПТ «Терминатор» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- Спаренная 30-мм 2А42: 30x173mm cartridge (FMJ / HE / AP-I)
+- ПТУР «Атака-Т»: 9M120M AntiTank missile (HEAT)
+- 2x 30-мм АГ-17Д: 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)
+- 7.62-мм пулемёт ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_BMPT_Blueprint.description>
+  <RT_Make_BMPT_Blueprint.label>Собрать БМПТ «Терминатор»</RT_Make_BMPT_Blueprint.label>
+  <RT_Make_T80BVM_Blueprint.description>Сборка техники Т-80БВМ на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 125-мм орудие 2А46М-4: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7-мм пулемёт Корд: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T80BVM_Blueprint.description>
+  <RT_Make_T80BVM_Blueprint.label>Собрать Т-80БВМ</RT_Make_T80BVM_Blueprint.label>
+</LanguageData>

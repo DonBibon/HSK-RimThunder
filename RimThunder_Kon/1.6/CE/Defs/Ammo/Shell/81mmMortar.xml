@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_81mmMortarShell_Vehicle</defName>
+		<label>81mm mortar shells</label>
+		<ammoTypes>
+			<Shell_HighExplosive>Bullet_81mmMortarShell_HE_Vehicle</Shell_HighExplosive>
+			<Shell_HighExplosive_HFuzed>Bullet_81mmMortarShell_HE_HFuzed_Vehicle</Shell_HighExplosive_HFuzed>
+			<Shell_Incendiary>Bullet_81mmMortarShell_Incendiary_Vehicle</Shell_Incendiary>
+			<Shell_EMP>Bullet_81mmMortarShell_EMP_Vehicle</Shell_EMP>
+			<Shell_Firefoam>Bullet_81mmMortarShell_Firefoam_Vehicle</Shell_Firefoam>
+			<Shell_Smoke>Bullet_81mmMortarShell_Smoke_Vehicle</Shell_Smoke>
+			<Shell_AntigrainWarhead>Bullet_81mmMortarShell_Antigrain_Vehicle</Shell_AntigrainWarhead>
+			<Shell_Toxic MayRequire="Ludeon.RimWorld.Biotech">Bullet_81mmMortarShell_Tox_Vehicle</Shell_Toxic>
+			<Shell_Deadlife MayRequire="Ludeon.RimWorld.Anomaly">Bullet_81mmMortarShell_Deadlife_Vehicle</Shell_Deadlife>
+		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
+	</CombatExtended.AmmoSetDef>
+
+	
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_HE_Vehicle</defName>
+		<label>81mm mortar shell (HE)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/HE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>156</damageAmountBase>
+			<explosionRadius>2.5</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<preExplosionSpawnSingleThingDef>Filth_BlastMark</preExplosionSpawnSingleThingDef>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>16</Fragment_Large>
+					<Fragment_Small>25</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (HE)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_HE_HFuzed_Vehicle</defName>
+		<label>81mm mortar shell (Airburst)</label>
+		<thingClass>CombatExtended.ProjectileCE_HeightFuse</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Airburst</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>Smoke</damageDef>
+			<damageAmountBase>0</damageAmountBase>
+			<explosionRadius>1</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
+			<aimHeightOffset>8</aimHeightOffset>
+			<shellingProps>
+				<damage>0.013</damage>
+			</shellingProps>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>23</Fragment_Large>
+					<Fragment_Small>38</Fragment_Small>
+				</fragments>
+				<fragAngleRange>-90~-48</fragAngleRange>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Airburst)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_Incendiary_Vehicle</defName>
+		<label>81mm mortar shell (Incendiary)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Incendiary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>PrometheumFlame</damageDef>
+			<damageAmountBase>11</damageAmountBase>
+			<explosionRadius>6.5</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<preExplosionSpawnThingDef>FilthPrometheum</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.15</preExplosionSpawnChance>
+			<soundExplode>MortarIncendiary_Explode</soundExplode>
+			<preExplosionSpawnSingleThingDef>Filth_BlastMark</preExplosionSpawnSingleThingDef>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Incendiary)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_EMP_Vehicle</defName>
+		<label>81mm mortar shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/EMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>156</damageAmountBase>
+			<flyOverhead>true</flyOverhead>
+			<explosionRadius>5.5</explosionRadius>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (EMP)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_Firefoam_Vehicle</defName>
+		<label>81mm mortar shell (Foam)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Firefoam</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>Extinguish</damageDef>
+			<suppressionFactor>0.0</suppressionFactor>
+			<dangerFactor>0.0</dangerFactor>
+			<explosionRadius>5</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_EMP</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>1</postExplosionSpawnChance>
+			<postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<explosionEffect>ExtinguisherExplosion</explosionEffect>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Foam)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_Smoke_Vehicle</defName>
+		<label>81mm mortar shell (Smoke)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Smoke</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>Smoke</damageDef>
+			<suppressionFactor>0.0</suppressionFactor>
+			<dangerFactor>0.0</dangerFactor>
+			<explosionRadius>6</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_EMP</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionGasType>BlindSmoke</postExplosionGasType>
+			<preExplosionSpawnChance>1</preExplosionSpawnChance>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<explosionEffect>ExtinguisherExplosion</explosionEffect>
+			<shellingProps>
+				<damage>0</damage>
+			</shellingProps>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Smoke)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell">
+		<defName>Bullet_81mmMortarShell_Antigrain_Vehicle</defName>
+		<label>81mm mortar shell (Anti)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Antigrain</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>800</damageAmountBase>
+			<explosionRadius>50</explosionRadius>
+			<explosionChanceToStartFire>0.22</explosionChanceToStartFire>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<flyOverhead>true</flyOverhead>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<preExplosionSpawnSingleThingDef>CraterMedium</preExplosionSpawnSingleThingDef>
+			<shellingProps>
+				<damage>0.85</damage>
+			</shellingProps>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Anti)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>Bullet_81mmMortarShell_Tox_Vehicle</defName>
+		<label>81mm mortar shell (Toxic)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Toxic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>ToxGas</damageDef>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>0.1</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>ToxicShellLanded</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>Shell_Toxic_Releasing</postExplosionSpawnThingDef>
+			<postExplosionSpawnThingDefWater>Shell_Toxic_Releasing_Water</postExplosionSpawnThingDefWater>
+			<shellingProps>
+				<damage>0.12</damage>
+			</shellingProps>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Toxic)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="Base81mmMortarShell" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Bullet_81mmMortarShell_Deadlife_Vehicle</defName>
+		<label>81mm mortar shell (Deadlife)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Mortar/Deadlife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>70</speed>
+			<gravityFactor>5</gravityFactor>
+			<damageDef>DeadlifeDust</damageDef>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>0.1</explosionRadius>
+			<flyOverhead>true</flyOverhead>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>ToxicShellLanded</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>Shell_Deadlife_Releasing</postExplosionSpawnThingDef>
+			<shellingProps>
+				<damage>0</damage>
+			</shellingProps>
+		</projectile>
+		<modExtensions>
+			<li Class="CombatExtended.GenericLabelExtension">
+				<genericLabel>mortar shell (Deadlife)</genericLabel>
+			</li>
+		</modExtensions>
+	</ThingDef>
+</Defs>

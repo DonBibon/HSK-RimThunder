@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的投射物 -->
+
+	<RT_Bullet_2A42M.label>30mm机炮炮弹</RT_Bullet_2A42M.label>
+
+  <!-- 炮1 -->
+
+	<RT_9M120MMissile.label>9M120M攻击反坦克导弹</RT_9M120MMissile.label>
+ 
+  <!-- 炮2 -->
+	
+	<Bullet_VOG17M.label>30mm榴弹</Bullet_VOG17M.label>
+	
+</LanguageData>

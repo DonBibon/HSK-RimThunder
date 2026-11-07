@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_57x348sr_AP.label>制作57x348mmSR BR-281U 穿甲弹 x50</MakeAmmo_57x348sr_AP.label>
+	<MakeAmmo_57x348sr_AP.description>制作50枚 BR-281U 穿甲弹</MakeAmmo_57x348sr_AP.description>
+	<MakeAmmo_57x348sr_AP.jobString>正在制作50枚 BR-281U 穿甲弹</MakeAmmo_57x348sr_AP.jobString>
+
+	<MakeAmmo_57x348sr_HE.label>制作57x348mmSR OR-281U 高爆弹 x50</MakeAmmo_57x348sr_HE.label>
+	<MakeAmmo_57x348sr_HE.description>制作50枚 OR-281U 高爆弹</MakeAmmo_57x348sr_HE.description>
+	<MakeAmmo_57x348sr_HE.jobString>正在制作50枚 OR-281U 高爆弹</MakeAmmo_57x348sr_HE.jobString>
+
+	<MakeAmmo_57x348sr_Sabot.label>制作57x348mmSR 3UBM22 脱壳尾翼稳定穿甲弹 x50</MakeAmmo_57x348sr_Sabot.label>
+	<MakeAmmo_57x348sr_Sabot.description>制作50枚 3UBM22 脱壳尾翼稳定穿甲弹</MakeAmmo_57x348sr_Sabot.description>
+	<MakeAmmo_57x348sr_Sabot.jobString>正在制作50枚 3UBM22 脱壳尾翼稳定穿甲弹</MakeAmmo_57x348sr_Sabot.jobString>
+
+</LanguageData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BMPT_Vehicle.label>БМПТ «Терминатор»</RT_BMPT_Vehicle.label>
+  <RT_BMPT_Vehicle.description>Боевая машина поддержки танков на базе Т-90. Оснащена спаренной 30-мм автопушкой 2А42, четырьмя пусковыми ПТУР «Атака-Т», двумя курсовыми автоматическими гранатомётами АГ-17Д и пулемётом ПКТМ.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Наводчик x2, Операторы АГ x2
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- Спаренная 30-мм 2А42: 30x173mm cartridge (FMJ / HE / AP-I)
+- ПТУР «Атака-Т»: 9M120M AntiTank missile (HEAT)
+- 2x 30-мм АГ-17Д: 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)
+- 7.62-мм пулемёт ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_BMPT_Vehicle.description>
+</LanguageData>

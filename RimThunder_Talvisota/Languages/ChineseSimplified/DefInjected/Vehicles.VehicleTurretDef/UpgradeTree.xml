@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  	<RT_Zis2_Turret.label>57mm Zis4坦克炮</RT_Zis2_Turret.label>
+	<RT_Zis2_Turret.fireModes.0.label>单发射击</RT_Zis2_Turret.fireModes.0.label>
+	<RT_Zis2_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 57x480mmR</RT_Zis2_Turret.gizmoDescription>
+
+	<RT_T34E_Turret.label>76mm F34坦克炮</RT_T34E_Turret.label>
+	<RT_T34E_Turret.fireModes.0.label>单发射击</RT_T34E_Turret.fireModes.0.label>
+	<RT_T34E_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 76.2x385mmR</RT_T34E_Turret.gizmoDescription>
+
+	<RT_QF4p5_Turret.label>QF4.5 榴弹炮</RT_QF4p5_Turret.label>
+	<RT_QF4p5_Turret.fireModes.0.label>单发射击</RT_QF4p5_Turret.fireModes.0.label>
+	<RT_QF4p5_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 105mmHowitzer</RT_QF4p5_Turret.gizmoDescription>
+
+	<RT_DT_Turret_c.label>DT机枪</RT_DT_Turret_c.label>
+  	<RT_DT_Turret_c.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 7.62x54mmR</RT_DT_Turret_c.gizmoDescription>
+
+	<RT_OT34_Flamethrower.label>ATO-42喷火器</RT_OT34_Flamethrower.label>
+	<RT_OT34_Flamethrower.fireModes.0.label>单发射击</RT_OT34_Flamethrower.fireModes.0.label>
+	<RT_OT34_Flamethrower.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 火焰喷射器燃料</RT_OT34_Flamethrower.gizmoDescription>
+  
+</LanguageData>

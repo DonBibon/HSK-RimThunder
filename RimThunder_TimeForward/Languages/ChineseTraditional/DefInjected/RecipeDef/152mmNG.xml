@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_152mmNG_HE.label>製作 152mm高爆彈 (HE) x5</MakeAmmo_152mmNG_HE.label>
+	<MakeAmmo_152mmNG_HE.description>製作5枚 152mm高爆彈 (HE)</MakeAmmo_152mmNG_HE.description>
+	<MakeAmmo_152mmNG_HE.jobString>正在製作5枚 152mm高爆彈 (HE)</MakeAmmo_152mmNG_HE.jobString>
+
+	<MakeAmmo_152mmNG_Sabot.label>製作 152mm脫殼尾翼稳定穿甲彈 (APFSDS) x5</MakeAmmo_152mmNG_Sabot.label>
+	<MakeAmmo_152mmNG_Sabot.description>製作5枚 152mm脫殼尾翼稳定穿甲彈 (APFSDS)</MakeAmmo_152mmNG_Sabot.description>
+	<MakeAmmo_152mmNG_Sabot.jobString>正在製作5枚 152mm脫殼尾翼稳定穿甲彈 (APFSDS)</MakeAmmo_152mmNG_Sabot.jobString>
+
+	<MakeAmmo_152mmNG_EMP.label>製作152mm 電磁脈衝彈 x5</MakeAmmo_152mmNG_EMP.label>
+	<MakeAmmo_152mmNG_EMP.description>製作5枚152mm 電磁脈衝彈</MakeAmmo_152mmNG_EMP.description>
+	<MakeAmmo_152mmNG_EMP.jobString>正在製作5枚152mm 電磁脈衝彈</MakeAmmo_152mmNG_EMP.jobString>
+</LanguageData>

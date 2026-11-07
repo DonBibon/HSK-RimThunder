@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_57x480mmR_AP.label>制作57x480mmR (穿甲榴弹) x10</MakeAmmo_57x480mmR_AP.label>
+	<MakeAmmo_57x480mmR_AP.description>制作10枚 57x480mmR (穿甲榴弹)</MakeAmmo_57x480mmR_AP.description>
+	<MakeAmmo_57x480mmR_AP.jobString>正在制作10枚 57x480mmR (穿甲榴弹)</MakeAmmo_57x480mmR_AP.jobString>
+
+	<MakeAmmo_57x480mmR_HE.label>制作57x480mmR (高爆弹) x10</MakeAmmo_57x480mmR_HE.label>
+	<MakeAmmo_57x480mmR_HE.description>制作10枚 57x480mmR (高爆弹)</MakeAmmo_57x480mmR_HE.description>
+	<MakeAmmo_57x480mmR_HE.jobString>正在制作10枚 57x480mmR (高爆弹)</MakeAmmo_57x480mmR_HE.jobString>
+
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_45x310mmR_AP.label>制作45x310mmR (穿甲榴弹) x10</MakeAmmo_45x310mmR_AP.label>
+	<MakeAmmo_45x310mmR_AP.description>制作10枚 45x310mmR (穿甲榴弹)</MakeAmmo_45x310mmR_AP.description>
+	<MakeAmmo_45x310mmR_AP.jobString>正在制作10枚 45x310mmR (穿甲榴弹)</MakeAmmo_45x310mmR_AP.jobString>
+
+	<MakeAmmo_45x310mmR_HE.label>制作45x310mmR (高爆弹) x10</MakeAmmo_45x310mmR_HE.label>
+	<MakeAmmo_45x310mmR_HE.description>制作10枚 45x310mmR (高爆弹)</MakeAmmo_45x310mmR_HE.description>
+	<MakeAmmo_45x310mmR_HE.jobString>正在制作10枚 45x310mmR (高爆弹)</MakeAmmo_45x310mmR_HE.jobString>
+
+	<MakeAmmo_45x310mmR_Canister.label>制作45x310mmR(炮射霰弹) x10</MakeAmmo_45x310mmR_Canister.label>
+	<MakeAmmo_45x310mmR_Canister.description>制作10枚 45x310mmR(炮射霰弹)</MakeAmmo_45x310mmR_Canister.description>
+	<MakeAmmo_45x310mmR_Canister.jobString>正在制作10枚 45x310mmR(炮射霰弹)</MakeAmmo_45x310mmR_Canister.jobString>
+</LanguageData>

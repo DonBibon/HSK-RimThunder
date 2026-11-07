@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Turret -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/projectile</xpath>
+		<value>
+			<projectile>Bullet_145x114mm_Incendiary</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_Turret"]/reloadTimer</xpath>
+		<value>
+			<reloadTimer>8</reloadTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/maxRange</xpath>
+		<value>
+			<maxRange>72</maxRange>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/shotSound</xpath>
+		<value>
+			<shotSound>HeavyMG</shotSound>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/warmUpTimer</xpath>
+		<value>
+			<warmUpTimer>1.3</warmUpTimer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_145x114mm</ammoSet>
+				<shotHeight>1.8</shotHeight>
+				<sway>0.82</sway>
+				<spread>0.01</spread>
+			</li>
+		</value>
+	</Operation>
+
+
+	<!-- Vehicle -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]</xpath>
+		<value>
+			<descriptionHyperlinks>
+				<CombatExtended.AmmoSetDef>AmmoSet_145x114mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x173mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_762x54mmR</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_9M133M</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_57x348sr</CombatExtended.AmmoSetDef>
+				<ThingDef>Ammo_40x46mmGrenade_Smoke</ThingDef>
+			</descriptionHyperlinks>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/vehicleStats/CargoCapacity</xpath>
+		<value>
+			<CargoCapacity>1800</CargoCapacity>
+		</value>
+	</Operation>
+
+
+	<!--Front Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="FrontArmorPlating"]/health</xpath>
+		<value>
+			<health>520</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="FrontArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>140</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--turret-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="MainTurret"]/health</xpath>
+		<value>
+			<health>420</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="MainTurret"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>140</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Side Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftArmorPlating" or key="RightArmorPlating"]/health</xpath>
+		<value>
+			<health>320</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftArmorPlating" or key="RightArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>2000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>60</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--SideERAPlating-->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftERAPlating" or key="RightERAPlating"]/health</xpath>
+		<value>
+			<health>200</health>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftERAPlating" or key="RightERAPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>150</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Roof Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="RoofArmorPlating"]/health</xpath>
+		<value>
+			<health>400</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="RoofArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>30</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Rear Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="BackArmorPlating"]/health</xpath>
+		<value>
+			<health>200</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="BackArmorPlating"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>2000</ArmorRating_Blunt>
+				<ArmorRating_Sharp>45</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Various exposed metallic stuff-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftTrack" or key="RightTrack"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>15</ArmorRating_Sharp>
+				<ArmorRating_Blunt>60</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftTrack" or key="RightTrack"]/health</xpath>
+		<value>
+			<health>150</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftRoadWheels" or key="RightRoadWheels" or key="LeftDriveSprocket" or key="RightDriveSprocket" or key="LeftTensionerWheel" or key="RightTensionerWheel"]</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Sharp>20</ArmorRating_Sharp>
+				<ArmorRating_Blunt>60</ArmorRating_Blunt>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftRoadWheels" or key="RightRoadWheels"]/health</xpath>
+		<value>
+			<health>120</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftDriveSprocket" or key="RightDriveSprocket"]/health</xpath>
+		<value>
+			<health>90</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
+		<value>
+			<health>90</health>
+		</value>
+	</Operation>
+</Patch>

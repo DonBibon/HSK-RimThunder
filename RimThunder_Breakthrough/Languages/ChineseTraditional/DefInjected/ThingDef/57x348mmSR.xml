@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Ammo_57x348sr_AP.label>57x348mmSR BR-281U 穿甲彈</Ammo_57x348sr_AP.label>
+	<Ammo_57x348sr_HE.label>57x348mmSR OR-281U 高爆彈</Ammo_57x348sr_HE.label>
+	<Ammo_57x348sr_Sabot.label>57x348mmSR 3UBM22 脫殼尾翼穩定穿甲彈</Ammo_57x348sr_Sabot.label>
+
+	<Bullet_57x348sr_AP.label>57x348mmSR BR-281U 穿甲彈</Bullet_57x348sr_AP.label>
+	<Bullet_57x348sr_HE.label>57x348mmSR OR-281U 高爆彈</Bullet_57x348sr_HE.label>
+	<Bullet_57x348sr_Sabot.label>57x348mmSR 3UBM22 脫殼尾翼穩定穿甲彈</Bullet_57x348sr_Sabot.label>
+
+</LanguageData>

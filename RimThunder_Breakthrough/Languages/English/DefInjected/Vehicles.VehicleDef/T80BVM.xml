@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T80BVM_MainBattleTank.label>T-80BVM</RT_T80BVM_MainBattleTank.label>
+  <RT_T80BVM_MainBattleTank.description>Modernized Russian gas-turbine MBT with Relikt ERA, 125mm 2A46M-4 cannon, Kord 12.7mm heavy MG, and PKT MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 125mm 2A46M-4 Cannon: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7mm Kord Heavy MG: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62mm Coaxial PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T80BVM_MainBattleTank.description>
+</LanguageData>

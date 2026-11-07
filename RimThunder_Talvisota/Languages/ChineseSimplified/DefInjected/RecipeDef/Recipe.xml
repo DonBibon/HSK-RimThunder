@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Make_T34_Blueprint.label>组装T-34 Obr.1940</RT_Make_T34_Blueprint.label>
+	<RT_Make_T34_Blueprint.description>组装T-34 Obr.1940。</RT_Make_T34_Blueprint.description>
+
+	<RT_Make_T28_Blueprint.label>组装T-28</RT_Make_T28_Blueprint.label>
+	<RT_Make_T28_Blueprint.description>组装T-28。</RT_Make_T28_Blueprint.description>
+
+	<RT_Make_BT5_Blueprint.label>组装BT-5</RT_Make_BT5_Blueprint.label>
+	<RT_Make_BT5_Blueprint.description>组装BT-5。</RT_Make_BT5_Blueprint.description>
+
+	<RT_Make_RF8_Blueprint.label>组装NKL-26战斗雪橇</RT_Make_RF8_Blueprint.label>
+	<RT_Make_RF8_Blueprint.description>组装NKL-26战斗雪橇。</RT_Make_RF8_Blueprint.description>
+
+	<RT_Make_M72_Blueprint.label>组装M-72挎斗摩托</RT_Make_M72_Blueprint.label>
+	<RT_Make_M72_Blueprint.description>组装M-72挎斗摩托。</RT_Make_M72_Blueprint.description>
+
+</LanguageData>

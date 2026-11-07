@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+	<RT_BMPT_Vehicle.label>BMPT“終結者”</RT_BMPT_Vehicle.label>
+	<RT_BMPT_Vehicle.description>BMPT“終結者”是新世代的戰場火力支援車，因其豐富的武器配置和兇猛的火力被稱為死亡收割機.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1, 車長 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n30x165mm（主炮）\n9M120M（導彈）\n30x29mmGrenade（榴彈發射器）</RT_BMPT_Vehicle.description>
+	<RT_BMPT_Vehicle.properties.roles.0.label>駕駛員</RT_BMPT_Vehicle.properties.roles.0.label>
+	<RT_BMPT_Vehicle.properties.roles.1.label>炮手</RT_BMPT_Vehicle.properties.roles.1.label>
+	<RT_BMPT_Vehicle.properties.roles.2.label>車長</RT_BMPT_Vehicle.properties.roles.2.label>
+	<RT_BMPT_Vehicle.components.0.label>引擎</RT_BMPT_Vehicle.components.0.label>
+	<RT_BMPT_Vehicle.components.1.label>油箱</RT_BMPT_Vehicle.components.1.label>
+	<RT_BMPT_Vehicle.components.2.label>變速箱</RT_BMPT_Vehicle.components.2.label>
+	<RT_BMPT_Vehicle.components.3.label>彈藥架</RT_BMPT_Vehicle.components.3.label>
+	<RT_BMPT_Vehicle.components.4.label>傳動軸</RT_BMPT_Vehicle.components.4.label>
+	<RT_BMPT_Vehicle.components.5.label>左履帶</RT_BMPT_Vehicle.components.5.label>
+	<RT_BMPT_Vehicle.components.6.label>右履帶</RT_BMPT_Vehicle.components.6.label>
+	<RT_BMPT_Vehicle.components.7.label>左負重輪組</RT_BMPT_Vehicle.components.7.label>
+	<RT_BMPT_Vehicle.components.8.label>右負重輪組</RT_BMPT_Vehicle.components.8.label>
+	<RT_BMPT_Vehicle.components.9.label>左驅動輪</RT_BMPT_Vehicle.components.9.label>
+	<RT_BMPT_Vehicle.components.10.label>右驅動輪</RT_BMPT_Vehicle.components.10.label>
+	<RT_BMPT_Vehicle.components.11.label>左張緊輪</RT_BMPT_Vehicle.components.11.label>
+	<RT_BMPT_Vehicle.components.12.label>右張緊輪</RT_BMPT_Vehicle.components.12.label>
+	<RT_BMPT_Vehicle.components.13.label>正面裝甲</RT_BMPT_Vehicle.components.13.label>
+	<RT_BMPT_Vehicle.components.14.label>左側裝甲</RT_BMPT_Vehicle.components.14.label>
+	<RT_BMPT_Vehicle.components.15.label>右側裝甲</RT_BMPT_Vehicle.components.15.label>
+	<RT_BMPT_Vehicle.components.16.label>左側爆反</RT_BMPT_Vehicle.components.16.label>
+	<RT_BMPT_Vehicle.components.17.label>右側爆反</RT_BMPT_Vehicle.components.17.label>
+	<RT_BMPT_Vehicle.components.18.label>頂部裝甲</RT_BMPT_Vehicle.components.18.label>
+	<RT_BMPT_Vehicle.components.19.label>後方裝甲</RT_BMPT_Vehicle.components.19.label>
+	<RT_BMPT_Vehicle.components.20.label>炮塔</RT_BMPT_Vehicle.components.20.label>
+	<RT_BMPT_Vehicle.components.21.label>前部爆反</RT_BMPT_Vehicle.components.21.label>
+
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>30mm 雙聯2A42機炮</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>7.62mm PKT同軸機槍</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>9M120M“攻擊”（左）</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>9M120M“攻擊”（右）</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>AG-17D榴彈發射器（左）</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>
+	<RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.5.gizmoLabel>AG-17D榴彈發射器（右）</RT_BMPT_Vehicle.comps.CompVehicleTurrets.turrets.5.gizmoLabel>
+
+
+ <!-- 载具本体 -->
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<T90M_Tank_Turret.label>125-мм основная пушка 2А46М-5</T90M_Tank_Turret.label>
+  	<T90M_Tank_Turret.fireModes.0.label>одиночный огонь</T90M_Tank_Turret.fireModes.0.label>
+  	<T90M_Tank_Turret.gizmoDescription>выберите цель。\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; 125mmCannon</T90M_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_HCBT_Turret.label>12,7-мм зенитный пулемет НСВТ</RT_HCBT_Turret.label>
+  	<RT_HCBT_Turret.gizmoDescription>выберите цель。\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; 12.7x108mm</RT_HCBT_Turret.gizmoDescription>
+	
+	<RT_PKT_ADV_MGTurret.label>7,62-мм спаренный пулемет ПКТ</RT_PKT_ADV_MGTurret.label>
+	<RT_PKT_ADV_MGTurret.gizmoDescription>выберите цель。\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; 7.62x54mmR</RT_PKT_ADV_MGTurret.gizmoDescription>
+
+
+</LanguageData>

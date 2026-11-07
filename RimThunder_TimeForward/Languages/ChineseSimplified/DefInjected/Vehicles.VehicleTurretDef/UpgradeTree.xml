@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<T14_2A83_Turret.label>152mm 2A83主炮</T14_2A83_Turret.label>
+	<T14_2A83_Turret.fireModes.0.label>单发</T14_2A83_Turret.fireModes.0.label>
+	<T14_2A83_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 152mmNG</T14_2A83_Turret.gizmoDescription>
+
+	<RT_PKT_NG_MGTurret.label>PKT同轴机枪</RT_PKT_NG_MGTurret.label>
+
+	<RT_HCBT_NG_Turret_B.label>HCBT高射机枪</RT_HCBT_NG_Turret_B.label>
+
+	<RT_T15_Apoch57_Turret.label>57mm LShO-57 机炮</RT_T15_Apoch57_Turret.label>
+	<RT_T15_Apoch57_Turret.fireModes.0.label>单发</RT_T15_Apoch57_Turret.fireModes.0.label>
+	<RT_T15_Apoch57_Turret.fireModes.1.label>点射</RT_T15_Apoch57_Turret.fireModes.1.label>
+	<RT_T15_Apoch57_Turret.fireModes.2.label>连发</RT_T15_Apoch57_Turret.fireModes.2.label>
+	<RT_T15_Apoch57_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 57mmAC</RT_T15_Apoch57_Turret.gizmoDescription>
+
+	<RT_T15_Min_Missile_Turret.label>“布拉特”微型导弹系统</RT_T15_Min_Missile_Turret.label>
+	<RT_T15_Min_Missile_Turret.fireModes.1.label>单发</RT_T15_Min_Missile_Turret.fireModes.1.label>
+	<RT_T15_Min_Missile_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; “布拉特”微型导弹</RT_T15_Min_Missile_Turret.gizmoDescription>
+
+	<RT_T15_Baikal_Turret.label>2A91主炮</RT_T15_Baikal_Turret.label>
+	<RT_T15_Baikal_Turret.fireModes.0.label>单发</RT_T15_Baikal_Turret.fireModes.0.label>
+	<RT_T15_Baikal_Turret.fireModes.1.label>点射</RT_T15_Baikal_Turret.fireModes.1.label>
+	<RT_T15_Baikal_Turret.fireModes.2.label>连发</RT_T15_Baikal_Turret.fireModes.2.label>
+	<RT_T15_Baikal_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 57x348mmSR</RT_T15_Baikal_Turret.gizmoDescription>
+
+	<T15_Baikal_PKT_Turret.label>PKT同轴机枪</T15_Baikal_PKT_Turret.label>
+
+	<RT_FireExtinguisher.label>车载灭火器</RT_FireExtinguisher.label>
+	<RT_FireExtinguisher.fireModes.0.label>灭火</RT_FireExtinguisher.fireModes.0.label>
+
+	<RT_ArtillerySupport.label>轨道炮击</RT_ArtillerySupport.label>
+	<RT_ArtillerySupport.fireModes.0.label>确认</RT_ArtillerySupport.fireModes.0.label>
+	
+  
+</LanguageData>

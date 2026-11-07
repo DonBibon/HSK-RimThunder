@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  	<RT_2S38_Tank_Turret.label>2A90主炮</RT_2S38_Tank_Turret.label>
+	<RT_2S38_Tank_Turret.fireModes.0.label>单发</RT_2S38_Tank_Turret.fireModes.0.label>
+	<RT_2S38_Tank_Turret.fireModes.1.label>连发</RT_2S38_Tank_Turret.fireModes.1.label>
+	<RT_2S38_Tank_Turret.fireModes.2.label>点射</RT_2S38_Tank_Turret.fireModes.2.label>
+	<RT_2S38_Tank_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 57x348mmSR</RT_2S38_Tank_Turret.gizmoDescription>
+  
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Boomerang_Vehicle_Blueprint.label>Колесная боевая бронированная машина «Бумеранг»</RT_Boomerang_Vehicle_Blueprint.label>
+	<RT_Boomerang_Vehicle_Blueprint.description>«Бумеранг» — новое колесное универсальное шасси, которое, как и «Курган 25», обладает отличной башенной адаптируемостью и используется для замены БТР старой серии.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; водитель x1, Наводчик x1, командир x1，Пассажиры x9\n&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химическое топливо\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; \n57mmAC（Главная пушка）\nпротивотанковая ракета 9М133 Корнет（Ракетные пусковые установки）\n7.62x54mmR（Коаксиальный пулемет）\nмалогабаритная ракета «Булат»（малогабаритная ракета）</RT_Boomerang_Vehicle_Blueprint.description>
+
+
+</LanguageData>

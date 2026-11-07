@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo45x310mmR</defName>
+		<label>45x310mmR</label>
+		<parent>AmmoShells</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberAutocannonLarge</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_45x310mmR</defName>
+		<label>45x310mmR</label>
+		<ammoTypes>
+			<Ammo_45x310mmR_AP>Bullet_45x310mmR_AP</Ammo_45x310mmR_AP>
+			<Ammo_45x310mmR_HE>Bullet_45x310mmR_HE</Ammo_45x310mmR_HE>
+			<Ammo_45x310mmR_Canister>Bullet_45x310mmR_Canister</Ammo_45x310mmR_Canister>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="Ammo45x310mmRBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<description>Large caliber shell used by light antitank and tank guns.</description>
+		<thingCategories>
+			<li>Ammo45x310mmR</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<cookOffFlashScale>20</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo45x310mmRBase">
+		<defName>Ammo_45x310mmR_AP</defName>
+		<label>45x310mmR cartridge (APHE)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Tank/APHE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>2.4</Mass>
+			<MarketValue>18</MarketValue>
+		</statBases>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<detonateProjectile>Bullet_45x310mmR_AP</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo45x310mmRBase">
+		<defName>Ammo_45x310mmR_HE</defName>
+		<label>45x310mmR cartridge (HE)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Tank/HE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>2.8</Mass>
+			<MarketValue>22</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_45x310mmR_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo45x310mmRBase">
+		<defName>Ammo_45x310mmR_Canister</defName>
+		<label>45x310mmR cartridge (Canister)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Tank/Canister</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>2.36</Mass>
+			<MarketValue>16</MarketValue>
+		</statBases>
+		<ammoClass>CompositeRigidAP</ammoClass>
+		<detonateProjectile>Bullet_45x310mmR_Canister</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base45x310mmRBullet" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>152</speed>
+			<flyOverhead>false</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base45x310mmRBullet">
+		<defName>Bullet_45x310mmR_AP</defName>
+		<label>45x310mmR bullet (APHE)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>140</damageAmountBase>
+			<armorPenetrationSharp>64</armorPenetrationSharp>
+			<armorPenetrationBlunt>4560.86</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>45</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base45x310mmRBullet">
+		<defName>Bullet_45x310mmR_HE</defName>
+		<label>45x310mmR bullet (HE)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>68</damageAmountBase>
+			<explosionRadius>1.5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>3</Fragment_Large>
+					<Fragment_Small>6</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base45x310mmRBullet">
+		<defName>Bullet_45x310mmR_Canister</defName>
+		<label>45x310mmR bullet (Canister)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>100</speed>
+			<damageDef>Bullet</damageDef>
+			<pelletCount>170</pelletCount>
+			<damageAmountBase>8</damageAmountBase>
+			<armorPenetrationSharp>7.5</armorPenetrationSharp>
+			<armorPenetrationBlunt>27.9</armorPenetrationBlunt>
+			<spreadMult>300</spreadMult>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_45x310mmR_AP</defName>
+		<label>make 45x310mmR (APHE) shells x10</label>
+		<description>Craft 10 45x310mmR (APHE) shells.</description>
+		<jobString>Making 45x310mmR (APHE) shells.</jobString>
+		<workAmount>8000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Powder</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45x310mmR_AP>10</Ammo_45x310mmR_AP>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_EarlyMotorization</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_45x310mmR_HE</defName>
+		<label>make 45x310mmR (HE) shells x10</label>
+		<description>Craft 10 45x310mmR (HE) shells.</description>
+		<jobString>Making 45x310mmR (HE) shells.</jobString>
+		<workAmount>8500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45x310mmR_HE>10</Ammo_45x310mmR_HE>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_EarlyMotorization</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_45x310mmR_Canister</defName>
+		<label>make 45x310mmR (Canister) shells x10</label>
+		<description>Craft 10 45x310mmR (Canister) shells.</description>
+		<jobString>Making 45x310mmR (Canister) shells.</jobString>
+		<workAmount>7500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Powder</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_45x310mmR_Canister>10</Ammo_45x310mmR_Canister>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_EarlyMotorization</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

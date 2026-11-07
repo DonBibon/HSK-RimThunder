@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T15_Vehicle.label>Т-15 «Армата»</RT_T15_Vehicle.label>
+  <RT_T15_Vehicle.description>Тяжёлая гусеничная боевая машина пехоты на платформе «Армата». Несёт необитаемый боевой модуль «Байкал»/«Кинжал» с 57-мм автопушкой и ПТУР «Корнет».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Командир x1, Наводчик x1, Десант x9
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 57-мм модуль «Байкал»: 57x348mmSR (AP / AP-HE / Sabot)
+- ПТУР «Корнет»: 9M133 "Kornet"AntiTank missile(HEAT)
+- 7.62-мм пулемёт ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T15_Vehicle.description>
+</LanguageData>

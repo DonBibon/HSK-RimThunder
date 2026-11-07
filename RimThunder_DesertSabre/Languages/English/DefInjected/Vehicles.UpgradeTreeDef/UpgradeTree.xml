@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.0.label>M2A3 BUSK III Kits</RT_M2A3_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.0.description>Equip the BUSK III ERA kits to M2A3.</RT_M2A3_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.1.label>M2A3 Engine Upgrade</RT_M2A3_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.1.description>Increase Power of Engine.</RT_M2A3_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.label>M1A2 TUSK Kits</RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.description>Equip the TUSK ERA kits to M1A2 and add barrel MG.</RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.description>
+
+</LanguageData>

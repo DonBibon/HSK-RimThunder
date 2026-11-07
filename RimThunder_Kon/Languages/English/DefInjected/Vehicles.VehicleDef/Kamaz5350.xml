@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Kamaz5350_vehicle.label>Kamaz-5350 Mustang</RT_Kamaz5350_vehicle.label>
+  <RT_Kamaz5350_vehicle.description>Russian 6x6 multi-purpose military transport truck. Can be upgraded with 2S41 Drok mortar module.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x2, Passenger x14
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- Unarmed (Military transport truck)
+- (Upgrade 2S41 Drok Mortar): 81mm Mortar shell (HE / EMP / Smoke)</RT_Kamaz5350_vehicle.description>
+</LanguageData>

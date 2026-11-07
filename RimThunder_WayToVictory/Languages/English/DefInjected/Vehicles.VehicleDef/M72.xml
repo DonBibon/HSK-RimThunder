@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+  <RT_M72_Vehicle.label>M-72</RT_M72_Vehicle.label>
+  <RT_M72_Vehicle.description>A sidecar without armament, usually used in short range transport.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel</RT_M72_Vehicle.description>
+  <RT_M72_Vehicle.properties.roles.0.label>driver</RT_M72_Vehicle.properties.roles.0.label>
+  <RT_M72_Vehicle.properties.roles.1.label>passengerA</RT_M72_Vehicle.properties.roles.1.label>
+  <RT_M72_Vehicle.properties.roles.1.label>passengerB</RT_M72_Vehicle.properties.roles.1.label>
+  <RT_M72_Vehicle.components.0.label>Engine</RT_M72_Vehicle.components.0.label>
+  <RT_M72_Vehicle.components.1.label>fuel tank</RT_M72_Vehicle.components.1.label>
+  <RT_M72_Vehicle.components.2.label>transmission shaft</RT_M72_Vehicle.components.2.label>
+  <RT_M72_Vehicle.components.3.label>front Wheel</RT_M72_Vehicle.components.3.label>
+  <RT_M72_Vehicle.components.4.label>rear Wheel</RT_M72_Vehicle.components.4.label>
+  <RT_M72_Vehicle.components.5.label>side wheel</RT_M72_Vehicle.components.5.label>
+  <RT_M72_Vehicle.components.6.label>front suspension</RT_M72_Vehicle.components.6.label>
+  <RT_M72_Vehicle.components.7.label>rear suspension</RT_M72_Vehicle.components.7.label>
+  <RT_M72_Vehicle.components.8.label>side suspension</RT_M72_Vehicle.components.8.label>
+
+</LanguageData>

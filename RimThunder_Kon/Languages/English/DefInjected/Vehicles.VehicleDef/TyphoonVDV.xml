@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_TyphoonVDV_Vehicle.label>Kamaz Typhoon-VDV</RT_TyphoonVDV_Vehicle.label>
+  <RT_TyphoonVDV_Vehicle.description>Airborne MRAP vehicle (4x4) with BM-30-D remote turret featuring a 30mm 2A42 autocannon and PKTM MG. Upgradable with Kornet ATGMs and AGS-30 grenade launcher.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x6
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 30mm 2A42 Autocannon: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Upgrade Kornet ATGM): 9M133 "Kornet"AntiTank missile(HEAT)
+- (Upgrade 30mm AGS-30 AGL): 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)</RT_TyphoonVDV_Vehicle.description>
+</LanguageData>

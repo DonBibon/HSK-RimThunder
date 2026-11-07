@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M2A3_Vehicle.label>M2A3 Bradley</RT_M2A3_Vehicle.label>
+  <RT_M2A3_Vehicle.description>Боевая машина пехоты армии США, оснащённая 25-мм автоматической пушкой M242 Bushmaster, сдвоенной пусковой установкой ПТУР TOW и пулемётом M240C.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Десант x6
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 25-мм автопушка M242 Bushmaster: 25x137mm NATO cartridge (HE / AP / Sabot)
+- ПТРК BGM-71 TOW: BGM-71 TOW missile (HEAT)
+- 7.62-мм пулемёт M240C: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M2A3_Vehicle.description>
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+	<T15_EpochAlmaty_Turret.label>30mm 2A42</T15_EpochAlmaty_Turret.label>
+	<T15_EpochAlmaty_Turret.fireModes.0.label>Single</T15_EpochAlmaty_Turret.fireModes.0.label>
+	<T15_EpochAlmaty_Turret.fireModes.1.label>Burst</T15_EpochAlmaty_Turret.fireModes.1.label>
+	<T15_EpochAlmaty_Turret.fireModes.2.label>Auto</T15_EpochAlmaty_Turret.fireModes.2.label>
+	<T15_EpochAlmaty_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 30x165mm</T15_EpochAlmaty_Turret.gizmoDescription>
+
+	<RT_T15_Kornet_Turret.label>9M133"Kornet" Missile</RT_T15_Kornet_Turret.label>
+	<RT_T15_Kornet_Turret.fireModes.1.label>Single</RT_T15_Kornet_Turret.fireModes.1.label>
+	<RT_T15_Kornet_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 9M133"Kornet" Missile</RT_T15_Kornet_Turret.gizmoDescription>
+
+</LanguageData>

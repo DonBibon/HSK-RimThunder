@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_Kamaz5350_Blueprint.description>Assembly of Kamaz-5350 Mustang at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- Unarmed (Military transport truck)
+- (Upgrade 2S41 Drok Mortar): 81mm Mortar shell (HE / EMP / Smoke)</RT_Make_Kamaz5350_Blueprint.description>
+  <RT_Make_Kamaz5350_Blueprint.label>Assemble Kamaz-5350 Mustang</RT_Make_Kamaz5350_Blueprint.label>
+  <RT_Make_TyphoonVDV_Blueprint.description>Assembly of Kamaz Typhoon-VDV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 30mm 2A42 Autocannon: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Upgrade Kornet ATGM): 9M133 "Kornet"AntiTank missile(HEAT)
+- (Upgrade 30mm AGS-30 AGL): 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)</RT_Make_TyphoonVDV_Blueprint.description>
+  <RT_Make_TyphoonVDV_Blueprint.label>Assemble Kamaz Typhoon-VDV</RT_Make_TyphoonVDV_Blueprint.label>
+</LanguageData>

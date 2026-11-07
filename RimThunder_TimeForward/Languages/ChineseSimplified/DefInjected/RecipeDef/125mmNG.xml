@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_125mmNG_HE.label>制作125mm 3OF82 高爆破片弹 (HE) x5</MakeAmmo_125mmNG_HE.label>
+	<MakeAmmo_125mmNG_HE.description>制作5枚125mm 3OF82 高爆破片弹 (HE)</MakeAmmo_125mmNG_HE.description>
+	<MakeAmmo_125mmNG_HE.jobString>正在制作5枚125mm 3OF82 高爆破片弹 (HE)</MakeAmmo_125mmNG_HE.jobString>
+
+	<MakeAmmo_125mmNG_HEAT.label>制作125mm 3BK29M 尾翼稳定破甲弹 (HEAT) x5</MakeAmmo_125mmNG_HEAT.label>
+	<MakeAmmo_125mmNG_HEAT.description>制作5枚125mm 3BK29M 尾翼稳定破甲弹 (HEAT)</MakeAmmo_125mmNG_HEAT.description>
+	<MakeAmmo_125mmNG_HEAT.jobString>正在制作5枚125mm 3BK29M 尾翼稳定破甲弹 (HEAT)</MakeAmmo_125mmNG_HEAT.jobString>
+
+	<MakeAmmo_125mmNG_Sabot.label>制作125mm 3BM69“真空” 脱壳尾翼稳定穿甲弹 (APFSDS) x5</MakeAmmo_125mmNG_Sabot.label>
+	<MakeAmmo_125mmNG_Sabot.description>制作5枚125mm 3BM69“真空” 脱壳尾翼稳定穿甲弹 (APFSDS)</MakeAmmo_125mmNG_Sabot.description>
+	<MakeAmmo_125mmNG_Sabot.jobString>正在制作5枚125mm 3BM69“真空” 脱壳尾翼稳定穿甲弹 (APFSDS)</MakeAmmo_125mmNG_Sabot.jobString>
+
+	<MakeAmmo_125mmNG_Missile.label>制作125mm 3UBK21F1 温压炮射导弹 x5</MakeAmmo_125mmNG_Missile.label>
+	<MakeAmmo_125mmNG_Missile.description>制作5枚125mm 3UBK21F1 温压炮射导弹</MakeAmmo_125mmNG_Missile.description>
+	<MakeAmmo_125mmNG_Missile.jobString>正在制作5枚125mm 3UBK21F1 温压炮射导弹</MakeAmmo_125mmNG_Missile.jobString>
+
+	<MakeAmmo_125mmNG_EMP.label>制作125mm 3BV15电磁脉冲弹 x5</MakeAmmo_125mmNG_EMP.label>
+	<MakeAmmo_125mmNG_EMP.description>制作5枚125mm 3BV15电磁脉冲弹</MakeAmmo_125mmNG_EMP.description>
+	<MakeAmmo_125mmNG_EMP.jobString>正在制作5枚125mm 3BV15电磁脉冲弹</MakeAmmo_125mmNG_EMP.jobString>
+</LanguageData>

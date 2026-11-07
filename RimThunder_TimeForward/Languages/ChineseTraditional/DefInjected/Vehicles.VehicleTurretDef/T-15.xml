@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+	<T15_EpochAlmaty_Turret.label>30mm 2A42機炮</T15_EpochAlmaty_Turret.label>
+	<T15_EpochAlmaty_Turret.fireModes.0.label>單發</T15_EpochAlmaty_Turret.fireModes.0.label>
+	<T15_EpochAlmaty_Turret.fireModes.1.label>點射</T15_EpochAlmaty_Turret.fireModes.1.label>
+	<T15_EpochAlmaty_Turret.fireModes.2.label>連射</T15_EpochAlmaty_Turret.fireModes.2.label>
+	<T15_EpochAlmaty_Turret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 30x165mm</T15_EpochAlmaty_Turret.gizmoDescription>
+
+	<RT_T15_Kornet_Turret.label>9M133“短號”導彈發射器</RT_T15_Kornet_Turret.label>
+	<RT_T15_Kornet_Turret.fireModes.1.label>單發射擊</RT_T15_Kornet_Turret.fireModes.1.label>
+	<RT_T15_Kornet_Turret.gizmoDescription>選擇目標。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; 9M133“短號”導彈</RT_T15_Kornet_Turret.gizmoDescription>
+
+</LanguageData>

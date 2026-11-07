@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_M1075_Blueprint.description>Сборка техники M1075 HEMTT на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- Без штатного вооружения (Транспортный грузовик)</RT_Make_M1075_Blueprint.description>
+  <RT_Make_M1075_Blueprint.label>Собрать M1075 HEMTT</RT_Make_M1075_Blueprint.label>
+  <RT_Make_M113M_Blueprint.description>Сборка техники M113(M) Самоходный миномёт на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 120-мм миномёт M121: 120mm Mortar shell (HE / EMP / Smoke)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_M113M_Blueprint.description>
+  <RT_Make_M113M_Blueprint.label>Собрать M113(M) Самоходный миномёт</RT_Make_M113M_Blueprint.label>
+  <RT_Make_M113_Blueprint.description>Сборка техники M113 БТР на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_M113_Blueprint.description>
+  <RT_Make_M113_Blueprint.label>Собрать M113 БТР</RT_Make_M113_Blueprint.label>
+  <RT_Make_M1A2_Blueprint.description>Сборка техники M1A2T Abrams на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 120-мм орудие M256: 120mm NATO (HE / APFSDS / Canister)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62-мм пулемёт M240: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_M1A2_Blueprint.description>
+  <RT_Make_M1A2_Blueprint.label>Собрать M1A2T Abrams</RT_Make_M1A2_Blueprint.label>
+  <RT_Make_M48H_Blueprint.description>Сборка техники CM-11 «Храбрый тигр» (M48H) на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 105-мм нарезная пушка M68: 105x617mmR NATO (HE / HESH / APFSDS)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62-мм пулемёт M240: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_M48H_Blueprint.description>
+  <RT_Make_M48H_Blueprint.label>Собрать CM-11 «Храбрый тигр» (M48H)</RT_Make_M48H_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_T28_Tank_Turret.label>76mm L10</RT_T28_Tank_Turret.label>
+  	<RT_T28_Tank_Turret.fireModes.0.label>Single Shot</RT_T28_Tank_Turret.fireModes.0.label>
+  	<RT_T28_Tank_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 76.2x385mmR</RT_T28_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_DT_Turret_a.label>DT machine gun</RT_DT_Turret_a.label>
+  	<RT_DT_Turret_a.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 7.62x54mmR</RT_DT_Turret_a.gizmoDescription>
+	
+
+</LanguageData>

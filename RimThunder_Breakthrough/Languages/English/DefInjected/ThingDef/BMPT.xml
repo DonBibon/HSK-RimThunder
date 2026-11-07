@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的投射物 -->
+
+	<RT_Bullet_2A42M.label>high-explosive shell</RT_Bullet_2A42M.label>
+
+  <!-- 炮1 -->
+
+	<RT_9M120MMissile.label>9M120M ATGM</RT_9M120MMissile.label>
+ 
+  <!-- 炮2 -->
+	
+	<Bullet_VOG17M.label>grenade</Bullet_VOG17M.label>
+	
+</LanguageData>

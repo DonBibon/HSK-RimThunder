@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Boomerang_Vehicle.label>Boomerang IFV</RT_Boomerang_Vehicle.label>
+  <RT_Boomerang_Vehicle.description>Russian 8x8 next-generation amphibious IFV with Epoch combat module featuring 57mm autocannon, Kornet ATGMs, and Bulat mini-missiles.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1, Passenger x8
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 57mm Epoch Module: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- Bulat Mini-Missiles: "Blart" mini missile(Thermobaric)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Boomerang_Vehicle.description>
+</LanguageData>

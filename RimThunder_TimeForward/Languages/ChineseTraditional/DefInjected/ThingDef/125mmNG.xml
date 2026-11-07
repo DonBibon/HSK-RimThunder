@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Ammo_125mmNG_HE.label>125mm 3OF82高爆破片彈 （HE）</Ammo_125mmNG_HE.label>
+	<Ammo_125mmNG_HEAT.label>125mm 3BK29M 尾翼穩定破甲彈 （HEAT）</Ammo_125mmNG_HEAT.label>
+	<Ammo_125mmNG_Sabot.label>125mm 3BM69 “真空”脫殼尾翼穩定穿甲彈 （APFSDS）</Ammo_125mmNG_Sabot.label>
+	<Ammo_125mmNG_Missile.label>125mm 3UBK21F1溫壓炮射导彈 (Thermobaric)</Ammo_125mmNG_Missile.label>
+	<Ammo_125mmNG_EMP.label>125mm 3BV15電磁脈衝彈 (EMP)</Ammo_125mmNG_EMP.label>
+
+	<Bullet_125mmNG_HE.label>125mm 3OF82高爆破片彈</Bullet_125mmNG_HE.label>
+	<Bullet_125mmNG_HEAT.label>125mm 3BK29M 尾翼穩定破甲彈</Bullet_125mmNG_HEAT.label>
+	<Bullet_125mmNG_Sabot.label>125mm 3BM69 “真空”脫殼尾翼穩定穿甲彈</Bullet_125mmNG_Sabot.label>
+	<Bullet_125mmNG_Missile.label>125mm 3UBK21F1溫壓炮射导彈</Bullet_125mmNG_Missile.label>
+	<Bullet_125mmNG_EMP.label>125mm 3BV15電磁脈衝彈</Bullet_125mmNG_EMP.label>
+</LanguageData>

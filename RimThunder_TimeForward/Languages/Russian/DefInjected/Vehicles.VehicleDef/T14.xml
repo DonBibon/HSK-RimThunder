@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T14_MainBattleTank.label>Т-14 «Армата»</RT_T14_MainBattleTank.label>
+  <RT_T14_MainBattleTank.description>Танк 4-го поколения на платформе «Армата» с необитаемой башней, бронированной капсулой экипажа, 125-мм пушкой повышенной баллистики 2А82-1М и ДУМВ «Корд».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 125-мм пушка 2А82-1М: 125mm 3OF82 (HE), 125mm 3BK29M (HEAT), 125mm 3BM69 (APFSDS), 125mm 3UBK21F1 (Thermobaric)
+- 12.7-мм ДУМВ Корд: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)</RT_T14_MainBattleTank.description>
+</LanguageData>

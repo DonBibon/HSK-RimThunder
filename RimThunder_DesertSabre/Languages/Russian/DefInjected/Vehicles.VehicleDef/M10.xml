@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M10_MainBattleTank.label>M10 Booker</RT_M10_MainBattleTank.label>
+  <RT_M10_MainBattleTank.description>Боевая машина огневой поддержки пехоты (Mobile Protected Firepower), вооружённая 105-мм пушкой M35, пулемётом M2 Browning .50 BMG и спаренным M240.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Заряжающий x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 105-мм нарезная пушка M35: 105x617mmR NATO (HE / HESH / APFSDS)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62-мм пулемёт M240: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M10_MainBattleTank.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BM13_Vehicle.label>БМ-13 «Катюша»</RT_BM13_Vehicle.label>
+  <RT_BM13_Vehicle.description>Легендарная боевая машина реактивной артиллерии на шасси Studebaker US6. Залп из 16 неуправляемых реактивных снарядов накрывает огромную площадь.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 132-мм РСЗО М-13 (16 направляющих): 132mm M-13 rocket</RT_BM13_Vehicle.description>
+</LanguageData>

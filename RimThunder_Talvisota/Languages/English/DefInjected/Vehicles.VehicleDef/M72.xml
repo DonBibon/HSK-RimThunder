@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M72_Vehicle.label>M-72 Motorcycle</RT_M72_Vehicle.label>
+  <RT_M72_Vehicle.description>Soviet heavy military motorcycle with sidecar and mounted DP-27 light machine gun.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 7.62mm DP-27 MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_M72_Vehicle.description>
+</LanguageData>

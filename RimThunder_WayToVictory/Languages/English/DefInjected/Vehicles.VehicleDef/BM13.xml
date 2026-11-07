@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BM13_Vehicle.label>BM-13 Katyusha</RT_BM13_Vehicle.label>
+  <RT_BM13_Vehicle.description>Legendary Soviet rocket artillery truck on Studebaker US6 chassis. Launches a devastating 16-rocket salvo.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 132mm M-13 MLRS (16 rails): 132mm M-13 rocket</RT_BM13_Vehicle.description>
+</LanguageData>

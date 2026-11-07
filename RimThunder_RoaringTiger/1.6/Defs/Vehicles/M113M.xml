@@ -1,0 +1,508 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
+    <defName>RT_M113M_APC_Blueprint</defName>
+    <researchPrerequisites Inherit="False">
+      <li>RT_ModernIFV</li>
+    </researchPrerequisites>
+    <label>M113(M) APC</label>
+    <description>An armoured mortar carrier for infantry artillery support, equipped with an 81mm mortar and a support machine gun.</description>
+    <graphicData>
+      <texPath>Vehicles/M113M/vehicle</texPath>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Flammability>0.05</Flammability>
+    </statBases>
+    <size>(3,4)</size>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <costList>
+      <EngineMedium>1</EngineMedium>
+      <ComponentFuelTank>2</ComponentFuelTank>
+      <ComponentTransmission>1</ComponentTransmission>
+      <ComponentWheelRoad>10</ComponentWheelRoad>
+      <ComponentIndustrial>40</ComponentIndustrial>
+      <ComponentAdvanced>12</ComponentAdvanced>
+      <Mechanism>35</Mechanism>
+      <AdvMechanism>16</AdvMechanism>
+      <Steel>350</Steel>
+      <AluminiumBar>350</AluminiumBar>
+      <Plasteel>120</Plasteel>
+      <ReinforcedGlass>10</ReinforcedGlass>
+      <Chemfuel>120</Chemfuel>
+    </costList>
+    <thingToSpawn>RT_M113M_APC</thingToSpawn>
+  </Vehicles.VehicleBuildDef>
+  <!-- Vehicle Body -->
+  <Vehicles.VehicleDef ParentName="RT_BaseVehicle">
+    <defName>RT_M113M_APC</defName>
+    <label>M113(M) APC</label>
+    <description>An armoured mortar carrier for infantry artillery support, equipped with an 81mm mortar and a support machine gun.</description>
+    <buildDef>RT_M113M_APC_Blueprint</buildDef>
+    <thingClass>Motorization.VehiclePawn_Tractor</thingClass>
+    <graphicData>
+      <texPath>Vehicles/M113M/vehicle</texPath>
+      <drawSize>(7,7)</drawSize>
+    </graphicData>
+    <size>(3,4)</size>
+    <fillPercent>1</fillPercent>
+    <vehicleCategory>Combat</vehicleCategory>
+    <statBases>
+      <ArmorRating_Blunt>0.92</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+      <Flammability>0</Flammability>
+      <MarketValue>2450</MarketValue>
+    </statBases>
+    <vehicleStats>
+      <Mass>800</Mass>
+      <MoveSpeed>7</MoveSpeed>
+      <CargoCapacity>1200</CargoCapacity>
+      <RepairRate>0.5</RepairRate>
+    </vehicleStats>
+    <soundOneShotsOnEvent Inherit="False">
+      <li>
+        <key>PawnEntered</key>
+        <value>VVE_VehicleEnter</value>
+      </li>
+      <li>
+        <key>PawnExited</key>
+        <value>VVE_VehicleEnter</value>
+      </li>
+      <li>
+        <key>IgnitionOn</key>
+        <value>RT_BMPVehicleStart</value>
+      </li>
+      <li>
+        <key>IgnitionOff</key>
+        <value>RT_BMPVehicleStop</value>
+      </li>
+    </soundOneShotsOnEvent>
+    <soundSustainersOnEvent Inherit="false">
+      <li>
+        <start>IgnitionOn</start>
+        <stop>IgnitionOff</stop>
+        <value>RT_BMPVehicleEngine</value>
+      </li>
+    </soundSustainersOnEvent>
+    <race>
+      <baseBodySize>4</baseBodySize>
+    </race>
+    <properties>
+      <customRoadCosts AssignDefaults="0.4" />
+      <worldSpeedMultiplier>1.0</worldSpeedMultiplier>
+      <winterSpeedMultiplier>1.0</winterSpeedMultiplier>
+      <customHillinessCosts>
+        <SmallHills>0.2</SmallHills>
+        <LargeHills>0.8</LargeHills>
+        <Mountainous>1.5</Mountainous>
+      </customHillinessCosts>
+      <customRiverCosts AssignDefaults="0.4" />
+      <customTerrainCosts AllowTerrainWithTag="Water" PathCost="1">
+        <li>
+          <key>Mud</key>
+          <value>1</value>
+        </li>
+      </customTerrainCosts>
+      <customBiomeCosts>
+        <li>
+          <key>Ocean</key>
+          <value>4</value>
+        </li>
+        <li>
+          <key>Lake</key>
+          <value>4</value>
+        </li>
+      </customBiomeCosts>
+      <vehicleJobLimitations>
+        <li>(RepairVehicle, 4)</li>
+      </vehicleJobLimitations>
+      <roles>
+        <li>
+          <key>driver</key>
+          <label>driver</label>
+          <slots>1</slots>
+          <slotsToOperate>1</slotsToOperate>
+          <handlingTypes>
+            <li>Movement</li>
+          </handlingTypes>
+        </li>
+        <li>
+          <key>gunner</key>
+          <label>gunner</label>
+          <slots>1</slots>
+          <slotsToOperate>1</slotsToOperate>
+          <handlingTypes>Turret</handlingTypes>
+          <turretIds>
+            <li>supportMG</li>
+          </turretIds>
+        </li>
+        <li>
+          <key>gunnerMortar</key>
+          <label>mortar gunner</label>
+          <slots>2</slots>
+          <slotsToOperate>2</slotsToOperate>
+          <handlingTypes>Turret</handlingTypes>
+          <turretIds>
+            <li>mainTurret</li>
+          </turretIds>
+        </li>
+        <li>
+          <key>passenger</key>
+          <label>passenger</label>
+          <slots>2</slots>
+        </li>
+      </roles>
+    </properties>
+    <components>
+      <li>
+        <key>Engine</key>
+        <label>Engine</label>
+        <health>100</health>
+        <priorityStatEfficiency>true</priorityStatEfficiency>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <depth>Internal</depth>
+        <reactors>
+          <li Class="Vehicles.Reactor_Explosive">
+            <indicator>VF_Explosive</indicator>
+            <chance>0.25</chance>
+            <maxHealth>0.3</maxHealth>
+            <radius>3</radius>
+            <damageDef>Bomb</damageDef>
+          </li>
+        </reactors>
+        <hitbox>
+          <cells>
+            <li>(0, 2)</li>
+            <li>(1, 2)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>FuelTank</key>
+        <label>fuel tank</label>
+        <health>100</health>
+        <depth>Internal</depth>
+        <reactors>
+          <li Class="Vehicles.Reactor_FuelLeak" />
+        </reactors>
+        <hitbox>
+          <cells>
+            <li>(-1, -1)</li>
+            <li>(1, -1)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>Gearbox</key>
+        <label>gearbox</label>
+        <health>50</health>
+        <depth>Internal</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <hitbox>
+          <cells>
+            <li>(0, 1)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>TransmissionShaft</key>
+        <label>transmission shaft</label>
+        <health>40</health>
+        <depth>Internal</depth>
+      </li>
+      <li>
+        <key>LeftTrack</key>
+        <label>left track</label>
+        <health>150</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitWeight>2</hitWeight>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <side>Left</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>RightTrack</key>
+        <label>right track</label>
+        <health>150</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitWeight>2</hitWeight>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <side>Right</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>LeftRoadWheels</key>
+        <label>left road wheels</label>
+        <health>100</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <side>Left</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>RightRoadWheels</key>
+        <label>right road wheels</label>
+        <health>100</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <side>Right</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>LeftDriveSprocket</key>
+        <label>left drive sprocket</label>
+        <health>75</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <cells>
+            <li>(-1, 2)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>RightDriveSprocket</key>
+        <label>right drive sprocket</label>
+        <health>75</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <cells>
+            <li>(1, 2)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>LeftTensionerWheel</key>
+        <label>left tensioner wheel</label>
+        <health>75</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <cells>
+            <li>(-1, -1)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>RightTensionerWheel</key>
+        <label>right tensioner wheel</label>
+        <health>75</health>
+        <depth>External</depth>
+        <categories>
+          <li>MoveSpeed</li>
+        </categories>
+        <tags>
+          <li>Wheel</li>
+        </tags>
+        <hitbox>
+          <fallthrough>false</fallthrough>
+          <cells>
+            <li>(1, -1)</li>
+          </cells>
+        </hitbox>
+      </li>
+      <li>
+        <key>FrontArmorPlating</key>
+        <label>front armor Plating</label>
+        <health>135</health>
+        <depth>External</depth>
+        <hitWeight>8</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>1.00</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+        </armor>
+        <hitbox>
+          <side>Front</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>LeftArmorPlating</key>
+        <label>left armor plating</label>
+        <health>122</health>
+        <depth>External</depth>
+        <hitWeight>5</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        </armor>
+        <hitbox>
+          <side>Left</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>RightArmorPlating</key>
+        <label>right armor plating</label>
+        <health>122</health>
+        <depth>External</depth>
+        <hitWeight>5</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+        </armor>
+        <hitbox>
+          <side>Right</side>
+        </hitbox>
+      </li>
+      <li>
+        <key>RoofArmorPlating</key>
+        <label>roof armor plating</label>
+        <health>135</health>
+        <depth>External</depth>
+        <hitWeight>5</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
+        </armor>
+      </li>
+      <li>
+        <key>BackArmorPlating</key>
+        <label>rear armor plating</label>
+        <health>101</health>
+        <depth>External</depth>
+        <hitWeight>5</hitWeight>
+        <hitbox>
+          <side>Back</side>
+        </hitbox>
+      </li>
+    </components>
+    <comps>
+      <li Class="Vehicles.CompProperties_FueledTravel">
+        <fuelType>Chemfuel</fuelType>
+        <leakDef>Filth_Fuel</leakDef>
+        <fuelConsumptionRate>20</fuelConsumptionRate>
+        <fuelConsumptionWorldMultiplier>1</fuelConsumptionWorldMultiplier>
+        <fuelCapacity>100</fuelCapacity>
+      </li>
+      <li Class="Vehicles.CompProperties_VehicleTurrets">
+        <turrets>
+          <li>
+            <turretDef>RT_M249_MGTurret</turretDef>
+            <renderProperties>
+              <north>(0, 1.5)</north>
+              <south>(0, 0)</south>
+              <east>(0.8, 0.9)</east>
+              <west>(-0.8, 0.9)</west>
+            </renderProperties>
+            <angleRestricted>(280,80)</angleRestricted>
+            <gizmoLabel>support MG</gizmoLabel>
+            <aimPieOffset>(-0.1, 0)</aimPieOffset>
+            <drawLayer>1</drawLayer>
+            <key>supportMG</key>
+          </li>
+          <li>
+            <turretDef>RT_M113M_APC_Turret</turretDef>
+            <renderProperties>
+              <north>(0, -0.2)</north>
+              <south>(0, 1.5)</south>
+              <east>(-1, 0.8)</east>
+              <west>(1, 0.8)</west>
+            </renderProperties>
+            <gizmoLabel>Main Turret</gizmoLabel>
+            <aimPieOffset>(-0.1, 0)</aimPieOffset>
+            <drawLayer>1</drawLayer>
+            <key>mainTurret</key>
+          </li>
+        </turrets>
+      </li>
+    </comps>
+  </Vehicles.VehicleDef>
+  <!-- Turret Def -->
+  <Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
+    <defName>RT_M113M_APC_Turret</defName>
+    <label>main turret</label>
+    <graphicData>
+      <texPath>Vehicles/M113M/mainTurret</texPath>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <reloadTimer>4</reloadTimer>
+    <reloadTimerMultiplierPerCrewCount>
+      <points>
+        <li>(1, 1.5)</li>
+        <li>(2, 1)</li>
+      </points>
+    </reloadTimerMultiplierPerCrewCount>
+    <magazineCapacity>1</magazineCapacity>
+    <chargePerAmmoCount>1</chargePerAmmoCount>
+    <genericAmmo>true</genericAmmo>
+    <ammunition>
+      <thingDefs>
+        <li>Shell_HighExplosive</li>
+      </thingDefs>
+    </ammunition>
+    <minRange>16</minRange>
+    <maxRange>100</maxRange>
+    <rotationSpeed>1</rotationSpeed>
+    <warmUpTimer>2</warmUpTimer>
+    <shotSound>Mortar_LaunchA</shotSound>
+    <reloadSound>Artillery_ShellLoaded</reloadSound>
+    <projectile>Bullet_Shell_HighExplosive</projectile>
+    <projectileOffset>1.1</projectileOffset>
+    <recoil>
+      <distanceTotal>0.05</distanceTotal>
+      <distancePerTick>0.05</distancePerTick>
+      <speedMultiplierPostRecoil>0.1</speedMultiplierPostRecoil>
+    </recoil>
+    <fireModes>
+      <li>
+        <shotsPerBurst>1</shotsPerBurst>
+        <ticksBetweenBursts>1</ticksBetweenBursts>
+        <spreadRadius>10</spreadRadius>
+        <label>Single Shot</label>
+        <texPath>UI/Gizmos/FireRate_Single</texPath>
+      </li>
+    </fireModes>
+  </Vehicles.VehicleTurretDef>
+</Defs>

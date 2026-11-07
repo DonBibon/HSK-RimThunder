@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Kurganets25_Vehicle.label>Kurganets-25 IFV</RT_Kurganets25_Vehicle.label>
+  <RT_Kurganets25_Vehicle.description>Next-generation tracked Russian IFV platform equipped with an unmanned 57mm module, Kornet ATGMs, and Bulat mini-missiles.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1, Passenger x8
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 57mm Epoch Module: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- Bulat Mini-Missiles: "Blart" mini missile(Thermobaric)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Kurganets25_Vehicle.description>
+</LanguageData>

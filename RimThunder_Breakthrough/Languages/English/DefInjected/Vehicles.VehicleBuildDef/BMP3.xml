@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_BMP3_Vehicle_Blueprint.label>BMP3</RT_BMP3_Vehicle_Blueprint.label>
+  <RT_BMP3_Vehicle_Blueprint.description>An IFV equipped with a 100mm cannon with auto-loader and a coaxial autocannon, has ability to update to 2S38 by changing the turret.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2，Passenger x5\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n100mmShell（Main Cannon）\n30x165mm（Coaxial Cannon））\n7.62x54mmR（Coaxial MG）</RT_BMP3_Vehicle_Blueprint.description>
+
+</LanguageData>

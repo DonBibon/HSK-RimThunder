@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+	<RT_T15_Vehicle.label>T-15 "Armata"</RT_T15_Vehicle.label>
+	<RT_T15_Vehicle.description>The T-15 "Armata" IFV is a new generation of unique medium-sized tracked in the Russian Federation, with unparalleled protection and advanced digital command system. capable of adapting to a variety of turret modules.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1, Passenger x8\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n30x165mm（Main Gun）\n9M133"Kornet" Missile（Missile Launcher）\n7.62x54mmR（Coaxial MG）</RT_T15_Vehicle.description>
+	<RT_T15_Vehicle.properties.roles.0.label>Driver</RT_T15_Vehicle.properties.roles.0.label>
+	<RT_T15_Vehicle.properties.roles.1.label>Gunner</RT_T15_Vehicle.properties.roles.1.label>
+	<RT_T15_Vehicle.properties.roles.2.label>Commander</RT_T15_Vehicle.properties.roles.2.label>
+	<RT_T15_Vehicle.properties.roles.3.label>Passenger</RT_T15_Vehicle.properties.roles.3.label>
+	<RT_T15_Vehicle.components.0.label>Engine</RT_T15_Vehicle.components.0.label>
+  	<RT_T15_Vehicle.components.1.label>fuel tank</RT_T15_Vehicle.components.1.label>
+  	<RT_T15_Vehicle.components.2.label>gearbox</RT_T15_Vehicle.components.2.label>
+  	<RT_T15_Vehicle.components.3.label>ammo rack</RT_T15_Vehicle.components.3.label>
+  	<RT_T15_Vehicle.components.4.label>transmission shaft</RT_T15_Vehicle.components.4.label>
+  	<RT_T15_Vehicle.components.5.label>left track</RT_T15_Vehicle.components.5.label>
+  	<RT_T15_Vehicle.components.6.label>right track</RT_T15_Vehicle.components.6.label>
+  	<RT_T15_Vehicle.components.7.label>left road wheels</RT_T15_Vehicle.components.7.label>
+  	<RT_T15_Vehicle.components.8.label>right road wheels</RT_T15_Vehicle.components.8.label>
+  	<RT_T15_Vehicle.components.9.label>left drive sprocket</RT_T15_Vehicle.components.9.label>
+  	<RT_T15_Vehicle.components.10.label>right drive sprocket</RT_T15_Vehicle.components.10.label>
+  	<RT_T15_Vehicle.components.11.label>left tensioner wheel</RT_T15_Vehicle.components.11.label>
+  	<RT_T15_Vehicle.components.12.label>right tensioner wheel</RT_T15_Vehicle.components.12.label>
+  	<RT_T15_Vehicle.components.13.label>front armor Plating</RT_T15_Vehicle.components.13.label>
+  	<RT_T15_Vehicle.components.14.label>left armor plating</RT_T15_Vehicle.components.14.label>
+  	<RT_T15_Vehicle.components.15.label>right armor plating</RT_T15_Vehicle.components.15.label>
+	<RT_T15_Vehicle.components.16.label>left ERA</RT_T15_Vehicle.components.16.label>
+	<RT_T15_Vehicle.components.17.label>right ERA</RT_T15_Vehicle.components.17.label>
+	<RT_T15_Vehicle.components.18.label>roof armor plating</RT_T15_Vehicle.components.18.label>
+	<RT_T15_Vehicle.components.19.label>rear armor plating</RT_T15_Vehicle.components.19.label>
+	<RT_T15_Vehicle.components.20.label>main turret</RT_T15_Vehicle.components.20.label>
+	<RT_T15_Vehicle.components.21.label>front ERA</RT_T15_Vehicle.components.21.label>
+	<RT_T15_Vehicle.components.22.label>roof ERA</RT_T15_Vehicle.components.22.label>
+
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>30mm 2A42</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>9M133"Kornet" ATGM</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>9M133"Kornet" ATGM</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>7.62mm PKT</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>Smoke Launcher</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>
+	<RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.5.gizmoLabel>Smoke Launcher</RT_T15_Vehicle.comps.CompVehicleTurrets.turrets.5.gizmoLabel>
+
+
+
+ <!-- 载具本体 -->
+
+</LanguageData>

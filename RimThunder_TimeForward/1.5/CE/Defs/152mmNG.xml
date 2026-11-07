@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Ammo152mmNG</defName>
+		<label>152mm cannon shell</label>
+		<parent>AmmoShells</parent>
+		<iconPath>Things/UI/Icons/152mm_APFSDS</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_152mmNG</defName>
+		<label>152mmTC cannon shells</label>
+		<ammoTypes>
+			<Ammo_152mmNG_HE>Bullet_152mmNG_HE</Ammo_152mmNG_HE> <!--3OF82-->
+			<Ammo_152mmNG_EMP>Bullet_152mmNG_EMP</Ammo_152mmNG_EMP>
+			<Ammo_152mmNG_Sabot>Bullet_152mmNG_Sabot</Ammo_152mmNG_Sabot> <!--3BM69-->
+		</ammoTypes>
+		<similarTo>AmmoSet_HeavyCannon</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="152mmNGBase" ParentName="HeavyAmmoBase" Abstract="True">
+		<thingCategories>
+			<li>Ammo152mmNG</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>65</Mass>
+			<Bulk>48</Bulk>
+		</statBases>
+		<cookOffFlashScale>30</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+		<isMortarAmmo>true</isMortarAmmo>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="152mmNGBase">
+		<defName>Ammo_152mmNG_HE</defName>
+		<label>152mm cannon shell (HE)</label>
+		<graphicData>
+			<texPath>Things/Ammo/152mm_HE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>75</Mass>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_152mmNG_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="152mmNGBase">
+		<defName>Ammo_152mmNG_Sabot</defName>
+		<label>152mm cannon shell (APFSDS)</label>
+		<graphicData>
+			<texPath>Things/Ammo/152mm_APFSDS</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<Mass>35</Mass>
+		</statBases>
+		<ammoClass>Sabot</ammoClass>
+		<detonateProjectile>Bullet_152mmNG_Sabot</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="152mmNGBase">
+		<defName>Ammo_152mmNG_EMP</defName>
+		<label>152mm cannon shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/152mm_EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<Mass>45</Mass>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_152mmNG_EMP</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base152mmNG" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>170</speed>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<flyOverhead>false</flyOverhead>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+			<casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base152mmNG">
+		<defName>Bullet_152mmNG_HE</defName>
+		<label>152mm cannon shell (HE)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_152_HE</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>520</damageAmountBase>
+			<explosionRadius>5.5</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<speed>184</speed>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>48</Fragment_Large>
+					<Fragment_Small>80</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base152mmNG">
+		<defName>Bullet_152mmNG_EMP</defName>
+		<label>152mm cannon shell (EMP)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_152_EMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>420</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>9.5</explosionRadius>
+			<speed>184</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base152mmNG">
+		<defName>Bullet_152mmNG_Sabot</defName>
+		<label>152mm cannon shell (APFSDS)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_3BM69</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>330</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>500</damageAmountBase>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<armorPenetrationSharp>760</armorPenetrationSharp>
+			<armorPenetrationBlunt>240000</armorPenetrationBlunt>
+			<secondaryDamage>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>150</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragXZAngleRange>-5~5</fragXZAngleRange>
+				<fragAngleRange>0~2</fragAngleRange>
+				<fragments>
+					<Fragment_APFSDS>15</Fragment_APFSDS>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+	
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_152mmNG_HE</defName>
+		<label>make 152mm HE cannon shells x5</label>
+		<description>Craft 5 152mm HE cannon shells.</description>
+		<jobString>Making 5 152mm HE cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>350</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_152mmNG_HE>5</Ammo_152mmNG_HE>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_NextGenArmata</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_152mmNG_EMP</defName>
+		<label>make 152mm EMP cannon shells x5</label>
+		<description>Craft 5 152mm EMP cannon shells.</description>
+		<jobString>Making 5 152mm EMP cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>350</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_152mmNG_EMP>5</Ammo_152mmNG_EMP>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_NextGenArmata</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_152mmNG_Sabot</defName>
+		<label>make 152mm APFSDS cannon shells x5</label>
+		<description>Craft 5 152mm APFSDS cannon shells.</description>
+		<jobString>Making 5 152mm APFSDS cannon shells.</jobString>
+		<workAmount>16800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>260</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_152mmNG_Sabot>5</Ammo_152mmNG_Sabot>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_NextGenArmata</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_C130_Vehicle.label>C-130 Hercules</RT_C130_Vehicle.label>
+  <RT_C130_Vehicle.description>Four-engine turboprop tactical airlifter designed for long-range intercontinental troop and cargo deployment.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x2, Navigator x1, Passenger x64
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- Unarmed (Heavy tactical airlifter)</RT_C130_Vehicle.description>
+</LanguageData>

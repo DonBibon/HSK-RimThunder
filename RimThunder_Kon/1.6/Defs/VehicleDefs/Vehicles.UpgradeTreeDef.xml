@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Vehicles.UpgradeTreeDef>
+    <defName>RT_Kamaz5350_Vehicle_UpgradeTree</defName>
+    <nodes>
+      <li>
+        <key>Cargo</key>
+        <label>Kamaz 5350 Cargo</label>
+        <description>Switch to cargo transport.</description>
+        <icon>Vehicles/Kamaz_5350/P/Cargo</icon>
+        <work>200</work>
+        <gridCoordinate>(5,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <upgrades>
+          <li Class="Vehicles.StatUpgrade">
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>5500</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <retextureDef>RT_Kamaz5350_Cargo</retextureDef>
+            <roles>
+              <li>
+                <key>passenger1</key>
+                <label>Passenger 1</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger2</key>
+                <label>Passenger 2</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger3</key>
+                <label>Passenger 3</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger4</key>
+                <label>Passenger 4</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger5</key>
+                <label>Passenger 5</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger6</key>
+                <label>Passenger 6</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger7</key>
+                <label>Passenger 7</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger8</key>
+                <label>Passenger 8</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger9</key>
+                <label>Passenger 9</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger10</key>
+                <label>Passenger 10</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger11</key>
+                <label>Passenger 11</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+              <li>
+                <key>passenger12</key>
+                <label>Passenger 12</label>
+                <remove>true</remove>
+                <slots>1</slots>
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>80</Steel>
+          <Mechanism>4</Mechanism>
+          <ComponentIndustrial>4</ComponentIndustrial>
+        </ingredients>
+      </li>
+    </nodes>
+  </Vehicles.UpgradeTreeDef>
+  <Vehicles.UpgradeTreeDef>
+    <defName>RT_TyphoonVDV_Vehicle_UpgradeTree</defName>
+    <nodes>
+      <li>
+        <key>VDV_32V01</key>
+        <label>32V01 Turret</label>
+        <description>Add 32V01 Turret on the top of the vehicle.</description>
+        <icon>Vehicles/Typhoon_VDV/VDV_32v01_gizmo</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodesEnabled>
+          <li>VDV_AGS</li>
+          <li>VDV_Kornet</li>
+          <li>VDV_2S41</li>
+        </disableIfUpgradeNodesEnabled>
+        <upgrades>
+          <li Class="Vehicles.TurretUpgrade">
+            <turrets>
+              <li>
+                <turretDef>RT_VDV_32V01Turret</turretDef>
+                <renderProperties>
+                  <north>(0, 0.18)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>Main Turret</gizmoLabel>
+                <aimPieOffset>(0, 2)</aimPieOffset>
+                <key>32V01</key>
+              </li>
+              <li>
+                <!--同軸機槍-->
+                <turretDef>RT_VDV_PKT_MGTurret</turretDef>
+                <renderProperties>
+                  <north>(0.2, 1.1)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>coaxial MG</gizmoLabel>
+                <angleRestricted>(345,15)</angleRestricted>
+                <aimPieOffset>(0, -1)</aimPieOffset>
+                <key>coaxialMG</key>
+                <drawLayer>0</drawLayer>
+                <parentKey>32V01</parentKey>
+              </li>
+            </turrets>
+          </li>
+          <li Class="Vehicles.StatUpgrade">
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-300</value>
+              </li>
+            </vehicleStats>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>120</Steel>
+          <AluminiumBar>80</AluminiumBar>
+          <AdvMechanism>8</AdvMechanism>
+          <ComponentAdvanced>10</ComponentAdvanced>
+        </ingredients>
+      </li>
+      <li>
+        <key>VDV_Kornet</key>
+        <label>Kornet Turret</label>
+        <description>Add 32V01 Turret and Kornet Launcher on the top of the vehicle.</description>
+        <icon>Vehicles/Typhoon_VDV/VDV_32v01_kornet_gizmo</icon>
+        <work>1000</work>
+        <gridCoordinate>(10,5)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodesEnabled>
+          <li>VDV_AGS</li>
+          <li>VDV_32V01</li>
+          <li>VDV_2S41</li>
+        </disableIfUpgradeNodesEnabled>
+        <upgrades>
+          <li Class="Vehicles.TurretUpgrade">
+            <turrets>
+              <li>
+                <turretDef>RT_VDV_32V01BTurret</turretDef>
+                <renderProperties>
+                  <north>(0, 0.18)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>Main Turret</gizmoLabel>
+                <aimPieOffset>(0, 1)</aimPieOffset>
+                <key>32V01B</key>
+              </li>
+              <li>
+                <turretDef>RT_VDV_PKT_MGTurret</turretDef>
+                <renderProperties>
+                  <north>(0.2, 1.1)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>coaxial MG</gizmoLabel>
+                <angleRestricted>(345,15)</angleRestricted>
+                <aimPieOffset>(0, -1)</aimPieOffset>
+                <key>coaxialMGB</key>
+                <drawLayer>0</drawLayer>
+                <parentKey>32V01B</parentKey>
+              </li>
+              <li>
+                <turretDef>RT_VDV_Kornet_Turret</turretDef>
+                <renderProperties>
+                  <north>(-0.3, -1.1)</north>
+                  <south>(0.3, 1.1)</south>
+                  <east>(-1.75, 0.8)</east>
+                  <west>(1.75, 0.15)</west>
+                </renderProperties>
+                <angleRestricted>(300,60)</angleRestricted>
+                <gizmoLabel>Missile Launcher</gizmoLabel>
+                <aimPieOffset>(0, 0)</aimPieOffset>
+                <drawLayer>2</drawLayer>
+                <key>Kornet</key>
+                <parentKey>32V01B</parentKey>
+              </li>
+            </turrets>
+          </li>
+          <li Class="Vehicles.StatUpgrade">
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-350</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <key>gunner</key>
+                <editKey>gunnerExpansion</editKey>
+                <label>Gunner</label>
+                <slots>1</slots>
+                <slotsToOperate>1</slotsToOperate>
+                <handlingTypes>Turret</handlingTypes>
+                <turretIds>
+                  <li>Kornet</li>
+                </turretIds>
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>150</Steel>
+          <Titanium>60</Titanium>
+          <FSX>30</FSX>
+          <AdvMechanism>10</AdvMechanism>
+          <ComponentAdvanced>14</ComponentAdvanced>
+        </ingredients>
+      </li>
+      <li>
+        <key>VDV_AGS</key>
+        <label>AGS-30 Turret</label>
+        <description>Add 32V01 Turret and AGS-30 Grenade Launcher on the top of the vehicle.</description>
+        <icon>Vehicles/Typhoon_VDV/VDV_32v01_AGS_gizmo</icon>
+        <work>500</work>
+        <gridCoordinate>(10,10)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodesEnabled>
+          <li>VDV_Kornet</li>
+          <li>VDV_32V01</li>
+          <li>VDV_2S41</li>
+        </disableIfUpgradeNodesEnabled>
+        <upgrades>
+          <li Class="Vehicles.TurretUpgrade">
+            <turrets>
+              <li>
+                <turretDef>RT_VDV_32V01BTurret</turretDef>
+                <renderProperties>
+                  <north>(0, 0.18)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>Main Turret</gizmoLabel>
+                <aimPieOffset>(0, 1)</aimPieOffset>
+                <key>32V01C</key>
+              </li>
+              <li>
+                <turretDef>RT_VDV_PKT_MGTurret</turretDef>
+                <renderProperties>
+                  <north>(0.2, 1.1)</north>
+                  <south>(0, 0.9)</south>
+                  <east>(-0.45, 0.5)</east>
+                  <west>(0.45, 0.5)</west>
+                </renderProperties>
+                <gizmoLabel>coaxial MG</gizmoLabel>
+                <angleRestricted>(345,15)</angleRestricted>
+                <aimPieOffset>(0, -1)</aimPieOffset>
+                <key>coaxialMGC</key>
+                <drawLayer>0</drawLayer>
+                <parentKey>32V01C</parentKey>
+              </li>
+              <li>
+                <turretDef>RT_VDV_AGS30_Turret</turretDef>
+                <renderProperties>
+                  <north>(-0.3, -1.1)</north>
+                  <south>(0.3, 1.1)</south>
+                  <east>(0.1, 0.45)</east>
+                  <west>(-0.1, 0.45)</west>
+                </renderProperties>
+                <angleRestricted>(300,60)</angleRestricted>
+                <gizmoLabel>Grenade Launcher</gizmoLabel>
+                <aimPieOffset>(0, 0)</aimPieOffset>
+                <drawLayer>2</drawLayer>
+                <key>AGS</key>
+                <parentKey>32V01C</parentKey>
+              </li>
+            </turrets>
+          </li>
+          <li Class="Vehicles.StatUpgrade">
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-350</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <key>gunner</key>
+                <editKey>gunnerExpansion</editKey>
+                <label>Gunner</label>
+                <slots>1</slots>
+                <slotsToOperate>1</slotsToOperate>
+                <handlingTypes>Turret</handlingTypes>
+                <turretIds>
+                  <li>AGS</li>
+                </turretIds>
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>100</Steel>
+          <AluminiumBar>60</AluminiumBar>
+          <AdvMechanism>8</AdvMechanism>
+          <ComponentAdvanced>8</ComponentAdvanced>
+        </ingredients>
+      </li>
+      <li>
+        <key>VDV_2S41</key>
+        <label>2S41 Turret</label>
+        <description>Add 2S41 82mm Mortar Turret on the top of the vehicle.</description>
+        <icon>Vehicles/Typhoon_VDV/VDV_2s41_gizmo</icon>
+        <work>1000</work>
+        <gridCoordinate>(5,10)</gridCoordinate>
+        <drawSize>(80, 80)</drawSize>
+        <disableIfUpgradeNodesEnabled>
+          <li>VDV_AGS</li>
+          <li>VDV_Kornet</li>
+          <li>VDV_32V01</li>
+        </disableIfUpgradeNodesEnabled>
+        <upgrades>
+          <li Class="Vehicles.TurretUpgrade">
+            <turrets>
+              <li>
+                <turretDef>RT_2S41_Turret</turretDef>
+                <renderProperties>
+                  <north>(0, -0.15)</north>
+                  <south>(0, 1.15)</south>
+                  <east>(-0.88, 0.55)</east>
+                  <west>(0.88, 0.55)</west>
+                </renderProperties>
+                <gizmoLabel>Main Turret</gizmoLabel>
+                <angleRestricted>(300,60)</angleRestricted>
+                <aimPieOffset>(0, 1)</aimPieOffset>
+                <drawLayer>2</drawLayer>
+                <key>2S41</key>
+              </li>
+              <li>
+                <!--同軸機槍-->
+                <turretDef>RT_VDV_PKM_Turret</turretDef>
+                <renderProperties>
+                  <north>(-0.55, 0.6)</north>
+                  <south>(0.55, 0.4)</south>
+                  <east>(0, 1)</east>
+                  <west>(0, 0)</west>
+                </renderProperties>
+                <gizmoLabel>Machine Gun</gizmoLabel>
+                <angleRestricted>(300,60)</angleRestricted>
+                <aimPieOffset>(-0.1, 0.15)</aimPieOffset>
+                <key>PKM</key>
+              </li>
+            </turrets>
+          </li>
+          <li Class="Vehicles.StatUpgrade">
+            <vehicleStats>
+              <li>
+                <def>CargoCapacity</def>
+                <value>-350</value>
+              </li>
+            </vehicleStats>
+          </li>
+          <li Class="Vehicles.VehicleUpgrade">
+            <roles>
+              <li>
+                <key>gunner</key>
+                <editKey>gunnerExpansion</editKey>
+                <label>Gunner</label>
+                <slots>1</slots>
+                <slotsToOperate>1</slotsToOperate>
+                <handlingTypes>Turret</handlingTypes>
+                <turretIds>
+                  <li>2S41</li>
+                  <li>PKM</li>
+                </turretIds>
+              </li>
+              <li>
+                <!--编辑已有乘员-->
+                <key>passenger</key>
+                <editKey>passengerExpansion</editKey>
+                <!--开启编辑-->
+                <label>Passenger</label>
+                <slots>2</slots>
+                <!--修改为2-->
+              </li>
+            </roles>
+          </li>
+        </upgrades>
+        <ingredients>
+          <Steel>120</Steel>
+          <Titanium>50</Titanium>
+          <AdvMechanism>8</AdvMechanism>
+          <ComponentAdvanced>8</ComponentAdvanced>
+        </ingredients>
+      </li>
+    </nodes>
+  </Vehicles.UpgradeTreeDef>
+</Defs>

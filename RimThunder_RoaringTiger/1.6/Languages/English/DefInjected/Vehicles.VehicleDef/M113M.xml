@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M113M_APC.label>M113(M) Mortar Carrier</RT_M113M_APC.label>
+  <RT_M113M_APC.description>Self-propelled mortar carrier armed with a 120mm M121 mortar for indirect artillery support and a .50 BMG defense MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander/Gunner x1, Mortar Crew x4
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 120mm M121 Mortar: 120mm Mortar shell (HE / EMP / Smoke)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_M113M_APC.description>
+</LanguageData>

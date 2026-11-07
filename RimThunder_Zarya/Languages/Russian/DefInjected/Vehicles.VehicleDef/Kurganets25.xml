@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Kurganets25_Vehicle.label>БМП «Курганец-25»</RT_Kurganets25_Vehicle.label>
+  <RT_Kurganets25_Vehicle.description>Гусеничная боевая машина пехоты нового поколения на универсальной средней платформе. Вооружена 57-мм боевым модулем, ПТУР «Корнет» и ракетами «Булат».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Наводчик x1, Командир x1, Десант x8
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 57-мм модуль «Эпоха»: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- ПТУР «Корнет»: 9M133 "Kornet"AntiTank missile(HEAT)
+- Микроракеты «Булат»: "Blart" mini missile(Thermobaric)
+- 7.62-мм пулемёт ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Kurganets25_Vehicle.description>
+</LanguageData>

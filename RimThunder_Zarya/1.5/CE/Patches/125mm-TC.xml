@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_125mmTC"]/ammoTypes</xpath>
+		<value>
+			<Ammo_Ru125mmTCADV_Sabot>Bullet_Ru125mmTCADV_Sabot</Ammo_Ru125mmTCADV_Sabot>
+		</value>
+	</Operation>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/CombatExtended.AmmoSetDef[defName="AmmoSet_125mmTC"]/ammoTypes</xpath>
+		<value>
+			<Ammo_Ru125mmTCADV_EMP>Bullet_Ru125mmTCADV_EMP</Ammo_Ru125mmTCADV_EMP>
+		</value>
+	</Operation>
+</Patch>

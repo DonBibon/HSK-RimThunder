@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MakeAmmo_120mmTC_HEAT.label>制作120mm M830 双效破甲弹 x5</MakeAmmo_120mmTC_HEAT.label>
+	<MakeAmmo_120mmTC_HEAT.description>制作5枚 120mm M830 双效破甲弹</MakeAmmo_120mmTC_HEAT.description>
+	<MakeAmmo_120mmTC_HEAT.jobString>正在制作5枚 120mm M830 双效破甲弹</MakeAmmo_120mmTC_HEAT.jobString>
+
+	<MakeAmmo_120mmTC_Sabot.label>制作120mm M829A4 脱壳尾翼稳定穿甲弹 x5</MakeAmmo_120mmTC_Sabot.label>
+	<MakeAmmo_120mmTC_Sabot.description>制作5枚 120mm M829A4 脱壳尾翼稳定穿甲弹</MakeAmmo_120mmTC_Sabot.description>
+	<MakeAmmo_120mmTC_Sabot.jobString>正在制作5枚 120mm M829A4 脱壳尾翼稳定穿甲弹</MakeAmmo_120mmTC_Sabot.jobString>
+</LanguageData>

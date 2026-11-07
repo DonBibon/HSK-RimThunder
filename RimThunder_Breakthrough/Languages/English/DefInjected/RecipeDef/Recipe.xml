@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_BMP3_Blueprint.description>Assembly of BMP-3 IFV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 100mm 2A70 Cannon: 3UOF19 (HE), 9M117M (HEAT) [ATGM]
+- 30mm 2A72 Autocannon: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Upgrade 2S38 Turret): 57x348mmSR (AP / AP-HE / Sabot)</RT_Make_BMP3_Blueprint.description>
+  <RT_Make_BMP3_Blueprint.label>Assemble BMP-3 IFV</RT_Make_BMP3_Blueprint.label>
+  <RT_Make_BMPT_Blueprint.description>Assembly of BMPT Terminator at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- Dual 30mm 2A42: 30x173mm cartridge (FMJ / HE / AP-I)
+- Ataka ATGM: 9M120M AntiTank missile (HEAT)
+- 2x 30mm AG-17D AGL: 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_BMPT_Blueprint.description>
+  <RT_Make_BMPT_Blueprint.label>Assemble BMPT Terminator</RT_Make_BMPT_Blueprint.label>
+  <RT_Make_T80BVM_Blueprint.description>Assembly of T-80BVM at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 125mm 2A46M-4 Cannon: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7mm Kord Heavy MG: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62mm Coaxial PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T80BVM_Blueprint.description>
+  <RT_Make_T80BVM_Blueprint.label>Assemble T-80BVM</RT_Make_T80BVM_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M48H_Vehicle.label>CM-11 Brave Tiger (M48H)</RT_M48H_Vehicle.label>
+  <RT_M48H_Vehicle.description>Taiwanese MBT combining an M48A5 turret with an M60A3 chassis and M1 Abrams fire control, armed with a 105mm M68 cannon.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Loader x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 105mm M68 Cannon: 105x617mmR NATO (HE / HESH / APFSDS)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M48H_Vehicle.description>
+
+  <RT_M48H_MediumTank.label>CM-11 Brave Tiger (M48H)</RT_M48H_MediumTank.label>
+  <RT_M48H_MediumTank.description>Taiwanese MBT combining an M48A5 turret with an M60A3 chassis and M1 Abrams fire control, armed with a 105mm M68 cannon.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Loader x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 105mm M68 Cannon: 105x617mmR NATO (HE / HESH / APFSDS)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M48H_MediumTank.description>
+</LanguageData>
+

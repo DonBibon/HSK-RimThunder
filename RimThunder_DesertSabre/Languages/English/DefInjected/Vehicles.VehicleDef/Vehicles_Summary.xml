@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M10.description>M10 Booker MPF.
+Armament: 105mm M35 rifled cannon, coaxial 7.62mm M240, AA .50 BMG M2HB.
+Ammunition: 105x617mmR NATO (APFSDS, HEAT, HESH), .50 BMG (12.7x99mm), 7.62x51mm NATO.</RT_M10.description>
+
+  <RT_M1A2.description>M1A2 Abrams SEP.
+Armament: 120mm M256 smoothbore gun, coaxial 7.62mm M240, AA .50 BMG M2HB machine gun, smoke launchers.
+Ammunition: 120x570mm NATO (APFSDS, HEAT-MP, Canister), .50 BMG, 7.62x51mm NATO.</RT_M1A2.description>
+
+  <RT_M2A3.description>M2A3 Bradley.
+Armament: 25mm M242 Bushmaster autocannon, twin TOW-2B ATGM launcher, coaxial 7.62mm M240C.
+Ammunition: 25x137mm NATO, TOW-2B, 7.62x51mm NATO.</RT_M2A3.description>
+
+  <RT_M1078.description>M1078 LMTV.
+Armament: No built-in armament (tactical transport truck).
+Ammunition: None.</RT_M1078.description>
+
+  <RT_MATV.description>Oshkosh M-ATV.
+Armament: Ring-mounted .50 BMG M2HB heavy machine gun.
+Ammunition: .50 BMG (12.7x99mm NATO).</RT_MATV.description>
+
+</LanguageData>

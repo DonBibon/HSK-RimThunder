@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.label>152mm 2A83主炮</RT_T14_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.description>换装口径更大的152mm 2A83主炮，但因体积限制，使用PKT同轴机枪替换2A72同轴机炮。</RT_T14_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>152mm 2A83主炮</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT同轴机枪</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>HCBT高射机枪</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel>烟雾发射器</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.4.gizmoLabel>烟雾发射器</RT_T14_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.4.gizmoLabel>	
+	
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.label>车载灭火器</RT_T14_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.description>装备车载灭火器。</RT_T14_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>车载灭火器</RT_T14_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+	
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.label>无人化改装</RT_T14_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.description>升级为无人化原型车。\n\n&lt;color=#ff5252&gt;（注意：根据与贸易舰队的227号协议，在殖民地以外的任何区域使用该车辆都是被禁止的）&lt;/color&gt;</RT_T14_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>125mm 2A82主炮</RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>2A72同轴机炮</RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>HCBT高射机枪</RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.3.gizmoLabel>烟雾发射器</RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.3.gizmoLabel>
+  <RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.4.gizmoLabel>烟雾发射器</RT_T14_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.4.gizmoLabel>
+	
+  <RT_T14_Vehicle_UpgradeTree.nodes.3.label>防崩落内衬</RT_T14_Vehicle_UpgradeTree.nodes.3.label>
+  
+  <RT_T14_Vehicle_UpgradeTree.nodes.3.description>在车内关键部位额外敷设内衬以保护核心组件与乘员。</RT_T14_Vehicle_UpgradeTree.nodes.3.description>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.label>贝加尔湖炮塔</RT_T15_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.description>换装配备了2A91火炮和双联装 9M133“短号”反坦克导弹的贝加尔湖炮塔。</RT_T15_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2A91主炮</RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT同轴机枪</RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>短号反坦克导弹</RT_T15_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.label>时代57炮塔</RT_T15_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.description>换装配备了57mm LShO-57 机炮，双联装 9M133“短号”反坦克导弹和“布拉特”微型导弹的时代57炮塔。</RT_T15_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>LShO-57 机炮</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>“布拉特”微型导弹</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>短号反坦克导弹</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.3.gizmoLabel>短号反坦克导弹</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.3.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.4.gizmoLabel>PKT同轴机枪</RT_T15_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.4.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.label>车载灭火器</RT_T15_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.description>装备车载灭火器。</RT_T15_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>车载灭火器</RT_T15_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>
+	
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.label>先进通讯电台</RT_T15_Vehicle_UpgradeTree.nodes.3.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.description>装备先进通讯电台以呼叫轨道炮击支援。</RT_T15_Vehicle_UpgradeTree.nodes.3.description>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>火炮支援</RT_T15_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.label>无人化改装</RT_T15_Vehicle_UpgradeTree.nodes.4.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.description>升级为配备了时代57炮塔的无人化原型车。\n\n&lt;color=#ff5252&gt;（注意：根据与贸易舰队的227号协议，在殖民地以外的任何区域使用该车辆都是被禁止的）&lt;/color&gt;</RT_T15_Vehicle_UpgradeTree.nodes.4.description>
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.0.gizmoLabel>LShO-57 机炮</RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.0.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.1.gizmoLabel>“布拉特”微型导弹</RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.1.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.2.gizmoLabel>短号反坦克导弹</RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.2.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.3.gizmoLabel>短号反坦克导弹</RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.3.gizmoLabel>
+  <RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.4.gizmoLabel>PKT同轴机枪</RT_T15_Vehicle_UpgradeTree.nodes.4.upgrades.0.turrets.4.gizmoLabel>	
+
+  <RT_T15_Vehicle_UpgradeTree.nodes.5.label>防崩落内衬</RT_T15_Vehicle_UpgradeTree.nodes.5.label>
+  
+  <RT_T15_Vehicle_UpgradeTree.nodes.5.description>在车内关键部位额外敷设内衬以保护核心组件与乘员。</RT_T15_Vehicle_UpgradeTree.nodes.5.description>
+
+
+
+
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_M10_MainBattleTank_Blueprint.label>M10 布克</RT_M10_MainBattleTank_Blueprint.label>
+	<RT_M10_MainBattleTank_Blueprint.description>一種為全球部署設計的第三代輕型主力戰車，裝備了120mm炮，由於貿易艦隊的管制沒有加裝APS，作為補償獲得了免費的火力升級.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x2, 車長 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n120mmCannon（主炮）\n50BMG（車頂機槍）\n7.62x51mmNATO（同軸機槍）</RT_M10_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

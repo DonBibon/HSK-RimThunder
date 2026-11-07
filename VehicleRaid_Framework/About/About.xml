@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VehicleRaid Framework</name>
+	<author>gabrieel1482</author>
+	<packageId>gabrieel1482.raidvehicleframework</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<description>This framework allows creating mods that add raids using vehicles.</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld</downloadUrl>
+		</li>
+		<li>
+			<packageId>smashphil.vehicleframework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicle-Framework</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>ariandel.miliraimperium</li>
+		<li>ancot.milirarace</li>
+  	</loadAfter>
+	<loadBefore>
+		<li>rimthunder.core</li>
+		<li>oskarpotocki.vanillavehiclesexpanded</li>
+  	</loadBefore>
+</ModMetaData>

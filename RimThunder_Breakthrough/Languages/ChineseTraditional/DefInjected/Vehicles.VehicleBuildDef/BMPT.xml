@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_BMPT_Blueprint_Blueprint.label>BMPT“終結者”</RT_BMPT_Blueprint_Blueprint.label>
+	<RT_BMPT_Blueprint.description>BMPT“終結者”是新世代的戰場火力支援車，因其豐富的武器配置和兇猛的火力被稱為死亡收割機.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1, 車長 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n30x165mm（主炮）\n9M120M（導彈）\n30x29mmGrenade（榴彈發射器）</RT_BMPT_Blueprint.description>
+
+
+</LanguageData>

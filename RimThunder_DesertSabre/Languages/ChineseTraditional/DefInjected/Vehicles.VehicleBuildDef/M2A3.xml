@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_M2A3_Vehicle_Blueprint.label>M2A3 佈萊德利</RT_M2A3_Vehicle_Blueprint.label>
+	<RT_M2A3_Vehicle_Blueprint.description>一種裝備了25mm機關炮和飛彈發射器的步兵戰車，能夠加裝BUSK套件以提升防御性能.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1, 車長 x1，乘客x7\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n25x137mmNATO（主炮）\nTOW（飛彈發射器）\n7.62x51mmNATO（同軸機槍）</RT_M2A3_Vehicle_Blueprint.description>
+
+
+</LanguageData>

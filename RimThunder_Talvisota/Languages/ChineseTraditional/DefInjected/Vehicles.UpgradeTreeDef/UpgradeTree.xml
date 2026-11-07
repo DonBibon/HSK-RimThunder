@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.label>T-34/57</RT_T34_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.description>????????76??L11?????57??Zis2????</RT_T34_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>Zis2??</RT_T34_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.label>T-34E</RT_T34_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.description>??????????????,???76??L11?????76??F34???</RT_T34_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>F34??</RT_T34_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.2.label>OT-34</RT_T34_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.2.description>??????????DT?????????</RT_T34_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_BT_Vehicle_UpgradeTree.nodes.0.label>BT-42</RT_BT_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_BT_Vehicle_UpgradeTree.nodes.0.description>?????QF4.5????BT-42?</RT_BT_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T28_Vehicle_UpgradeTree.nodes.0.label>T-28E</RT_T28_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_T28_Vehicle_UpgradeTree.nodes.0.description>??????,?????????</RT_T28_Vehicle_UpgradeTree.nodes.0.description>
+
+
+</LanguageData>

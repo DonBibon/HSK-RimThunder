@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 平衡相关 -->
+
+  <RT_Apoch57_Turret.label>57-мм пушка ЛШО-57</RT_Apoch57_Turret.label>
+  <RT_Apoch57_Turret.fireModes.0.label>одиночный огонь</RT_Apoch57_Turret.fireModes.0.label>
+  <RT_Apoch57_Turret.fireModes.1.label>скоростной одиночный огонь</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.fireModes.1.label>автоматический огонь</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.gizmoDescription>выберите цель.\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; 57mmAC</RT_Apoch57_Turret.gizmoDescription>
+
+  <RT_Bo_PKT_Turret.label>7,62-мм спаренный пулемет ПКТ</RT_Bo_PKT_Turret.label>
+
+  <RT_Min_Missile_Turret.label>малогабаритная ракета «Булат»</RT_Min_Missile_Turret.label>
+  <RT_Min_Missile_Turret.fireModes.1.label>одиночный огонь</RT_Min_Missile_Turret.fireModes.1.label>
+  <RT_Min_Missile_Turret.gizmoDescription>выберите цель\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; малогабаритная ракета «Булат»</RT_Min_Missile_Turret.gizmoDescription>
+	
+</LanguageData>

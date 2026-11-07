@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<Ammo_45x310mmR_AP.label>45x310mmR 穿甲榴彈</Ammo_45x310mmR_AP.label>
+	<Ammo_45x310mmR_HE.label>45x310mmR 高爆彈</Ammo_45x310mmR_HE.label>
+	<Ammo_45x310mmR_Canister.label>45x310mmR 炮射霰彈</Ammo_45x310mmR_Canister.label>
+
+	<Bullet_45x310mmR_AP.label>45x310mmR 穿甲榴彈</Bullet_45x310mmR_AP.label>
+	<Bullet_45x310mmR_HE.label>45x310mmR 高爆彈</Bullet_45x310mmR_HE.label>
+	<Bullet_45x310mmR_Canister.label>45x310mmR 炮射霰彈</Bullet_45x310mmR_Canister.label>
+
+</LanguageData>

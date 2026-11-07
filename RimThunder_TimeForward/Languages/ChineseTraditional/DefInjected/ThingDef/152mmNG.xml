@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Ammo_152mmNG_HE.label>152mm 高爆破片彈（HE）</Ammo_152mmNG_HE.label>
+	<Ammo_152mmNG_Sabot.label>152mm 脱殼尾翼稳定穿甲彈 （APFSDS）</Ammo_152mmNG_Sabot.label>
+	<Ammo_152mmNG_EMP.label>152mm 電磁脈衝彈 （EMP）</Ammo_152mmNG_EMP.label>
+	
+	<Bullet_152mmNG_HE.label>152mm 高爆破片彈</Bullet_152mmNG_HE.label>
+	<Bullet_152mmNG_Sabot.label>152mm 脱殼尾翼稳定穿甲彈</Bullet_152mmNG_Sabot.label>
+	<Bullet_152mmNG_EMP.label>152mm 電磁脈衝彈</Bullet_152mmNG_EMP.label>
+</LanguageData>

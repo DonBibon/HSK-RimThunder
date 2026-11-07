@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M10_MainBattleTank.label>M10 Booker</RT_M10_MainBattleTank.label>
+  <RT_M10_MainBattleTank.description>US Mobile Protected Firepower combat vehicle armed with a 105mm M35 rifled cannon, .50 Cal M2 Browning, and coaxial M240.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Loader x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 105mm M35 Cannon: 105x617mmR NATO (HE / HESH / APFSDS)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M10_MainBattleTank.description>
+</LanguageData>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Patch HSK Core stationary MS FGM-148 Javelin and BGM-71 TOW turrets to use authentic missiles instead of SPG-9 -->
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<!-- FGM-148 Javelin Turret Gun -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_ATML"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
+				<value>
+					<defaultProjectile>Bullet_Javelin_HEAT</defaultProjectile>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Gun_ATML"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+				<value>
+					<ammoSet>AmmoSet_FGM148Javelin</ammoSet>
+				</value>
+			</li>
+
+			<!-- BGM-71 TOW Turret Gun -->
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Artillery_TOWMissile"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
+				<value>
+					<defaultProjectile>Bullet_BGM71_HEAT</defaultProjectile>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Artillery_TOWMissile"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+				<value>
+					<ammoSet>AmmoSet_BGM71</ammoSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

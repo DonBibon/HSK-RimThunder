@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_C130_Vehicle_UpgradeTree.nodes.0.label>貨運改裝</RT_C130_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_C130_Vehicle_UpgradeTree.nodes.0.description>調整艙內佈局，優先運輸貨物。</RT_C130_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_C130_Vehicle_UpgradeTree.nodes.1.label>客運改裝</RT_C130_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_C130_Vehicle_UpgradeTree.nodes.1.description>調整艙內佈局，優先運輸人員。</RT_C130_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_CH53E_Vehicle_UpgradeTree.nodes.0.label>貨運改裝</RT_CH53E_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_CH53E_Vehicle_UpgradeTree.nodes.0.description>調整艙內佈局，優先運輸貨物。</RT_CH53E_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_CH53E_Vehicle_UpgradeTree.nodes.1.label>客運改裝</RT_CH53E_Vehicle_UpgradeTree.nodes.1.label>
+
+  <RT_CH53E_Vehicle_UpgradeTree.nodes.1.description>調整艙內佈局，優先運輸人員。</RT_CH53E_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_UH60_Vehicle_UpgradeTree.nodes.0.label>貨運改裝</RT_UH60_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_UH60_Vehicle_UpgradeTree.nodes.0.description>調整艙內佈局，優先運輸貨物。</RT_UH60_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_UH60_Vehicle_UpgradeTree.nodes.1.label>客運改裝</RT_UH60_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_UH60_Vehicle_UpgradeTree.nodes.1.description>調整艙內佈局，優先運輸人員。</RT_UH60_Vehicle_UpgradeTree.nodes.1.description>
+
+</LanguageData>

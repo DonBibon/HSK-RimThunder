@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_HoverCancelRoute>Cancel flight route</VRF_HoverCancelRoute>
+  <VRF_HoverCancelRouteDesc>Cancel the route and aiming orders. The aeroplane keeps flying; its engine remains on.</VRF_HoverCancelRouteDesc>
+  <VRF_HoverStopMovementDesc>Brake to a hover without turning off the engine.</VRF_HoverStopMovementDesc>
+</LanguageData>

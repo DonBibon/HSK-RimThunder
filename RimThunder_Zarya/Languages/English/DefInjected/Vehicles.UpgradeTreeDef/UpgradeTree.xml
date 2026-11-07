@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>EpochAlmaty Turret</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>Equip the EpochAlmaty Turret with 2A42 autocannon and 9M133 Kornet anti-tank Missile launchers.</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>2A42</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+	
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>Baikal Turret</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>Equip the Baikal Turret with 2A90 and 9M133 Kornet anti-tank Missile launcher.</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>2A91</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.1.turrets.0.gizmoLabel>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.label>T90M heavy ERA pack</RT_T90M_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.description>Equip the Relikt heavy ERA pack to T-90M</RT_T90M_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>2S25 Turret</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>Equip the 2S25M Turret with 2A75 Tank Cannon.</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>
+
+
+</LanguageData>

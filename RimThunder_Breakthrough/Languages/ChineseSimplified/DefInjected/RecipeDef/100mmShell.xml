@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_100mmShell_HE.label>制作3UOF19 高爆弹 x5</MakeAmmo_100mmShell_HE.label>
+	<MakeAmmo_100mmShell_HE.description>制作5枚 3UOF19 高爆弹</MakeAmmo_100mmShell_HE.description>
+	<MakeAmmo_100mmShell_HE.jobString>正在制作5枚 3UOF19 高爆弹</MakeAmmo_100mmShell_HE.jobString>
+
+	<MakeAmmo_Ru100mmShell_HEAT.label>制作9M117M 炮射导弹 x5</MakeAmmo_Ru100mmShell_HEAT.label>
+	<MakeAmmo_Ru100mmShell_HEAT.description>制作5枚 9M117M 炮射导弹</MakeAmmo_Ru100mmShell_HEAT.description>
+	<MakeAmmo_Ru100mmShell_HEAT.jobString>正在制作5枚 9M117M 炮射导弹</MakeAmmo_Ru100mmShell_HEAT.jobString>
+	
+</LanguageData>

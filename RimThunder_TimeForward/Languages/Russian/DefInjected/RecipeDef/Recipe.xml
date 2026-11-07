@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_T14_Blueprint.description>Сборка техники Т-14 «Армата» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 125-мм пушка 2А82-1М: 125mm 3OF82 (HE), 125mm 3BK29M (HEAT), 125mm 3BM69 (APFSDS), 125mm 3UBK21F1 (Thermobaric)
+- 12.7-мм ДУМВ Корд: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)</RT_Make_T14_Blueprint.description>
+  <RT_Make_T14_Blueprint.label>Собрать Т-14 «Армата»</RT_Make_T14_Blueprint.label>
+  <RT_Make_T15_Blueprint.description>Сборка техники Т-15 «Армата» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 57-мм модуль «Байкал»: 57x348mmSR (AP / AP-HE / Sabot)
+- ПТУР «Корнет»: 9M133 "Kornet"AntiTank missile(HEAT)
+- 7.62-мм пулемёт ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T15_Blueprint.description>
+  <RT_Make_T15_Blueprint.label>Собрать Т-15 «Армата»</RT_Make_T15_Blueprint.label>
+</LanguageData>

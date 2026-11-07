@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<Ammo_120mmTC_HEAT.label>120mm M830 双效破甲弹 (HEAT)</Ammo_120mmTC_HEAT.label>
+
+	<Bullet_120mmTC_HEAT.label>120mm M830 双效破甲弹</Bullet_120mmTC_HEAT.label>
+
+	<Ammo_120mmTC_Sabot.label>120mm M829A4 脱壳尾翼稳定穿甲弹 (APFSDS)</Ammo_120mmTC_Sabot.label>
+
+	<Bullet_120mmTC_Sabot.label>120mm M829A4 脱壳尾翼稳定穿甲弹</Bullet_120mmTC_Sabot.label>
+
+	<Ammo_120mmTC_EMP.label>120mm M200E4 电磁脉冲弹 (EMP)</Ammo_120mmTC_EMP.label>
+
+	<Bullet_120mmTC_EMP.label>120mm M200E4 电磁脉冲弹</Bullet_120mmTC_EMP.label>
+</LanguageData>

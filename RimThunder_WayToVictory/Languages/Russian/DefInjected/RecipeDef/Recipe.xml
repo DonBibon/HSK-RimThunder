@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_BA64_Blueprint.description>Сборка техники БА-64 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_BA64_Blueprint.description>
+  <RT_Make_BA64_Blueprint.label>Собрать БА-64</RT_Make_BA64_Blueprint.label>
+  <RT_Make_BM13_Blueprint.description>Сборка техники БМ-13 «Катюша» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 132-мм РСЗО М-13 (16 направляющих): 132mm M-13 rocket</RT_Make_BM13_Blueprint.description>
+  <RT_Make_BM13_Blueprint.label>Собрать БМ-13 «Катюша»</RT_Make_BM13_Blueprint.label>
+  <RT_Make_IS2_Blueprint.description>Сборка техники ИС-2 обр. 1945 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 122-мм орудие Д-25Т: 122mmHowitzer Cannon shell (HE / APHE)
+- 12.7-мм зенитный ДШК: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_IS2_Blueprint.description>
+  <RT_Make_IS2_Blueprint.label>Собрать ИС-2 обр. 1945</RT_Make_IS2_Blueprint.label>
+  <RT_Make_IS3_Blueprint.description>Сборка техники ИС-3 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 122-мм орудие Д-25Т: 122mmHowitzer Cannon shell (HE / APHE)
+- 12.7-мм зенитный ДШК: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_IS3_Blueprint.description>
+  <RT_Make_IS3_Blueprint.label>Собрать ИС-3</RT_Make_IS3_Blueprint.label>
+  <RT_Make_T3485_Blueprint.description>Сборка техники Т-34-85 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 85-мм пушка ЗИС-С-53: 85x629mmR (AP / APHE / HE)
+- 7.62-мм пулемёт ДТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T3485_Blueprint.description>
+  <RT_Make_T3485_Blueprint.label>Собрать Т-34-85</RT_Make_T3485_Blueprint.label>
+  <RT_Make_T70_Blueprint.description>Сборка техники Т-70 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 45-мм пушка 20-К: 45x310mmR (AP / Canister)
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T70_Blueprint.description>
+  <RT_Make_T70_Blueprint.label>Собрать Т-70</RT_Make_T70_Blueprint.label>
+</LanguageData>

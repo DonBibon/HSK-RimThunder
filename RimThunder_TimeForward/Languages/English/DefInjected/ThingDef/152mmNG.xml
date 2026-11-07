@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Ammo_152mmNG_HE.label>152mm cannon shell (HE)</Ammo_152mmNG_HE.label>
+	<Ammo_152mmNG_Sabot.label>152mm cannon shell (APFSDS)</Ammo_152mmNG_Sabot.label>
+	<Ammo_152mmNG_EMP.label>152mm cannon shell (EMP)</Ammo_152mmNG_EMP.label>
+	
+	<Bullet_152mmNG_HE.label>152mm HE</Bullet_152mmNG_HE.label>
+	<Bullet_152mmNG_Sabot.label>152mm APFSDS</Bullet_152mmNG_Sabot.label>
+	<Bullet_152mmNG_EMP.label>152mm EMP</Bullet_152mmNG_EMP.label>
+</LanguageData>

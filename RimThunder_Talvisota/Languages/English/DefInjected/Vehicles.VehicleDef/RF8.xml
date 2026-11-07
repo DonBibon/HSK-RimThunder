@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_RF8_Vehicle.label>NKL-26 / RF-8 Aerosan</RT_RF8_Vehicle.label>
+  <RT_RF8_Vehicle.description>Armored propeller-driven aerosan for extreme winter warfare and deep snow traversal, armed with a 7.62mm DT MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_RF8_Vehicle.description>
+</LanguageData>

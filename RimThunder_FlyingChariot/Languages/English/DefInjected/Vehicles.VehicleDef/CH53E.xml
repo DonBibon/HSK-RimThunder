@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_CH53E_Vehicle.label>CH-53E Super Stallion</RT_CH53E_Vehicle.label>
+  <RT_CH53E_Vehicle.description>Heavy-lift military helicopter capable of airlifting immense payloads, protected by twin .50 BMG GAU-21 heavy machine guns.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilot x2, Door Gunner x2, Passenger x24
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 2x .50 Cal GAU-21 Heavy MG: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_CH53E_Vehicle.description>
+</LanguageData>

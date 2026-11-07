@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="125mmTCBase">
+		<defName>Ammo_Ru125mmTCADV_Sabot</defName>
+		<label>125mm 3BM59 cannon shell (APFSDS)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Ammo_3BM59</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>60</MarketValue>
+			<Mass>16</Mass>
+		</statBases>
+		<ammoClass>Sabot</ammoClass>
+		<detonateProjectile>Bullet_Ru125mmTCADV_Sabot</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="125mmTCBase">
+		<defName>Ammo_Ru125mmTCADV_EMP</defName>
+		<label>125mm 3BV11 cannon shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/125mm_EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>67</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_Ru125mmTCADV_EMP</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base125mmTC">
+		<defName>Bullet_Ru125mmTCADV_Sabot</defName>
+		<label>125mm 3BM59 cannon shell (APFSDS)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_3BM59</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>275</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>420</damageAmountBase>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<armorPenetrationSharp>630</armorPenetrationSharp>
+			<armorPenetrationBlunt>120000</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>125</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragXZAngleRange>-5~5</fragXZAngleRange>
+				<fragAngleRange>0~2</fragAngleRange>
+				<fragments>
+					<Fragment_APFSDS>8</Fragment_APFSDS>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base125mmTC">
+		<defName>Bullet_Ru125mmTCADV_EMP</defName>
+		<label>125mm 3BV11 cannon shell (EMP)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_125_EMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>225</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>7.5</explosionRadius>
+			<speed>170</speed>
+		</projectile>
+	</ThingDef>
+
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_Ru125mmTCADV_Sabot</defName>
+		<label>make 125mm 3BM59 APFSDS cannon shells x5</label>
+		<description>Craft 5 125mm 3BM59 APFSDS cannon shells.</description>
+		<jobString>Making 5 125mm 3BM59 APFSDS cannon shells.</jobString>
+		<workAmount>16800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Ru125mmTCADV_Sabot>5</Ammo_Ru125mmTCADV_Sabot>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Ru125mmTCADV_EMP</defName>
+		<label>make 125mm 3BV11 EMP cannon shells x5</label>
+		<description>Craft 5 125mm 3BV15 EMP cannon shells.</description>
+		<jobString>Making 5 125mm 3BV15 EMP cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>115</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Ru125mmTCADV_EMP>5</Ammo_Ru125mmTCADV_EMP>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

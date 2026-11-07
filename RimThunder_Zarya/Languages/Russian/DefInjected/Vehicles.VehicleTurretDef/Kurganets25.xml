@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+
+	<RT_KPVT_Turret.label>14,5-мм пулемет КПВТ</RT_KPVT_Turret.label>
+	<RT_KPVT_Turret.fireModes.0.label>одиночный огонь</RT_KPVT_Turret.fireModes.0.label>
+	<RT_KPVT_Turret.fireModes.1.label>скоростной одиночный огонь</RT_KPVT_Turret.fireModes.1.label>
+	<RT_KPVT_Turret.fireModes.2.label>автоматический огонь</RT_KPVT_Turret.fireModes.2.label>
+	<RT_KPVT_Turret.gizmoDescription>выберите цель。\n\nЭффективный выстрел\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; 14.5x114mm</RT_KPVT_Turret.gizmoDescription>
+
+</LanguageData>

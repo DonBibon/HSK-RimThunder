@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Make_T80BVM_MainBattleTank_Blueprint.label>組裝T-80BVM</RT_Make_T80BVM_MainBattleTank_Blueprint.label>
+	<RT_Make_T80BVM_MainBattleTank_Blueprint.description>組裝T-80BVM。</RT_Make_T80BVM_MainBattleTank_Blueprint.description>
+
+	<RT_Make_T90M_MainBattleTank_Blueprint.label>組裝T-90M</RT_Make_T90M_MainBattleTank_Blueprint.label>
+	<RT_Make_T90M_MainBattleTank_Blueprint.description>組裝T-90M。</RT_Make_T90M_MainBattleTank_Blueprint.description>
+
+	<RT_Make_BMPT_Blueprint.label>組裝BMPT</RT_Make_BMPT_Blueprint.label>
+	<RT_Make_BMPT_Blueprint.description>組裝BMPT。</RT_Make_BMPT_Blueprint.description>
+
+	<RT_Make_BMP3_Blueprint.label>組裝BMP3</RT_Make_BMP3_Blueprint.label>
+	<RT_Make_BMP3_Blueprint.description>組裝BMP3。</RT_Make_BMP3_Blueprint.description>
+
+</LanguageData>

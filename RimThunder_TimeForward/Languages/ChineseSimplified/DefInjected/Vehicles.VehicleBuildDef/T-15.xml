@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T15_IFV_Blueprint.label>T-15“阿玛塔”重型步兵战车</RT_T15_IFV_Blueprint.label>
+	<RT_T15_IFV_Blueprint.description>T-15“阿玛塔”是俄联邦武装力量次时代重型通用底盘，能根据战场需求选择多种火力配置，且“阿玛塔”底盘使其具备了与主战坦克同等的防护水平。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x1, 车长 x1，乘客 x8\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n30x165mm（主炮）\n9M133“短号”反坦克导弹（导弹发射器）\n7.62x54mmR（同轴机枪）</RT_T15_IFV_Blueprint.description>
+
+
+</LanguageData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M113M_APC.label>M113(M) Самоходный миномёт</RT_M113M_APC.label>
+  <RT_M113M_APC.description>Самоходный миномёт на базе M113, оснащённый 120-мм миномётом M121 для стрельбы с закрытых позиций навесом и пулемётом Browning .50 BMG.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Командир-стрелок x1, Миномётчики x4
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 120-мм миномёт M121: 120mm Mortar shell (HE / EMP / Smoke)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_M113M_APC.description>
+</LanguageData>

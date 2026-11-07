@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.label>BMP3炮塔</RT_BMP3_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.description>換裝配備了2K23武器綜合體的炮塔</RT_BMP3_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>2A70主炮</RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.1.gizmoLabel>2A72同軸機炮</RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.1.gizmoLabel>
+
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.1.label>2S38炮塔</RT_BMP3_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.1.description>換裝配備了2A90火炮的AU220炮塔</RT_BMP3_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>2A90主炮</RT_BMP3_Vehicle_UpgradeTree.nodes.0.upgrades.1.turrets.0.gizmoLabel>
+
+</LanguageData>

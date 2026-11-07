@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1A2SEP_MainBattleTank.label>M1A2 Abrams SEP</RT_M1A2SEP_MainBattleTank.label>
+  <RT_M1A2SEP_MainBattleTank.description>Основной боевой танк армии США с газотурбинной силовой установкой, комбинированной урановой бронёй, 120-мм гладкоствольной пушкой M256 и крупнокалиберным пулемётом Browning .50 BMG.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Заряжающий x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 120-мм гладкоствольная пушка M256: 120mm NATO (HE / APFSDS / Canister)
+- 12.7-мм пулемёт M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62-мм пулемёт M240: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M1A2SEP_MainBattleTank.description>
+</LanguageData>

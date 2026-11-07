@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BMP3_Vehicle.label>BMP-3 IFV</RT_BMP3_Vehicle.label>
+  <RT_BMP3_Vehicle.description>Infantry fighting vehicle armed with a 100mm 2A70 gun and coaxial 30mm 2A72 autocannon. Upgradable to 2S38 57mm turret.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x5
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 100mm 2A70 Cannon: 3UOF19 (HE), 9M117M (HEAT) [ATGM]
+- 30mm 2A72 Autocannon: 30x173mm cartridge (FMJ / HE / AP-I)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Upgrade 2S38 Turret): 57x348mmSR (AP / AP-HE / Sabot)</RT_BMP3_Vehicle.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_M2A3_Vehicle_Blueprint.label>M2A3 Bradley</RT_M2A3_Vehicle_Blueprint.label>
+	<RT_M2A3_Vehicle_Blueprint.description>An IFV equipped with a 25mm autocannon and missile launcher, can add BUSK kits to improve defense.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1, Passenger x7\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n25x137mmNATO（Main Cannon）\nTOW（ATGM Launcher）\n7.62x51mmNATO（Coaxial MG）</RT_M2A3_Vehicle_Blueprint.description>
+
+
+</LanguageData>

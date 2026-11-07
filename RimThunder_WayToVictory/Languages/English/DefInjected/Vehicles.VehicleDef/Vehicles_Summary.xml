@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BM13.description>BM-13 Katyusha.
+Armament: 132mm M-13 MLRS (16 rails).
+Ammunition: 132mm M-13 rockets.</RT_BM13.description>
+
+  <RT_BA64.description>BA-64.
+Armament: 7.62mm DT machine gun.
+Ammunition: 7.62x54mmR.</RT_BA64.description>
+
+  <RT_T70.description>T-70.
+Armament: 45mm 20-K tank gun, coaxial 7.62mm DT machine gun.
+Ammunition: 45x310mmR (APHE, HE, Canister), 7.62x54mmR.</RT_T70.description>
+
+  <RT_T34_85.description>T-34/85.
+Armament: 85mm ZIS-S-53 gun, coaxial 7.62mm DT machine gun, bow DT machine gun.
+Ammunition: 85x629mmR (AP, HE, APCR), 7.62x54mmR.</RT_T34_85.description>
+
+  <RT_IS2.description>IS-2 Obr. 1945.
+Armament: 122mm D-25T tank gun, coaxial 7.62mm DT machine gun, AA 12.7mm DShK machine gun.
+Ammunition: 122x785mmR (AP, HE), 12.7x108mm, 7.62x54mmR.</RT_IS2.description>
+
+  <RT_IS3.description>IS-3.
+Armament: 122mm D-25T tank gun, coaxial 7.62mm DT machine gun, AA 12.7mm DShK machine gun.
+Ammunition: 122x785mmR (AP, HE, HEAT), 12.7x108mm, 7.62x54mmR.</RT_IS3.description>
+
+</LanguageData>

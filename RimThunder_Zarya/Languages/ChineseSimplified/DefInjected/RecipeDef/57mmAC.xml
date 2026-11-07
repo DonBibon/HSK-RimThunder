@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_3OF91_HE.label>制作57mm 3OF91 高爆弹 (HE) x50</MakeAmmo_3OF91_HE.label>
+	<MakeAmmo_3OF91_HE.description>制作50枚 57mm 3OF91 高爆弹 (HE)</MakeAmmo_3OF91_HE.description>
+	<MakeAmmo_3OF91_HE.jobString>正在制作50枚 57mm 3OF91 高爆弹 (HE)</MakeAmmo_3OF91_HE.jobString>
+
+	<MakeAmmo_3UBM21_Sabot.label>制作57mm 3UBM21 尾翼稳定脱壳穿甲弹 x50</MakeAmmo_3UBM21_Sabot.label>
+	<MakeAmmo_3UBM21_Sabot.description>制作50枚 57mm 3UBM21 尾翼稳定脱壳穿甲弹</MakeAmmo_3UBM21_Sabot.description>
+	<MakeAmmo_3UBM21_Sabot.jobString>正在制作50枚 57mm 3UBM21 尾翼稳定脱壳穿甲弹</MakeAmmo_3UBM21_Sabot.jobString>
+
+</LanguageData>

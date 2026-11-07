@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  	<RT_VDV_32V01Turret.label>32V01 遥控武器站</RT_VDV_32V01Turret.label>
+  	<RT_VDV_32V01Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 30x165mm</RT_VDV_32V01Turret.gizmoDescription>
+
+	<RT_VDV_32V01BTurret.label>32V01 遥控武器站</RT_VDV_32V01BTurret.label>
+  	<RT_VDV_32V01BTurret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 30x165mm</RT_VDV_32V01BTurret.gizmoDescription>
+
+	<RT_VDV_Kornet_Turret.label>“短号-EM” 导弹发射器</RT_VDV_Kornet_Turret.label>
+  	<RT_VDV_Kornet_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 9M133 missile</RT_VDV_Kornet_Turret.gizmoDescription>
+
+	<RT_VDV_AGS30_Turret.label>AGS-30 自动榴弹发射器</RT_VDV_AGS30_Turret.label>
+  	<RT_VDV_AGS30_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 30x29mm Grenade</RT_VDV_AGS30_Turret.gizmoDescription>
+
+	<RT_2S41_Turret.label>2S41"金雀花"82mm 迫击炮</RT_2S41_Turret.label>
+  	<RT_2S41_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 81mmMortar</RT_2S41_Turret.gizmoDescription>
+
+	<RT_VDV_PKT_MGTurret.label>PKT 同轴机枪</RT_VDV_PKT_MGTurret.label>
+  	<RT_VDV_PKT_MGTurret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 7.62x54mmR</RT_VDV_PKT_MGTurret.gizmoDescription>
+
+	<RT_VDV_PKM_Turret.label>PKM 机枪</RT_VDV_PKM_Turret.label>
+  	<RT_VDV_PKM_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 7.62x54mmR</RT_VDV_PKM_Turret.gizmoDescription>
+
+</LanguageData>

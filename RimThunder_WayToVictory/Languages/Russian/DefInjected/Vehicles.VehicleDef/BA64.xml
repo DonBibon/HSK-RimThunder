@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BA64_Vehicle.label>БА-64</RT_BA64_Vehicle.label>
+  <RT_BA64_Vehicle.description>Советский лёгкий бронеавтомобиль периода Второй мировой войны. Создан на полноприводном шасси ГАЗ-64 для разведки и связи.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x1, Командир-стрелок x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_BA64_Vehicle.description>
+</LanguageData>

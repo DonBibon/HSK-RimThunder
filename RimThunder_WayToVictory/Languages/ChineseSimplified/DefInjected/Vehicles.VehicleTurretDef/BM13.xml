@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_BM13_Turret.label>火箭炮</RT_BM13_Turret.label>
+  <RT_BM13_Turret.fireModes.0.label>齐射</RT_BM13_Turret.fireModes.0.label>
+  <RT_BM13_Turret.fireModes.1.label>半齐射</RT_BM13_Turret.fireModes.1.label>
+  <RT_BM13_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 132mmM13</RT_BM13_Turret.gizmoDescription>
+
+
+</LanguageData>

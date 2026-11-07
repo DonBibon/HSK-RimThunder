@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T28_Vehicle.label>Т-28</RT_T28_Vehicle.label>
+  <RT_T28_Vehicle.description>Советский трёхбашенный средний танк качественного усиления пехоты. Несёт 76.2-мм короткоствольную пушку КТ-28 и три пулемётные точки.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Пулемётчики x2
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 76.2-мм пушка КТ-28: 76.2x385mmR (APHE / HE / Shrapnel)
+- 3x 7.62-мм пулемёта ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T28_Vehicle.description>
+</LanguageData>

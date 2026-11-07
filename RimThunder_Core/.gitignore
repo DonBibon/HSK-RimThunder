@@ -1,0 +1,16 @@
+*.suo
+*.cache
+*.pdb
+*.cfg
+*.vsidx
+*.user
+*.lock
+*.CopyComplete
+*/Thumbs.db
+/Sources/.vs/*
+Sources/*/obj/*
+Sources/*/bin/*
+/Sources/*/*.csproj.user
+Sources/Motorization/Motorization/obj/Debug/*
+Sources/Motorization/.vs/Motorization/FileContentIndex/read.lock
+*.vsidx

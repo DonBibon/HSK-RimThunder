@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  	<RT_Zis2_Turret.label>57mm Zis4</RT_Zis2_Turret.label>
+	<RT_Zis2_Turret.fireModes.0.label>Single Shot</RT_Zis2_Turret.fireModes.0.label>
+	<RT_Zis2_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 57x480mmR</RT_Zis2_Turret.gizmoDescription>
+
+	<RT_T34E_Turret.label>76mm F34</RT_T34E_Turret.label>
+	<RT_T34E_Turret.fireModes.0.label>Single Shot</RT_T34E_Turret.fireModes.0.label>
+	<RT_T34E_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 76.2x385mmR</RT_T34E_Turret.gizmoDescription>
+
+	<RT_QF4p5_Turret.label>QF4.5 Howitzer</RT_QF4p5_Turret.label>
+	<RT_QF4p5_Turret.fireModes.0.label>Single Shot</RT_QF4p5_Turret.fireModes.0.label>
+	<RT_QF4p5_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 105mmHowitzer</RT_QF4p5_Turret.gizmoDescription>
+
+	<RT_DT_Turret_c.label>DT machine gun</RT_DT_Turret_c.label>
+  	<RT_DT_Turret_c.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 7.62x54mmR</RT_DT_Turret_c.gizmoDescription>
+
+	<RT_OT34_Flamethrower.label>ATO-42 flamethrower</RT_OT34_Flamethrower.label>
+	<RT_OT34_Flamethrower.fireModes.0.label>Single Shot</RT_OT34_Flamethrower.fireModes.0.label>
+	<RT_OT34_Flamethrower.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; flamethrower fuel</RT_OT34_Flamethrower.gizmoDescription>
+  
+</LanguageData>

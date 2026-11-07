@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1078_LMTV.label>M1078 LMTV</RT_M1078_LMTV.label>
+  <RT_M1078_LMTV.description>Средний армейский тактический грузовик (4х4 / 6х6) грузоподъёмностью 2.5 тонны для быстрой доставки пехоты и припасов.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Водитель x2, Десант x12
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- Без штатного вооружения (Средний грузовик)</RT_M1078_LMTV.description>
+</LanguageData>

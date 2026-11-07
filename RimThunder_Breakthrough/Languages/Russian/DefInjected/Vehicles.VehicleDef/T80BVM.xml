@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T80BVM_MainBattleTank.label>Т-80БВМ</RT_T80BVM_MainBattleTank.label>
+  <RT_T80BVM_MainBattleTank.description>Модернизированный основной боевой танк с газотурбинным двигателем, комплексом ДЗ «Реликт», 125-мм орудием 2А46М-4 и зенитным пулемётом «Корд».
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 125-мм орудие 2А46М-4: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7-мм пулемёт Корд: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T80BVM_MainBattleTank.description>
+</LanguageData>

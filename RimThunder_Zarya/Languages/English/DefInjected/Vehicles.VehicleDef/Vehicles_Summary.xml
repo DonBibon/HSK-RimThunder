@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T90M.description>T-90M Proryv.
+Armament: 125mm 2A46M-5 gun, Invar-M ATGM, remote 12.7mm Kord turret, coaxial 7.62mm PKTM.
+Ammunition: 125mm Smoothbore (APFSDS, HEAT, HE-Frag), 12.7x108mm, 7.62x54mmR.</RT_T90M.description>
+
+  <RT_Kurganets25.description>Kurganets-25 IFV.
+Armament: Epokha combat module (30mm 2A42 autocannon, 4x Kornet-D ATGMs, 7.62mm PKTM).
+Ammunition: 30x165mm, 7.62x54mmR.</RT_Kurganets25.description>
+
+  <RT_Boomerang.description>Boomerang IFV.
+Armament: Boomerang-BM turret (30mm 2A42 autocannon, 4x Kornet ATGMs, 7.62mm PKTM).
+Ammunition: 30x165mm, 7.62x54mmR.</RT_Boomerang.description>
+
+  <RT_Kamaz5350.description>Kamaz 5350.
+Armament: No built-in armament (military 6x6 transport truck).
+Ammunition: None.</RT_Kamaz5350.description>
+
+  <RT_TyphoonVDV.description>Typhoon VDV.
+Armament: Remote weapon station with 30mm 2A42 autocannon.
+Ammunition: 30x165mm.</RT_TyphoonVDV.description>
+
+</LanguageData>

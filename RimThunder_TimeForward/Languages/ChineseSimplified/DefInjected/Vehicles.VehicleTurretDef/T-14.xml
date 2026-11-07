@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<T14_2A82_Turret.label>125毫米2A82坦克炮</T14_2A82_Turret.label>
+  	<T14_2A82_Turret.fireModes.0.label>单发射击</T14_2A82_Turret.fireModes.0.label>
+  	<T14_2A82_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 125mmNG</T14_2A82_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_HCBT_NG_Turret.label>HCBT高射机枪</RT_HCBT_NG_Turret.label>
+  	<RT_HCBT_NG_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 12.7x108mm</RT_HCBT_NG_Turret.gizmoDescription>
+	
+	<T14_2A72_Turret.label>2A72同轴机炮</T14_2A72_Turret.label>
+	<T14_2A72_Turret.fireModes.0.label>单发</T14_2A72_Turret.fireModes.0.label>
+	<T14_2A72_Turret.fireModes.1.label>点射</T14_2A72_Turret.fireModes.1.label>
+	<T14_2A72_Turret.fireModes.2.label>连射</T14_2A72_Turret.fireModes.2.label>
+	<T14_2A72_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 30x165mm</T14_2A72_Turret.gizmoDescription>
+
+
+</LanguageData>

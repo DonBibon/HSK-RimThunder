@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_C130_Vehicle.label>C-130 Hercules</RT_C130_Vehicle.label>
+  <RT_C130_Vehicle.description>Основной четырёхмоторный турбовинтовой военно-транспортный самолёт. Способен перевозить тяжёлые грузы и десант на межконтинентальные расстояния.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилоты x2, Штурман x1, Десант x64
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- Без штатного вооружения (Военно-транспортный самолёт)</RT_C130_Vehicle.description>
+</LanguageData>

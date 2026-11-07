@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T70_Vehicle.label>Т-70</RT_T70_Vehicle.label>
+  <RT_T70_Vehicle.description>Советский лёгкий танк периода Второй мировой войны, вооружённый 45-мм пушкой 20-К и спаренным пулемётом ДТ.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир-наводчик x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 45-мм пушка 20-К: 45x310mmR (AP / Canister)
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T70_Vehicle.description>
+</LanguageData>

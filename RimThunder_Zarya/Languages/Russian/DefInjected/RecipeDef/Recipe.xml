@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_Boomerang_Blueprint.description>Сборка техники БМП «Бумеранг» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 57-мм модуль «Эпоха»: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- ПТУР «Корнет»: 9M133 "Kornet"AntiTank missile(HEAT)
+- Микроракеты «Булат»: "Blart" mini missile(Thermobaric)
+- 7.62-мм пулемёт ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_Boomerang_Blueprint.description>
+  <RT_Make_Boomerang_Blueprint.label>Собрать БМП «Бумеранг»</RT_Make_Boomerang_Blueprint.label>
+  <RT_Make_Kurganets25_Blueprint.description>Сборка техники БМП «Курганец-25» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 57-мм модуль «Эпоха»: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- ПТУР «Корнет»: 9M133 "Kornet"AntiTank missile(HEAT)
+- Микроракеты «Булат»: "Blart" mini missile(Thermobaric)
+- 7.62-мм пулемёт ПКТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_Kurganets25_Blueprint.description>
+  <RT_Make_Kurganets25_Blueprint.label>Собрать БМП «Курганец-25»</RT_Make_Kurganets25_Blueprint.label>
+  <RT_Make_T90M_Blueprint.description>Сборка техники Т-90М «Прорыв-3» на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 125-мм орудие 2А46М-5: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7-мм ДУМВ Корд: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62-мм спаренный ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T90M_Blueprint.description>
+  <RT_Make_T90M_Blueprint.label>Собрать Т-90М «Прорыв-3»</RT_Make_T90M_Blueprint.label>
+</LanguageData>

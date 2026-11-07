@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BT5.description>BT-5.
+Armament: 45mm 20-K tank gun, coaxial 7.62mm DT machine gun.
+Ammunition: 45x310mmR (APHE, HE, Canister), 7.62x54mmR.</RT_BT5.description>
+
+  <RT_T28.description>T-28.
+Armament: 76.2mm L-10 tank gun, 3x 7.62mm DT machine guns.
+Ammunition: 76.2x385mmR (AP, HE, Shrapnel), 7.62x54mmR.</RT_T28.description>
+
+  <RT_T34.description>T-34 Obr. 1941.
+Armament: 76.2mm F-34 tank gun, coaxial 7.62mm DT, bow 7.62mm DT machine gun.
+Ammunition: 76.2x385mmR (AP, HE, APCR), 7.62x54mmR.</RT_T34.description>
+
+  <RT_M72.description>M-72.
+Armament: Sidecar-mounted 7.62mm DP-27 machine gun.
+Ammunition: 7.62x54mmR.</RT_M72.description>
+
+  <RT_RF8.description>RF-8.
+Armament: 7.62mm DT turret machine gun.
+Ammunition: 7.62x54mmR.</RT_RF8.description>
+
+  <RT_NKL26.description>NKL-26.
+Armament: 7.62mm DT turret machine gun in armored casemate.
+Ammunition: 7.62x54mmR.</RT_NKL26.description>
+
+</LanguageData>

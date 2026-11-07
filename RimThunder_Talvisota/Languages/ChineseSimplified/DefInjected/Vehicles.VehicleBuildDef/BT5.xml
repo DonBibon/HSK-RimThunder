@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_BT5_Vehicle_Blueprint.label>BT-5</RT_BT5_Vehicle_Blueprint.label>
+	<RT_BT5_Vehicle_Blueprint.description>一种据贸易舰队称善于猎豹的轻型坦克，装备了一门45mm炮，机动优秀但装甲薄弱，能够升级为装备有榴弹炮的BT-42。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x2\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n45x310mmR（主炮）\n7.62x54mmR（同轴机枪）</RT_BT5_Vehicle_Blueprint.description>
+
+
+</LanguageData>

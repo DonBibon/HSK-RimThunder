@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  	<RT_MATV_RWSTurret.label>M2HB RWS</RT_MATV_RWSTurret.label>
+  	<RT_MATV_RWSTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 50BMG</RT_MATV_RWSTurret.gizmoDescription>
+
+	<RT_MATV_RWSMTurret.label>M2HB RWS</RT_MATV_RWSMTurret.label>
+  	<RT_MATV_RWSMTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 50BMG</RT_MATV_RWSMTurret.gizmoDescription>
+
+	<RT_Mk19_Turret.label>Mk19 Grenade Launcher</RT_Mk19_Turret.label>
+  	<RT_Mk19_Turret.fireModes.0.label>Single</RT_Mk19_Turret.fireModes.0.label>
+	<RT_Mk19_Turret.fireModes.1.label>Auto</RT_Mk19_Turret.fireModes.1.label>
+	<RT_Mk19_Turret.fireModes.2.label>Burst</RT_Mk19_Turret.fireModes.2.label>
+  	<RT_Mk19_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 40x53mm Grenade</RT_Mk19_Turret.gizmoDescription>
+
+	<RT_Mk19RWS_Turret.label>Mk19 RWS</RT_Mk19RWS_Turret.label>
+  	<RT_Mk19RWS_Turret.fireModes.0.label>Single</RT_Mk19RWS_Turret.fireModes.0.label>
+	<RT_Mk19RWS_Turret.fireModes.1.label>Auto</RT_Mk19RWS_Turret.fireModes.1.label>
+	<RT_Mk19RWS_Turret.fireModes.2.label>Burst</RT_Mk19RWS_Turret.fireModes.2.label>
+  	<RT_Mk19RWS_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 40x53mm Grenade</RT_Mk19RWS_Turret.gizmoDescription>
+
+	<RT_Mk19RWSM_Turret.label>M230LFRWS</RT_Mk19RWSM_Turret.label>
+  	<RT_Mk19RWSM_Turret.fireModes.0.label>Single</RT_Mk19RWSM_Turret.fireModes.0.label>
+	<RT_Mk19RWSM_Turret.fireModes.1.label>Auto</RT_Mk19RWSM_Turret.fireModes.1.label>
+	<RT_Mk19RWSM_Turret.fireModes.2.label>Burst</RT_Mk19RWSM_Turret.fireModes.2.label>
+  	<RT_Mk19RWSM_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 40x53mm Grenade</RT_Mk19RWSM_Turret.gizmoDescription>
+
+	<RT_TOW2_Turret.label>TOW</RT_TOW2_Turret.label>
+  	<RT_TOW2_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 152mm ATGM</RT_TOW2_Turret.gizmoDescription>
+
+	<RT_Javelin_Turret.label>Javelin</RT_Javelin_Turret.label>
+  	<RT_Javelin_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; Javelin ATGM</RT_Javelin_Turret.gizmoDescription>
+
+	<RT_MATV_M134_Turret.label>M134 RWS</RT_MATV_M134_Turret.label>
+  	<RT_MATV_M134_Turret.fireModes.0.label>Burst</RT_MATV_M134_Turret.fireModes.0.label>
+	<RT_MATV_M134_Turret.fireModes.1.label>Auto</RT_MATV_M134_Turret.fireModes.1.label>
+  	<RT_MATV_M134_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 7.62x51mmNATO</RT_MATV_M134_Turret.gizmoDescription>
+
+	<RT_MATV_M230LF_Turret.label>M230LF RWS</RT_MATV_M230LF_Turret.label>
+  	<RT_MATV_M230LF_Turret.fireModes.0.label>Auto</RT_MATV_M230LF_Turret.fireModes.0.label>
+	<RT_MATV_M230LF_Turret.fireModes.1.label>Burst</RT_MATV_M230LF_Turret.fireModes.1.label>
+	<RT_MATV_M230LF_Turret.fireModes.2.label>Single</RT_MATV_M230LF_Turret.fireModes.2.label>
+  	<RT_MATV_M230LF_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 30x113mmB</RT_MATV_M230LF_Turret.gizmoDescription>
+
+
+</LanguageData>

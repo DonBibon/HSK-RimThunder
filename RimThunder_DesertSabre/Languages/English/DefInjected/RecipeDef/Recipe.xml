@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_M10_Blueprint.description>Assembly of M10 Booker at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 105mm M35 Cannon: 105x617mmR NATO (HE / HESH / APFSDS)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_M10_Blueprint.description>
+  <RT_Make_M10_Blueprint.label>Assemble M10 Booker</RT_Make_M10_Blueprint.label>
+  <RT_Make_M1A2SEP_Blueprint.description>Assembly of M1A2 Abrams SEP at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 120mm M256 Gun: 120mm NATO (HE / APFSDS / Canister)
+- .50 Cal M2 Browning: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)
+- 7.62mm M240 MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_M1A2SEP_Blueprint.description>
+  <RT_Make_M1A2SEP_Blueprint.label>Assemble M1A2 Abrams SEP</RT_Make_M1A2SEP_Blueprint.label>
+  <RT_Make_M2A3_Blueprint.description>Assembly of M2A3 Bradley at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 25mm M242 Bushmaster: 25x137mm NATO cartridge (HE / AP / Sabot)
+- BGM-71 TOW ATGM: BGM-71 TOW missile (HEAT)
+- 7.62mm M240C MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_M2A3_Blueprint.description>
+  <RT_Make_M2A3_Blueprint.label>Assemble M2A3 Bradley</RT_Make_M2A3_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Aircraft (C130, CH-53E, UH-60) are constructed directly via Architect menu (VF_Vehicles), not at the Assembly Gantry. -->
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_M2A3_Tank_Turret.label>25mm机炮</RT_M2A3_Tank_Turret.label>
+  	<RT_M2A3_Tank_Turret.fireModes.0.label>连发</RT_M2A3_Tank_Turret.fireModes.0.label>
+	<RT_M2A3_Tank_Turret.fireModes.1.label>点射</RT_M2A3_Tank_Turret.fireModes.1.label>
+  	<RT_M2A3_Tank_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; 25x137mmNATO</RT_M2A3_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_TOW2A_Turret.label>陶式导弹发射器</RT_TOW2A_Turret.label>
+  	<RT_TOW2A_Turret.gizmoDescription>选择目标。\n\n效力射\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; TOW</RT_TOW2A_Turret.gizmoDescription>
+
+</LanguageData>

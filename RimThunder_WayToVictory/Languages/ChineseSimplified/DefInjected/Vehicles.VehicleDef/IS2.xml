@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+	<RT_IS2_Vehicle.label>IS-2 1945</RT_IS2_Vehicle.label>
+	<RT_IS2_Vehicle.description>一种以钢铁为名的重型坦克，装备了一门122mm榴弹炮和机枪，装甲厚重火力强劲，但代价是漫长的装填时间。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n122mm榴弹（主炮）\n12.7x108mmR（高射机枪）\n7.62x54mmR（机枪）</RT_IS2_Vehicle.description>
+	<RT_IS2_Vehicle.properties.roles.0.label>驾驶员</RT_IS2_Vehicle.properties.roles.0.label>
+	<RT_IS2_Vehicle.properties.roles.1.label>炮手</RT_IS2_Vehicle.properties.roles.1.label>
+	<RT_IS2_Vehicle.components.0.label>引擎</RT_IS2_Vehicle.components.0.label>
+	<RT_IS2_Vehicle.components.1.label>油箱</RT_IS2_Vehicle.components.1.label>
+	<RT_IS2_Vehicle.components.2.label>变速箱</RT_IS2_Vehicle.components.2.label>
+	<RT_IS2_Vehicle.components.3.label>弹药架</RT_IS2_Vehicle.components.3.label>
+	<RT_IS2_Vehicle.components.4.label>传动轴</RT_IS2_Vehicle.components.4.label>
+	<RT_IS2_Vehicle.components.5.label>左履带</RT_IS2_Vehicle.components.5.label>
+	<RT_IS2_Vehicle.components.6.label>右履带</RT_IS2_Vehicle.components.6.label>
+	<RT_IS2_Vehicle.components.7.label>左负重轮组</RT_IS2_Vehicle.components.7.label>
+	<RT_IS2_Vehicle.components.8.label>右负重轮组</RT_IS2_Vehicle.components.8.label>
+	<RT_IS2_Vehicle.components.9.label>左驱动轮</RT_IS2_Vehicle.components.9.label>
+	<RT_IS2_Vehicle.components.10.label>右驱动轮</RT_IS2_Vehicle.components.10.label>
+	<RT_IS2_Vehicle.components.11.label>左张紧轮</RT_IS2_Vehicle.components.11.label>
+	<RT_IS2_Vehicle.components.12.label>右张紧轮</RT_IS2_Vehicle.components.12.label>
+	<RT_IS2_Vehicle.components.13.label>正面装甲</RT_IS2_Vehicle.components.13.label>
+	<RT_IS2_Vehicle.components.14.label>左侧装甲</RT_IS2_Vehicle.components.14.label>
+	<RT_IS2_Vehicle.components.15.label>右侧装甲</RT_IS2_Vehicle.components.15.label>
+	<RT_IS2_Vehicle.components.16.label>顶部装甲</RT_IS2_Vehicle.components.16.label>
+	<RT_IS2_Vehicle.components.17.label>后方装甲</RT_IS2_Vehicle.components.17.label>
+	<RT_IS2_Vehicle.components.18.label>炮塔</RT_IS2_Vehicle.components.18.label>
+
+	<RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>122mm D25T主炮</RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+	<RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>DT同轴机枪</RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.1.gizmoLabel>
+	<RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>DT车体机枪</RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.2.gizmoLabel>
+	<RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>Dshk高射机枪</RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.3.gizmoLabel>
+	<RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>DT后机枪</RT_IS2_Vehicle.comps.CompVehicleTurrets.turrets.4.gizmoLabel>
+
+
+  <!-- 载具本体 -->
+
+</LanguageData>

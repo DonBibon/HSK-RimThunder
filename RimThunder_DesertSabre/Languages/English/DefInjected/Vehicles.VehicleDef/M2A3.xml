@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M2A3_Vehicle.label>M2A3 Bradley</RT_M2A3_Vehicle.label>
+  <RT_M2A3_Vehicle.description>US Army IFV equipped with a 25mm M242 Bushmaster autocannon, twin TOW anti-tank missile launcher, and M240C coaxial MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander x1, Gunner x1, Passenger x6
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 25mm M242 Bushmaster: 25x137mm NATO cartridge (HE / AP / Sabot)
+- BGM-71 TOW ATGM: BGM-71 TOW missile (HEAT)
+- 7.62mm M240C MG: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_M2A3_Vehicle.description>
+</LanguageData>

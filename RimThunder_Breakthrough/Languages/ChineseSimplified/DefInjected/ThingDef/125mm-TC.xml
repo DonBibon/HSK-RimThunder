@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<Ammo_Ru125mmTC_HEAT.label>125mm 3BK18M 尾翼稳定破甲弹</Ammo_Ru125mmTC_HEAT.label>
+	<Ammo_Ru125mmTC_Sabot.label>125mm 3BM60 脱壳尾翼稳定穿甲弹</Ammo_Ru125mmTC_Sabot.label>
+	<Ammo_125mmTC_HE.label>125mm 3OF26 高爆破片杀伤弹</Ammo_125mmTC_HE.label>
+
+	<Bullet_Ru125mmTC_HEAT.label>125mm 3BK18M 尾翼稳定破甲弹</Bullet_Ru125mmTC_HEAT.label>
+	<Bullet_Ru125mmTC_Sabot.label>125mm 3BM60 脱壳尾翼稳定穿甲弹</Bullet_Ru125mmTC_Sabot.label>
+	<Bullet_125mmTC_HE.label>125mm 3OF26 高爆破片杀伤弹</Bullet_125mmTC_HE.label>
+  
+</LanguageData>

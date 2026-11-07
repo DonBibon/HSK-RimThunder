@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_UH60_Vehicle.label>UH-60 Black Hawk</RT_UH60_Vehicle.label>
+  <RT_UH60_Vehicle.description>Многоцелевой тактический вертолёт армии США. Оборудован двумя скорострельными шестиствольными пулемётами M134 Minigun калибра 7.62x51mm NATO.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилоты x2, Бортстрелки x2, Десант x11
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 2x 7.62-мм минигана M134: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_UH60_Vehicle.description>
+</LanguageData>

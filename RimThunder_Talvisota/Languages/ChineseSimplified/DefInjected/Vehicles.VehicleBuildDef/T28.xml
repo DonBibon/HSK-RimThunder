@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T28_Vehicle_Blueprint.label>T-28</RT_T28_Vehicle_Blueprint.label>
+	<RT_T28_Vehicle_Blueprint.description>一种早期多炮塔中型坦克，装备了一门76mm炮和大量机枪，装甲薄弱，但是能通过改装额外焊接装甲以提升防御。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3, 机枪手 x2\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n76.2x385mmR（主炮）\n7.62x54mmR（机枪）</RT_T28_Vehicle_Blueprint.description>
+
+
+</LanguageData>

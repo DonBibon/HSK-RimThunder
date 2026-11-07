@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_Ru125mmTC_Sabot.label>制作125mm 3BM60 脱壳尾翼稳定穿甲弹 x5</MakeAmmo_Ru125mmTC_Sabot.label>
+	<MakeAmmo_Ru125mmTC_Sabot.description>制作5枚 125mm 3BM60 脱壳尾翼稳定穿甲弹</MakeAmmo_Ru125mmTC_Sabot.description>
+	<MakeAmmo_Ru125mmTC_Sabot.jobString>正在制作5枚 125mm 3BM60 脱壳尾翼稳定穿甲弹</MakeAmmo_Ru125mmTC_Sabot.jobString>
+
+	<MakeAmmo_Ru125mmTC_HEAT.label>制作125mm 3BK18M 尾翼稳定破甲弹 x5</MakeAmmo_Ru125mmTC_HEAT.label>
+	<MakeAmmo_Ru125mmTC_HEAT.description>制作5枚 125mm 3BK18M 尾翼稳定破甲弹</MakeAmmo_Ru125mmTC_HEAT.description>
+	<MakeAmmo_Ru125mmTC_HEAT.jobString>正在制作5枚 125mm 3BK18M 尾翼稳定破甲弹</MakeAmmo_Ru125mmTC_HEAT.jobString>
+
+	<MakeAmmo_125mmTC_HE.label>制作125mm 3OF26 高爆破片杀伤弹 x5</MakeAmmo_125mmTC_HE.label>
+	<MakeAmmo_125mmTC_HE.description>制作5枚 125mm 3OF26 高爆破片杀伤弹</MakeAmmo_125mmTC_HE.description>
+	<MakeAmmo_125mmTC_HE.jobString>正在制作5枚 125mm 3OF26 高爆破片杀伤弹</MakeAmmo_125mmTC_HE.jobString>
+
+
+
+</LanguageData>

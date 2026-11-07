@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_BT5_Blueprint.description>Сборка техники БТ-5 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 45-мм пушка 20-К: 45x310mmR (AP / Canister)
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_BT5_Blueprint.description>
+  <RT_Make_BT5_Blueprint.label>Собрать БТ-5</RT_Make_BT5_Blueprint.label>
+  <RT_Make_M72_Blueprint.description>Сборка техники М-72 (Мотоцикл) на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 7.62-мм пулемёт ДП-27: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_M72_Blueprint.description>
+  <RT_Make_M72_Blueprint.label>Собрать М-72 (Мотоцикл)</RT_Make_M72_Blueprint.label>
+  <RT_Make_RF8_Blueprint.description>Сборка техники Аэросани НКЛ-26 / РФ-8 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_RF8_Blueprint.description>
+  <RT_Make_RF8_Blueprint.label>Собрать Аэросани НКЛ-26 / РФ-8</RT_Make_RF8_Blueprint.label>
+  <RT_Make_T28_Blueprint.description>Сборка техники Т-28 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 76.2-мм пушка КТ-28: 76.2x385mmR (APHE / HE / Shrapnel)
+- 3x 7.62-мм пулемёта ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T28_Blueprint.description>
+  <RT_Make_T28_Blueprint.label>Собрать Т-28</RT_Make_T28_Blueprint.label>
+  <RT_Make_T34_Blueprint.description>Сборка техники Т-34-76 на монтажном портале (Assembly gantry).
+
+&lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
+- 76.2-мм пушка Ф-34: 76.2x385mmR (APHE / HE / Shrapnel)
+- 7.62-мм пулемёт ДТ: 7.62x54mmR cartridge (FMJ / AP / HP)
+- (Улучшение 57-мм ЗИС-2): 57x480mmR (APHE / HE)
+- (Улучшение 122-мм гаубица): 122mmHowitzer Cannon shell (HE / APHE)
+- (Улучшение огнемёт ОТ-34): Prometheum canister</RT_Make_T34_Blueprint.description>
+  <RT_Make_T34_Blueprint.label>Собрать Т-34-76</RT_Make_T34_Blueprint.label>
+</LanguageData>

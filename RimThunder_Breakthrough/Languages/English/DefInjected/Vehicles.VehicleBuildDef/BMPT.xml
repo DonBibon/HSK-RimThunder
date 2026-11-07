@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_BMPT_Blueprint_Blueprint.label>BMPT</RT_BMPT_Blueprint_Blueprint.label>
+	<RT_BMPT_Blueprint.description>The BMPT combat support tank is the new generation support vehicels,Due to its rich weapon configuration and fierce firepower, it is also known as a death harvester.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1，Commander x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n30x165mm（Main Cannon）\n9M120M（Missile）\n30x29mmGrenade（Grenade Launcher）</RT_BMPT_Blueprint.description>
+
+
+</LanguageData>

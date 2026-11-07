@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_CH53E_Vehicle.label>CH-53E Super Stallion</RT_CH53E_Vehicle.label>
+  <RT_CH53E_Vehicle.description>Тяжёлый военно-транспортный вертолёт с огромной полезной нагрузкой. Вооружён двумя крупнокалиберными пулемётами GAU-21 (.50 BMG).
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Пилоты x2, Стрелки x2, Десант x24
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 2x 12.7-мм пулемёта GAU-21: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_CH53E_Vehicle.description>
+</LanguageData>

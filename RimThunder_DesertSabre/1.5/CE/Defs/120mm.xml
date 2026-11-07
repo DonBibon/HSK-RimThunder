@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="120mmCannonShellBase">
+		<defName>Ammo_120mmTC_HEAT</defName>
+		<label>120mm M830 cannon shell (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Ammo_120/M830</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>30</Mass>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_120mmTC_HEAT</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="120mmCannonShellBase">
+		<defName>Ammo_120mmTC_Sabot</defName>
+		<label>120mm M829A4 cannon shell (Sabot)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Ammo_120/M829A4</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>30</Mass>
+		</statBases>
+		<ammoClass>Sabot</ammoClass>
+		<detonateProjectile>Bullet_120mmTC_Sabot</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="125mmTCBase">
+		<defName>Ammo_120mmTC_EMP</defName>
+		<label>120mm M200E4 cannon shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Cannon/Tank/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>30</Mass>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_120mmTC_EMP</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef ParentName="Base120mmCannonShell">
+		<defName>Bullet_120mmTC_HEAT</defName>
+		<label>120mm M830 cannon shell (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_M830</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>350</damageAmountBase>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<armorPenetrationSharp>440</armorPenetrationSharp>
+			<armorPenetrationBlunt>70</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>280</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>3.2</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Large>24</Fragment_Large>
+					<Fragment_Small>40</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base120mmCannonShell">
+		<defName>Bullet_120mmTC_Sabot</defName>
+		<label>120mm M29A4 cannon shell (Sabot)</label>
+		<graphicData>
+			<texPath>Things/Projectile/Ammo_M29A4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>275</speed>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>480</damageAmountBase>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<armorPenetrationSharp>680</armorPenetrationSharp>
+			<armorPenetrationBlunt>180000</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>125</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.5</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragXZAngleRange>-5~5</fragXZAngleRange>
+				<fragAngleRange>0~2</fragAngleRange>
+				<fragments>
+					<Fragment_APFSDS>10</Fragment_APFSDS>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base125mmTC">
+		<defName>Bullet_120mmTC_EMP</defName>
+		<label>120mm M200E4 cannon shell (EMP)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/Cannon/EMP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>260</damageAmountBase>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<explosionRadius>7.5</explosionRadius>
+			<speed>170</speed>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+	<RecipeDef ParentName="CannonAmmoRecipeBase">
+		<defName>MakeAmmo_120mmTC_HEAT</defName>
+		<label>make 120mm M830 HEAT cannon shells x5</label>
+		<description>Craft 5 120mm M830 HEAT cannon shells.</description>
+		<jobString>Making 5 120mm M830 HEAT cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>170</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_120mmTC_HEAT>5</Ammo_120mmTC_HEAT>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="CannonAmmoRecipeBase">
+		<defName>MakeAmmo_120mmTC_Sabot</defName>
+		<label>make 120mm M29A4 Sabot cannon shells x5</label>
+		<description>Craft 5 120mm M29A4 Sabot cannon shells.</description>
+		<jobString>Making 5 120mm M29A4 Sabot cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>125</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_120mmTC_Sabot>5</Ammo_120mmTC_Sabot>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+  </RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_120mmTC_EMP</defName>
+		<label>make 120mm M200E4 EMP cannon shells x5</label>
+		<description>Craft 5 120mm M200E4 EMP cannon shells.</description>
+		<jobString>Making 5 120mm M200E4 EMP cannon shells.</jobString>
+		<workAmount>8800</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>170</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_120mmTC_EMP>5</Ammo_120mmTC_EMP>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+  </RecipeDef>
+</Defs>

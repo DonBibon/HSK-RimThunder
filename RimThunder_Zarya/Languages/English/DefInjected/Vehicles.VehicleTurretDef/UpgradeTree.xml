@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  	<EpochAlmaty_Turret.label>2A42</EpochAlmaty_Turret.label>
+	<EpochAlmaty_Turret.fireModes.0.label>Burst</EpochAlmaty_Turret.fireModes.0.label>
+	<EpochAlmaty_Turret.fireModes.1.label>Short Burst</EpochAlmaty_Turret.fireModes.1.label>
+	<EpochAlmaty_Turret.fireModes.2.label>Auto</EpochAlmaty_Turret.fireModes.2.label>
+	<EpochAlmaty_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 30x165mm</EpochAlmaty_Turret.gizmoDescription>
+
+	<RT_Kornet_Turret.label>9M133 "Kornet" ATGM</RT_Kornet_Turret.label>
+	<RT_Kornet_Turret.fireModes.1.label>Single Shot</RT_Kornet_Turret.fireModes.1.label>
+	<RT_Kornet_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 9M133 "Kornet" ATGM</RT_Kornet_Turret.gizmoDescription>
+
+	<RT_Baikal_Turret.label>2A91</RT_Baikal_Turret.label>
+	<RT_Baikal_Turret.fireModes.0.label>Burst</RT_Baikal_Turret.fireModes.0.label>
+	<RT_Baikal_Turret.fireModes.1.label>Short Burst</RT_Baikal_Turret.fireModes.1.label>
+	<RT_Baikal_Turret.fireModes.2.label>Auto</RT_Baikal_Turret.fireModes.2.label>
+	<RT_Baikal_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 57x348mmSR</RT_Baikal_Turret.gizmoDescription>
+
+	<Baikal_PKT_Turret.label>PKT MG</Baikal_PKT_Turret.label>
+
+	<RT_2S25_Turret.label>125mm 2A75</RT_2S25_Turret.label>
+	<RT_2S25_Turret.fireModes.0.label>Single Shot</RT_2S25_Turret.fireModes.0.label>
+	<RT_2S25_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 125mmCannon</RT_2S25_Turret.gizmoDescription>
+  
+</LanguageData>

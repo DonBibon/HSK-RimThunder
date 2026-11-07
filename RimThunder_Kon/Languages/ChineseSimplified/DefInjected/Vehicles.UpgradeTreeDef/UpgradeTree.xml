@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.label>卡玛兹 5350 货运改装</RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.description>切换为优先货运。</RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.description>
+	
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.label>32V01 遥控武器站</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.description>在车顶加装32V01 遥控武器站。</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>32V01 遥控武器站</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT同轴机枪</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.label>32V01+短号导弹配置</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.description>在车顶加装配备了短号导弹发射器的32V01武器站。</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>32V01 遥控武器站</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>PKT同轴机枪</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>“短号-EM”导弹发射器</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.label>32V01+AGS-30榴弹发射器</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.description>在车顶加装配备了AGS-30榴弹发射器的32V01武器站。</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>32V01 遥控武器站</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>PKT同轴机枪</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>AGS-30榴弹发射器</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>
+
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.label>2S41“金雀花”82mm 自行迫击炮</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.description>升级为2S41“金雀花”82mm 自行迫击炮。</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>82mm迫击炮</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.1.gizmoLabel>PKM机枪</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.1.gizmoLabel>
+
+
+
+
+
+</LanguageData>

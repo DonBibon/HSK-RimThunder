@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1A2T.description>M1A2T MBT.
+Armament: 120mm M256 smoothbore gun, coaxial 7.62mm M240, AA .50 BMG M2HB.
+Ammunition: 120x570mm NATO (APFSDS, HEAT-MP, Canister), .50 BMG, 7.62x51mm NATO.</RT_M1A2T.description>
+
+  <RT_M48H.description>M48H Brave Tiger.
+Armament: 105mm M68A1 rifled gun, coaxial 7.62mm M240, AA .50 BMG M2HB.
+Ammunition: 105x617mmR NATO (APFSDS, HEAT, HESH), .50 BMG, 7.62x51mm NATO.</RT_M48H.description>
+
+  <RT_M113.description>M113 APC.
+Armament: Commander turret .50 BMG M2HB machine gun.
+Ammunition: .50 BMG (12.7x99mm NATO).</RT_M113.description>
+
+  <RT_M113M.description>M113(M) Mortar Carrier.
+Armament: Internal 120mm M120 heavy mortar, .50 BMG M2HB machine gun.
+Ammunition: 120mm Mortar shells (HE, Smoke, Illum), .50 BMG.</RT_M113M.description>
+
+  <RT_M1075.description>M1075 HEMTT.
+Armament: No built-in armament (heavy logistics truck).
+Ammunition: None.</RT_M1075.description>
+
+</LanguageData>

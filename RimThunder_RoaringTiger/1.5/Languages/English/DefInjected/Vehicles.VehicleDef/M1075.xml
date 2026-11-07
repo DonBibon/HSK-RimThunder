@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M1075_HEMTT.label>M1075 HEMTT</RT_M1075_HEMTT.label>
+  <RT_M1075_HEMTT.description>Heavy 10x10 tactical transport truck capable of hauling massive cargo volumes across any terrain.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x1, Bed Passengers x10
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- Unarmed (Heavy transport truck)</RT_M1075_HEMTT.description>
+</LanguageData>

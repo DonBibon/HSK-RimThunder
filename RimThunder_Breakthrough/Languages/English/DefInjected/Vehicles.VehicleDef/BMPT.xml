@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_BMPT_Vehicle.label>BMPT Terminator</RT_BMPT_Vehicle.label>
+  <RT_BMPT_Vehicle.description>Heavy tank support fighting vehicle with dual 30mm 2A42 autocannons, Ataka ATGMs, dual AG-17D automatic grenade launchers, and PKTM MG.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, AG Operator x2
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- Dual 30mm 2A42: 30x173mm cartridge (FMJ / HE / AP-I)
+- Ataka ATGM: 9M120M AntiTank missile (HEAT)
+- 2x 30mm AG-17D AGL: 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)
+- 7.62mm PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_BMPT_Vehicle.description>
+</LanguageData>

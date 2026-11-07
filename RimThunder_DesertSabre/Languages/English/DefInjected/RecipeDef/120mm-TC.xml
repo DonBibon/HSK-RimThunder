@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<MakeAmmo_120mmTC_HEAT.label>Make 120mm M830 HEAT x5</MakeAmmo_120mmTC_HEAT.label>
+	<MakeAmmo_120mmTC_HEAT.description>Make 5 120mm M830 HEAT</MakeAmmo_120mmTC_HEAT.description>
+	<MakeAmmo_120mmTC_HEAT.jobString>Making 5 120mm M830 HEAT</MakeAmmo_120mmTC_HEAT.jobString>
+
+	<MakeAmmo_120mmTC_Sabot.label>Make 120mm M829A4 APFSDS x5</MakeAmmo_120mmTC_Sabot.label>
+	<MakeAmmo_120mmTC_Sabot.description>Make 5 120mm M829A4 APFSDS</MakeAmmo_120mmTC_Sabot.description>
+	<MakeAmmo_120mmTC_Sabot.jobString>Making 5 120mm M829A4 APFSDS</MakeAmmo_120mmTC_Sabot.jobString>
+</LanguageData>

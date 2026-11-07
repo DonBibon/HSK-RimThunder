@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<RT_ArtilleryCodeKey.label>Artillery Code Key</RT_ArtilleryCodeKey.label>
+	<RT_ArtilleryCodeKey.description>Use to call Orbital Artillery support</RT_ArtilleryCodeKey.description>
+</LanguageData>

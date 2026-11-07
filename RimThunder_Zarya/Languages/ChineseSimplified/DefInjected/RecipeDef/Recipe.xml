@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Make_Kurganets25_Blueprint.label>组装库尔干人25 IFV</RT_Make_Kurganets25_Blueprint.label>
+	<RT_Make_Kurganets25_Blueprint.description>组装库尔干人25 IFV。</RT_Make_Kurganets25_Blueprint.description>
+
+	<RT_Make_T90M_MainBattleTank_Blueprint.label>组装T-90M</RT_Make_T90M_MainBattleTank_Blueprint.label>
+	<RT_Make_T90M_MainBattleTank_Blueprint.description>组装T-90M。</RT_Make_T90M_MainBattleTank_Blueprint.description>
+
+	<RT_Make_Boomerang_Blueprint.label>组装回旋镖 IFV</RT_Make_Boomerang_Blueprint.label>
+	<RT_Make_Boomerang_Blueprint.description>组装回旋镖 IFV。</RT_Make_Boomerang_Blueprint.description>
+
+</LanguageData>

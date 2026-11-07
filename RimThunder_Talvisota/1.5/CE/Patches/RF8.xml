@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Vehicle -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<!--Front Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/components/li[key="FrontArmorPlating"]/health</xpath>
+		<value>
+			<health>240</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/components/li[key="FrontArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+				<ArmorRating_Sharp>10</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Side Armor-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/components/li[key="LeftArmorPlating" or key="RightArmorPlating"]/health</xpath>
+		<value>
+			<health>200</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/components/li[key="LeftArmorPlating" or key="RightArmorPlating"]/armor</xpath>
+		<value>
+			<armor>
+				<ArmorRating_Blunt>30</ArmorRating_Blunt>
+				<ArmorRating_Sharp>8</ArmorRating_Sharp>
+			</armor>
+		</value>
+	</Operation>
+
+	<!--Various exposed metallic stuff-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_RF8_Vehicle"]/components/li[key="LeftFrontSki" or key="RightFrontSki" or key="RightRearSki" or key="LeftRearSki"]/health</xpath>
+		<value>
+			<health>120</health>
+		</value>
+	</Operation>
+</Patch>

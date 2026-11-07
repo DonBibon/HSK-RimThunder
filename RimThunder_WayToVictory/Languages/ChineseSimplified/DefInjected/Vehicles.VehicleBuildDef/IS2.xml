@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_IS2_Vehicle_Blueprint.label>IS-2 1945</RT_IS2_Vehicle_Blueprint.label>
+	<RT_IS2_Vehicle_Blueprint.description>一种以钢铁为名的重型坦克，装备了一门122mm榴弹炮和机枪，装甲厚重火力强劲，但代价是漫长的装填时间。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x3\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n122mm榴弹（主炮）\n12.7x108mmR（高射机枪）\n7.62x54mmR（机枪）</RT_IS2_Vehicle_Blueprint.description>
+
+
+</LanguageData>

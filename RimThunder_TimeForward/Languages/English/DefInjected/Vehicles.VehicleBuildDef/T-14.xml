@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T14_MainBattleTank_Blueprint.label>T-14 "Armata"</RT_T14_MainBattleTank_Blueprint.label>
+	<RT_T14_MainBattleTank_Blueprint.description>The T-14 "Armata" main battle tank is a new generation of main battle tank in the Russian Federation, with unparalleled protection and advanced digital command system. The Unmanned turret is equipped with the invincible 2A82 main gun.\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Commander x1\n&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; \n125mmNG（Main Gun）\n12.7x108mm（Top MG）\n30x165mm（Coaxial Gun）</RT_T14_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

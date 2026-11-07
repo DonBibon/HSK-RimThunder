@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_3OF91_HE.label>Make 57mm 3OF91 HE cartridge x25</MakeAmmo_3OF91_HE.label>
+	<MakeAmmo_3OF91_HE.description>Craft 25 57mm 3OF91 HE cartridges</MakeAmmo_3OF91_HE.description>
+	<MakeAmmo_3OF91_HE.jobString>Making 57mm 3OF91 HE cartridges</MakeAmmo_3OF91_HE.jobString>
+
+	<MakeAmmo_3UBM21_Sabot.label>Make 57mm 3UBM21 APDS (Sabot) cartridge x25</MakeAmmo_3UBM21_Sabot.label>
+	<MakeAmmo_3UBM21_Sabot.description>Craft 25 57mm 3UBM21 APDS (Sabot) cartridges</MakeAmmo_3UBM21_Sabot.description>
+	<MakeAmmo_3UBM21_Sabot.jobString>Making 57mm 3UBM21 APDS (Sabot) cartridges</MakeAmmo_3UBM21_Sabot.jobString>
+
+</LanguageData>

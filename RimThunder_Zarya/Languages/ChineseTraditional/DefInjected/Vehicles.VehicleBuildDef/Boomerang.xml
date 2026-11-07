@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_Boomerang_Vehicle_Blueprint.label>回旋鏢輪式步兵戰車</RT_Boomerang_Vehicle_Blueprint.label>
+	<RT_Boomerang_Vehicle_Blueprint.description>回旋鏢是新型的輪式通用底盤，與庫爾幹人25一樣，具備卓越的炮塔適配能力，用以取代老舊的BTR系列。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1, 車長 x1，乘客 x9\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n57x348mmSR（主炮）\n9M133“短號”反坦克導彈（導彈發射器）\n7.62x54mmR（同軸機槍）\n“佈拉特”微型導彈（微型導彈）</RT_Boomerang_Vehicle_Blueprint.description>
+
+
+</LanguageData>

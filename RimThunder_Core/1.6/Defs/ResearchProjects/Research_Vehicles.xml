@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Research Tab ==================== -->
+  <ResearchTabDef>
+    <defName>RT_VehiclesTab</defName>
+    <label>Vehicles</label>
+    <generalTitle>Armored Vehicles and Military Transport</generalTitle>
+    <generalDescription>Development and mass production of military ground vehicles, specialized chassis, engines, armor plates, and heavy armament from early 20th century prototypes to modern third-generation MBTs and combat aviation.</generalDescription>
+  </ResearchTabDef>
+
+  <!-- ==================== Tier 1: Early Motorization ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_EarlyMotorization</defName>
+    <label>early motorization</label>
+    <description>First steps towards colony mechanization: bicycles, motorcycles, motorized aerosleds, and light machinegun-armed scout armored cars, as well as basic 45mm tank guns.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>EngineBasis</li>
+    </prerequisites>
+    <researchViewX>0.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Tier 2: WWII Medium Armor ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_WW2MediumArmor</defName>
+    <label>WWII light and medium armor</label>
+    <description>Design of maneuverable light tanks (BT-5, T-70) and classic medium battle tanks (T-28, T-34). Unlocks mass production of 57mm, 76.2mm, and 85mm tank guns and appropriate ammunition.</description>
+    <baseCost>2200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_EarlyMotorization</li>
+      <li>GasOperation</li>
+    </prerequisites>
+    <researchViewX>2.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Tier 3: WWII Breakthrough & Heavy Armor ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_WW2HeavyArmor</defName>
+    <label>WWII heavy breakthrough armor</label>
+    <description>Heavy breakthrough tanks IS-2 and IS-3 with thick anti-shell armor, alongside the legendary BM-13 Katyusha multiple launch rocket system. Unlocks 122mm tank ammunition and 132mm M-13 rockets.</description>
+    <baseCost>3200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_WW2MediumArmor</li>
+    </prerequisites>
+    <researchViewX>4.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+    <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
+  </ResearchProjectDef>
+
+  <!-- ==================== Tier 4: Modern IFVs & Mobility ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_ModernIFV</defName>
+    <label>modern IFVs and light armor</label>
+    <description>Modern infantry fighting vehicles (BMP-3, M2A3 Bradley, Boomerang, Kurganets-25), BMPT Terminator, military logistic trucks, and MRAP armored cars (Kamaz-5350, Oshkosh M-ATV, Typhoon-VDV). Unlocks 25mm, 30mm, 57mm autocannons and basic ATGMs.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_WW2HeavyArmor</li>
+      <li>Electronics_C2</li>
+    </prerequisites>
+    <researchViewX>6.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Tier 5: Modern MBTs ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_ModernMBTs</defName>
+    <label>main battle tanks</label>
+    <description>Production of third-generation main battle tanks: M1A2 Abrams SEP, T-80BVM, T-90M Proryv, and M10 Booker mobile gun system. Unlocks 120mm NATO and 125mm smoothbore guns, APFSDS darts, HEAT-MP shells, and gun-launched ATGMs.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_ModernIFV</li>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>8.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Tier 6: Next-Gen Armata Platform ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_NextGenArmata</defName>
+    <label>next-generation Armata platform</label>
+    <description>The pinnacle of modern armored warfare: next-gen T-14 Armata main battle tank with isolated crew capsule and unmanned digital turret, and T-15 Armata heavy IFV with advanced active protection systems.</description>
+    <baseCost>8000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_ModernMBTs</li>
+      <li>Electronics_D1</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>10.5</researchViewX>
+    <researchViewY>2.5</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Aviation 1: Helicopters ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_AviationHelicopters</defName>
+    <label>tactical army aviation</label>
+    <description>Design and assembly of multirole tactical utility helicopters (UH-60 Black Hawk) for rapid troop insertion, combat extraction, and medical evacuation across the rimworld.</description>
+    <baseCost>4500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_ModernIFV</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>7.5</researchViewX>
+    <researchViewY>0.8</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- ==================== Aviation 2: Heavy Transport ==================== -->
+  <ResearchProjectDef>
+    <defName>RT_AviationHeavyTransport</defName>
+    <label>heavy military transport aviation</label>
+    <description>Heavy-lift assault cargo helicopters CH-53E Super Stallion and long-range tactical military transport aircraft C-130 Hercules.</description>
+    <baseCost>6000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <tab>RT_VehiclesTab</tab>
+    <prerequisites>
+      <li>RT_AviationHelicopters</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <researchViewX>9.5</researchViewX>
+    <researchViewY>0.8</researchViewY>
+  </ResearchProjectDef>
+</Defs>

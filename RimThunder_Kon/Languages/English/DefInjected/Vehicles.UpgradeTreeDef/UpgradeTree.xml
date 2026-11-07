@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.label>Kamaz 5350 Cargo</RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.description>Switch to cargo transport.</RT_Kamaz5350_Vehicle_UpgradeTree.nodes.0.description>
+	
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.label>32V01 RWS</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.description>Add 32V01 RWS on the top of the vehicle.</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2A72 Autocannon</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT MG</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.label>Kornet-EM ATGM</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.description>Add 32V01 RWS with Kornet launcher on the top of the vehicle.</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>2A72 Autocannon</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>PKT MG</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>Kornet-EM ATGM</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.label>AGS-30 AGS</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.description>Add 32V01 RWS with AGS-30 on the top of the vehicle.</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>2A72 Autocannon</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>PKT MG</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.1.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>AGS-30 AGS</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.2.upgrades.0.turrets.2.gizmoLabel>
+
+
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.label>2S41 "Dork" Mortar</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.label>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.description>Upgrade to 2S41 "Dork" Mortar</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.description>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>81mm Mortar</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.0.gizmoLabel>
+  <RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.1.gizmoLabel>PKM MG</RT_TyphoonVDV_Vehicle_UpgradeTree.nodes.3.upgrades.0.turrets.1.gizmoLabel>
+
+
+
+
+
+</LanguageData>

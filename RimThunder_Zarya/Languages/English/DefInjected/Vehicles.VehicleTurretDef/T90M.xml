@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<T90M_Tank_Turret.label>125mm 2A46</T90M_Tank_Turret.label>
+  	<T90M_Tank_Turret.fireModes.0.label>Single Shot</T90M_Tank_Turret.fireModes.0.label>
+  	<T90M_Tank_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 125mmCannon</T90M_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_HCBT_Turret.label>HCBT MG</RT_HCBT_Turret.label>
+  	<RT_HCBT_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 12.7x108mm</RT_HCBT_Turret.gizmoDescription>
+	
+	<RT_PKT_ADV_MGTurret.label>PKT MG</RT_PKT_ADV_MGTurret.label>
+	<RT_PKT_ADV_MGTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 7.62x54mmR</RT_PKT_ADV_MGTurret.gizmoDescription>
+
+
+</LanguageData>

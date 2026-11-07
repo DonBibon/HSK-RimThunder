@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<Vehicles.RetextureDef>
+		<defName>RT_Kamaz5350_Cargo</defName>
+		<label>Kamaz5350 Cargo</label>
+		<graphicData>
+			<texPath>Vehicles/Kamaz_5350/P/vehicle</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(7.2,7.2)</drawSize>
+		</graphicData>
+	</Vehicles.RetextureDef>
+</Defs>

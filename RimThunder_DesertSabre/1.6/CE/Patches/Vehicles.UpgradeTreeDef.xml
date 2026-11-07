@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.UpgradeTreeDef[defName="RT_M1A2SEP_Vehicle_UpgradeTree"]/nodes/li[1]/upgrades/li[@Class="Vehicles.VehicleUpgrade"]/armor</xpath>
+		<value>
+			<armor>
+				<li>
+					<key>LeftSkirtPlating</key>
+					<statModifiers>
+						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+				<li>
+					<key>RightSkirtPlating</key>
+					<statModifiers>
+						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.UpgradeTreeDef[defName="RT_M2A3_Vehicle_UpgradeTree"]/nodes/li[1]/upgrades/li[@Class="Vehicles.VehicleUpgrade"]/armor</xpath>
+		<value>
+			<armor>
+				<li>
+					<key>MainTurret</key>
+					<statModifiers>
+						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+						<ArmorRating_Sharp>40</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+				<li>
+					<key>FrontArmorPlating</key>
+					<statModifiers>
+						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
+						<ArmorRating_Sharp>40</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+				<li>
+					<key>LeftSkirtPlating</key>
+					<statModifiers>
+						<ArmorRating_Blunt>3400</ArmorRating_Blunt>
+						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+				<li>
+					<key>RightSkirtPlating</key>
+					<statModifiers>
+						<ArmorRating_Blunt>3400</ArmorRating_Blunt>
+						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+					</statModifiers>
+					<type>Add</type>
+				</li>
+			</armor>
+		</value>
+	</Operation>
+</Patch>

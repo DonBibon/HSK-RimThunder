@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_C130_Blueprint.description>Assembly of C-130 Hercules at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- Unarmed (Heavy tactical airlifter)</RT_Make_C130_Blueprint.description>
+  <RT_Make_C130_Blueprint.label>Assemble C-130 Hercules</RT_Make_C130_Blueprint.label>
+  <RT_Make_CH53E_Blueprint.description>Assembly of CH-53E Super Stallion at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 2x .50 Cal GAU-21 Heavy MG: .50 BMG cartridge (FMJ / AP / Incendiary / Sabot)</RT_Make_CH53E_Blueprint.description>
+  <RT_Make_CH53E_Blueprint.label>Assemble CH-53E Super Stallion</RT_Make_CH53E_Blueprint.label>
+  <RT_Make_UH60_Blueprint.description>Assembly of UH-60 Black Hawk at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 2x 7.62mm M134 Minigun: 7.62x51mm NATO cartridge (FMJ / AP / HP)</RT_Make_UH60_Blueprint.description>
+  <RT_Make_UH60_Blueprint.label>Assemble UH-60 Black Hawk</RT_Make_UH60_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_M10.description>M10 Booker.
+Вооружение: 105-мм нарезная пушка M35, спаренный 7.62-мм пулемет M240, зенитный 12.7-мм пулемет M2HB.
+Боеприпасы: 105x617mmR NATO (БОПС, КС, ОФ), .50 BMG (12.7x99mm), 7.62x51mm NATO.</RT_M10.description>
+
+  <RT_M1A2.description>M1A2 Abrams SEP.
+Вооружение: 120-мм гладкоствольная пушка M256, спаренный 7.62-мм пулемет M240, зенитный 12.7-мм пулемет M2HB, дымовые мортиры.
+Боеприпасы: 120x570mm NATO (БОПС, КС, Картечь), .50 BMG, 7.62x51mm NATO.</RT_M1A2.description>
+
+  <RT_M2A3.description>M2A3 Bradley.
+Вооружение: 25-мм автопушка M242 Bushmaster, сдвоенная ПУ ПТУР TOW-2B, спаренный 7.62-мм пулемет M240C.
+Боеприпасы: 25x137mm NATO, TOW-2B, 7.62x51mm NATO.</RT_M2A3.description>
+
+  <RT_M1078.description>M1078 LMTV.
+Вооружение: Штатное вооружение отсутствует (транспортный грузовик).
+Боеприпасы: —.</RT_M1078.description>
+
+  <RT_MATV.description>Oshkosh M-ATV.
+Вооружение: Турель с крупнокалиберным 12.7-мм пулеметом M2HB.
+Боеприпасы: .50 BMG (12.7x99mm NATO).</RT_MATV.description>
+
+</LanguageData>

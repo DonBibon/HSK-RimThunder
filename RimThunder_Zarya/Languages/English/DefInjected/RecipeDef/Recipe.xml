@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_Boomerang_Blueprint.description>Assembly of Boomerang IFV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 57mm Epoch Module: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- Bulat Mini-Missiles: "Blart" mini missile(Thermobaric)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_Boomerang_Blueprint.description>
+  <RT_Make_Boomerang_Blueprint.label>Assemble Boomerang IFV</RT_Make_Boomerang_Blueprint.label>
+  <RT_Make_Kurganets25_Blueprint.description>Assembly of Kurganets-25 IFV at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 57mm Epoch Module: 57mm 3OF91 (AP-HE), 57mm 3UBM21 APDS (Sabot)
+- Kornet ATGM: 9M133 "Kornet"AntiTank missile(HEAT)
+- Bulat Mini-Missiles: "Blart" mini missile(Thermobaric)
+- 7.62mm PKT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_Kurganets25_Blueprint.description>
+  <RT_Make_Kurganets25_Blueprint.label>Assemble Kurganets-25 IFV</RT_Make_Kurganets25_Blueprint.label>
+  <RT_Make_T90M_Blueprint.description>Assembly of T-90M Proryv-3 at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 125mm 2A46M-5 Cannon: 125mm 3OF26 (HE), 125mm 3BK18M (HEAT), 125mm 3BM60 (APFSDS)
+- 12.7mm Remote Kord RWS: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62mm Coaxial PKTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T90M_Blueprint.description>
+  <RT_Make_T90M_Blueprint.label>Assemble T-90M Proryv-3</RT_Make_T90M_Blueprint.label>
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.0.label>M2A3 BUSK III爆反套件</RT_M2A3_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.0.description>为M2A3加装BUSK III套件以加强侧面防护。</RT_M2A3_Vehicle_UpgradeTree.nodes.0.description>
+	
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.1.label>引擎升级</RT_M2A3_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_M2A3_Vehicle_UpgradeTree.nodes.1.description>提升发动机马力以弥补加装套件带来的功重比损失。</RT_M2A3_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.label>M1A2 TUSK爆反套件</RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.description>为M1A2加装TUSK套件以加强侧面防护，同时安装炮管同轴机枪。</RT_M1A2SEP_Vehicle_UpgradeTree.nodes.0.description>
+
+</LanguageData>

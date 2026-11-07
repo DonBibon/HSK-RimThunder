@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 平衡相关 -->
+
+  <RT_Apoch57_Turret.label>LShO-57 57mm AutoCannon</RT_Apoch57_Turret.label>
+  <RT_Apoch57_Turret.fireModes.0.label>Burst</RT_Apoch57_Turret.fireModes.0.label>
+  <RT_Apoch57_Turret.fireModes.1.label>Short Burst</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.fireModes.1.label>Auto</RT_Apoch57_Turret.fireModes.1.label>
+  <RT_Apoch57_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 57mmAC</RT_Apoch57_Turret.gizmoDescription>
+
+  <RT_Bo_PKT_Turret.label>PKT MG</RT_Bo_PKT_Turret.label>
+
+  <RT_Min_Missile_Turret.label>Mini Missile</RT_Min_Missile_Turret.label>
+  <RT_Min_Missile_Turret.fireModes.1.label>Single Shot</RT_Min_Missile_Turret.fireModes.1.label>
+  <RT_Min_Missile_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; "Blart" Mini Missile</RT_Min_Missile_Turret.gizmoDescription>
+	
+</LanguageData>

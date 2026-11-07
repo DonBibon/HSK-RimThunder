@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T3485_Vehicle.label>Т-34-85</RT_T3485_Vehicle.label>
+  <RT_T3485_Vehicle.description>Основной советский средний танк завершающего этапа Великой Отечественной войны с трёхместной башней и 85-мм пушкой ЗИС-С-53.
+
+&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; Механик-водитель x1, Командир x1, Наводчик x1, Заряжающий x1, Стрелок-радист x1
+&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химтопливо (Chemfuel)
+
+&lt;color=#b0e0e6&gt;Боеприпасы (CE Ammo):&lt;/color&gt;
+- 85-мм пушка ЗИС-С-53: 85x629mmR (AP / APHE / HE)
+- 7.62-мм пулемёт ДТМ: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T3485_Vehicle.description>
+</LanguageData>

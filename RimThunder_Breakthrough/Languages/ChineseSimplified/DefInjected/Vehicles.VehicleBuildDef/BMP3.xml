@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RT_BMP3_Vehicle_Blueprint.label>BMP3</RT_BMP3_Vehicle_Blueprint.label>
+  <RT_BMP3_Vehicle_Blueprint.description>一种步兵战车，装备了配置有自动装弹机的100mm炮和同轴30mm自动炮，能够通过更换炮塔升级为2S38。\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x2, 乘客 x5\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n100mmShell（主炮）\n30x165mm（同轴机炮）\n7.62x54mmR（同轴机枪）</RT_BMP3_Vehicle_Blueprint.description>
+
+</LanguageData>

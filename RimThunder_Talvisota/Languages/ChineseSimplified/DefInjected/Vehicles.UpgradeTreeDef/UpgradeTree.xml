@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.label>T-34/57</RT_T34_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.description>应对反装甲需求将76毫米L11火炮升级为57毫米Zis2反坦克炮。</RT_T34_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>Zis2主炮</RT_T34_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.label>T-34E</RT_T34_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.description>应对提升防护需求额外加装装甲，同时将76毫米L11火炮升级为76毫米F34火炮。</RT_T34_Vehicle_UpgradeTree.nodes.1.description>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>F34主炮</RT_T34_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+
+  <RT_T34_Vehicle_UpgradeTree.nodes.2.label>OT-34</RT_T34_Vehicle_UpgradeTree.nodes.2.label>
+  
+  <RT_T34_Vehicle_UpgradeTree.nodes.2.description>应对反步兵需求将车体DT机枪换装为喷火器。</RT_T34_Vehicle_UpgradeTree.nodes.2.description>
+
+  <RT_BT_Vehicle_UpgradeTree.nodes.0.label>BT-42</RT_BT_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_BT_Vehicle_UpgradeTree.nodes.0.description>升级为加装QF4.5榴弹炮的BT-42。</RT_BT_Vehicle_UpgradeTree.nodes.0.description>
+
+  <RT_T28_Vehicle_UpgradeTree.nodes.0.label>T-28E</RT_T28_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_T28_Vehicle_UpgradeTree.nodes.0.description>额外加装装甲，同时加装车顶机枪。</RT_T28_Vehicle_UpgradeTree.nodes.0.description>
+
+
+</LanguageData>

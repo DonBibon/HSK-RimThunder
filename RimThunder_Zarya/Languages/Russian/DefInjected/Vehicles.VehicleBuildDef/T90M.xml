@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T90M_MainBattleTank_Blueprint.label>T-90M «Прорыв»</RT_T90M_MainBattleTank_Blueprint.label>
+	<RT_T90M_MainBattleTank_Blueprint.description>Основной боевой танк Т-90М является последней модернизированной версией танка Т-90А и является абсолютной главной силой Вооружённых Сил Российской Федерации.\n\n&lt;color=#bb8f04&gt;Экипаж:&lt;/color&gt; водитель x1, Наводчик x1, командир x1\n&lt;color=#bb8f04&gt;Топливо:&lt;/color&gt; Химическое топливо\n\n&lt;color=#b0e0e6&gt;Типы боеприпасов CE:&lt;/color&gt; \n125mmCannon（Главная пушка）\n12.7x108mm（Зенитные пулеметы）\n7.62x54mmR（Коаксиальный пулемет）</RT_T90M_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

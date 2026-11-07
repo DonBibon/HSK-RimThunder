@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 載具本體 -->
+
+	<RT_RF8_Vehicle.label>NKL-26 戰鬥雪橇</RT_RF8_Vehicle.label>
+	<RT_RF8_Vehicle.description>一種裝甲雪橇，裝備有一挺7.62公釐機槍，用於在雪地掩護和運輸滑雪步兵。\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 機槍手 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n7.62x54mmR（機槍）</RT_RF8_Vehicle.description>
+	<RT_RF8_Vehicle.properties.roles.0.label>駕駛員</RT_RF8_Vehicle.properties.roles.0.label>
+	<RT_RF8_Vehicle.properties.roles.1.label>機槍手</RT_RF8_Vehicle.properties.roles.1.label>
+	<RT_RF8_Vehicle.components.0.label>引擎</RT_RF8_Vehicle.components.0.label>
+	<RT_RF8_Vehicle.components.1.label>油箱</RT_RF8_Vehicle.components.1.label>
+	<RT_RF8_Vehicle.components.2.label>變速箱</RT_RF8_Vehicle.components.2.label>
+	<RT_RF8_Vehicle.components.3.label>傳動軸</RT_RF8_Vehicle.components.3.label>
+	<RT_RF8_Vehicle.components.4.label>左前滑雪板</RT_RF8_Vehicle.components.4.label>
+	<RT_RF8_Vehicle.components.5.label>右前滑雪板</RT_RF8_Vehicle.components.5.label>
+	<RT_RF8_Vehicle.components.6.label>左後滑雪板</RT_RF8_Vehicle.components.6.label>
+	<RT_RF8_Vehicle.components.7.label>右後滑雪板</RT_RF8_Vehicle.components.7.label>
+	<RT_RF8_Vehicle.components.8.label>左前懸掛</RT_RF8_Vehicle.components.8.label>
+	<RT_RF8_Vehicle.components.9.label>右前懸掛</RT_RF8_Vehicle.components.9.label>
+	<RT_RF8_Vehicle.components.10.label>左後懸掛</RT_RF8_Vehicle.components.10.label>
+	<RT_RF8_Vehicle.components.11.label>右後懸掛</RT_RF8_Vehicle.components.11.label>
+	<RT_RF8_Vehicle.components.12.label>正面裝甲</RT_RF8_Vehicle.components.12.label>
+	<RT_RF8_Vehicle.components.13.label>左側裝甲</RT_RF8_Vehicle.components.13.label>
+	<RT_RF8_Vehicle.components.14.label>右側裝甲</RT_RF8_Vehicle.components.14.label>
+	<RT_RF8_Vehicle.components.15.label>頂部裝甲</RT_RF8_Vehicle.components.15.label>
+	<RT_RF8_Vehicle.components.16.label>後方裝甲</RT_RF8_Vehicle.components.16.label>
+
+	<RT_RF8_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>DT機槍</RT_RF8_Vehicle.comps.CompVehicleTurrets.turrets.0.gizmoLabel>
+
+
+  <!-- 载具本体 -->
+
+</LanguageData>

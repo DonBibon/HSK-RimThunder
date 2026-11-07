@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 主砲的Def -->
+	<RT_M10_Tank_Turret.label>120mm M256</RT_M10_Tank_Turret.label>
+  	<RT_M10_Tank_Turret.fireModes.0.label>Single Shot</RT_M10_Tank_Turret.fireModes.0.label>
+  	<RT_M10_Tank_Turret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 120mmCannon</RT_M10_Tank_Turret.gizmoDescription>
+
+   <!-- 平衡相关 -->
+
+  	<RT_M10_Top_MGTurret.label>M2HB</RT_M10_Top_MGTurret.label>
+  	<RT_M10_Top_MGTurret.gizmoDescription>Select Target.\n\nFire for effect\n\n&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt; 50BMG</RT_M10_Top_MGTurret.gizmoDescription>
+	
+</LanguageData>

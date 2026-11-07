@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_M1A2SEP_MainBattleTank_Blueprint.label>M1A2 艾布拉姆斯</RT_M1A2SEP_MainBattleTank_Blueprint.label>
+	<RT_M1A2SEP_MainBattleTank_Blueprint.description>一种第三代主战坦克，装备了120mm炮，能够加装TUSK套件以提升防御性能.\n\n&lt;color=#bb8f04&gt;乘员:&lt;/color&gt; 驾驶员 x1, 炮手 x2, 车长 x1\n&lt;color=#bb8f04&gt;燃料种类:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE弹药类型:&lt;/color&gt; \n120mmCannon（主炮）\n50BMG（车顶机枪）\n7.62x51mmNATO（同轴机枪）</RT_M1A2SEP_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>

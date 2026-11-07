@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_Make_BA64_Blueprint.description>Assembly of BA-64 at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_BA64_Blueprint.description>
+  <RT_Make_BA64_Blueprint.label>Assemble BA-64</RT_Make_BA64_Blueprint.label>
+  <RT_Make_BM13_Blueprint.description>Assembly of BM-13 Katyusha at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 132mm M-13 MLRS (16 rails): 132mm M-13 rocket</RT_Make_BM13_Blueprint.description>
+  <RT_Make_BM13_Blueprint.label>Assemble BM-13 Katyusha</RT_Make_BM13_Blueprint.label>
+  <RT_Make_IS2_Blueprint.description>Assembly of IS-2 Obr.1945 at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 122mm D-25T Cannon: 122mmHowitzer Cannon shell (HE / APHE)
+- 12.7mm DShK AA MG: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62mm Coaxial DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_IS2_Blueprint.description>
+  <RT_Make_IS2_Blueprint.label>Assemble IS-2 Obr.1945</RT_Make_IS2_Blueprint.label>
+  <RT_Make_IS3_Blueprint.description>Assembly of IS-3 Heavy Tank at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 122mm D-25T Cannon: 122mmHowitzer Cannon shell (HE / APHE)
+- 12.7mm DShK AA MG: 12.7x108mm cartridge (FMJ / AP / HE / Sabot)
+- 7.62mm Coaxial DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_IS3_Blueprint.description>
+  <RT_Make_IS3_Blueprint.label>Assemble IS-3 Heavy Tank</RT_Make_IS3_Blueprint.label>
+  <RT_Make_T3485_Blueprint.description>Assembly of T-34-85 at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 85mm ZIS-S-53 Cannon: 85x629mmR (AP / APHE / HE)
+- 7.62mm DTM MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T3485_Blueprint.description>
+  <RT_Make_T3485_Blueprint.label>Assemble T-34-85</RT_Make_T3485_Blueprint.label>
+  <RT_Make_T70_Blueprint.description>Assembly of T-70 at the Assembly gantry.
+
+&lt;color=#b0e0e6&gt;Required craftable ammunition (Ammo crafting table):&lt;/color&gt;
+- 45mm 20-K Cannon: 45x310mmR (AP / Canister)
+- 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_Make_T70_Blueprint.description>
+  <RT_Make_T70_Blueprint.label>Assemble T-70</RT_Make_T70_Blueprint.label>
+</LanguageData>

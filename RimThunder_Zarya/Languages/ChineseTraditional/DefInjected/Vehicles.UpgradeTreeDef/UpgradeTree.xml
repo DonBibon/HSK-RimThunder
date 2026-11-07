@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>時代-阿拉木圖炮塔</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>換裝配備了2A42機關炮和2座雙聯裝9M133“短號”反坦克導彈的時代-阿拉木圖炮塔。</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.description>
+
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2A42主炮</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT同軸機槍</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>短號反坦克導彈</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.2.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel>短號反坦克導彈</RT_Kurganets25_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.3.gizmoLabel>
+	
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>貝加爾湖炮塔</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.label>
+  
+  <RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>換裝配備了2A91火炮和雙聯裝9M133“短號”反坦克導彈的貝加爾湖炮塔。</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.description>
+
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>2A91主炮</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>PKT同軸機槍</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.1.gizmoLabel>
+	<RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>短號反坦克導彈</RT_Kurganets25_Vehicle_UpgradeTree.nodes.1.upgrades.0.turrets.2.gizmoLabel>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.label>T-90M 重型爆反套件</RT_T90M_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_T90M_Vehicle_UpgradeTree.nodes.0.description>為T-90M 加裝“化石”重型爆炸反應裝甲以加強側面防護。</RT_T90M_Vehicle_UpgradeTree.nodes.0.description>
+
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>2S25M炮塔</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.label>
+
+  <RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>換裝配備了2A75 125mm主炮的 2S25炮塔。</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.description>
+
+	<RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>2A75 坦克炮</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.0.gizmoLabel>
+	<RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>PKT同軸機槍</RT_Boomerang_Vehicle_UpgradeTree.nodes.0.upgrades.0.turrets.1.gizmoLabel>
+
+
+</LanguageData>

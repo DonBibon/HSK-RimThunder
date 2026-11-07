@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<MakeAmmo_762x385mmRCannonShell_APHE.label>製作76.2x385mmR (穿甲榴彈) x5</MakeAmmo_762x385mmRCannonShell_APHE.label>
+	<MakeAmmo_762x385mmRCannonShell_APHE.description>製作5枚 76.2x385mmR (穿甲榴彈)</MakeAmmo_762x385mmRCannonShell_APHE.description>
+	<MakeAmmo_762x385mmRCannonShell_APHE.jobString>正在製作5枚 76.2x385mmR (穿甲榴彈)</MakeAmmo_762x385mmRCannonShell_APHE.jobString>
+
+	<MakeAmmo_762x385mmRCannonShell_Canister.label>製作76.2x385mmR(炮射霰彈) x5</MakeAmmo_762x385mmRCannonShell_Canister.label>
+	<MakeAmmo_762x385mmRCannonShell_Canister.description>製作5枚 76.2x385mmR(炮射霰彈)</MakeAmmo_762x385mmRCannonShell_Canister.description>
+	<MakeAmmo_762x385mmRCannonShell_Canister.jobString>正在製作5枚 76.2x385mmR(炮射霰彈)</MakeAmmo_762x385mmRCannonShell_Canister.jobString>
+
+</LanguageData>

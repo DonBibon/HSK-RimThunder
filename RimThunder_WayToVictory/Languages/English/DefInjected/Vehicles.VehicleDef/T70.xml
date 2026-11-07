@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <RT_T70_Vehicle.label>T-70</RT_T70_Vehicle.label>
+  <RT_T70_Vehicle.description>Soviet light tank of WW2 armed with a 45mm 20-K gun and coaxial DT machine gun.
+
+&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Commander/Gunner x1
+&lt;color=#bb8f04&gt;Fuel:&lt;/color&gt; Chemfuel
+
+&lt;color=#b0e0e6&gt;CE Ammo:&lt;/color&gt;
+- 45mm 20-K Cannon: 45x310mmR (AP / Canister)
+- 7.62mm DT MG: 7.62x54mmR cartridge (FMJ / AP / HP)</RT_T70_Vehicle.description>
+</LanguageData>

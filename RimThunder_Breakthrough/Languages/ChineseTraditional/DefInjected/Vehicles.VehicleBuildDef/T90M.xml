@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RT_T90M_MainBattleTank_Blueprint.label>T-90M主戰坦克</RT_T90M_MainBattleTank_Blueprint.label>
+	<RT_T90M_MainBattleTank_Blueprint.description>T-90M主戰坦克是T-90A坦克的最終升級版，是俄聯邦武裝力量的絕對主力.\n\n&lt;color=#bb8f04&gt;乘員:&lt;/color&gt; 駕駛員 x1, 炮手 x1, 車長 x1\n&lt;color=#bb8f04&gt;燃料種類:&lt;/color&gt; 化合燃料\n\n&lt;color=#b0e0e6&gt;CE彈藥類型:&lt;/color&gt; \n125mmCannon（主炮）\n12.7x108mm（車頂機槍）\n7.62x54mmR（同軸機槍）</RT_T90M_MainBattleTank_Blueprint.description>
+
+
+</LanguageData>
