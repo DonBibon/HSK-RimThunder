@@ -162,7 +162,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -176,7 +175,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>

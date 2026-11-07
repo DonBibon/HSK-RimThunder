@@ -88,7 +88,6 @@
 				<value>
 					<thingDefs>
 						<li>Ammo_50BMG_FMJ</li>
-						<li>Ammo_50BMG_AP</li>
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
@@ -199,7 +198,6 @@
 				<value>
 					<thingDefs>
 						<li>Ammo_50BMG_FMJ</li>
-						<li>Ammo_50BMG_AP</li>
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
@@ -312,9 +310,6 @@
 						<li>Ammo_762x51mmNATO_FMJ</li>
 						<li>Ammo_762x51mmNATO_AP</li>
 						<li>Ammo_762x51mmNATO_HP</li>
-						<li>Ammo_762x51mmNATO_Incendiary</li>
-						<li>Ammo_762x51mmNATO_HE</li>
-						<li>Ammo_762x51mmNATO_Sabot</li>
 					</thingDefs>
 				</value>
 			</li>
@@ -424,9 +419,6 @@
 						<li>Ammo_762x51mmNATO_FMJ</li>
 						<li>Ammo_762x51mmNATO_AP</li>
 						<li>Ammo_762x51mmNATO_HP</li>
-						<li>Ammo_762x51mmNATO_Incendiary</li>
-						<li>Ammo_762x51mmNATO_HE</li>
-						<li>Ammo_762x51mmNATO_Sabot</li>
 					</thingDefs>
 				</value>
 			</li>

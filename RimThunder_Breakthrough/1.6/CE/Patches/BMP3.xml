@@ -60,7 +60,6 @@
 				<ammunition Inherit="False">
 					<thingDefs>
 						<li>Ammo_100mmShell_HE</li>
-						<li>Ammo_100mmShell_HEAT</li>
 						<li>Ammo_Ru100mmShell_HEAT</li>
 					</thingDefs>
 				</ammunition>
@@ -72,7 +71,6 @@
 				<ammunition Inherit="False">
 					<thingDefs>
 						<li>Ammo_100mmShell_HE</li>
-						<li>Ammo_100mmShell_HEAT</li>
 						<li>Ammo_Ru100mmShell_HEAT</li>
 					</thingDefs>
 				</ammunition>

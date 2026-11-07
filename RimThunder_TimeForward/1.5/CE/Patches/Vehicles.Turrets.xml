@@ -133,9 +133,6 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					<li>Ammo_762x54mmR_Incendiary</li>
-					<li>Ammo_762x54mmR_HE</li>
-					<li>Ammo_762x54mmR_Sabot</li>
 				</thingDefs>
 			</ammunition>
 		</value>
@@ -575,9 +572,6 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					<li>Ammo_762x54mmR_Incendiary</li>
-					<li>Ammo_762x54mmR_HE</li>
-					<li>Ammo_762x54mmR_Sabot</li>
 				</thingDefs>
 			</ammunition>
 		</value>
