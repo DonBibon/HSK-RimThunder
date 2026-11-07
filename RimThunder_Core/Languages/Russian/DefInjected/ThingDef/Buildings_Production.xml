@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- RU: сборочная платформа -->
+  <RT_AssemblyBench.label>Тяжелая сборочная платформа</RT_AssemblyBench.label>
+  <!-- RU: рабочий стол с тяжелым оборудованием и инструментами для сборки компонентов. -->
+  <RT_AssemblyBench.description>Рабочий стол с тяжелым оборудованием и инструментами для сборки компонентов.</RT_AssemblyBench.description>
+  
+  <!-- RU: сборочный мостовой кран -->
+  <RT_AssemblyCrane.label>Тяжелый сборочный кран</RT_AssemblyCrane.label>
+  <!-- RU: тип крана, используемый в промышленных условиях, часто используется для сборки и обслуживания тяжелого оборудования и транспортных средств. -->
+  <RT_AssemblyCrane.description>Тип крана, используемый в промышленных условиях, часто используется для сборки и обслуживания транспортных средств.</RT_AssemblyCrane.description>
+  
+  <!-- RU: незавершенный транспортное средство -->
+  <RTC_UnfinishedVehicle.label>Транспортное средство (незавершенное)</RTC_UnfinishedVehicle.label>
+  <!-- RU: незавершенные части транспортного средства и инструменты. -->
+  <RTC_UnfinishedVehicle.description>Незавершенные части транспортного средства и сборочные инструменты.</RTC_UnfinishedVehicle.description>
+  
+</LanguageData>

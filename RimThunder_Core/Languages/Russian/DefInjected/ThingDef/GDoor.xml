@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <VVE_GarageDoor.label>Ворота гаража</VVE_GarageDoor.label>
+  
+  <VVE_GarageDoorLarge.label>Большие ворота гаража</VVE_GarageDoorLarge.label>
+  
+  <VVE_GarageAutoDoor.label>Автоматические ворота гаража</VVE_GarageAutoDoor.label>
+  
+  <VVE_GarageAutoDoorLarge.label>Большие автоматические ворота гаража</VVE_GarageAutoDoorLarge.label>
+   
+   
+  <VVE_GarageDoor.description>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</VVE_GarageDoor.description>
+  
+  <VVE_GarageDoorLarge.description>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</VVE_GarageDoorLarge.description>
+   
+    <VVE_GarageAutoDoor.description>Разделяет комнаты. Электрический привод позволяет двери открываться без ручного вмешательства, пропуская транспортные средства.</VVE_GarageAutoDoor.description>
+	
+	<VVE_GarageAutoDoorLarge.description>Разделяет комнаты. Ручное управление позволяет людям открывать его, пропуская транспортные средства.</VVE_GarageAutoDoorLarge.description>
+  
+</LanguageData>

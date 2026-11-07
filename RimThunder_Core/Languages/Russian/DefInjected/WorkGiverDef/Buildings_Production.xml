@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- RU: Управление машиной -->
+  <RTC_Operate.label>Управление машиной</RTC_Operate.label>
+  <!-- RU: Управление на -->
+  <RTC_Operate.gerund>Управление на</RTC_Operate.gerund>
+  <!-- RU: Управлять -->
+  <RTC_Operate.verb>Управлять</RTC_Operate.verb>
+  
+</LanguageData>

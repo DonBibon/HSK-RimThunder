@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <RT_Bicycle.label>Велосипед</RT_Bicycle.label>
+   
+  <RT_Bicycle.description>Двухколесное транспортное средство, дешевое и простое в использовании, подходящее для широкого круга задач.</RT_Bicycle.description>
+  
+  <!-- RU: Передача шестерен -->
+  <RT_Bicycle.components.0.label>Передача шестерен</RT_Bicycle.components.0.label>
+  <!-- RU: Рамная конструкция -->
+  <RT_Bicycle.components.1.label>Рамная конструкция</RT_Bicycle.components.1.label>
+  <!-- RU: Приводная цепь -->
+  <RT_Bicycle.components.2.label>Приводная цепь</RT_Bicycle.components.2.label>
+  <!-- RU: Переднее колесо -->
+  <RT_Bicycle.components.3.label>Переднее колесо</RT_Bicycle.components.3.label>
+  <!-- RU: Заднее колесо -->
+  <RT_Bicycle.components.4.label>Заднее колесо</RT_Bicycle.components.4.label>
+  
+</LanguageData>
