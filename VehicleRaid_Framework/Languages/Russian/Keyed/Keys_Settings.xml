@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VRF_Settings_Category>Vehicle Raid Framework</VRF_Settings_Category>
+  <VRF_Settings_Title>Vehicle Raid Framework — Настройки естественных рейдов</VRF_Settings_Title>
+  <VRF_Settings_Back>Назад</VRF_Settings_Back>
+  <VRF_Settings_Configure>Настроить</VRF_Settings_Configure>
+  <VRF_Settings_Details>Подробнее</VRF_Settings_Details>
+  <VRF_Settings_NoFactions>Фракции для рейдов не найдены.</VRF_Settings_NoFactions>
+  <VRF_Settings_NoVehicles>Виды техники не найдены. Убедитесь, что загружен Vehicle Framework и моды на технику.</VRF_Settings_NoVehicles>
+  <VRF_Settings_FactionListDesc>Выберите фракцию, чтобы настроить, какая техника может появляться в её рейдах.</VRF_Settings_FactionListDesc>
+  <VRF_Settings_VehicleListDesc>Техника для фракции: {0}. Отметьте технику галочкой, чтобы разрешить её в рейдах.</VRF_Settings_VehicleListDesc>
+  <VRF_Settings_CombatPower>Боевая мощь</VRF_Settings_CombatPower>
+  <VRF_Settings_TechLevel>Технологический уровень: {0}</VRF_Settings_TechLevel>
+  <VRF_Settings_VehicleType>Тип: {0}</VRF_Settings_VehicleType>
+  <VRF_Settings_EnableForRaids>Разрешить в естественных рейдах</VRF_Settings_EnableForRaids>
+  <VRF_Settings_VehicleActive>Эта машина будет появляться в естественных рейдах данной фракции.</VRF_Settings_VehicleActive>
+  <VRF_Settings_VehicleInactive>Эта машина не будет появляться в рейдах.</VRF_Settings_VehicleInactive>
+  <VRF_Settings_MinCombatPoints>Мин. очков рассказчика для спавна</VRF_Settings_MinCombatPoints>
+  <VRF_Settings_MaxCombatPoints>Макс. очков рассказчика для спавна</VRF_Settings_MaxCombatPoints>
+  <VRF_Settings_Tip_CombatPower>Стоимость в очках, которую рассказчик тратит на включение этой машины в рейд. Чем выше значение, тем меньше таких машин появится в слабых рейдах.</VRF_Settings_Tip_CombatPower>
+  <VRF_Settings_Tip_MinPoints>Минимальное количество очков рейда, необходимое для появления этой машины. Ниже этого порога рассказчик её не выберет.</VRF_Settings_Tip_MinPoints>
+  <VRF_Settings_Tip_MaxPoints>Верхний предел очков рейда, выше которого эта машина перестанет появляться. Полезно, чтобы лёгкая техника не появлялась в поздней игре. 0 — без ограничений.</VRF_Settings_Tip_MaxPoints>
+  <VRF_Settings_Tip_Estimator>Эти коэффициенты определяют, как автозаполнение рассчитывает боевую мощь техники по формуле: (HP × WeightHP) + (Armor × WeightArmor) + (DPS × WeightDPS) + (Range × WeightRange) + (Speed × WeightSpeed) + (Drivers × WeightDrivers) + (Gunners × WeightGunners) + (Passengers × WeightPassengers) + (Size × WeightSize).</VRF_Settings_Tip_Estimator>
+  <VRF_Settings_Tip_AirMultiplier>Дополнительный множитель боевой мощи для летательных аппаратов (вертолётов, самолётов).</VRF_Settings_Tip_AirMultiplier>
+  <VRF_Settings_Tip_Budget>Бюджет очков, выделенный модом на покупку техники. Мод выбирает включённую технику по стоимости боевой мощи, пока бюджет не исчерпан. Техника с «Принудительным спавном» добавляется всегда независимо от бюджета.</VRF_Settings_Tip_Budget>
+  <VRF_Settings_RaidStrategies>Стратегии рейдов</VRF_Settings_RaidStrategies>
+  <VRF_Settings_GlobalStrategyTitle>Глобальный фильтр стратегий рейдов</VRF_Settings_GlobalStrategyTitle>
+  <VRF_Settings_GlobalStrategyBtn>Разрешённые стратегии рейдов</VRF_Settings_GlobalStrategyBtn>
+  <VRF_Settings_Tip_GlobalStrategy>Определяет, какие стратегии рейдов могут спавнить технику глобально. Если стратегия отключена здесь, техника в таком рейде не появится ни при каких условиях.</VRF_Settings_Tip_GlobalStrategy>
+  <VRF_Settings_GlobalStrategyHint>Отключённые стратегии полностью блокируют появление техники в этом типе рейда.</VRF_Settings_GlobalStrategyHint>
+  <VRF_Settings_VehiclePointsFractionTitle>% очков рейда, выделяемых на технику</VRF_Settings_VehiclePointsFractionTitle>
+  <VRF_Settings_RaidVehicleSpawnChanceTitle>Шанс появления техники в обычных рейдах</VRF_Settings_RaidVehicleSpawnChanceTitle>
+  <VRF_Settings_Tip_RaidVehicleSpawnChance>Вероятность того, что в обычном рейде система попытается добавить технику фракции. При 0% техника не добавляется; при 100% — добавляется всегда.</VRF_Settings_Tip_RaidVehicleSpawnChance>
+  <VRF_Settings_SettlementVehicleSpawnChanceTitle>Шанс техники в поселениях</VRF_Settings_SettlementVehicleSpawnChanceTitle>
+  <VRF_Settings_Tip_SettlementVehicleSpawnChance>Шанс появления техники при генерации вражеского поселения.</VRF_Settings_Tip_SettlementVehicleSpawnChance>
+  <VRF_Settings_OutpostVehicleSpawnChanceTitle>Шанс техники на аванпостах и миссиях</VRF_Settings_OutpostVehicleSpawnChanceTitle>
+  <VRF_Settings_Tip_OutpostVehicleSpawnChance>Шанс появления техники при генерации вражеского аванпоста или места задания.</VRF_Settings_Tip_OutpostVehicleSpawnChance>
+  <VRF_Settings_AmbushVehicleSpawnChanceTitle>Шанс техники в засадах</VRF_Settings_AmbushVehicleSpawnChanceTitle>
+  <VRF_Settings_Tip_AmbushVehicleSpawnChance>Шанс появления техники при засаде на караван.</VRF_Settings_Tip_AmbushVehicleSpawnChance>
+  <VRF_Settings_CaravanWealthBudgetLimitTitle>Лимит бюджета техники от стоимости каравана</VRF_Settings_CaravanWealthBudgetLimitTitle>
+  <VRF_Settings_Tip_CaravanWealthBudgetLimit>При включении «Добавить бюджет от группы» рыночная стоимость каравана напрямую переходит в бюджет техники. Это значение ограничивает только данную динамическую часть.</VRF_Settings_Tip_CaravanWealthBudgetLimit>
+  <VRF_Settings_VehicleMapLimitTitle>Лимит техники на карте за один рейд</VRF_Settings_VehicleMapLimitTitle>
+  <VRF_Settings_Tip_VehicleMapLimit>Максимальное число техники на карте в одном рейде. 0 отключает лимит.</VRF_Settings_Tip_VehicleMapLimit>
+  <VRF_Settings_VehicleMapLimitWarning>Внимание: высокие значения могут вызывать просадки FPS и нестабильность.</VRF_Settings_VehicleMapLimitWarning>
+  <VRF_Settings_AutoFillAmmoFractionTitle>% грузового отсека под боеприпасы (автозаполнение)</VRF_Settings_AutoFillAmmoFractionTitle>
+  <VRF_StrategyDialog_Title>Стратегии рейдов — {0}</VRF_StrategyDialog_Title>
+  <VRF_StrategyDialog_Hint>Отмеченные стратегии разрешают спавн этой машины. Снятые галочки запрещают.</VRF_StrategyDialog_Hint>
+  <VRF_StrategyDialog_AllOn>Включить все</VRF_StrategyDialog_AllOn>
+  <VRF_StrategyDialog_AllOff>Отключить все</VRF_StrategyDialog_AllOff>
+  <VRF_Settings_Turrets>Вооружение / Турели</VRF_Settings_Turrets>
+  <VRF_Settings_TurretRange>Дальность: {0} - {1}</VRF_Settings_TurretRange>
+  <VRF_Settings_CargoCapacity>Грузоподъёмность: {0} кг</VRF_Settings_CargoCapacity>
+  <VRF_Settings_CargoSection>Груз [{0} кг]</VRF_Settings_CargoSection>
+  <VRF_Settings_Fuel>Топливо ({0}): {1}% — {2} / {3} кг</VRF_Settings_Fuel>
+  <VRF_Settings_Ammo>Боеприпасы ({0} — {1}): {2}% — {3} шт. ({4} кг)</VRF_Settings_Ammo>
+  <VRF_Settings_Presets>Пресеты</VRF_Settings_Presets>
+  <VRF_Settings_Clear>Очистить</VRF_Settings_Clear>
+  <VRF_Settings_ClearConfirm>Сбросить настройки техники для всех фракций? Это действие нельзя отменить.</VRF_Settings_ClearConfirm>
+  <VRF_Settings_AutoLoadPresets>Автозагрузка пресетов модов при запуске</VRF_Settings_AutoLoadPresets>
+  <VRF_Settings_PresetExport>Экспорт конфигурации</VRF_Settings_PresetExport>
+  <VRF_Settings_PresetFileName>Имя файла:</VRF_Settings_PresetFileName>
+  <VRF_Settings_Export>Экспорт</VRF_Settings_Export>
+  <VRF_Settings_PresetImport>Импорт пресета</VRF_Settings_PresetImport>
+  <VRF_Settings_NoPresets>Пресеты не найдены.</VRF_Settings_NoPresets>
+  <VRF_Settings_FlightMode>Режим полёта</VRF_Settings_FlightMode>
+  <VRF_Settings_FlightModeDisabled>Отключён</VRF_Settings_FlightModeDisabled>
+  <VRF_Settings_HelicopterType>Вертолёт (зависание)</VRF_Settings_HelicopterType>
+  <VRF_Settings_AirplaneType>Самолёт (посадочная полоса)</VRF_Settings_AirplaneType>
+  <VRF_Settings_HoverMoveSpeed>Скорость полёта (зависание)</VRF_Settings_HoverMoveSpeed>
+  <VRF_Settings_AirplaneMoveSpeed>Скорость полёта (самолёт)</VRF_Settings_AirplaneMoveSpeed>
+  <VRF_Settings_Load>Загрузить</VRF_Settings_Load>
+  <VRF_Preset_Exported>Пресет экспортирован в: {0}</VRF_Preset_Exported>
+  <VRF_Preset_ExportFailed>Не удалось экспортировать пресет.</VRF_Preset_ExportFailed>
+  <VRF_Preset_Imported>Пресет «{0}» успешно загружен.</VRF_Preset_Imported>
+  <VRF_Preset_ImportFailed>Не удалось импортировать пресет.</VRF_Preset_ImportFailed>
+  <VRF_Preset_InvalidFile>Неверный формат файла пресета.</VRF_Preset_InvalidFile>
+  <VRF_Settings_Optional>Опционально</VRF_Settings_Optional>
+  <VRF_Settings_PaintTitle>Покраска</VRF_Settings_PaintTitle>
+  <VRF_Settings_Paint_Default>По умолчанию (цвет фракции)</VRF_Settings_Paint_Default>
+  <VRF_Settings_Paint_Faction>Цвет фракции</VRF_Settings_Paint_Faction>
+  <VRF_Settings_Paint_Fixed>Фиксированные цвета</VRF_Settings_Paint_Fixed>
+  <VRF_Settings_Paint_Color1>Цвет 1</VRF_Settings_Paint_Color1>
+  <VRF_Settings_Paint_Color2>Цвет 2</VRF_Settings_Paint_Color2>
+  <VRF_Settings_Paint_Color3>Цвет 3</VRF_Settings_Paint_Color3>
+  <VRF_Settings_Paint_Pattern>Камуфляж / Скин</VRF_Settings_Paint_Pattern>
+  <VRF_Settings_Paint_Mode>Режим</VRF_Settings_Paint_Mode>
+  <VRF_Settings_Paint_Colors>Цвета</VRF_Settings_Paint_Colors>
+  <VRF_Settings_Upgrades>Улучшения</VRF_Settings_Upgrades>
+  <VRF_Settings_UpgradesDesc>Добавьте варианты улучшений. Один из них выбирается случайно при спавне машины. Недоступные улучшения подсвечены серым.</VRF_Settings_UpgradesDesc>
+  <VRF_Settings_Upgrades_AddOption>+ Добавить вариант</VRF_Settings_Upgrades_AddOption>
+  <VRF_Settings_Upgrades_Option>Вариант {0}</VRF_Settings_Upgrades_Option>
+  <VRF_Settings_Upgrades_Remove>Удалить</VRF_Settings_Upgrades_Remove>
+  <VRF_Settings_CopyList>Копировать</VRF_Settings_CopyList>
+  <VRF_Settings_PasteList>Вставить</VRF_Settings_PasteList>
+  <VRF_Settings_CopiedList>Список техники для «{0}» скопирован в буфер обмена.</VRF_Settings_CopiedList>
+  <VRF_Settings_PasteConfirm>Вставить список техники из «{0}» в «{1}»? Существующие записи будут перезаписаны.</VRF_Settings_PasteConfirm>
+  <VRF_Settings_ClearFactionConfirm>Сбросить все настройки техники для фракции «{0}»? Это действие нельзя отменить.</VRF_Settings_ClearFactionConfirm>
+  <VRF_Settings_AutoFill>Автозаполнение</VRF_Settings_AutoFill>
+  <VRF_Settings_AutoFillAllConfirm>Автозаполнить технику для всех {0} фракций во вкладке? Существующие настройки будут перезаписаны.</VRF_Settings_AutoFillAllConfirm>
+  <VRF_Settings_AutoFillAllDone>Автозаполнение завершено для {0} фракций.</VRF_Settings_AutoFillAllDone>
+  <VRF_Settings_CopiedAllLists>Настройки для {0} фракций скопированы в буфер обмена.</VRF_Settings_CopiedAllLists>
+  <VRF_Settings_PasteAllConfirm>Вставить скопированные настройки во вкладку для {0} фракций? Соответствующие записи будут перезаписаны.</VRF_Settings_PasteAllConfirm>
+  <VRF_Settings_PasteAllDone>Настройки вставлены для {0} фракций.</VRF_Settings_PasteAllDone>
+  <VRF_Settings_PasteListToAllConfirm>Вставить список техники из «{0}» во все {1} фракций этой вкладки? Существующие записи будут перезаписаны.</VRF_Settings_PasteListToAllConfirm>
+  <VRF_Settings_PasteListToAllDone>Список техники вставлен в {0} фракций.</VRF_Settings_PasteListToAllDone>
+  <VRF_Settings_AutoFillConfirm>Автозаполнить всю технику для фракции «{0}»? Это включит каждую машину и рассчитает боевую мощь по её характеристикам. Существующие значения будут перезаписаны.</VRF_Settings_AutoFillConfirm>
+  <VRF_Settings_UseManualBudget>Ручной бюджет</VRF_Settings_UseManualBudget>
+  <VRF_Settings_AddCaravanBudget>Добавить бюджет от группы</VRF_Settings_AddCaravanBudget>
+  <VRF_Settings_Tip_CaravanBudget>Итоговый бюджет складывается из ручного бюджета и рыночной стоимости каравана (пешки, животные, экипировка, груз).</VRF_Settings_Tip_CaravanBudget>
+  <VRF_Tab_Raids>Рейды</VRF_Tab_Raids>
+  <VRF_Tab_Settlements>Поселения</VRF_Tab_Settlements>
+  <VRF_Tab_Outposts>Аванпосты</VRF_Tab_Outposts>
+  <VRF_Tab_Ambush>Засады</VRF_Tab_Ambush>
+  <VRF_Tab_Hover>Настройки полёта</VRF_Tab_Hover>
+  <VRF_Settings_FactionListDesc_Settlement>Выберите фракцию, чтобы настроить технику, появляющуюся в её поселениях.</VRF_Settings_FactionListDesc_Settlement>
+  <VRF_Settings_FactionListDesc_Outpost>Выберите фракцию, чтобы настроить технику, появляющуюся на её аванпостах и миссиях.</VRF_Settings_FactionListDesc_Outpost>
+  <VRF_Settings_FactionListDesc_Ambush>Выберите фракцию, чтобы настроить технику, появляющуюся в засадах.</VRF_Settings_FactionListDesc_Ambush>
+  <VRF_Settings_Budget>Бюджет спавна (очки):</VRF_Settings_Budget>
+  <VRF_Settings_ForceSpawn>Принудительный спавн (игнорирует бюджет)</VRF_Settings_ForceSpawn>
+  <VRF_Settings_ForceSpawnDesc>Эта машина всегда будет появляться независимо от доступного бюджета. Автозаполнение игнорирует этот флаг.</VRF_Settings_ForceSpawnDesc>
+  <VRF_Settings_HoverDesc>Настройка параметров полёта/зависания для техники с соответствующим компонентом.</VRF_Settings_HoverDesc>
+  <VRF_Settings_NoHoverVehicles>Техника с компонентом зависания не найдена.</VRF_Settings_NoHoverVehicles>
+  <VRF_Settings_HoverReset>Сброс</VRF_Settings_HoverReset>
+  <VRF_Settings_HoverNative>Эта машина имеет встроенный компонент зависания.</VRF_Settings_HoverNative>
+  <VRF_Settings_HoverRequiresPatch>Чтобы добавить полёт этой технике, сохраните настройки через «Экспорт патча» и перезапустите RimWorld.</VRF_Settings_HoverRequiresPatch>
+  <VRF_Settings_HoverOverride>Нет встроенного полёта — конфигурация сохранена как переопределение.</VRF_Settings_HoverOverride>
+  <VRF_Hover_MaxTicks>Макс. тиков (посадка)</VRF_Hover_MaxTicks>
+  <VRF_Hover_BaseMoveSpeed>Базовая скорость перемещения</VRF_Hover_BaseMoveSpeed>
+  <VRF_Hover_MaxTicksVertical>Макс. тиков (по вертикали)</VRF_Hover_MaxTicksVertical>
+  <VRF_Hover_Altitude>Высота зависания</VRF_Hover_Altitude>
+  <VRF_Hover_ShadowOffset>Смещение тени</VRF_Hover_ShadowOffset>
+  <VRF_Hover_BobAmount>Амплитуда покачивания</VRF_Hover_BobAmount>
+  <VRF_Hover_BobSpeed>Скорость покачивания</VRF_Hover_BobSpeed>
+  <VRF_Hover_MoveSpeed>Скорость движения</VRF_Hover_MoveSpeed>
+  <VRF_Hover_AngVelPropeller>Угловая скорость (пропеллер)</VRF_Hover_AngVelPropeller>
+  <VRF_Settings_HoverEnable>Включить режим зависания</VRF_Settings_HoverEnable>
+  <VRF_Hover_FlightType>Тип полёта</VRF_Hover_FlightType>
+  <VRF_Hover_Type_Helicopter>Вертолёт (зависание)</VRF_Hover_Type_Helicopter>
+  <VRF_Hover_Type_Airplane>Самолёт (разбег по ВПП)</VRF_Hover_Type_Airplane>
+  <VRF_Hover_SectionCommon>Общие параметры</VRF_Hover_SectionCommon>
+  <VRF_Hover_SectionHelicopter>Параметры вертолёта</VRF_Hover_SectionHelicopter>
+  <VRF_Hover_SectionAirplane>Параметры самолёта</VRF_Hover_SectionAirplane>
+  <VRF_Hover_MaxTicksPropeller>Макс. тиков (пропеллер)</VRF_Hover_MaxTicksPropeller>
+  <VRF_Hover_RotationSpeed>Скорость поворота</VRF_Hover_RotationSpeed>
+  <VRF_Hover_ExportPatch>Экспорт как Patch XML</VRF_Hover_ExportPatch>
+  <VRF_Hover_PatchExported>Патч полёта экспортирован в: {0}</VRF_Hover_PatchExported>
+  <VRF_Hover_PatchExportFailed>Не удалось экспортировать патч полёта.</VRF_Hover_PatchExportFailed>
+  <VRF_Tab_Config>Настройки</VRF_Tab_Config>
+  <VRF_Settings_EstimatorTitle>Параметры формулы автозаполнения</VRF_Settings_EstimatorTitle>
+  <VRF_Settings_WeightHP>Вес Здоровья (HP)</VRF_Settings_WeightHP>
+  <VRF_Settings_WeightArmor>Вес Брони (Armor)</VRF_Settings_WeightArmor>
+  <VRF_Settings_WeightDPS>Вес Урона/сек (DPS)</VRF_Settings_WeightDPS>
+  <VRF_Settings_WeightRange>Вес Дальности (Range)</VRF_Settings_WeightRange>
+  <VRF_Settings_WeightSpeed>Вес Скорости (Speed)</VRF_Settings_WeightSpeed>
+  <VRF_Settings_WeightDrivers>Вес Водителей</VRF_Settings_WeightDrivers>
+  <VRF_Settings_WeightGunners>Вес Стрелков</VRF_Settings_WeightGunners>
+  <VRF_Settings_WeightPassengers>Вес Пассажиров</VRF_Settings_WeightPassengers>
+  <VRF_Settings_WeightSize>Вес Размера</VRF_Settings_WeightSize>
+  <VRF_Settings_AirMultiplier>Множитель авиации</VRF_Settings_AirMultiplier>
+  <VRF_Settings_AutoFillTransport>Автозаполнять транспортную технику (без турелей)</VRF_Settings_AutoFillTransport>
+  <VRF_Settings_AutoFillSiegeDrop>Автозаполнять десантные капсулы/осаду</VRF_Settings_AutoFillSiegeDrop>
+  <VRF_Settings_AutoFillSiegeDropDesc>При включении автозаполнение будет включать осадную десантную технику (напр., «Голиаф») и помечать её как осадный десант.</VRF_Settings_AutoFillSiegeDropDesc>
+  <VRF_Settings_SiegeDropOnly>Осадный десант: только дроп-рейды</VRF_Settings_SiegeDropOnly>
+  <VRF_Settings_SiegeDropOnlyDesc>Техника с пометкой осадного десанта будет появляться только в рейдах с десантированием (CenterDrop, EdgeDrop). Пешие рейды будут её пропускать.</VRF_Settings_SiegeDropOnlyDesc>
+  <VRF_Settings_Save>Сохранить настройки</VRF_Settings_Save>
+  <VRF_Settings_Saved>Настройки сохранены.</VRF_Settings_Saved>
+  <VRF_Settings_Reset>Сбросить настройки</VRF_Settings_Reset>
+  <VRF_Settings_ResetMsg>Настройки сброшены на значения по умолчанию.</VRF_Settings_ResetMsg>
+  <VRF_Settings_IsSiegeDrop>Осадная десантная техника</VRF_Settings_IsSiegeDrop>
+  <VRF_Settings_IsSiegeDropDesc>Пометить эту машину как осадную десантную капсулу. Ей не будет добавляться режим вертолёта, и она сможет появляться при десантных рейдах.</VRF_Settings_IsSiegeDropDesc>
+  <VRF_Strategy_DropPod>Десантные рейды (в центр, по краям и т.д.)</VRF_Strategy_DropPod>
+  <VRF_Settings_GravshipType>Гравилёт (зависание)</VRF_Settings_GravshipType>
+  <VRF_Settings_GravshipSpeedInfo>Скорость рассчитывается из установленных двигателей</VRF_Settings_GravshipSpeedInfo>
+  <VRF_Settings_ThrusterConfigBtn>Настроить двигатели гравилёта...</VRF_Settings_ThrusterConfigBtn>
+  <VRF_Settings_ThrusterConfigTitle>Конфигурация двигателей гравилёта</VRF_Settings_ThrusterConfigTitle>
+  <VRF_Settings_ThrusterConfigDesc>Настройте вклад каждого маневрового/тягового двигателя в скорость парения. Итоговая скорость равна сумме активных двигателей.</VRF_Settings_ThrusterConfigDesc>
+  <VRF_Settings_ThrusterRange>Дальность: {0} клеток</VRF_Settings_ThrusterRange>
+  <VRF_Settings_ThrusterReset>Сбросить на стандартные</VRF_Settings_ThrusterReset>
+  <VRF_ThrusterConfig_Title>Конфигурация двигателей гравилёта</VRF_ThrusterConfig_Title>
+  <VRF_ThrusterConfig_Desc>Настройте скорость зависания от каждого двигателя. Общая скорость равна сумме тяги активных двигателей.</VRF_ThrusterConfig_Desc>
+  <VRF_ThrusterConfig_Speed>Скорость</VRF_ThrusterConfig_Speed>
+  <VRF_ThrusterConfig_OpenButton>Настроить двигатели гравилёта...</VRF_ThrusterConfig_OpenButton>
+  <VRF_Outpost_VehicleEstimate>прибл. {0} {1}</VRF_Outpost_VehicleEstimate>
+</LanguageData>

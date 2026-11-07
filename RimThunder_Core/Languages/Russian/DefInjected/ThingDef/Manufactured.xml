@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<!-- 鑄造模具 -->
+
+  <ComponentCastingmold.label>Форма</ComponentCastingmold.label>
+  <ComponentCastingmold.description>Форма для литья металлических деталей. Форма вырезается на художественном столе и помещается в деревянный ящик, заполненный песком.</ComponentCastingmold.description>
+
+
+  <!-- 重型鑄件 -->
+
+  <ComponentHeavyCasting.label>Детали</ComponentHeavyCasting.label>
+  <ComponentHeavyCasting.description>Большие металлические детали, такие как цилиндры, коленчатые валы, коллекторы и лопатки турбин, которые не могут быть просто обработаны ковкой.</ComponentHeavyCasting.description>
+
+  <UnfinishedEngine.label>незавершенный двигатель</UnfinishedEngine.label>
+  <UnfinishedEngine.description>Незавершенный или разобранный двигатель какого-либо типа.</UnfinishedEngine.description>
+
+
+  <!-- 輕型引擎 -->
+
+  <EngineLight.label>легкий двигатель</EngineLight.label>
+  <EngineLight.description>Двухтактный двигатель, простой в эксплуатации и производящий большой крутящий момент, но с относительно высоким расходом топлива.</EngineLight.description>
+
+
+  <!-- 蒸氣引擎 -->
+
+  <EngineSteam.label>паровой двигатель</EngineSteam.label>
+  <EngineSteam.description>Тепловой двигатель, выполняющий механическую работу с использованием пара в качестве рабочего тела. Обычно используется в ранних промышленных транспортных средствах, таких как паровые тракторы и грузовики.</EngineSteam.description>
+
+
+  <!-- 中型引擎 -->
+
+  <EngineMedium.label>средний двигатель</EngineMedium.label>
+  <EngineMedium.description>Четырехтактный двигатель с оптимальным расходом топлива, является сердцем промышленного мира.</EngineMedium.description>
+
+
+  <!-- 重型引擎 -->
+
+  <EngineHeavy.label>тяжелый двигатель</EngineHeavy.label>
+  <EngineHeavy.description>Шестицилиндровый дизельный двигатель с мощным крутящим моментом, обычно используется в тяжелых транспортных средствах и судах.</EngineHeavy.description>
+
+
+  <!-- 噴氣引擎 -->
+
+  <EngineJet.label>турбореактивный двигатель</EngineJet.label>
+  <EngineJet.description>Воздушно-реактивный двигатель, обычно используемый в авиации, состоит из газовой турбины с соплом.</EngineJet.description>
+
+
+  <!-- 渦輪引擎 -->
+
+  <EngineTurbine.label>турбинный двигатель</EngineTurbine.label>
+  <EngineTurbine.description>Двигатель, работающий на расширении газа, приводящего в движение лопатки турбины, но с высоким расходом топлива. Широко используется в довоенной авиации и военной технике.</EngineTurbine.description>
+
+</LanguageData>

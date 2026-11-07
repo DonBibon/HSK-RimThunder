@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <VRF_LetterLabel_VehicleRaid>Бронетанковый рейд!</VRF_LetterLabel_VehicleRaid>
+  <VRF_LetterText_VehicleRaid>Бронетанковое подразделение фракции {0} идёт на штурм! Они используют тяжёлую технику, чтобы прорвать нашу оборону.</VRF_LetterText_VehicleRaid>
+  
+  <VRF_LetterLabel_AlliedSupport>Бронетанковая поддержка союзников</VRF_LetterLabel_AlliedSupport>
+  <VRF_LetterText_AlliedSupport>Бронегруппа союзников из фракции {0} прибыла на помощь! Их техника готова уничтожать врагов.</VRF_LetterText_AlliedSupport>
+  <MessageVRF_VehicleAbandoned>Экипаж покинул {0}, так как машина выведена из строя.</MessageVRF_VehicleAbandoned>
+  <MessageVRF_VehicleRetreating>{0} отступает: остался только водитель.</MessageVRF_VehicleRetreating>
+  <MessageVRF_VehicleRetreatingLowFuel>{0} отступает: заканчивается топливо.</MessageVRF_VehicleRetreatingLowFuel>
+  <MessageVRF_VehicleRetreatingNoAmmo>{0} отступает: закончились боеприпасы.</MessageVRF_VehicleRetreatingNoAmmo>
+  <VRF_RequestArmoredTrader>Запросить бронированный торговый караван (стоимость: {0} доброй воли)</VRF_RequestArmoredTrader>
+  <VRF_RequestAerialTrader>Запросить воздушную торговлю (стоимость: {0} доброй воли)</VRF_RequestAerialTrader>
+  <VRF_ChooseTraderType>Выберите тип торговца:</VRF_ChooseTraderType>
+  <VRF_TraderCargoWeight>Вес груза торговца: {0} / {1} кг</VRF_TraderCargoWeight>
+  <VRF_TraderOverweight>Торговец не может унести столько груза на своей технике.</VRF_TraderOverweight>
+  <VRF_Vehicle>машина</VRF_Vehicle>
+  <VRF_Vehicles>техника</VRF_Vehicles>
+  <VRF_HotwireOption>Взломать и завести {0}</VRF_HotwireOption>
+  <VRF_HotwireOption_NeedSkill>Взломать и завести {0} (требуется Ремесло {1})</VRF_HotwireOption_NeedSkill>
+  <VRF_HotwireOption_HasOccupants>Нельзя взломать {0} (внутри всё ещё есть экипаж)</VRF_HotwireOption_HasOccupants>
+  <VRF_HotwireOption_NoPath>Не удаётся добраться до {0}</VRF_HotwireOption_NoPath>
+  <VRF_HotwireSuccess>{0} успешно взломана и перешла под ваш контроль.</VRF_HotwireSuccess>
+  <VRF_HotwireFail_NoVehicle>Техника не найдена.</VRF_HotwireFail_NoVehicle>
+  <VRF_HotwireFail_AlreadyOwned>Эта машина уже принадлежит вам.</VRF_HotwireFail_AlreadyOwned>
+  <VRF_HotwireFail_HasOccupants>Нельзя взломать технику, пока внутри находится экипаж.</VRF_HotwireFail_HasOccupants>
+  <VRF_HotwireFail_SkillRequired>Для взлома этой машины требуется уровень ремесла {0}.</VRF_HotwireFail_SkillRequired>
+  <VRF_AntiAirInterceptComponent>{1} машины {0} уничтожен зенитной системой ПВО!</VRF_AntiAirInterceptComponent>
+  <VRF_Alert_HostileVehicle>Рядом вражеская техника</VRF_Alert_HostileVehicle>
+  <VRF_Alert_HostileVehicles>Рядом вражеская техника ({0})</VRF_Alert_HostileVehicles>
+  <VRF_Alert_HostileVehiclesDesc>На карте обнаружена одна или несколько вражеских боевых машин. Нажмите, чтобы перейти к ним.</VRF_Alert_HostileVehiclesDesc>
+</LanguageData>

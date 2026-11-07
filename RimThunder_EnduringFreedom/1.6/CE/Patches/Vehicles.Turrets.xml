@@ -44,6 +44,39 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M134_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M134_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_762x51mmNATO_FMJ</li>
+						<li>Ammo_762x51mmNATO_AP</li>
+						<li>Ammo_762x51mmNATO_HP</li>
+						<li>Ammo_762x51mmNATO_Incendiary</li>
+						<li>Ammo_762x51mmNATO_HE</li>
+						<li>Ammo_762x51mmNATO_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M134_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_762x51mmNATO_FMJ</li>
+						<li>Ammo_762x51mmNATO_AP</li>
+						<li>Ammo_762x51mmNATO_HP</li>
+						<li>Ammo_762x51mmNATO_Incendiary</li>
+						<li>Ammo_762x51mmNATO_HE</li>
+						<li>Ammo_762x51mmNATO_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M134_Turret"]/fireModes</xpath>
@@ -114,6 +147,33 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x173mm_FMJ</li>
+						<li>Ammo_30x173mm_HE</li>
+						<li>Ammo_30x173mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x173mm_FMJ</li>
+						<li>Ammo_30x173mm_HE</li>
+						<li>Ammo_30x173mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 	
 	<!-- HMG -->
 	<Operation Class="PatchOperationAdd">
@@ -167,6 +227,37 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+						<li>Ammo_50BMG_AP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+						<li>Ammo_50BMG_AP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSMTurret"]</xpath>
@@ -219,6 +310,37 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSMTurret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSMTurret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+						<li>Ammo_50BMG_AP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSMTurret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_50BMG_FMJ</li>
+						<li>Ammo_50BMG_Incendiary</li>
+						<li>Ammo_50BMG_HE</li>
+						<li>Ammo_50BMG_Sabot</li>
+						<li>Ammo_50BMG_AP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/projectile</xpath>
@@ -264,6 +386,29 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_BGM71_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_BGM71_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Javelin_Turret"]/projectile</xpath>
@@ -308,6 +453,29 @@
 				<recoil>1.5</recoil>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Javelin_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Javelin_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_Javelin_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Javelin_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_Javelin_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 
 	<!-- Turret -->
@@ -355,6 +523,39 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWS_Turret"]/projectile</xpath>
@@ -400,6 +601,39 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWS_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWS_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWS_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWSM_Turret"]/projectile</xpath>
@@ -444,5 +678,38 @@
 				<recoil>1.5</recoil>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWSM_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWSM_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWSM_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_40x46mmGrenade_HE</li>
+						<li>Ammo_40x46mmGrenade_HE_TFuzed</li>
+						<li>Ammo_40x46mmGrenade_HEDP</li>
+						<li>Ammo_40x46mmGrenade_EMP</li>
+						<li>Ammo_40x46mmGrenade_Smoke</li>
+						<li>Ammo_40x46mmGrenade_Tox</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 </Patch>

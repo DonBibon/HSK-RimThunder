@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Деревянное колесо -->
+
+  <ComponentWheelWooden.label>деревянное колесо</ComponentWheelWooden.label>
+  <ComponentWheelWooden.description>самое значительное изобретение в истории человечества, краеугольный камень примитивной инженерии.</ComponentWheelWooden.description>
+
+
+  <!-- Дорожное колесо -->
+
+  <ComponentWheelRoad.label>дорожное колесо</ComponentWheelRoad.label>
+  <ComponentWheelRoad.description>металлическое колесо, способное выдерживать более тяжёлые шасси, также является основой для шины.</ComponentWheelRoad.description>
+
+
+  <!-- Шина -->
+
+  <ComponentWheelTire.label>шина</ComponentWheelTire.label>
+  <ComponentWheelTire.description>современное колесо, состоящее из накачанного воздухом наружного колеса и металлического обода.</ComponentWheelTire.description>
+
+
+</LanguageData>

@@ -61,6 +61,37 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_145x114mm_FMJ</li>
+						<li>Ammo_145x114mm_Incendiary</li>
+						<li>Ammo_145x114mm_HE</li>
+						<li>Ammo_145x114mm_AP</li>
+						<li>Ammo_145x114mm_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_KPVT_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_145x114mm_FMJ</li>
+						<li>Ammo_145x114mm_Incendiary</li>
+						<li>Ammo_145x114mm_HE</li>
+						<li>Ammo_145x114mm_AP</li>
+						<li>Ammo_145x114mm_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 
 	<!-- Vehicle -->
