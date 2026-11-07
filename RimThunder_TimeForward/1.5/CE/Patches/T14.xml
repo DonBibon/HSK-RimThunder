@@ -51,6 +51,37 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A82_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A82_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_125mmNG_HE</li>
+						<li>Ammo_125mmNG_HEAT</li>
+						<li>Ammo_125mmNG_Sabot</li>
+						<li>Ammo_125mmNG_Missile</li>
+						<li>Ammo_125mmNG_EMP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A82_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_125mmNG_HE</li>
+						<li>Ammo_125mmNG_HEAT</li>
+						<li>Ammo_125mmNG_Sabot</li>
+						<li>Ammo_125mmNG_Missile</li>
+						<li>Ammo_125mmNG_EMP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<!-- HMG -->
 	<Operation Class="PatchOperationAdd">
@@ -118,6 +149,35 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_NG_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_NG_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_127x108mm_FMJ</li>
+						<li>Ammo_127x108mm_Sabot</li>
+						<li>Ammo_127x108mm_HE</li>
+						<li>Ammo_127x108mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_NG_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_127x108mm_FMJ</li>
+						<li>Ammo_127x108mm_Sabot</li>
+						<li>Ammo_127x108mm_HE</li>
+						<li>Ammo_127x108mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<!-- AC -->
 	<Operation Class="PatchOperationReplace">
@@ -163,6 +223,35 @@
 				<recoil>0.8</recoil>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A72_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A72_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Incendiary</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A72_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Incendiary</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 
 	<!-- Vehicle -->

@@ -42,6 +42,33 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="EpochAlmaty_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="EpochAlmaty_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x173mm_FMJ</li>
+						<li>Ammo_30x173mm_HE</li>
+						<li>Ammo_30x173mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="EpochAlmaty_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_30x173mm_FMJ</li>
+						<li>Ammo_30x173mm_HE</li>
+						<li>Ammo_30x173mm_Incendiary</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<!-- 短号 -->
 
@@ -82,6 +109,29 @@
 				<recoil>1.5</recoil>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Kornet_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Kornet_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_9M133_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Kornet_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_9M133_HEAT</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 
 
@@ -130,6 +180,33 @@
 				<spread>0.01</spread>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Baikal_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Baikal_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_57x348sr_AP</li>
+						<li>Ammo_57x348sr_HE</li>
+						<li>Ammo_57x348sr_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Baikal_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_57x348sr_AP</li>
+						<li>Ammo_57x348sr_HE</li>
+						<li>Ammo_57x348sr_Sabot</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 	
 		<!-- LMG -->
@@ -207,6 +284,33 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="Baikal_PKT_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="Baikal_PKT_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_762x54mmR_FMJ</li>
+						<li>Ammo_762x54mmR_AP</li>
+						<li>Ammo_762x54mmR_HP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="Baikal_PKT_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_762x54mmR_FMJ</li>
+						<li>Ammo_762x54mmR_AP</li>
+						<li>Ammo_762x54mmR_HP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
+	</Operation>
 
 	<!-- 2S25 Turret -->
 	<Operation Class="PatchOperationReplace">
@@ -272,5 +376,40 @@
 				<spread>0.01</spread>
 			</li>
 		</value>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S25_Turret"]/ammunition</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S25_Turret"]/ammunition</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_125mmTC_HEAT</li>
+						<li>Ammo_125mmTC_Sabot</li>
+						<li>Ammo_125mmTC_HE</li>
+						<li>Ammo_Ru125mmTC_HEAT</li>
+						<li>Ammo_Ru125mmTC_Sabot</li>
+						<li>Ammo_Ru125mmTCADV_Sabot</li>
+						<li>Ammo_Ru125mmTCADV_EMP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</match>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S25_Turret"]</xpath>
+			<value>
+				<ammunition Inherit="False">
+					<thingDefs>
+						<li>Ammo_125mmTC_HEAT</li>
+						<li>Ammo_125mmTC_Sabot</li>
+						<li>Ammo_125mmTC_HE</li>
+						<li>Ammo_Ru125mmTC_HEAT</li>
+						<li>Ammo_Ru125mmTC_Sabot</li>
+						<li>Ammo_Ru125mmTCADV_Sabot</li>
+						<li>Ammo_Ru125mmTCADV_EMP</li>
+					</thingDefs>
+				</ammunition>
+			</value>
+		</nomatch>
 	</Operation>
 </Patch>
