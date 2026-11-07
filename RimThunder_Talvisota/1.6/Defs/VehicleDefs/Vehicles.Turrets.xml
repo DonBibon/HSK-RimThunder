@@ -370,10 +370,10 @@
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
 
-	<VFECore.ExpandableProjectileDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="BaseBullet">
+	<VEF.Weapons.ExpandableProjectileDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="BaseBullet">
 		<defName>RT_Bullet_OT34_Flamethrower</defName>
 		<label>spew</label>
-		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<thingClass>VEF.Weapons.FlamethrowProjectile</thingClass>
 		<graphicData>
 			<texPath>Projectile/Proj_FlameBurn</texPath>
 			<texPathFadeOut>Projectile/Proj_FlameFade</texPathFadeOut>
@@ -396,5 +396,5 @@
 		<tickDamageRate>20</tickDamageRate>
 		<dealsDamageOnce>true</dealsDamageOnce>
 		<minDistanceToAffect>2</minDistanceToAffect>
-	</VFECore.ExpandableProjectileDef>
+	</VEF.Weapons.ExpandableProjectileDef>
 </Defs>
