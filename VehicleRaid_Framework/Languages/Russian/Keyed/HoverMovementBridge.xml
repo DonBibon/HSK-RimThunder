@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRF_HoverCancelRoute>Сбросить маршрут полёта</VRF_HoverCancelRoute>
+  <VRF_HoverCancelRouteDesc>Сбросить маршрут и приказы прицеливания. Летательный аппарат продолжит полёт, двигатель останется включённым.</VRF_HoverCancelRouteDesc>
+  <VRF_HoverStopMovementDesc>Зависнуть на месте, не выключая двигатель.</VRF_HoverStopMovementDesc>
+</LanguageData>

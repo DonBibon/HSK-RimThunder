@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CVN_OnCooldown>Перезарядка. Будет доступно через {0}.</CVN_OnCooldown>
+	<CVN_CannotLand>Невозможно приземлиться. Эта посадочная полоса непригодна.</CVN_CannotLand>
+	<CVN_CannotTakeoff>Невозможно взлететь. Эта полоса непригодна для взлёта.</CVN_CannotTakeoff>
+	<CVN_CannotTakeoffInSpace>Невозможно взлететь в космосе.</CVN_CannotTakeoffInSpace>
+    <CVN_CannotLandOnImpassableTiles>Невозможно приземлиться на непроходимой местности.</CVN_CannotLandOnImpassableTiles>
+</LanguageData>

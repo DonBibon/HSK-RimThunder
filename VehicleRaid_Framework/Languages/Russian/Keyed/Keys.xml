@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<VRF_LetterLabel_VehicleRaid>Бронетанковый рейд</VRF_LetterLabel_VehicleRaid>
+	<VRF_LetterText_VehicleRaid>Замечено приближение бронетехники к вашему поселению! Танк «Бульдог» ({0}) с полным экипажем движется в вашу сторону. Готовьте оборону!\n\nМашина попытается пробить стены и уничтожить всё на своём пути.</VRF_LetterText_VehicleRaid>
+</LanguageData>
