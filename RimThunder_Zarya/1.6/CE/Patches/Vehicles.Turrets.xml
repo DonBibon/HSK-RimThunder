@@ -384,8 +384,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>
@@ -400,8 +398,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>

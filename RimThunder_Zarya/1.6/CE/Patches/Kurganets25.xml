@@ -71,8 +71,6 @@
 						<li>Ammo_145x114mm_FMJ</li>
 						<li>Ammo_145x114mm_Incendiary</li>
 						<li>Ammo_145x114mm_HE</li>
-						<li>Ammo_145x114mm_AP</li>
-						<li>Ammo_145x114mm_Sabot</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -85,8 +83,6 @@
 						<li>Ammo_145x114mm_FMJ</li>
 						<li>Ammo_145x114mm_Incendiary</li>
 						<li>Ammo_145x114mm_HE</li>
-						<li>Ammo_145x114mm_AP</li>
-						<li>Ammo_145x114mm_Sabot</li>
 					</thingDefs>
 				</ammunition>
 			</value>

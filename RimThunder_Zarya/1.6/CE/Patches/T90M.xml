@@ -22,8 +22,6 @@
 		</value>
 	</Operation>
 
-
-
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]/maxRange</xpath>
 		<value>
@@ -31,8 +29,7 @@
 		</value>
 	</Operation>
 
-		<!--
-	 <Operation Class="PatchOperationReplace">
+		<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]/chargePerAmmoCount</xpath>
 		<value>
 			<chargePerAmmoCount>1</chargePerAmmoCount>
@@ -53,11 +50,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]/projectileShifting</xpath>
-	</Operation>
-	-->
-
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]</xpath>
 		<value>
@@ -77,8 +69,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>
@@ -93,8 +83,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>
@@ -257,9 +245,7 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					
-					
-					
+
 				</thingDefs>
 			</ammunition>
 		</value>
@@ -339,7 +325,6 @@
 			<CargoCapacity>1500</CargoCapacity>
 		</value>
 	</Operation>
-
 
 	<!--Front Armor-->
 

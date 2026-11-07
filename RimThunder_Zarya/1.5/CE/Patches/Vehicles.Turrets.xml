@@ -266,9 +266,6 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					<li>Ammo_762x54mmR_Incendiary</li>
-					<li>Ammo_762x54mmR_HE</li>
-					<li>Ammo_762x54mmR_Sabot</li>
 				</thingDefs>
 			</ammunition>
 		</value>
@@ -386,8 +383,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>
@@ -402,8 +397,6 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_125mmTC_HEAT</li>
-						<li>Ammo_125mmTC_Sabot</li>
 						<li>Ammo_125mmTC_HE</li>
 						<li>Ammo_Ru125mmTC_HEAT</li>
 						<li>Ammo_Ru125mmTC_Sabot</li>

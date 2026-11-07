@@ -70,7 +70,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -84,7 +83,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -161,7 +159,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -175,7 +172,6 @@
 						<li>Ammo_50BMG_Incendiary</li>
 						<li>Ammo_50BMG_HE</li>
 						<li>Ammo_50BMG_Sabot</li>
-						<li>Ammo_50BMG_AP</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -213,6 +209,13 @@
 
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BUSK_Tank_Turret"]/projectileShifting</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BUSK_Tank_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
