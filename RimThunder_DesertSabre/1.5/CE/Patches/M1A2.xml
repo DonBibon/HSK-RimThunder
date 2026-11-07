@@ -34,6 +34,13 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2SEP_Tank_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_M1A2SEP_Tank_Turret"]/maxRange</xpath>
 		<value>
 			<maxRange>86</maxRange>

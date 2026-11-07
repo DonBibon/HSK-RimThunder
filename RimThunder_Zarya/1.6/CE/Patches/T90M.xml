@@ -31,8 +31,7 @@
 		</value>
 	</Operation>
 
-		<!--
-	 <Operation Class="PatchOperationReplace">
+		<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]/chargePerAmmoCount</xpath>
 		<value>
 			<chargePerAmmoCount>1</chargePerAmmoCount>
@@ -56,7 +55,6 @@
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]/projectileShifting</xpath>
 	</Operation>
-	-->
 
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T90M_Tank_Turret"]</xpath>
