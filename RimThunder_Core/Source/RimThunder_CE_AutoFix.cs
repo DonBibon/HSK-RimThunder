@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using HarmonyLib;
@@ -18,13 +19,45 @@ namespace RimThunder.AutoFixCE
         {
             try
             {
+                InitializeVehiclesCompat();
                 ApplyTurretSpeedFix();
                 ApplyHarmonyPatches();
+                InjectVehicleAmmoRecipes();
                 Log.Message("<color=green>[RimThunder]</color> CE & Vehicle Framework compatibility fixes successfully loaded.");
             }
             catch (Exception ex)
             {
                 Log.Error("[RimThunder] Error applying compatibility fixes: " + ex);
+            }
+        }
+
+        private static void InitializeVehiclesCompat()
+        {
+            try
+            {
+                Type vcType = AccessTools.TypeByName("CombatExtended.Compatibility.VehiclesCompat.VehiclesCompat");
+                if (vcType != null)
+                {
+                    MethodInfo postLoad = AccessTools.Method(vcType, "PostLoad");
+                    if (postLoad != null)
+                    {
+                        var pars = new object[postLoad.GetParameters().Length];
+                        postLoad.Invoke(null, pars);
+                        Log.Message("<color=green>[RimThunder]</color> VehiclesCompat.PostLoad initialized successfully.");
+                    }
+                    else
+                    {
+                        Log.Warning("[RimThunder] VehiclesCompat.PostLoad method not found.");
+                    }
+                }
+                else
+                {
+                    Log.Warning("[RimThunder] VehiclesCompat type not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Warning("[RimThunder] VehiclesCompat.PostLoad initialization failed: " + ex);
             }
         }
 
@@ -106,6 +139,156 @@ namespace RimThunder.AutoFixCE
             Patch_ProjectileCE_SpawnsThing_Impact.Apply(harmony);
             Patch_Dialog_BillConfig_DoWindowContents.Apply(harmony);
             // Patch_RecipeDef_ProducedThingDef.Apply(harmony); // Disabled to prevent any risk of recursion on non-vehicle benches
+        }
+
+        private static void InjectVehicleAmmoRecipes()
+        {
+            try
+            {
+                // Directly bind all AmmoDefs with CE_AutoEnableCrafting tags to appropriate workbenches
+                ThingDef heavyBench = DefDatabase<ThingDef>.GetNamed("TableHeavyAmmunition", false);
+                ThingDef ammoBench = DefDatabase<ThingDef>.GetNamed("AmmoBench", false);
+                ThingDef machiningTable = DefDatabase<ThingDef>.GetNamed("TableMachining", false);
+
+                int injectedCount = 0;
+                var allRecipes = DefDatabase<RecipeDef>.AllDefsListForReading;
+
+                foreach (AmmoDef ammo in DefDatabase<AmmoDef>.AllDefsListForReading)
+                {
+                    if (ammo.tradeTags == null || ammo.tradeTags.Count == 0)
+                        continue;
+
+                    // Match RecipeDef for this ammo
+                    RecipeDef recipe = DefDatabase<RecipeDef>.GetNamed("Make" + ammo.defName, false);
+                    if (recipe == null)
+                    {
+                        recipe = DefDatabase<RecipeDef>.GetNamed("MakeAmmo_" + ammo.defName, false);
+                    }
+                    if (recipe == null)
+                    {
+                        for (int i = 0; i < allRecipes.Count; i++)
+                        {
+                            var r = allRecipes[i];
+                            if (r.products != null)
+                            {
+                                for (int j = 0; j < r.products.Count; j++)
+                                {
+                                    if (r.products[j].thingDef == ammo)
+                                    {
+                                        recipe = r;
+                                        break;
+                                    }
+                                }
+                                if (recipe != null) break;
+                            }
+                        }
+                    }
+
+                    if (recipe == null)
+                        continue;
+
+                    bool injectedForThisAmmo = false;
+                    foreach (string tag in ammo.tradeTags)
+                    {
+                        if (tag == "CE_AutoEnableCrafting_TableHeavyAmmunition")
+                        {
+                            ThingDef target = heavyBench ?? machiningTable ?? ammoBench;
+                            if (target != null)
+                            {
+                                AddRecipeToBench(recipe, target);
+                                injectedForThisAmmo = true;
+                            }
+                        }
+                        else if (tag == "CE_AutoEnableCrafting")
+                        {
+                            ThingDef target = ammoBench ?? heavyBench ?? machiningTable;
+                            if (target != null)
+                            {
+                                AddRecipeToBench(recipe, target);
+                                injectedForThisAmmo = true;
+                            }
+                            if (heavyBench != null && heavyBench != target && (ammo.isMortarAmmo || ammo.statBases.GetStatValueFromList(StatDefOf.Mass, 0f) > 0.5f))
+                            {
+                                AddRecipeToBench(recipe, heavyBench);
+                            }
+                        }
+                        else if (tag.StartsWith("CE_AutoEnableCrafting_"))
+                        {
+                            string benchName = tag.Substring("CE_AutoEnableCrafting_".Length);
+                            ThingDef customBench = DefDatabase<ThingDef>.GetNamed(benchName, false);
+                            if (customBench != null)
+                            {
+                                AddRecipeToBench(recipe, customBench);
+                                injectedForThisAmmo = true;
+                            }
+                        }
+                    }
+
+                    if (injectedForThisAmmo)
+                    {
+                        injectedCount++;
+                    }
+                }
+
+                // Invalidate allRecipesCached on benches so UI / Bills re-query AllRecipes
+                if (heavyBench != null) ClearBenchCache(heavyBench);
+                if (ammoBench != null) ClearBenchCache(ammoBench);
+                if (machiningTable != null) ClearBenchCache(machiningTable);
+
+                Log.Message(string.Format("<color=green>[RimThunder]</color> Successfully verified/injected {0} ammo recipes into crafting benches.", injectedCount));
+
+                // 3. If WikiRim is active, trigger HelpBuilder.ResolveRecipes() to register newly linked recipes
+                try
+                {
+                    Type hbType = AccessTools.TypeByName("HelpTab.HelpBuilder");
+                    if (hbType != null)
+                    {
+                        MethodInfo resolveRecipes = AccessTools.Method(hbType, "ResolveRecipes");
+                        if (resolveRecipes != null)
+                        {
+                            resolveRecipes.Invoke(null, null);
+                            Log.Message("<color=green>[RimThunder]</color> WikiRim HelpBuilder.ResolveRecipes() re-indexed.");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Log.Warning("[RimThunder] WikiRim re-index skipped: " + ex.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Error("[RimThunder] Error in InjectVehicleAmmoRecipes: " + ex);
+            }
+        }
+
+        private static void AddRecipeToBench(RecipeDef recipe, ThingDef bench)
+        {
+            if (recipe.recipeUsers == null)
+            {
+                recipe.recipeUsers = new List<ThingDef>();
+            }
+            if (!recipe.recipeUsers.Contains(bench))
+            {
+                recipe.recipeUsers.Add(bench);
+            }
+            if (bench.recipes != null && !bench.recipes.Contains(recipe))
+            {
+                bench.recipes.Add(recipe);
+            }
+        }
+
+        private static void ClearBenchCache(ThingDef bench)
+        {
+            try
+            {
+                FieldInfo fi = AccessTools.Field(typeof(ThingDef), "allRecipesCached");
+                if (fi != null)
+                {
+                    fi.SetValue(bench, null);
+                }
+            }
+            catch { }
         }
     }
 
