@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VVE_Open>Открыть ворота</VVE_Open>
+  <VVE_OpenDescription>Назначить открытие ворот поселенцем.</VVE_OpenDescription>
+  <VVE_Close>Закрыть ворота</VVE_Close>
+  <VVE_CloseDescription>Назначить закрытие ворот поселенцем.</VVE_CloseDescription>
+  <VVE_OpenDescription_AutoDoor>Открыть автоматические ворота с электроприводом.</VVE_OpenDescription_AutoDoor>
+  <VVE_CloseDescription_AutoDoor>Закрыть автоматические ворота с электроприводом.</VVE_CloseDescription_AutoDoor>
+  <VVE_VehicleObstructingClosingGarage>Техника блокирует створ ворот.</VVE_VehicleObstructingClosingGarage>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VVE_OpenGarages.label>открывать гаражные ворота</VVE_OpenGarages.label>
+  <VVE_OpenGarages.verb>открыть гаражные ворота</VVE_OpenGarages.verb>
+  <VVE_OpenGarages.gerund>открытие гаражных ворот</VVE_OpenGarages.gerund>
+  <VVE_CloseGarages.label>закрывать гаражные ворота</VVE_CloseGarages.label>
+  <VVE_CloseGarages.verb>закрыть гаражные ворота</VVE_CloseGarages.verb>
+  <VVE_CloseGarages.gerund>закрытие гаражных ворот</VVE_CloseGarages.gerund>
+</LanguageData>

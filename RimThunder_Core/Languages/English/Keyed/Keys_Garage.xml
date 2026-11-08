@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VVE_Open>Open garage</VVE_Open>
+  <VVE_OpenDescription>Designate a colonist to open the garage door.</VVE_OpenDescription>
+  <VVE_Close>Close garage</VVE_Close>
+  <VVE_CloseDescription>Designate a colonist to close the garage door.</VVE_CloseDescription>
+  <VVE_OpenDescription_AutoDoor>Open powered garage door automatically.</VVE_OpenDescription_AutoDoor>
+  <VVE_CloseDescription_AutoDoor>Close powered garage door automatically.</VVE_CloseDescription_AutoDoor>
+  <VVE_VehicleObstructingClosingGarage>A vehicle is obstructing the garage door.</VVE_VehicleObstructingClosingGarage>
+</LanguageData>

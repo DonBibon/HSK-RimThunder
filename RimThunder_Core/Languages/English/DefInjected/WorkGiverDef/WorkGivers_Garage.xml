@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VVE_OpenGarages.label>open garage doors</VVE_OpenGarages.label>
+  <VVE_OpenGarages.verb>open garage door</VVE_OpenGarages.verb>
+  <VVE_OpenGarages.gerund>opening garage door</VVE_OpenGarages.gerund>
+  <VVE_CloseGarages.label>close garage doors</VVE_CloseGarages.label>
+  <VVE_CloseGarages.verb>close garage door</VVE_CloseGarages.verb>
+  <VVE_CloseGarages.gerund>closing garage door</VVE_CloseGarages.gerund>
+</LanguageData>
