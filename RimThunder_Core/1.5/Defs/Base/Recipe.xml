@@ -51,7 +51,6 @@
     <uiIconThing>ComponentFuelTank</uiIconThing>
     <recipeUsers>
       <li>RT_AssemblyBench</li>
-      <li>TableMachining</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -123,7 +122,6 @@
     <uiIconThing>ComponentTransmission</uiIconThing>
     <recipeUsers>
       <li>RT_AssemblyBench</li>
-      <li>TableMachining</li>
     </recipeUsers>
     <ingredients>
       <li>

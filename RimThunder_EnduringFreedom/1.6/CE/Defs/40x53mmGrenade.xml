@@ -32,7 +32,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo40x53mmGrenades</li>

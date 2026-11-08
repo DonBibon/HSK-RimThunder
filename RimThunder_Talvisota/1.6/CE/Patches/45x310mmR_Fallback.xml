@@ -33,7 +33,7 @@
 					<stackLimit>25</stackLimit>
 					<tradeTags>
 						<li>CE_AutoEnableTrade</li>
-						<li>CE_AutoEnableCrafting_TableMachining</li>
+						<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 					</tradeTags>
 					<cookOffFlashScale>20</cookOffFlashScale>
 					<cookOffSound>MortarBomb_Explode</cookOffSound>

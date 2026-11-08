@@ -42,7 +42,7 @@
 		</skillRequirements>
 		<researchPrerequisite>EngineBasis</researchPrerequisite>
     <recipeUsers>
-		  <li>TableMachining</li>
+		  <li>RT_AssemblyBench</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -82,7 +82,7 @@
 		</skillRequirements>
 		<researchPrerequisite>EnginePlus</researchPrerequisite>
     <recipeUsers>
-		  <li>TableMachining</li>
+		  <li>RT_AssemblyBench</li>
 		</recipeUsers>
 	</RecipeDef>
 

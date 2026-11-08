@@ -61,7 +61,6 @@
     </costList>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
         <li>RT_AssemblyBench</li>
       </recipeUsers>
       <workAmount>2400</workAmount>
@@ -96,7 +95,6 @@
     </costList>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
         <li>RT_AssemblyBench</li>
       </recipeUsers>
       <workAmount>2400</workAmount>
