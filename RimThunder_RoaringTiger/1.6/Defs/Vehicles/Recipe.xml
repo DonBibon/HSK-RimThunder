@@ -165,9 +165,14 @@
         <count>250</count>
       </li>
     </ingredients>
-    <products>
-      <RT_M1A2_MainBattleTank_Blueprint>1</RT_M1A2_MainBattleTank_Blueprint>
-    </products>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_M1A2_MainBattleTank_Blueprint</thing>
+        <unfinishedGraphic>
+          <drawSize>(7.5,7.5)</drawSize>
+        </unfinishedGraphic>
+      </li>
+    </modExtensions>
   </RecipeDef>
 
   <RecipeDef ParentName="RT_BaseVehicleRecipe">
@@ -311,9 +316,14 @@
         <count>120</count>
       </li>
     </ingredients>
-    <products>
-      <RT_M113_APC_Blueprint>1</RT_M113_APC_Blueprint>
-    </products>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_M113_APC_Blueprint</thing>
+        <unfinishedGraphic>
+          <drawSize>(7,7)</drawSize>
+        </unfinishedGraphic>
+      </li>
+    </modExtensions>
   </RecipeDef>
 
   <RecipeDef ParentName="RT_BaseVehicleRecipe">
@@ -474,9 +484,14 @@
         <count>120</count>
       </li>
     </ingredients>
-    <products>
-      <RT_M113M_APC_Blueprint>1</RT_M113M_APC_Blueprint>
-    </products>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_M113M_APC_Blueprint</thing>
+        <unfinishedGraphic>
+          <drawSize>(7,7)</drawSize>
+        </unfinishedGraphic>
+      </li>
+    </modExtensions>
   </RecipeDef>
 
   <RecipeDef ParentName="RT_BaseVehicleRecipe">
@@ -644,9 +659,11 @@
         <count>200</count>
       </li>
     </ingredients>
-    <products>
-      <RT_M48H_MediumTank_Blueprint>1</RT_M48H_MediumTank_Blueprint>
-    </products>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_M48H_MediumTank_Blueprint</thing>
+      </li>
+    </modExtensions>
   </RecipeDef>
 
   <RecipeDef ParentName="RT_BaseVehicleRecipe">
@@ -780,8 +797,10 @@
         <count>150</count>
       </li>
     </ingredients>
-    <products>
-      <RT_M1075_HEMTT_Blueprint>1</RT_M1075_HEMTT_Blueprint>
-    </products>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_M1075_HEMTT_Blueprint</thing>
+      </li>
+    </modExtensions>
   </RecipeDef>
 </Defs>
