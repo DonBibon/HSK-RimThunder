@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<Vehicles.VehicleBuildDef Name="RT_BaseVehicleBuild" ParentName="VehicleBaseBuildable" Abstract="True">
 		<graphicData>
@@ -44,18 +44,18 @@
 			</li>
 			<li>
 				<key>IgnitionOn</key>
-				<value>EI_EngineStart</value>
+				<value>RT_WheeledVehicleStart</value>
 			</li>
 			<li>
 				<key>IgnitionOff</key>
-				<value>EI_EngineStop</value>
+				<value>RT_WheeledVehicleStop</value>
 			</li>
 		</soundOneShotsOnEvent>
 		<soundSustainersOnEvent>
 			<li>
 				<start>IgnitionOn</start>
 				<stop>IgnitionOff</stop>
-				<value>EI_EngineIdle_Car</value>
+				<value>RT_WheeledVehicleEngine</value>
 			</li>
 		</soundSustainersOnEvent>
 		<statBases>

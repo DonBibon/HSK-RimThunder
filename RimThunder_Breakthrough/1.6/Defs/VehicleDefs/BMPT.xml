@@ -928,28 +928,4 @@
     </fireModes>
   </Vehicles.VehicleTurretDef>
   <!-- 30mmVOG17榴弹投射物 -->
-  <ThingDef ParentName="BaseBullet">
-    <defName>Bullet_VOG17M</defName>
-    <label>30mm VOG17 grenade</label>
-    <graphicData>
-      <texPath>Things/Projectile/LauncherShot</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-      <drawSize>1</drawSize>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <speed>40</speed>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>48</damageAmountBase>
-      <armorPenetrationBase>0.4</armorPenetrationBase>
-      <arcHeightFactor>25</arcHeightFactor>
-      <flyOverhead>true</flyOverhead>
-      <explosionRadius>1.9</explosionRadius>
-      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <soundExplode>Explosion_GiantBomb</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-    </projectile>
-  </ThingDef>
 </Defs>

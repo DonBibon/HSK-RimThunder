@@ -751,31 +751,6 @@
       <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>RT_Bullet_2A72Shell</defName>
-    <label>armor-piercing shell</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>0.5</drawSize>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>70</damageAmountBase>
-      <armorPenetrationBase>0.82</armorPenetrationBase>
-      <speed>100</speed>
-    </projectile>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>1.9</explosiveRadius>
-        <explosiveDamageType>Bomb</explosiveDamageType>
-        <damageAmountBase>24</damageAmountBase>
-        <explodeOnDestroyed>true</explodeOnDestroyed>
-        <explodeOnKilled>true</explodeOnKilled>
-        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-      </li>
-    </comps>
-  </ThingDef>
   <Vehicles.VehicleTurretDef ParentName="RT_BaseLauncher">
     <defName>RT_GrenadeLauncherBMP</defName>
     <label>Smoke grenade launcher</label>

@@ -64,7 +64,7 @@
 			<CargoCapacity>200</CargoCapacity>
 			<RepairRate>0.4</RepairRate>
 		</vehicleStats>
-		<soundOneShotsOnEvent Inherit = "False">
+		<soundOneShotsOnEvent Inherit="False">
 			<li>
 				<key>PawnEntered</key>
 				<value>VVE_VehicleEnter</value>
@@ -82,7 +82,7 @@
 				<value>RT_WheeledVehicleStop</value>
 			</li>
 		</soundOneShotsOnEvent>
-		<soundSustainersOnEvent Inherit = "False"> 
+		<soundSustainersOnEvent Inherit="False"> 
 			<li>
 				<start>IgnitionOn</start>
 				<stop>IgnitionOff</stop>
@@ -94,7 +94,7 @@
 		</race>
 		<properties>
 			<!-- 座位與功能 -->
-			<customRoadCosts AssignDefaults = "0.4"/>
+			<customRoadCosts AssignDefaults="0.4" />
 			<worldSpeedMultiplier>1</worldSpeedMultiplier>
 			<winterSpeedMultiplier>1</winterSpeedMultiplier>
 			<customHillinessCosts>
@@ -152,7 +152,7 @@
 				</categories>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_Explosive">
+					<li Class="Vehicles.Reactor_Explosive">
 						<indicator>VF_Explosive</indicator>
 						<chance>0.25</chance>
 						<maxHealth>0.3</maxHealth>
@@ -174,7 +174,7 @@
 				<health>70</health>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_FuelLeak"/>
+					<li Class="Vehicles.Reactor_FuelLeak" />
 				</reactors>
 				<hitbox>
 					<cells>
@@ -205,7 +205,7 @@
 				<depth>Internal</depth>
 				<hitWeight>0.2</hitWeight>
 				<reactors>
-					<li Class = "Vehicles.Reactor_Explosive">
+					<li Class="Vehicles.Reactor_Explosive">
 						<indicator>VF_Explosive</indicator>
 						<chance>0.5</chance>
 						<maxHealth>0.5</maxHealth>
@@ -600,26 +600,4 @@
 			</li>
 		</motes>
 	</Vehicles.VehicleTurretDef>
-
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_20K_Cannon</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>60</damageAmountBase>
-			<armorPenetrationBase>0.6</armorPenetrationBase>
-			<speed>72</speed>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
 </Defs>

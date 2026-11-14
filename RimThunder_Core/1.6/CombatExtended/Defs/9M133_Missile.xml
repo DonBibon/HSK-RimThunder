@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingCategoryDef>
@@ -129,19 +129,19 @@
 
 
 	<!-- ==================== Recipes ========================== -->
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_9M133_HEAT</defName>
 		<label>Make 9M133 "Kornet" Missiles x5</label>
 		<description>Craft 5 9M133 "Kornet" Missiles.</description>
 		<jobString>Making 5 9M133 "Kornet" Missiles.</jobString>
 		<workAmount>18800</workAmount>
-		<researchPrerequisite>RT_ModernIFV</researchPrerequisite>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>240</count>
 			</li>
@@ -171,8 +171,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 				<li>Chemfuel</li>
@@ -184,8 +187,9 @@
 		<skillRequirements>
 			<Crafting>6</Crafting>
 		</skillRequirements>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Rockets_C1</li>
+		</researchPrerequisites>
 	</RecipeDef>
-
-
-
 </Defs>

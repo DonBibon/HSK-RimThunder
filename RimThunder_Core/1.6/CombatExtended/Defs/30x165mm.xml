@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ThingCategory -->
+  <ThingCategoryDef>
+    <defName>Ammo30x165mm</defName>
+    <label>30x165mm shell</label>
+    <parent>AmmoHighCaliber</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberHighCaliber</iconPath>
+  </ThingCategoryDef>
+
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_30x165mm</defName>
+    <label>30x165mm 2A42/2A72</label>
+    <ammoTypes>
+      <Ammo_30x165mm_AP>Bullet_30x165mm_AP</Ammo_30x165mm_AP>
+      <Ammo_30x165mm_Sabot>Bullet_30x165mm_Sabot</Ammo_30x165mm_Sabot>
+      <Ammo_30x165mm_HE>Bullet_30x165mm_HE</Ammo_30x165mm_HE>
+      <Ammo_30x165mm_Incendiary>Bullet_30x165mm_Incendiary</Ammo_30x165mm_Incendiary>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+
+  <!-- ==================== Base AmmoDef ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Ammo30x165mmBase" ParentName="SmallAmmoBase" Abstract="True">
+    <description>Autocannon cartridge used by Soviet/Russian 30mm 2A42 and 2A72 cannons.</description>
+    <statBases>
+      <Mass>0.84</Mass>
+      <Bulk>1.20</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Ammo30x165mm</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+  </ThingDef>
+
+  <!-- ==================== Specific AmmoDefs ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo30x165mmBase">
+    <defName>Ammo_30x165mm_AP</defName>
+    <label>30x165mm cartridge (AP)</label>
+    <graphicData>
+      <texPath>Things/Ammo/HighCaliber/AP</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.8</MarketValue>
+    </statBases>
+    <ammoClass>ArmorPiercing</ammoClass>
+    <cookOffProjectile>Bullet_30x165mm_AP</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo30x165mmBase">
+    <defName>Ammo_30x165mm_Sabot</defName>
+    <label>30x165mm cartridge (Sabot)</label>
+    <graphicData>
+      <texPath>Things/Ammo/HighCaliber/Sabot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>8.5</MarketValue>
+      <Mass>0.72</Mass>
+    </statBases>
+    <ammoClass>Sabot</ammoClass>
+    <cookOffProjectile>Bullet_30x165mm_Sabot</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo30x165mmBase">
+    <defName>Ammo_30x165mm_HE</defName>
+    <label>30x165mm cartridge (HE)</label>
+    <graphicData>
+      <texPath>Things/Ammo/HighCaliber/HE</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.6</MarketValue>
+    </statBases>
+    <ammoClass>ExplosiveAP</ammoClass>
+    <generateAllowChance>0.3</generateAllowChance>
+    <cookOffProjectile>Bullet_30x165mm_HE</cookOffProjectile>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo30x165mmBase">
+    <defName>Ammo_30x165mm_Incendiary</defName>
+    <label>30x165mm cartridge (AP-I)</label>
+    <graphicData>
+      <texPath>Things/Ammo/HighCaliber/Incendiary</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.8</MarketValue>
+    </statBases>
+    <ammoClass>IncendiaryAP</ammoClass>
+    <generateAllowChance>0.2</generateAllowChance>
+    <cookOffProjectile>Bullet_30x165mm_Incendiary</cookOffProjectile>
+  </ThingDef>
+
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Name="Base30x165mmBullet" ParentName="BaseBulletCE" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/50CalRound</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>165</speed>
+      <dropsCasings>true</dropsCasings>
+      <casingMoteDefname>Fleck_BigShell</casingMoteDefname>
+      <casingFilthDefname>Filth_CannonAmmoCasings</casingFilthDefname>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base30x165mmBullet">
+    <defName>Bullet_30x165mm_AP</defName>
+    <label>30x165mm bullet (AP)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>52</damageAmountBase>
+      <armorPenetrationSharp>28</armorPenetrationSharp>
+      <armorPenetrationBlunt>1500</armorPenetrationBlunt>
+      <speed>165</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base30x165mmBullet">
+    <defName>Bullet_30x165mm_Sabot</defName>
+    <label>30x165mm bullet (Sabot)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>44</damageAmountBase>
+      <armorPenetrationSharp>46</armorPenetrationSharp>
+      <armorPenetrationBlunt>1800</armorPenetrationBlunt>
+      <speed>195</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Base30x165mmBullet">
+    <defName>Bullet_30x165mm_HE</defName>
+    <label>30x165mm bullet (HE)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>32</damageAmountBase>
+      <armorPenetrationSharp>14</armorPenetrationSharp>
+      <armorPenetrationBlunt>28</armorPenetrationBlunt>
+      <speed>160</speed>
+      <soundExplode>35mmExplosion</soundExplode>
+    </projectile>
+    <comps>
+      <li Class="CombatExtended.CompProperties_ExplosiveCE">
+        <damageAmountBase>22</damageAmountBase>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveRadius>1.1</explosiveRadius>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="Base30x165mmBullet">
+    <defName>Bullet_30x165mm_Incendiary</defName>
+    <label>30x165mm bullet (AP-I)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>46</damageAmountBase>
+      <armorPenetrationSharp>26</armorPenetrationSharp>
+      <armorPenetrationBlunt>1400</armorPenetrationBlunt>
+      <speed>165</speed>
+      <secondaryDamage>
+        <li>
+          <def>Flame_Secondary</def>
+          <amount>18</amount>
+        </li>
+      </secondaryDamage>
+      <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
+    <defName>MakeAmmo_30x165mm_AP</defName>
+    <label>make 30x165mm 3UBR6 (AP) shell x50</label>
+    <description>Craft 50 30x165mm 3UBR6 AP autocannon shells.</description>
+    <jobString>Making 30x165mm (AP) shells.</jobString>
+    <workAmount>3600</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>65</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powder</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+      <thingDefs>
+        <li>Powder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_30x165mm_AP>50</Ammo_30x165mm_AP>
+    </products>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
+    <defName>MakeAmmo_30x165mm_Sabot</defName>
+    <label>make 30x165mm 3UBR8 (APDS) shell x50</label>
+    <description>Craft 50 30x165mm 3UBR8 APDS autocannon shells.</description>
+    <jobString>Making 30x165mm (APDS) shells.</jobString>
+    <workAmount>4200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>65</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powder</li>
+          </thingDefs>
+        </filter>
+        <count>22</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DepletedUranium</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+      <thingDefs>
+        <li>Powder</li>
+        <li>DepletedUranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_30x165mm_Sabot>50</Ammo_30x165mm_Sabot>
+    </products>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
+    <defName>MakeAmmo_30x165mm_HE</defName>
+    <label>make 30x165mm 3UOF8 (HE) shell x50</label>
+    <description>Craft 50 30x165mm 3UOF8 HEI autocannon shells.</description>
+    <jobString>Making 30x165mm (HE) shells.</jobString>
+    <workAmount>3900</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>65</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>FSX</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powder</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+      <thingDefs>
+        <li>FSX</li>
+        <li>Powder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_30x165mm_HE>50</Ammo_30x165mm_HE>
+    </products>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
+  </RecipeDef>
+
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
+    <defName>MakeAmmo_30x165mm_Incendiary</defName>
+    <label>make 30x165mm 3UOR6 (AP-I) shell x50</label>
+    <description>Craft 50 30x165mm 3UOR6 AP-I autocannon shells.</description>
+    <jobString>Making 30x165mm (AP-I) shells.</jobString>
+    <workAmount>3900</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>65</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Prometheum</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Powder</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+      <thingDefs>
+        <li>Prometheum</li>
+        <li>Powder</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_30x165mm_Incendiary>50</Ammo_30x165mm_Incendiary>
+    </products>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
+  </RecipeDef>
+</Defs>
