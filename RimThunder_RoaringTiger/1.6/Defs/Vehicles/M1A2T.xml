@@ -4,7 +4,9 @@
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
     <defName>RT_M1A2_MainBattleTank_Blueprint</defName>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernMBTs</li>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_CompositeArmor</li>
+      <li>HSKV_TankGuns</li>
     </researchPrerequisites>
     <label>M1A2 MBT</label>
     <description>A powerful old-time workhorse main battle tank variant for foreign military sales, equipped a 120mm cannon with many machine guns.</description>
@@ -20,21 +22,25 @@
     <size>(4,7)</size>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <costList>
-      <EngineTurbine>1</EngineTurbine>
-      <ComponentFuelTank>4</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelRoad>18</ComponentWheelRoad>
-      <ComponentHeavyCasting>6</ComponentHeavyCasting>
-      <ComponentIndustrial>70</ComponentIndustrial>
-      <ComponentAdvanced>35</ComponentAdvanced>
-      <Mechanism>65</Mechanism>
-      <AdvMechanism>35</AdvMechanism>
-      <Steel>1050</Steel>
-      <Plasteel>500</Plasteel>
-      <Titanium>220</Titanium>
-      <DepletedUranium>200</DepletedUranium>
-      <ReinforcedGlass>30</ReinforcedGlass>
-      <Chemfuel>280</Chemfuel>
+      <HSKV_Engine_Turbine>1</HSKV_Engine_Turbine>
+      <VVE_CarFuelTank>4</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>6</VVE_CarSuspension>
+      <HSKV_Armor_Heavy>8</HSKV_Armor_Heavy>
+      <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+      <HSKV_Mount_MG>2</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+      <ComponentIndustrial>65</ComponentIndustrial>
+      <ComponentAdvanced>30</ComponentAdvanced>
+      <Mechanism>60</Mechanism>
+      <AdvMechanism>30</AdvMechanism>
+      <Steel>950</Steel>
+      <Plasteel>450</Plasteel>
+      <Titanium>150</Titanium>
+      <ReinforcedGlass>25</ReinforcedGlass>
+      <Chemfuel>250</Chemfuel>
     </costList>
     <thingToSpawn>RT_M1A2_MainBattleTank</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
@@ -56,10 +62,10 @@
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>2240</MarketValue>
+      <MarketValue>92000</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>2000</Mass>
+      <Mass>62000</Mass>
       <MoveSpeed>12</MoveSpeed>
       <CargoCapacity>600</CargoCapacity>
       <RepairRate>0.5</RepairRate>
@@ -111,6 +117,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -120,6 +131,12 @@
           <label>gunner</label>
           <slots>2</slots>
           <slotsToOperate>2</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 0)</li>
+              <li>(1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>mainTurret</li>
@@ -135,6 +152,11 @@
           <label>commander</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 0)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>

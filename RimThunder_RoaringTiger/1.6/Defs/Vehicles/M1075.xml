@@ -4,7 +4,7 @@
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
     <defName>RT_M1075_HEMTT_Blueprint</defName>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>HSKV_Trucks</li>
     </researchPrerequisites>
     <label>M1075 HEMTT</label>
     <description>an ten-wheel drive, diesel-powered tactical truck with 15 tons of cargo capacities, equipped a 7.62mm self-defence machine gun.</description>
@@ -20,18 +20,21 @@
     </statBases>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>4</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelTire>10</ComponentWheelTire>
-      <ComponentIndustrial>45</ComponentIndustrial>
-      <ComponentAdvanced>12</ComponentAdvanced>
-      <Mechanism>40</Mechanism>
-      <AdvMechanism>18</AdvMechanism>
-      <Steel>650</Steel>
-      <AluminiumBar>180</AluminiumBar>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <HSKV_Body_Car>1</HSKV_Body_Car>
+      <VVE_CarFuelTank>4</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <VVE_CarWheel>10</VVE_CarWheel>
+      <VVE_CarSuspension>6</VVE_CarSuspension>
+      <ComponentIndustrial>24</ComponentIndustrial>
+      <Mechanism>24</Mechanism>
+      <AdvMechanism>10</AdvMechanism>
+      <Steel>450</Steel>
+      <AluminiumBar>120</AluminiumBar>
       <ReinforcedGlass>25</ReinforcedGlass>
-      <Chemfuel>200</Chemfuel>
+      <Plastic>60</Plastic>
+      <ElectronicComponents>10</ElectronicComponents>
+      <Chemfuel>150</Chemfuel>
     </costList>
     <thingToSpawn>RT_M1075_HEMTT</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
@@ -53,10 +56,10 @@
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>20000</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>2000</Mass>
+      <Mass>17500</Mass>
       <MoveSpeed>8</MoveSpeed>
       <CargoCapacity>15000</CargoCapacity>
       <RepairRate>0.5</RepairRate>
@@ -103,6 +106,11 @@
           <label>Driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 3)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -112,6 +120,11 @@
           <label>Passenger</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(1, 3)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>supportMG</li>
@@ -365,6 +378,9 @@
         <label>engine hood</label>
         <health>90</health>
         <depth>External</depth>
+        <hitbox>
+          <side>Front</side>
+        </hitbox>
         <hitWeight>3</hitWeight>
       </li>
       <li>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.UpgradeTreeDef[defName="RT_T14_Vehicle_UpgradeTree"]/nodes/li[1]/upgrades/li[@Class="Vehicles.StatUpgrade"]/vehicleStats</xpath>
@@ -20,39 +20,40 @@
 				<li>
 					<key>Engine</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>FuelTank</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>Gearbox</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>AmmoRack</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>RoofArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Sharp>10</ArmorRating_Sharp>
+						<ArmorRating_Blunt>45</ArmorRating_Blunt>
+						<ArmorRating_Sharp>6</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
@@ -67,39 +68,40 @@
 				<li>
 					<key>Engine</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>FuelTank</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>Gearbox</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>AmmoRack</key>
 					<statModifiers>
-						<ArmorRating_Blunt>70</ArmorRating_Blunt>
-						<ArmorRating_Sharp>15</ArmorRating_Sharp>
+						<ArmorRating_Blunt>30</ArmorRating_Blunt>
+						<ArmorRating_Sharp>4</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>RoofArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Sharp>10</ArmorRating_Sharp>
+						<ArmorRating_Blunt>45</ArmorRating_Blunt>
+						<ArmorRating_Sharp>6</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>

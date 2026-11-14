@@ -64,6 +64,10 @@
 						<sway>0.82</sway>
 						<spread>0.01</spread>
 					</li>
+					<li Class="VehiclesCEOverhaul.TurretAimExtension">
+						<sightsEfficiency>1.35</sightsEfficiency>
+						<recoilAmount>0.85</recoilAmount>
+					</li>
 				</value>
 			</li>
 
@@ -206,6 +210,15 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_M48H_MediumTank"]/components/li[key="MainTurret"]/armor/ArmorRating_Sharp</xpath>
 		<value>
 			<ArmorRating_Sharp>180</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_M48H_MediumTank"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 

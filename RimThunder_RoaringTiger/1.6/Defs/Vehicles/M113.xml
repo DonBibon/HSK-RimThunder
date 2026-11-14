@@ -4,7 +4,9 @@
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
     <defName>RT_M113_APC_Blueprint</defName>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>HSKV_ArmoredVehicles2</li>
+      <li>HSKV_VehicleArmor</li>
+      <li>HSKV_VehicleWeapons</li>
     </researchPrerequisites>
     <label>M113 APC</label>
     <description>An armoured personal carrier for armed transport, it's common to see in foreign military sales world wide, equipped a 12.7mm machine gun.</description>
@@ -20,18 +22,21 @@
     <size>(3,4)</size>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <costList>
-      <EngineMedium>1</EngineMedium>
-      <ComponentFuelTank>2</ComponentFuelTank>
-      <ComponentTransmission>1</ComponentTransmission>
-      <ComponentWheelRoad>10</ComponentWheelRoad>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>1</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>4</VVE_CarSuspension>
+      <HSKV_Armor_Light>4</HSKV_Armor_Light>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
       <ComponentIndustrial>35</ComponentIndustrial>
-      <ComponentAdvanced>10</ComponentAdvanced>
+      <ComponentAdvanced>8</ComponentAdvanced>
       <Mechanism>30</Mechanism>
-      <AdvMechanism>14</AdvMechanism>
-      <Steel>300</Steel>
-      <AluminiumBar>350</AluminiumBar>
-      <Plasteel>100</Plasteel>
-      <ReinforcedGlass>10</ReinforcedGlass>
+      <AdvMechanism>12</AdvMechanism>
+      <Steel>450</Steel>
+      <AluminiumBar>150</AluminiumBar>
+      <ReinforcedGlass>15</ReinforcedGlass>
       <Chemfuel>120</Chemfuel>
     </costList>
     <thingToSpawn>RT_M113_APC</thingToSpawn>
@@ -55,10 +60,10 @@
       <ArmorRating_Blunt>0.92</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>2240</MarketValue>
+      <MarketValue>46000</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>800</Mass>
+      <Mass>12300</Mass>
       <MoveSpeed>7</MoveSpeed>
       <CargoCapacity>1600</CargoCapacity>
       <RepairRate>0.5</RepairRate>
@@ -127,6 +132,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -136,6 +146,11 @@
           <label>gunner</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 1)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>mainTurret</li>
@@ -145,6 +160,18 @@
           <key>passenger</key>
           <label>passenger</label>
           <slots>8</slots>
+          <hitbox>
+            <cells>
+              <li>(-1, 1)</li>
+              <li>(-1, 0)</li>
+              <li>(-1, -1)</li>
+              <li>(0, 0)</li>
+              <li>(0, -1)</li>
+              <li>(1, 1)</li>
+              <li>(1, 0)</li>
+              <li>(1, -1)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>
@@ -423,6 +450,9 @@
           <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
         </armor>
+        <hitbox>
+          <side>Body</side>
+        </hitbox>
       </li>
       <li>
         <!-- BackArmorPlating 150-->

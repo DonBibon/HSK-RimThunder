@@ -15,24 +15,31 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <researchPrerequisites Inherit="False">
-      <li>RT_NextGenArmata</li>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_CompositeArmor</li>
+      <li>HSKV_TankGuns</li>
+      <li>Electronics_D1</li>
     </researchPrerequisites>
     <size>(4,8)</size>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>4</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelRoad>16</ComponentWheelRoad>
-      <ComponentHeavyCasting>7</ComponentHeavyCasting>
-      <ComponentSpacer>6</ComponentSpacer>
-      <ComponentIndustrial>75</ComponentIndustrial>
-      <ComponentAdvanced>40</ComponentAdvanced>
-      <Mechanism>70</Mechanism>
-      <AdvMechanism>40</AdvMechanism>
-      <Steel>1100</Steel>
-      <Plasteel>550</Plasteel>
+      <HSKV_Engine_Diesel>2</HSKV_Engine_Diesel>
+      <HSKV_EngineControl_Advanced>1</HSKV_EngineControl_Advanced>
+      <HSKV_Chassis_Tracked>2</HSKV_Chassis_Tracked>
+      <HSKV_Armor_Heavy>14</HSKV_Armor_Heavy>
+      <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <HSKV_FireControl>2</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>2</HSKV_Electronics_Onboard>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <VVE_CarFuelTank>4</VVE_CarFuelTank>
+      <AdvMechanism>35</AdvMechanism>
+      <Microchips>12</Microchips>
+      <ElectronicComponents>30</ElectronicComponents>
+      <Plasteel>450</Plasteel>
       <Titanium>250</Titanium>
+      <CarbonAlloy>150</CarbonAlloy>
+      <DepletedUranium>100</DepletedUranium>
       <ReinforcedGlass>30</ReinforcedGlass>
       <Chemfuel>280</Chemfuel>
     </costList>
@@ -52,11 +59,12 @@
     <size>(4,8)</size>
     <fillPercent>1</fillPercent>
     <vehicleCategory>Combat</vehicleCategory>
+    <techLevel>Industrial</techLevel>
     <statBases>
       <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>10700</MarketValue>
+      <MarketValue>110000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>2600</Mass>
@@ -252,7 +260,7 @@
         <key>LeftTrack</key>
         <label>left track</label>
         <health>175</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -270,7 +278,7 @@
         <key>RightTrack</key>
         <label>right track</label>
         <health>175</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -288,7 +296,7 @@
         <key>LeftRoadWheels</key>
         <label>left road wheels</label>
         <health>125</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -305,7 +313,7 @@
         <key>RightRoadWheels</key>
         <label>right road wheels</label>
         <health>125</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -322,7 +330,7 @@
         <key>LeftDriveSprocket</key>
         <label>left drive sprocket</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -342,7 +350,7 @@
         <key>RightDriveSprocket</key>
         <label>right drive sprocket</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -362,7 +370,7 @@
         <key>LeftTensionerWheel</key>
         <label>left tensioner wheel</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -382,7 +390,7 @@
         <key>RightTensionerWheel</key>
         <label>right tensioner wheel</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
