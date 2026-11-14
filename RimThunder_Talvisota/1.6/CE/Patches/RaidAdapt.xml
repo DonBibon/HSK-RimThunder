@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/VehiclesCEOverhaul.VehicleRaidTuningDef[defName="VCEO_VehicleRaidTuning"]/adaptedVehicles</xpath>
+		<value>
+			<li>RT_BT5_Vehicle</li>
+			<li>RT_RF8_Vehicle</li>
+			<li>RT_T28_Vehicle</li>
+			<li>RT_T34_Vehicle</li>
+		</value>
+	</Operation>
+</Patch>

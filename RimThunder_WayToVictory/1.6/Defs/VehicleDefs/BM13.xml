@@ -16,24 +16,29 @@
 			<Flammability>0.05</Flammability>
 		</statBases>		
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>	
-				<costList>
-			<EngineMedium>1</EngineMedium>
-			<ComponentFuelTank>2</ComponentFuelTank>
-			<ComponentTransmission>1</ComponentTransmission>
-			<ComponentWheelTire>6</ComponentWheelTire>
-			<ComponentIndustrial>35</ComponentIndustrial>
-			<ComponentAdvanced>3</ComponentAdvanced>
-			<Mechanism>32</Mechanism>
-			<AdvMechanism>6</AdvMechanism>
-			<Steel>600</Steel>
-			<AluminiumBar>200</AluminiumBar>
+		<costList>
+			<HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<HSKV_Body_Car>1</HSKV_Body_Car>
+			<VVE_CarWheel>6</VVE_CarWheel>
+			<VVE_CarSuspension>2</VVE_CarSuspension>
+			<HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<ComponentAdvanced>2</ComponentAdvanced>
+			<Mechanism>24</Mechanism>
+			<AdvMechanism>4</AdvMechanism>
+			<Steel>500</Steel>
+			<AluminiumBar>160</AluminiumBar>
 			<ReinforcedGlass>6</ReinforcedGlass>
-			<Chemfuel>150</Chemfuel>
+			<Chemfuel>120</Chemfuel>
 		</costList>	
 		<thingToSpawn>RT_BM13_Vehicle</thingToSpawn>	<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
-	    <researchPrerequisites Inherit="False">
-      <li>RT_WW2HeavyArmor</li>
-    </researchPrerequisites>
+		<researchPrerequisites Inherit="False">
+			<li>HSKV_Trucks</li>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Rockets_C1</li>
+		</researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 	
 	<Vehicles.VehicleDef ParentName="RT_BaseVehicle">
@@ -52,7 +57,7 @@
 			<ArmorRating_Blunt>0.22</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.38</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
-			<MarketValue>2050</MarketValue>
+			<MarketValue>5500</MarketValue>
 		</statBases>		
 		<vehicleStats>
 			<Mass>385</Mass>
@@ -307,7 +312,7 @@
 				<key>EngineHood</key>
 				<label>engine hood</label>
 				<health>60</health>
-				<hitbox><side>Body</side></hitbox>
+				<hitbox><side>Front</side></hitbox>
 				<depth>External</depth>
 			</li>
 			<li><!-- Roof 40-->

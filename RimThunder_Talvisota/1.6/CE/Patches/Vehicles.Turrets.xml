@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]/projectile</xpath>
@@ -418,4 +418,53 @@
 			</fireModes>
 		</value>
 	</Operation>
-</Patch>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_QF4p5_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.00</sightsEfficiency>
+				<recoilAmount>1.50</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_c"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.10</sightsEfficiency>
+				<recoilAmount>1.10</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Zis2_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.10</sightsEfficiency>
+				<recoilAmount>1.25</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T34E_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.05</sightsEfficiency>
+				<recoilAmount>1.30</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_OT34_Flamethrower"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.00</sightsEfficiency>
+				<recoilAmount>1.00</recoilAmount>
+			</li>
+		</value>
+	</Operation></Patch>

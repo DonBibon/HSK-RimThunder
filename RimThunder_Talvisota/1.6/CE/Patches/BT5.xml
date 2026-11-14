@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Turret -->
 	<Operation Class="PatchOperationReplace">
@@ -240,4 +240,21 @@
 			<health>90</health>
 		</value>
 	</Operation>
-</Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BT5_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BT5_Tank_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.00</sightsEfficiency>
+				<recoilAmount>1.35</recoilAmount>
+			</li>
+		</value>
+	</Operation></Patch>

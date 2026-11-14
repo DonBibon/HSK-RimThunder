@@ -132,7 +132,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_122mmHowitzer_AP</defName>
 		<label>make 122mmHowitzer APHE cannon shells x5</label>
 		<description>Craft 5 122mmHowitzer APHE cannon shells.</description>
@@ -141,9 +141,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>160</count>
 			</li>
@@ -174,7 +175,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -186,10 +190,13 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2HeavyArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_122mmHowitzer_HE</defName>
 		<label>make 122mmHowitzer HE cannon shells x5</label>
 		<description>Craft 5 122mmHowitzer HE cannon shells.</description>
@@ -198,9 +205,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>140</count>
 			</li>
@@ -231,7 +239,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -243,7 +254,10 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2HeavyArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
 </Defs>

@@ -2,8 +2,8 @@
 <Defs>
 	<RecipeDef ParentName="RT_BaseVehicleRecipe">
 		<defName>RT_Make_M72_Blueprint</defName>
-    <uiIconThing>RT_M72_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_EarlyMotorization</researchPrerequisite>
+		<uiIconThing>RT_M72_Vehicle_Blueprint</uiIconThing>
+		<researchPrerequisite>VVE_BasicVehicles</researchPrerequisite>
 		<label>assemble M-72</label>
 		<description>assemble M-72.</description>
 		<workAmount>3500</workAmount>
@@ -11,7 +11,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EngineLight</li>
+						<li>VVE_EngineBlock</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -19,7 +19,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentFuelTank</li>
+						<li>VVE_CarFuelTank</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -27,7 +27,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentWheelTire</li>
+						<li>VVE_CarTransmission</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VVE_CarWheel</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
@@ -38,7 +46,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>4</count>
 			</li>
 			<li>
 				<filter>
@@ -46,7 +54,7 @@
 						<li>Mechanism</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -54,7 +62,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>120</count>
+				<count>80</count>
 			</li>
 			<li>
 				<filter>
@@ -62,7 +70,7 @@
 						<li>AluminiumBar</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -70,14 +78,15 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>EngineLight</li>
-				<li>ComponentFuelTank</li>
-				<li>ComponentWheelTire</li>
+				<li>VVE_EngineBlock</li>
+				<li>VVE_CarFuelTank</li>
+				<li>VVE_CarTransmission</li>
+				<li>VVE_CarWheel</li>
 				<li>ComponentIndustrial</li>
 				<li>Mechanism</li>
 				<li>Steel</li>
@@ -94,8 +103,8 @@
 
 	<RecipeDef ParentName="RT_BaseVehicleRecipe">
 		<defName>RT_Make_RF8_Blueprint</defName>
-    <uiIconThing>RT_RF8_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_EarlyMotorization</researchPrerequisite>
+		<uiIconThing>RT_RF8_Vehicle_Blueprint</uiIconThing>
+		<researchPrerequisite>VVE_BasicVehicles</researchPrerequisite>
 		<label>assemble NKL-26 aerosan</label>
 		<description>assemble NKL-26 armored aerosan.</description>
 		<workAmount>5000</workAmount>
@@ -103,7 +112,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EngineLight</li>
+						<li>VVE_EngineBlock</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -111,10 +120,26 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentFuelTank</li>
+						<li>VVE_CarFuelTank</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VVE_CarTransmission</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Armor_Light</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -122,7 +147,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>12</count>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -130,7 +155,7 @@
 						<li>Mechanism</li>
 					</thingDefs>
 				</filter>
-				<count>14</count>
+				<count>10</count>
 			</li>
 			<li>
 				<filter>
@@ -146,7 +171,7 @@
 						<li>WoodLog</li>
 					</thingDefs>
 				</filter>
-				<count>200</count>
+				<count>150</count>
 			</li>
 			<li>
 				<filter>
@@ -154,7 +179,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>150</count>
+				<count>120</count>
 			</li>
 			<li>
 				<filter>
@@ -162,7 +187,7 @@
 						<li>AluminiumBar</li>
 					</thingDefs>
 				</filter>
-				<count>80</count>
+				<count>60</count>
 			</li>
 			<li>
 				<filter>
@@ -170,13 +195,15 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>40</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>EngineLight</li>
-				<li>ComponentFuelTank</li>
+				<li>VVE_EngineBlock</li>
+				<li>VVE_CarFuelTank</li>
+				<li>VVE_CarTransmission</li>
+				<li>HSKV_Armor_Light</li>
 				<li>ComponentIndustrial</li>
 				<li>Mechanism</li>
 				<li>AdvMechanism</li>
@@ -195,8 +222,11 @@
 
 	<RecipeDef ParentName="RT_BaseVehicleRecipe">
 		<defName>RT_Make_BT5_Blueprint</defName>
-    <uiIconThing>RT_BT5_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<uiIconThing>RT_BT5_Vehicle_Blueprint</uiIconThing>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_VehicleArmor</li>
+		</researchPrerequisites>
 		<label>assemble BT-5</label>
 		<description>assemble BT-5.</description>
 		<workAmount>11000</workAmount>
@@ -204,7 +234,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EngineMedium</li>
+						<li>HSKV_Engine_Diesel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -212,15 +242,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentFuelTank</li>
-					</thingDefs>
-				</filter>
-				<count>2</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentTransmission</li>
+						<li>HSKV_Chassis_Tracked</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -228,18 +250,42 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentWheelRoad</li>
+						<li>VVE_CarTransmission</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentHeavyCasting</li>
+						<li>VVE_CarFuelTank</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VVE_CarSuspension</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Armor_Light</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Mount_TankGun</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -247,7 +293,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>26</count>
+				<count>14</count>
 			</li>
 			<li>
 				<filter>
@@ -263,7 +309,7 @@
 						<li>Mechanism</li>
 					</thingDefs>
 				</filter>
-				<count>26</count>
+				<count>18</count>
 			</li>
 			<li>
 				<filter>
@@ -271,7 +317,7 @@
 						<li>AdvMechanism</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
@@ -279,7 +325,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>480</count>
+				<count>380</count>
 			</li>
 			<li>
 				<filter>
@@ -287,7 +333,7 @@
 						<li>AluminiumBar</li>
 					</thingDefs>
 				</filter>
-				<count>180</count>
+				<count>140</count>
 			</li>
 			<li>
 				<filter>
@@ -303,16 +349,18 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>120</count>
+				<count>80</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>EngineMedium</li>
-				<li>ComponentFuelTank</li>
-				<li>ComponentTransmission</li>
-				<li>ComponentWheelRoad</li>
-				<li>ComponentHeavyCasting</li>
+				<li>HSKV_Engine_Diesel</li>
+				<li>HSKV_Chassis_Tracked</li>
+				<li>VVE_CarTransmission</li>
+				<li>VVE_CarFuelTank</li>
+				<li>VVE_CarSuspension</li>
+				<li>HSKV_Armor_Light</li>
+				<li>HSKV_Mount_TankGun</li>
 				<li>ComponentIndustrial</li>
 				<li>ComponentAdvanced</li>
 				<li>Mechanism</li>
@@ -332,8 +380,12 @@
 
 	<RecipeDef ParentName="RT_BaseVehicleRecipe">
 		<defName>RT_Make_T28_Blueprint</defName>
-    <uiIconThing>RT_T28_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<uiIconThing>RT_T28_Vehicle_Blueprint</uiIconThing>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_VehicleArmor</li>
+			<li>HSKV_VehicleWeapons</li>
+		</researchPrerequisites>
 		<label>assemble T-28</label>
 		<description>assemble T-28.</description>
 		<workAmount>17000</workAmount>
@@ -341,7 +393,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EngineHeavy</li>
+						<li>HSKV_Engine_Diesel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -349,15 +401,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentFuelTank</li>
+						<li>HSKV_Chassis_Tracked</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentTransmission</li>
+						<li>VVE_CarTransmission</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -365,15 +417,23 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentWheelRoad</li>
+						<li>VVE_CarFuelTank</li>
 					</thingDefs>
 				</filter>
-				<count>24</count>
+				<count>3</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentHeavyCasting</li>
+						<li>VVE_CarSuspension</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Armor_Heavy</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -381,10 +441,26 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>HSKV_Mount_TankGun</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Mount_MG</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>45</count>
+				<count>22</count>
 			</li>
 			<li>
 				<filter>
@@ -400,7 +476,7 @@
 						<li>Mechanism</li>
 					</thingDefs>
 				</filter>
-				<count>42</count>
+				<count>28</count>
 			</li>
 			<li>
 				<filter>
@@ -408,7 +484,7 @@
 						<li>AdvMechanism</li>
 					</thingDefs>
 				</filter>
-				<count>7</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -416,7 +492,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>850</count>
+				<count>650</count>
 			</li>
 			<li>
 				<filter>
@@ -424,7 +500,7 @@
 						<li>AluminiumBar</li>
 					</thingDefs>
 				</filter>
-				<count>260</count>
+				<count>200</count>
 			</li>
 			<li>
 				<filter>
@@ -432,7 +508,7 @@
 						<li>ReinforcedGlass</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>6</count>
 			</li>
 			<li>
 				<filter>
@@ -440,16 +516,19 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>180</count>
+				<count>120</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>EngineHeavy</li>
-				<li>ComponentFuelTank</li>
-				<li>ComponentTransmission</li>
-				<li>ComponentWheelRoad</li>
-				<li>ComponentHeavyCasting</li>
+				<li>HSKV_Engine_Diesel</li>
+				<li>HSKV_Chassis_Tracked</li>
+				<li>VVE_CarTransmission</li>
+				<li>VVE_CarFuelTank</li>
+				<li>VVE_CarSuspension</li>
+				<li>HSKV_Armor_Heavy</li>
+				<li>HSKV_Mount_TankGun</li>
+				<li>HSKV_Mount_MG</li>
 				<li>ComponentIndustrial</li>
 				<li>ComponentAdvanced</li>
 				<li>Mechanism</li>
@@ -469,8 +548,12 @@
 
 	<RecipeDef ParentName="RT_BaseVehicleRecipe">
 		<defName>RT_Make_T34_Blueprint</defName>
-    <uiIconThing>RT_T34_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<uiIconThing>RT_T34_Vehicle_Blueprint</uiIconThing>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_VehicleArmor</li>
+			<li>HSKV_VehicleWeapons</li>
+		</researchPrerequisites>
 		<label>assemble T-34 Obr.1941</label>
 		<description>assemble T-34 Obr.1941.</description>
 		<workAmount>15000</workAmount>
@@ -478,7 +561,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>EngineHeavy</li>
+						<li>HSKV_Engine_Diesel</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -486,7 +569,23 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentFuelTank</li>
+						<li>HSKV_Chassis_Tracked</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VVE_CarTransmission</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>VVE_CarFuelTank</li>
 					</thingDefs>
 				</filter>
 				<count>2</count>
@@ -494,7 +593,23 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentTransmission</li>
+						<li>VVE_CarSuspension</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Armor_Heavy</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HSKV_Mount_TankGun</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -502,18 +617,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentWheelRoad</li>
+						<li>HSKV_Mount_MG</li>
 					</thingDefs>
 				</filter>
-				<count>14</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentHeavyCasting</li>
-					</thingDefs>
-				</filter>
-				<count>4</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -521,7 +628,7 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>40</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -537,7 +644,7 @@
 						<li>Mechanism</li>
 					</thingDefs>
 				</filter>
-				<count>38</count>
+				<count>26</count>
 			</li>
 			<li>
 				<filter>
@@ -545,7 +652,7 @@
 						<li>AdvMechanism</li>
 					</thingDefs>
 				</filter>
-				<count>6</count>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -553,7 +660,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>800</count>
+				<count>600</count>
 			</li>
 			<li>
 				<filter>
@@ -561,7 +668,7 @@
 						<li>AluminiumBar</li>
 					</thingDefs>
 				</filter>
-				<count>280</count>
+				<count>220</count>
 			</li>
 			<li>
 				<filter>
@@ -577,16 +684,19 @@
 						<li>Chemfuel</li>
 					</thingDefs>
 				</filter>
-				<count>180</count>
+				<count>120</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>EngineHeavy</li>
-				<li>ComponentFuelTank</li>
-				<li>ComponentTransmission</li>
-				<li>ComponentWheelRoad</li>
-				<li>ComponentHeavyCasting</li>
+				<li>HSKV_Engine_Diesel</li>
+				<li>HSKV_Chassis_Tracked</li>
+				<li>VVE_CarTransmission</li>
+				<li>VVE_CarFuelTank</li>
+				<li>VVE_CarSuspension</li>
+				<li>HSKV_Armor_Heavy</li>
+				<li>HSKV_Mount_TankGun</li>
+				<li>HSKV_Mount_MG</li>
 				<li>ComponentIndustrial</li>
 				<li>ComponentAdvanced</li>
 				<li>Mechanism</li>

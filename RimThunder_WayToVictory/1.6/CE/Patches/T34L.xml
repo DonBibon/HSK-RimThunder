@@ -43,6 +43,15 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T3485_Tank_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.05</sightsEfficiency>
+				<recoilAmount>1.3</recoilAmount>
+			</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T3485_Tank_Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -244,4 +253,14 @@
 			<health>90</health>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T3485_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
+		</value>
+	</Operation>
+
 </Patch>

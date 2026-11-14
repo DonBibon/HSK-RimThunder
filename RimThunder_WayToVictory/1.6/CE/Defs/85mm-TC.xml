@@ -291,7 +291,7 @@
 	</ThingDef>
 
 	<!-- ==================== Recipes ========================== -->
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_AP</defName>
 		<label>make 85mmTC AP cannon shells x5</label>
 		<description>Craft 5 85mmTC AP cannon shells.</description>
@@ -300,9 +300,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>120</count>
 			</li>
@@ -317,7 +318,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -327,10 +331,13 @@
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_APHE</defName>
 		<label>make 85mmTC APHE cannon shells x5</label>
 		<description>Craft 5 85mmTC APHE cannon shells.</description>
@@ -339,9 +346,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>115</count>
 			</li>
@@ -372,7 +380,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -384,10 +395,13 @@
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_Sabot</defName>
 		<label>make 85mmTC APCR cannon shells x5</label>
 		<description>Craft 5 85mmTC APCR cannon shells.</description>
@@ -396,9 +410,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>80</count>
 			</li>
@@ -429,7 +444,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>Plasteel</li>
 				<li>ComponentIndustrial</li>
@@ -441,10 +459,13 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_HEAT</defName>
 		<label>make 85mmTC HEAT cannon shells x5</label>
 		<description>Craft 5 85mmTC HEAT cannon shells.</description>
@@ -453,9 +474,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>90</count>
 			</li>
@@ -486,7 +508,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -498,10 +523,13 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_HE</defName>
 		<label>make 85mmTC HE cannon shells x5</label>
 		<description>Craft 5 85mmTC HE cannon shells.</description>
@@ -510,9 +538,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>100</count>
 			</li>
@@ -543,7 +572,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -555,10 +587,13 @@
 		<skillRequirements>
 			<Crafting>4</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_85mmTC_EMP</defName>
 		<label>make 85mmTC EMP cannon shells x5</label>
 		<description>Craft 5 85mmTC EMP cannon shells.</description>
@@ -567,9 +602,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>90</count>
 			</li>
@@ -600,7 +636,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>ElectronicComponents</li>
 				<li>ComponentIndustrial</li>
@@ -612,7 +651,10 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2MediumArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </RecipeDef>
 
 </Defs>

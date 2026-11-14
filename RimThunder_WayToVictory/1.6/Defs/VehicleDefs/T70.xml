@@ -17,26 +17,29 @@
 		</statBases>
 		<size>(2,4)</size>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-				<costList>
-			<EngineLight>2</EngineLight>
-			<ComponentFuelTank>2</ComponentFuelTank>
-			<ComponentTransmission>1</ComponentTransmission>
-			<ComponentWheelRoad>14</ComponentWheelRoad>
-			<ComponentHeavyCasting>2</ComponentHeavyCasting>
-			<ComponentIndustrial>28</ComponentIndustrial>
+		<costList>
+			<HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+			<VVE_CarSuspension>4</VVE_CarSuspension>
+			<HSKV_Armor_Light>4</HSKV_Armor_Light>
+			<HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<ComponentAdvanced>2</ComponentAdvanced>
-			<Mechanism>28</Mechanism>
+			<Mechanism>20</Mechanism>
 			<AdvMechanism>4</AdvMechanism>
-			<Steel>500</Steel>
-			<AluminiumBar>180</AluminiumBar>
+			<Steel>450</Steel>
+			<AluminiumBar>150</AluminiumBar>
 			<ReinforcedGlass>4</ReinforcedGlass>
-			<Chemfuel>120</Chemfuel>
+			<Chemfuel>100</Chemfuel>
 		</costList>
 		<thingToSpawn>RT_T70_Vehicle</thingToSpawn>
 		<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
-	    <researchPrerequisites Inherit="False">
-      <li>RT_WW2MediumArmor</li>
-    </researchPrerequisites>
+		<researchPrerequisites Inherit="False">
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_VehicleArmor</li>
+		</researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 
 	<!-- 載具本體 -->
@@ -56,7 +59,7 @@
 			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
-			<MarketValue>4150</MarketValue>
+			<MarketValue>9800</MarketValue>
 		</statBases>
 		<vehicleStats>
 			<Mass>900</Mass>
@@ -498,7 +501,7 @@
 					</li>
 					<li>
 						<!--航向机枪-->
-						<turretDef>RT_DT_Turret_b</turretDef>
+						<turretDef>RT_DT_IS2_Turret</turretDef>
 						<renderProperties>
 							<north>(0.45,0.2)</north>
 							<south>(-0.5,-0.2)</south>

@@ -18,25 +18,30 @@
 		<size>(3,5)</size>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 				<costList>
-			<EngineHeavy>1</EngineHeavy>
-			<ComponentFuelTank>2</ComponentFuelTank>
-			<ComponentTransmission>1</ComponentTransmission>
-			<ComponentWheelRoad>14</ComponentWheelRoad>
-			<ComponentHeavyCasting>4</ComponentHeavyCasting>
-			<ComponentIndustrial>40</ComponentIndustrial>
+			<HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+			<HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<VVE_CarFuelTank>2</VVE_CarFuelTank>
+			<VVE_CarSuspension>5</VVE_CarSuspension>
+			<HSKV_Armor_Heavy>5</HSKV_Armor_Heavy>
+			<HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+			<HSKV_Mount_MG>1</HSKV_Mount_MG>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<ComponentAdvanced>4</ComponentAdvanced>
-			<Mechanism>38</Mechanism>
-			<AdvMechanism>6</AdvMechanism>
-			<Steel>800</Steel>
-			<AluminiumBar>280</AluminiumBar>
+			<Mechanism>26</Mechanism>
+			<AdvMechanism>5</AdvMechanism>
+			<Steel>600</Steel>
+			<AluminiumBar>220</AluminiumBar>
 			<ReinforcedGlass>6</ReinforcedGlass>
-			<Chemfuel>180</Chemfuel>
+			<Chemfuel>120</Chemfuel>
 		</costList>
 		<thingToSpawn>RT_T34_Vehicle</thingToSpawn>
 		<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
 	    <researchPrerequisites Inherit="False">
-      <li>RT_WW2MediumArmor</li>
-    </researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_VehicleArmor</li>
+			<li>HSKV_VehicleWeapons</li>
+		</researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 
 	<!-- 載具本體 -->
@@ -52,11 +57,11 @@
 		<size>(3,5)</size>
 		<fillPercent>1</fillPercent>
 		<vehicleCategory>Combat</vehicleCategory>
-		<statBases>
+		<techLevel>Industrial</techLevel><statBases>
 			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
-			<MarketValue>4150</MarketValue>
+			<MarketValue>44000</MarketValue>
 		</statBases>
 		<vehicleStats>
 			<Mass>1200</Mass>
@@ -69,7 +74,7 @@
 		</race>
 		<properties>
 			<!-- 座位與功能 -->
-			<customRoadCosts AssignDefaults = "0.4"/>
+			<customRoadCosts AssignDefaults="0.4" />
 			<worldSpeedMultiplier>1.0</worldSpeedMultiplier>
 			<winterSpeedMultiplier>1.0</winterSpeedMultiplier>
 			<customHillinessCosts>
@@ -158,7 +163,7 @@
 						<drawOffsetSouthEast>(-1.1,0,-0.2)</drawOffsetSouthEast>
 						<drawOffsetSouthWest>(-0.4,0,1.4)</drawOffsetSouthWest>
 					</pawnRenderer>
-				</li>
+				<hitbox><side>Body</side></hitbox></li>
 				<li>
 					<key>passengerB</key>
 					<label>infantryB</label>
@@ -186,7 +191,7 @@
 						<drawOffsetSouthEast>(-1.6,0,0.3)</drawOffsetSouthEast>
 						<drawOffsetSouthWest>(0.1,0,1.9)</drawOffsetSouthWest>
 					</pawnRenderer>
-				</li>
+				<hitbox><side>Body</side></hitbox></li>
 				<li>
 					<key>passengerC</key>
 					<label>infantryC</label>
@@ -214,7 +219,7 @@
 						<drawOffsetSouthEast>(0.4,0,1.4)</drawOffsetSouthEast>
 						<drawOffsetSouthWest>(1.3,0,0.1)</drawOffsetSouthWest>
 					</pawnRenderer>
-				</li>
+				<hitbox><side>Body</side></hitbox></li>
 				<li>
 					<key>passengerD</key>
 					<label>infantryD</label>
@@ -242,7 +247,7 @@
 						<drawOffsetSouthEast>(-0.1,0,1.9)</drawOffsetSouthEast>
 						<drawOffsetSouthWest>(1.8,0,0.6)</drawOffsetSouthWest>
 					</pawnRenderer>
-				</li>
+				<hitbox><side>Body</side></hitbox></li>
 			</roles>
 		</properties>
 		<components>
@@ -259,7 +264,7 @@
 				</categories>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_Explosive">
+					<li Class="Vehicles.Reactor_Explosive">
 						<indicator>VF_Explosive</indicator>
 						<chance>0.25</chance>
 						<maxHealth>0.3</maxHealth>
@@ -280,7 +285,7 @@
 				<health>100</health>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_FuelLeak"/>
+					<li Class="Vehicles.Reactor_FuelLeak" />
 				</reactors>
 				<hitbox>
 					<cells>
@@ -312,7 +317,7 @@
 				<depth>Internal</depth>
 				<hitWeight>0.2</hitWeight>
 				<reactors>
-					<li Class = "Vehicles.Reactor_Explosive">
+					<li Class="Vehicles.Reactor_Explosive">
 						<indicator>VF_Explosive</indicator>
 						<chance>0.5</chance>
 						<maxHealth>0.5</maxHealth>
@@ -560,7 +565,7 @@
 				<hitbox>
 					<side>Back</side>
 				</hitbox>
-			</li>
+			<armor><ArmorRating_Blunt>0.8</ArmorRating_Blunt><ArmorRating_Sharp>0.8</ArmorRating_Sharp></armor></li>
 			<!-- 炮塔-->
 			<li>
 				<!-- mainTurret 250-->
@@ -650,7 +655,21 @@
 				</turrets>
 			</li>
 		</comps>
-	</Vehicles.VehicleDef>
+	<modExtensions>
+			<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+				<mode>Factions</mode>
+				<factions>
+					<li>Pirate</li>
+					<li>OutlanderRough</li>
+					<li>Orion</li>
+					<li>Brotherhood</li>
+				</factions>
+				<costFactor>1.0</costFactor>
+			</li>
+			<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+				<role>Breacher</role>
+			</li>
+		</modExtensions></Vehicles.VehicleDef>
 
 	<!-- 主砲的Def -->
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">

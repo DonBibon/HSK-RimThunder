@@ -87,7 +87,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_132mmM13_HE</defName>
 		<label>make 132mm M-13 (HE) rockets x4</label>
 		<description>Craft 4 132mm M-13 (HE) unguided rockets.</description>
@@ -96,9 +96,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>120</count>
 			</li>
@@ -137,7 +138,10 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 				<li>Powder</li>
 				<li>Chemfuel</li>
 				<li>FSX</li>
@@ -150,7 +154,10 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2HeavyArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Rockets_C1</li>
+		</researchPrerequisites>
   </RecipeDef>
 
 </Defs>

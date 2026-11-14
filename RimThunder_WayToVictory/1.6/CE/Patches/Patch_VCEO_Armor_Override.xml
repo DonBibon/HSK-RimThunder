@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>blakil.vehiclesceoverhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_BM13_Vehicle"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_BM13_Vehicle"]</xpath>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_IS2_Vehicle"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_IS2_Vehicle"]</xpath>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_IS3_Vehicle"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_IS3_Vehicle"]</xpath>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T3485_Vehicle"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T3485_Vehicle"]</xpath>
+					</match>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T70_Vehicle"]</xpath>
+					<match Class="PatchOperationRemove">
+						<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T70_Vehicle"]</xpath>
+					</match>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

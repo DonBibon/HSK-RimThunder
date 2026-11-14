@@ -44,6 +44,15 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_IS2_Tank_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.05</sightsEfficiency>
+				<recoilAmount>1.5</recoilAmount>
+			</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_IS2_Tank_Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -131,6 +140,15 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Dshk_W_MGTurret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.0</sightsEfficiency>
+				<recoilAmount>1.1</recoilAmount>
+			</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Dshk_W_MGTurret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -162,53 +180,53 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]</xpath>
 		<value>
 			<projectile>Bullet_762x54mmR_FMJ</projectile>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/reloadTimer</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/reloadTimer</xpath>
 		<value>
 			<reloadTimer>8</reloadTimer>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/shotSound</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/shotSound</xpath>
 		<value>
 			<shotSound>MediumMG</shotSound>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/warmUpTimer</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/warmUpTimer</xpath>
 		<value>
 			<warmUpTimer>1.3</warmUpTimer>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/genericAmmo</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/genericAmmo</xpath>
 		<value>
 			<genericAmmo>false</genericAmmo>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/chargePerAmmoCount</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/chargePerAmmoCount</xpath>
 		<value>
 			<chargePerAmmoCount>1</chargePerAmmoCount>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/projectileShifting</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/projectileShifting</xpath>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]</xpath>
 		<value>
 			<maxRange>62</maxRange>
 		</value>
@@ -216,7 +234,7 @@
 
 
 	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
 				<ammoSet>AmmoSet_762x54mmR</ammoSet>
@@ -228,10 +246,19 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.0</sightsEfficiency>
+				<recoilAmount>1.1</recoilAmount>
+			</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/ammunition</xpath>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
-			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]/ammunition</xpath>
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]/ammunition</xpath>
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
@@ -243,7 +270,7 @@
 			</value>
 		</match>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_Turret_b"]</xpath>
+			<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_DT_IS2_Turret"]</xpath>
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
@@ -423,4 +450,14 @@
 			<health>90</health>
 		</value>
 	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_IS2_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
+		</value>
+	</Operation>
+
 </Patch>

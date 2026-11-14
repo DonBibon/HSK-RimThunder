@@ -38,8 +38,20 @@
 			<li Class="Vehicles.CETurretDataDefModExtension">
 				<ammoSet>AmmoSet_RT_132mmM13_directfire</ammoSet>
 				<shotHeight>3.5</shotHeight>
+				<speed>85</speed>
 				<sway>2</sway>
 				<spread>0.6</spread>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BM13_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.0</sightsEfficiency>
+				<circularError>1.0</circularError>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
+				<recoilAmount>1.5</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -83,14 +95,13 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T3485_Vehicle"]/vehicleStats/CargoCapacity</xpath>
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BM13_Vehicle"]/vehicleStats/CargoCapacity</xpath>
 		<value>
 			<CargoCapacity>800</CargoCapacity>
 		</value>
 	</Operation>
 
 	<!--Front Armor-->
-
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BM13_Vehicle"]/components/li[key="EngineHood"]/health</xpath>
@@ -180,6 +191,15 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BM13_Vehicle"]/components/li[key="LeftFrontWheel" or key="RightFrontWheel" or key="LeftRearWheel" or key="RightRearWheel"]/health</xpath>
 		<value>
 			<health>60</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BM13_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 

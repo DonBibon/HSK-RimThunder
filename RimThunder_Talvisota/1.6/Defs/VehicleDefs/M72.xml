@@ -18,20 +18,21 @@
 		<size>(1,2)</size>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 				<costList>
-			<EngineLight>1</EngineLight>
-			<ComponentFuelTank>1</ComponentFuelTank>
-			<ComponentWheelTire>3</ComponentWheelTire>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<Mechanism>8</Mechanism>
-			<Steel>120</Steel>
-			<AluminiumBar>50</AluminiumBar>
-			<Chemfuel>30</Chemfuel>
+			<VVE_EngineBlock>1</VVE_EngineBlock>
+			<VVE_CarFuelTank>1</VVE_CarFuelTank>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
+			<VVE_CarWheel>3</VVE_CarWheel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<Mechanism>6</Mechanism>
+			<Steel>80</Steel>
+			<AluminiumBar>40</AluminiumBar>
+			<Chemfuel>20</Chemfuel>
 		</costList>
 		<thingToSpawn>RT_M72_Vehicle</thingToSpawn>
 		<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
 	    <researchPrerequisites Inherit="False">
-      <li>RT_EarlyMotorization</li>
-    </researchPrerequisites>
+			<li>VVE_BasicVehicles</li>
+		</researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 
 	<!-- 載具本體 -->
@@ -47,11 +48,11 @@
 		<size>(1,2)</size>
 		<fillPercent>1</fillPercent>
 		<vehicleCategory>Combat</vehicleCategory>
-		<statBases>
+		<techLevel>Industrial</techLevel><statBases>
 			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
-			<MarketValue>4150</MarketValue>
+			<MarketValue>2200</MarketValue>
 		</statBases>
 		<vehicleStats>
 			<Mass>200</Mass>
@@ -64,7 +65,7 @@
 		</race>
 		<properties>
 			<diagonalRotation>false</diagonalRotation>
-			<customRoadCosts AssignDefaults = "0.4"/>
+			<customRoadCosts AssignDefaults="0.4" />
 			<worldSpeedMultiplier>1</worldSpeedMultiplier>
 			<offRoadMultiplier>2</offRoadMultiplier>
 			<winterSpeedMultiplier>2</winterSpeedMultiplier>
@@ -162,7 +163,7 @@
 				</categories>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_Explosive">
+					<li Class="Vehicles.Reactor_Explosive">
 						<indicator>VF_Explosive</indicator>
 						<chance>0.25</chance>
 						<maxHealth>0.3</maxHealth>
@@ -183,7 +184,7 @@
 				<health>50</health>
 				<depth>Internal</depth>
 				<reactors>
-					<li Class = "Vehicles.Reactor_FuelLeak"/>
+					<li Class="Vehicles.Reactor_FuelLeak" />
 				</reactors>
 				<hitbox>
 					<cells>
@@ -228,7 +229,7 @@
 				<key>RearWheel</key>
 				<label>rear wheel</label>
 				<health>30</health>
-				<depth>Internal</depth>
+				<depth>External</depth>
 				<categories>
 					<li>MoveSpeed</li>
 				</categories>
@@ -341,5 +342,12 @@
 				<fuelCapacity>50</fuelCapacity>
 			</li>
 		</comps>
-	</Vehicles.VehicleDef>
+	<modExtensions>
+			<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+				<mode>Off</mode>
+			</li>
+			<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+				<role>None</role>
+			</li>
+		</modExtensions></Vehicles.VehicleDef>
 </Defs>
