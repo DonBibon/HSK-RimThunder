@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- 2A42 -->
+	<!-- 2A42 (RT_VDV_32V01Turret) -->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_Incendiary</projectile>
+			<projectile>Bullet_30x165mm_AP</projectile>
 		</value>
 	</Operation>
 
@@ -35,13 +35,18 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x165mm</ammoSet>
 				<shotHeight>1.9</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
+			</li>
 		</value>
 	</Operation>
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -49,9 +54,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -61,21 +67,22 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
 		</nomatch>
 	</Operation>
 
-
+	<!-- 2A42 (RT_VDV_32V01BTurret) -->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01BTurret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_Incendiary</projectile>
+			<projectile>Bullet_30x165mm_AP</projectile>
 		</value>
 	</Operation>
 
@@ -104,13 +111,18 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01BTurret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x165mm</ammoSet>
 				<shotHeight>1.9</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
+			</li>
 		</value>
 	</Operation>
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_32V01BTurret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -118,9 +130,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -130,16 +143,17 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
 		</nomatch>
 	</Operation>
 
-	<!-- 短号 -->
+	<!-- 短号 Kornet (RT_VDV_Kornet_Turret) -->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_Kornet_Turret"]/projectile</xpath>
@@ -176,8 +190,13 @@
 				<spread>0.02</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.60</sightsEfficiency>
+				<recoilAmount>0.40</recoilAmount>
+			</li>
 		</value>
 	</Operation>
+
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_Kornet_Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -202,8 +221,8 @@
 		</nomatch>
 	</Operation>
 
+	<!-- AGS30 (RT_VDV_AGS30_Turret) -->
 
-	<!-- AGS30 -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]/projectile</xpath>
 		<value>
@@ -226,11 +245,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-        <xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]/chargePerAmmoCount</xpath>
-        <value>
-            <chargePerAmmoCount>1</chargePerAmmoCount>
-        </value>
-    </Operation>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]/shotSound</xpath>
@@ -257,6 +276,22 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_30x29mmGrenade</ammoSet>
+				<shotHeight>1.5</shotHeight>
+				<sway>0.9</sway>
+				<spread>0.02</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.10</sightsEfficiency>
+				<recoilAmount>0.80</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_AGS30_Turret"]/ammunition</xpath>
 		<value>
@@ -271,7 +306,7 @@
 		</value>
 	</Operation>
 
-	<!-- PKT -->
+	<!-- PKT (RT_VDV_PKT_MGTurret) -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]</xpath>
@@ -295,11 +330,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-        <xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]/chargePerAmmoCount</xpath>
-        <value>
-            <chargePerAmmoCount>1</chargePerAmmoCount>
-        </value>
-    </Operation>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]/warmUpTimer</xpath>
@@ -326,6 +361,22 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_762x54mmR</ammoSet>
+				<shotHeight>1.5</shotHeight>
+				<sway>0.85</sway>
+				<spread>0.02</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.20</sightsEfficiency>
+				<recoilAmount>0.75</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKT_MGTurret"]</xpath>
 		<value>
@@ -334,15 +385,12 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					
-					
-					
 				</thingDefs>
 			</ammunition>
 		</value>
 	</Operation>
 
-	<!-- PKM -->
+	<!-- PKM (RT_VDV_PKM_Turret) -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]</xpath>
@@ -366,11 +414,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-        <xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]/chargePerAmmoCount</xpath>
-        <value>
-            <chargePerAmmoCount>1</chargePerAmmoCount>
-        </value>
-    </Operation>
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]/chargePerAmmoCount</xpath>
+		<value>
+			<chargePerAmmoCount>1</chargePerAmmoCount>
+		</value>
+	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]/warmUpTimer</xpath>
@@ -397,6 +445,22 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>AmmoSet_762x54mmR</ammoSet>
+				<shotHeight>1.5</shotHeight>
+				<sway>0.85</sway>
+				<spread>0.02</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.20</sightsEfficiency>
+				<recoilAmount>0.75</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_VDV_PKM_Turret"]</xpath>
 		<value>
@@ -405,15 +469,12 @@
 					<li>Ammo_762x54mmR_FMJ</li>
 					<li>Ammo_762x54mmR_AP</li>
 					<li>Ammo_762x54mmR_HP</li>
-					
-					
-					
 				</thingDefs>
 			</ammunition>
 		</value>
 	</Operation>
 
-	<!-- 2S41 -->
+	<!-- 2S41 (RT_2S41_Turret) -->
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]</xpath>
@@ -439,28 +500,7 @@
 
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]/ammunition</xpath>
-	</Operation> 
-
-<!-- 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]/ammunition</xpath>
-		<value>
-			<ammunition>
-				<thingDefs>
-					<li>Shell_HighExplosive</li>
-					<li>Shell_HighExplosive_HFuzed</li>
-					<li>Shell_Incendiary</li>
-					<li>Shell_Firefoam</li>
-					<li>Shell_Smoke</li>
-					<li>Shell_AntigrainWarhead</li>
-					<li>Shell_Toxic</li>
-					<li>Shell_Deadlife</li>
-				</thingDefs>
-			</ammunition>
-		</value>
 	</Operation>
--->
-
 
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]</xpath>
@@ -472,9 +512,13 @@
 				<sway>1.01</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.0</sightsEfficiency>
+				<recoilAmount>1.5</recoilAmount>
+				<circularError>0.9</circularError>
+				<indirectFirePenalty>0.2</indirectFirePenalty>
+			</li>
 		</value>
 	</Operation>
 
-
 </Patch>
-

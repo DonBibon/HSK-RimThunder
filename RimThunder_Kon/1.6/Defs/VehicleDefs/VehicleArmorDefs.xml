@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- Kamaz 5350: Tactical Truck 5 / 4 / 3 / 3 (Hull 3/18), Mass 9800 -->
+	<VehiclesCEOverhaul.VehicleArmorDef>
+		<defName>RT_Armor_RT_Kamaz5350_vehicle</defName>
+		<vehicle>RT_Kamaz5350_vehicle</vehicle>
+		<scale>HSK</scale>
+		<hullSharp>3</hullSharp>
+		<hullBlunt>18</hullBlunt>
+		<mass>9800</mass>
+		<components>
+			<li><key>EngineHood</key><sharp>5</sharp><blunt>30</blunt><health>90</health></li>
+			<li><key>FrontBumper</key><sharp>5</sharp><blunt>30</blunt><health>100</health></li>
+			<li><key>LeftDoorPanel</key><sharp>4</sharp><blunt>24</blunt><health>90</health></li>
+			<li><key>RightDoorPanel</key><sharp>4</sharp><blunt>24</blunt><health>90</health></li>
+			<li><key>RearBumper</key><sharp>3</sharp><blunt>18</blunt><health>100</health></li>
+			<li><key>Roof</key><sharp>3</sharp><blunt>18</blunt><health>90</health></li>
+			<li><key>CargoHold</key><sharp>3</sharp><blunt>18</blunt><health>90</health></li>
+			<li><key>LeftFrontWheel</key><sharp>2</sharp><blunt>12</blunt><health>40</health></li>
+			<li><key>RightFrontWheel</key><sharp>2</sharp><blunt>12</blunt><health>40</health></li>
+			<li><key>LeftRearWheel</key><sharp>2</sharp><blunt>12</blunt><health>80</health></li>
+			<li><key>RightRearWheel</key><sharp>2</sharp><blunt>12</blunt><health>80</health></li>
+			<li><key>BackupTire</key><sharp>2</sharp><blunt>12</blunt><health>40</health></li>
+			<li><key>LeftFrontSuspension</key><sharp>2</sharp><blunt>12</blunt></li>
+			<li><key>RightFrontSuspension</key><sharp>2</sharp><blunt>12</blunt></li>
+			<li><key>LeftRearSuspension</key><sharp>2</sharp><blunt>12</blunt></li>
+			<li><key>RightRearSuspension</key><sharp>2</sharp><blunt>12</blunt></li>
+		</components>
+		<plates>
+			<li>EngineHood</li>
+			<li>FrontBumper</li>
+			<li>LeftDoorPanel</li>
+			<li>RightDoorPanel</li>
+			<li>RearBumper</li>
+			<li>Roof</li>
+			<li>CargoHold</li>
+		</plates>
+	</VehiclesCEOverhaul.VehicleArmorDef>
+
+	<!-- Kamaz Typhoon VDV: MRAP 26 / 20 / 15 / 13 (Hull 9/50), Mass 13500 -->
+	<VehiclesCEOverhaul.VehicleArmorDef>
+		<defName>RT_Armor_RT_TyphoonVDV_Vehicle</defName>
+		<vehicle>RT_TyphoonVDV_Vehicle</vehicle>
+		<scale>HSK</scale>
+		<hullSharp>9</hullSharp>
+		<hullBlunt>50</hullBlunt>
+		<mass>13500</mass>
+		<components>
+			<li><key>FrontBumper</key><sharp>26</sharp><blunt>280</blunt><health>480</health></li>
+			<li><key>EngineHood</key><sharp>26</sharp><blunt>280</blunt><health>480</health></li>
+			<li><key>LeftDoorPanel</key><sharp>20</sharp><blunt>220</blunt><health>420</health></li>
+			<li><key>RightDoorPanel</key><sharp>20</sharp><blunt>220</blunt><health>420</health></li>
+			<li><key>RearBumper</key><sharp>15</sharp><blunt>160</blunt><health>360</health></li>
+			<li><key>Roof</key><sharp>13</sharp><blunt>45</blunt><health>320</health></li>
+			<li><key>LeftFrontWheel</key><sharp>8</sharp><blunt>60</blunt><health>120</health></li>
+			<li><key>RightFrontWheel</key><sharp>8</sharp><blunt>60</blunt><health>120</health></li>
+			<li><key>LeftRearWheel</key><sharp>8</sharp><blunt>60</blunt><health>120</health></li>
+			<li><key>RightRearWheel</key><sharp>8</sharp><blunt>60</blunt><health>120</health></li>
+			<li><key>BackupTire</key><sharp>8</sharp><blunt>60</blunt><health>120</health></li>
+			<li><key>LeftFrontSuspension</key><sharp>8</sharp><blunt>60</blunt></li>
+			<li><key>RightFrontSuspension</key><sharp>8</sharp><blunt>60</blunt></li>
+			<li><key>LeftRearSuspension</key><sharp>8</sharp><blunt>60</blunt></li>
+			<li><key>RightRearSuspension</key><sharp>8</sharp><blunt>60</blunt></li>
+		</components>
+		<plates>
+			<li>FrontBumper</li>
+			<li>EngineHood</li>
+			<li>LeftDoorPanel</li>
+			<li>RightDoorPanel</li>
+			<li>RearBumper</li>
+			<li>Roof</li>
+		</plates>
+	</VehiclesCEOverhaul.VehicleArmorDef>
+</Defs>

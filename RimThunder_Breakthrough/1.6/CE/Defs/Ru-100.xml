@@ -32,7 +32,7 @@
 			<speed>67</speed>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>500</damageAmountBase>
-			<armorPenetrationSharp>750</armorPenetrationSharp>
+			<armorPenetrationSharp>185</armorPenetrationSharp>
 			<armorPenetrationBlunt>80</armorPenetrationBlunt>
 		</projectile>
 		<comps>
@@ -80,18 +80,19 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_Ru100mmShell_HEAT</defName>
 		<label>make 9M117M Missile x5</label>
-		<description>Craft 5 9M117M Missile.</description>
-		<jobString>Making 9M117M Missile.</jobString>
+		<description>Craft 5 9M117M guided missiles.</description>
+		<jobString>Making 9M117M Missiles.</jobString>
 		<workAmount>20400</workAmount>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>120</count>
 			</li>
@@ -114,24 +115,30 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentIndustrial</li>
+						<li>ElectronicComponents</li>
 					</thingDefs>
 				</filter>
 				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>Chemfuel</li>
-				<li>ComponentIndustrial</li>
+				<li>ElectronicComponents</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_Ru100mmShell_HEAT>5</Ammo_Ru100mmShell_HEAT>
 		</products>
-	    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
-  </RecipeDef>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
+	</RecipeDef>
 
 </Defs>

@@ -59,6 +59,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.25</sightsEfficiency>
+				<recoilAmount>1.0</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -97,7 +101,7 @@
 		<value>
 			<descriptionHyperlinks>
 				<CombatExtended.AmmoSetDef>AmmoSet_145x114mm</CombatExtended.AmmoSetDef>
-				<CombatExtended.AmmoSetDef>AmmoSet_30x173mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x165mm</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_762x54mmR</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_9M133M</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_57x348sr</CombatExtended.AmmoSetDef>
@@ -287,6 +291,19 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
 		<value>
 			<health>90</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Kurganets25_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>4</maxCharges>
+				<salvo>1</salvo>
+				<cooldownTicks>90</cooldownTicks>
+				<range>5</range>
+				<chance>0.85</chance>
+			</li>
 		</value>
 	</Operation>
 </Patch>

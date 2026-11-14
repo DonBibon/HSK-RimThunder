@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Turret -->
 	<Operation Class="PatchOperationReplace">
@@ -48,6 +48,10 @@
 				<shotHeight>1.8</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.55</sightsEfficiency>
+				<recoilAmount>0.60</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -127,6 +131,10 @@
 				<sway>0.94</sway>
 				<spread>0.02</spread>
 				<recoil>1.5</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.40</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -324,6 +332,19 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Boomerang_Vehicle"]/components/li[key="LeftMidWheel" or key="RightMidWheel" or key="LeftMidWheel2" or key="RightMidWheel2" or key="LeftnearWheel" or key="RightnearWheel"]/health</xpath>
 		<value>
 			<health>120</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_Boomerang_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>4</maxCharges>
+				<salvo>1</salvo>
+				<cooldownTicks>90</cooldownTicks>
+				<range>5</range>
+				<chance>0.85</chance>
+			</li>
 		</value>
 	</Operation>
 </Patch>

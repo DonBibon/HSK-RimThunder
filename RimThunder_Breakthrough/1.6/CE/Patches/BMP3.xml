@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Turret -->
 	<Operation Class="PatchOperationReplace">
@@ -50,6 +50,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.65</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -83,7 +87,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2A72_Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_HE</projectile>
+			<projectile>Bullet_30x165mm_AP</projectile>
 		</value>
 	</Operation>
 
@@ -130,11 +134,16 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2A72_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x165mm</ammoSet>
 				<shotHeight>2</shotHeight>
-				<speed>159</speed>
-				<sway>0.94</sway>
-				<spread>0.05</spread>
+				<speed>165</speed>
+				<sway>0.82</sway>
+				<spread>0.01</spread>
+				<recoil>1.2</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.40</sightsEfficiency>
+				<recoilAmount>0.65</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -145,9 +154,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -157,9 +167,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -173,7 +184,7 @@
 		<value>
 			<descriptionHyperlinks>
 				<CombatExtended.AmmoSetDef>AmmoSet_100mmShell</CombatExtended.AmmoSetDef>
-				<CombatExtended.AmmoSetDef>AmmoSet_30x173mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x165mm</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_762x54mmR</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_57x348sr</CombatExtended.AmmoSetDef>
 				<ThingDef>Ammo_40x46mmGrenade_Smoke</ThingDef>
@@ -349,6 +360,15 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BMP3_Vehicle"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
 		<value>
 			<health>90</health>
+		</value>
+	</Operation>
+	<!-- APS Tier 3 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BMP3_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 </Patch>

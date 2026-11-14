@@ -16,24 +16,32 @@
     </statBases>
     <size>(4,7)</size>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernMBTs</li>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_CompositeArmor</li>
+      <li>HSKV_TankGuns</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
-    <costList>
-      <EngineTurbine>1</EngineTurbine>
-      <ComponentFuelTank>4</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelRoad>16</ComponentWheelRoad>
-      <ComponentHeavyCasting>6</ComponentHeavyCasting>
-      <ComponentIndustrial>65</ComponentIndustrial>
-      <ComponentAdvanced>30</ComponentAdvanced>
+        <costList>
+      <HSKV_Engine_Turbine>1</HSKV_Engine_Turbine>
+      <VVE_CarFuelTank>4</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>8</VVE_CarSuspension>
+      <HSKV_Armor_Heavy>14</HSKV_Armor_Heavy>
+      <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+      <HSKV_Mount_MG>2</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+      <ComponentIndustrial>70</ComponentIndustrial>
+      <ComponentAdvanced>35</ComponentAdvanced>
       <Mechanism>60</Mechanism>
-      <AdvMechanism>32</AdvMechanism>
+      <AdvMechanism>40</AdvMechanism>
       <Steel>950</Steel>
-      <Plasteel>450</Plasteel>
-      <Titanium>180</Titanium>
-      <ReinforcedGlass>30</ReinforcedGlass>
-      <Chemfuel>250</Chemfuel>
+      <Plasteel>500</Plasteel>
+      <AluminiumBar>200</AluminiumBar>
+      <Titanium>250</Titanium>
+      <ReinforcedGlass>40</ReinforcedGlass>
+      <Chemfuel>240</Chemfuel>
     </costList>
     <thingToSpawn>RT_T80BVM_MainBattleTank</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
@@ -104,12 +112,17 @@
       <vehicleJobLimitations>
         <li>(RepairVehicle, 4)</li>
       </vehicleJobLimitations>
-      <roles>
+            <roles>
         <li>
           <key>driver</key>
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -119,6 +132,11 @@
           <label>gunner</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>mainTurret</li>
@@ -130,6 +148,11 @@
           <label>Commander</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>topMG</li>
@@ -232,7 +255,7 @@
         <key>LeftTrack</key>
         <label>left track</label>
         <health>175</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -250,7 +273,7 @@
         <key>RightTrack</key>
         <label>right track</label>
         <health>175</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -268,7 +291,7 @@
         <key>LeftRoadWheels</key>
         <label>left road wheels</label>
         <health>125</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -285,7 +308,7 @@
         <key>RightRoadWheels</key>
         <label>right road wheels</label>
         <health>125</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -302,7 +325,7 @@
         <key>LeftDriveSprocket</key>
         <label>left drive sprocket</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -322,7 +345,7 @@
         <key>RightDriveSprocket</key>
         <label>right drive sprocket</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -342,7 +365,7 @@
         <key>LeftTensionerWheel</key>
         <label>left tensioner wheel</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>
@@ -362,7 +385,7 @@
         <key>RightTensionerWheel</key>
         <label>right tensioner wheel</label>
         <health>100</health>
-        <depth>Internal</depth>
+        <depth>External</depth>
         <categories>
           <li>MoveSpeed</li>
         </categories>

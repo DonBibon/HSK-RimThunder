@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.UpgradeTreeDef[defName="RT_T90M_Vehicle_UpgradeTree"]/nodes/li[1]/upgrades/li[@Class="Vehicles.VehicleUpgrade"]/armor</xpath>
@@ -7,21 +7,20 @@
 				<li>
 					<key>LeftERAPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
-						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+						<ArmorRating_Blunt>310</ArmorRating_Blunt>
+						<ArmorRating_Sharp>22</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>RightERAPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>4000</ArmorRating_Blunt>
-						<ArmorRating_Sharp>50</ArmorRating_Sharp>
+						<ArmorRating_Blunt>310</ArmorRating_Blunt>
+						<ArmorRating_Sharp>22</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 			</armor>
 		</value>
 	</Operation>
-
 </Patch>

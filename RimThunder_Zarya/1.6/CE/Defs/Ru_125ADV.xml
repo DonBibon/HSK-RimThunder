@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="125mmTCBase">
     <defName>Ammo_Ru125mmTCADV_Sabot</defName>
@@ -39,8 +39,8 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>420</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
-      <armorPenetrationSharp>630</armorPenetrationSharp>
-      <armorPenetrationBlunt>120000</armorPenetrationBlunt>
+      <armorPenetrationSharp>205</armorPenetrationSharp>
+      <armorPenetrationBlunt>2800</armorPenetrationBlunt>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -75,7 +75,7 @@
       <speed>170</speed>
     </projectile>
   </ThingDef>
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_Ru125mmTCADV_Sabot</defName>
     <label>make 125mm 3BM59 APFSDS cannon shells x5</label>
     <description>Craft 5 125mm 3BM59 APFSDS cannon shells.</description>
@@ -84,9 +84,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -124,8 +125,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>DepletedUranium</li>
         <li>Plasteel</li>
         <li>Powder</li>
@@ -138,9 +142,12 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
-  <RecipeDef ParentName="AmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_Ru125mmTCADV_EMP</defName>
     <label>make 125mm 3BV11 EMP cannon shells x5</label>
     <description>Craft 5 125mm 3BV15 EMP cannon shells.</description>
@@ -149,9 +156,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>140</count>
       </li>
@@ -181,8 +189,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
         <li>ElectronicComponents</li>
@@ -194,6 +205,9 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
 </Defs>

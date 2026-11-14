@@ -40,7 +40,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>400</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
-      <armorPenetrationSharp>520</armorPenetrationSharp>
+      <armorPenetrationSharp>195</armorPenetrationSharp>
       <armorPenetrationBlunt>70</armorPenetrationBlunt>
     </projectile>
     <comps>
@@ -70,8 +70,8 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>360</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
-      <armorPenetrationSharp>588</armorPenetrationSharp>
-      <armorPenetrationBlunt>120000</armorPenetrationBlunt>
+      <armorPenetrationSharp>205</armorPenetrationSharp>
+      <armorPenetrationBlunt>140</armorPenetrationBlunt>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -90,7 +90,7 @@
     </comps>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
-  <RecipeDef ParentName="AmmoRecipeBase">
+    <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_Ru125mmTC_HEAT</defName>
     <label>make 125mm 3BK18M HEAT cannon shells x5</label>
     <description>Craft 5 125mm 3BK18M HEAT cannon shells.</description>
@@ -99,9 +99,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>150</count>
       </li>
@@ -124,26 +125,20 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ElectronicComponents</li>
           </thingDefs>
         </filter>
         <count>3</count>
       </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
-      </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>Powder</li>
         <li>FSX</li>
-        <li>ComponentIndustrial</li>
         <li>ElectronicComponents</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -153,9 +148,12 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+    <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_Ru125mmTC_Sabot</defName>
     <label>make 125mm 3BM60 APFSDS cannon shells x5</label>
     <description>Craft 5 125mm 3BM60 APFSDS cannon shells.</description>
@@ -164,9 +162,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -204,8 +203,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>DepletedUranium</li>
         <li>Plasteel</li>
         <li>Powder</li>
@@ -218,6 +220,9 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
 </Defs>

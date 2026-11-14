@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
@@ -17,13 +17,24 @@
     <size>(3,7)</size>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>VVE_CombatVehicles</li>
+      <li>HSKV_VehicleArmor</li>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
     </researchPrerequisites>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>2</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelTire>8</ComponentWheelTire>
+      <HSKV_Engine_Diesel>2</HSKV_Engine_Diesel>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <HSKV_Chassis_WheeledLight>2</HSKV_Chassis_WheeledLight>
+      <VVE_CarWheel>8</VVE_CarWheel>
+      <VVE_CarSuspension>4</VVE_CarSuspension>
+      <HSKV_Armor_Light>6</HSKV_Armor_Light>
+      <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+      <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
       <ComponentIndustrial>50</ComponentIndustrial>
       <ComponentAdvanced>22</ComponentAdvanced>
       <Mechanism>45</Mechanism>
@@ -50,12 +61,13 @@
     </graphicData>
     <size>(3,7)</size>
     <fillPercent>1</fillPercent>
+    <techLevel>Industrial</techLevel>
     <vehicleCategory>Combat</vehicleCategory>
     <statBases>
       <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>4150</MarketValue>
+      <MarketValue>55000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>1430</Mass>
@@ -118,6 +130,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -127,6 +144,11 @@
           <label>gunner</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>Apoch57</li>
@@ -142,6 +164,11 @@
           <label>Commander</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>leftSmoke</li>
@@ -153,6 +180,18 @@
           <key>Passenger</key>
           <label>Passenger</label>
           <slots>8</slots>
+          <hitbox>
+            <cells>
+              <li>(-1, -1)</li>
+              <li>(0, -1)</li>
+              <li>(1, -1)</li>
+              <li>(-1, -2)</li>
+              <li>(0, -2)</li>
+              <li>(1, -2)</li>
+              <li>(0, -3)</li>
+              <li>(-1, -3)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>
@@ -510,6 +549,10 @@
         <health>160</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+        </armor>
         <hitbox>
           <side>Back</side>
         </hitbox>
