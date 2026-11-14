@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
@@ -17,23 +17,26 @@
     </statBases>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <costList>
-      <EngineMedium>1</EngineMedium>
-      <ComponentFuelTank>2</ComponentFuelTank>
-      <ComponentTransmission>1</ComponentTransmission>
-      <ComponentWheelTire>6</ComponentWheelTire>
-      <ComponentIndustrial>25</ComponentIndustrial>
-      <ComponentAdvanced>6</ComponentAdvanced>
-      <Mechanism>20</Mechanism>
-      <AdvMechanism>10</AdvMechanism>
-      <Steel>350</Steel>
-      <AluminiumBar>120</AluminiumBar>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <HSKV_Body_Car>1</HSKV_Body_Car>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>1</VVE_CarTransmission>
+      <VVE_CarWheel>6</VVE_CarWheel>
+      <VVE_CarSuspension>4</VVE_CarSuspension>
+      <ComponentIndustrial>16</ComponentIndustrial>
+      <Mechanism>14</Mechanism>
+      <AdvMechanism>6</AdvMechanism>
+      <Steel>200</Steel>
+      <AluminiumBar>60</AluminiumBar>
       <ReinforcedGlass>15</ReinforcedGlass>
-      <Chemfuel>100</Chemfuel>
+      <Plastic>40</Plastic>
+      <ElectronicComponents>6</ElectronicComponents>
+      <Chemfuel>80</Chemfuel>
     </costList>
     <thingToSpawn>RT_M1078_LMTV</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>HSKV_Trucks</li>
     </researchPrerequisites>
   </Vehicles.VehicleBuildDef>
   <Vehicles.VehicleDef ParentName="RT_BaseVehicle">
@@ -52,7 +55,7 @@
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>14000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>520</Mass>
@@ -107,6 +110,12 @@
           <label>Driver</label>
           <slots>2</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 1)</li>
+              <li>(1, 1)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -713,7 +722,7 @@
         <depth>External</depth>
         <hitWeight>3</hitWeight>
         <hitbox>
-          <side>Body</side>
+          <side>Front</side>
         </hitbox>
       </li>
       <li>
@@ -832,5 +841,13 @@
         <!-- 砲塔 -->
       </li>
     </comps>
+    <modExtensions>
+      <li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+        <mode>Off</mode>
+      </li>
+      <li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+        <role>None</role>
+      </li>
+    </modExtensions>
   </Vehicles.VehicleDef>
 </Defs>

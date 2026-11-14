@@ -9,7 +9,17 @@
 				<CombatExtended.AmmoSetDef>AmmoSet_50BMG</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_BGM71TOW</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_40x53mmGrenade</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x113mmB</CombatExtended.AmmoSetDef>
 			</descriptionHyperlinks>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_MATV_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 	

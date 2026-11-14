@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Remove stock unscaled VCEO armor profiles for Desert Sabre vehicles so HSK scale is purely used -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_M10_MainBattleTank"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_M10_MainBattleTank"]</xpath>
+		</match>
+	</Operation>
+</Patch>

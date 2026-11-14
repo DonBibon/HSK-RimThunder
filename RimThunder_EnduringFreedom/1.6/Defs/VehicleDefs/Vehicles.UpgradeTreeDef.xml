@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <Vehicles.UpgradeTreeDef>
     <defName>RT_LMTV_Vehicle_UpgradeTree</defName>
@@ -103,10 +103,13 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>120</Steel>
-          <Mechanism>6</Mechanism>
-          <ComponentIndustrial>6</ComponentIndustrial>
+          <HSKV_Body_Car>1</HSKV_Body_Car>
+          <Steel>60</Steel>
+          <Mechanism>4</Mechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_Trucks</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>MTV_Cargo</key>
@@ -208,12 +211,14 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>200</Steel>
-          <ComponentWheelTire>2</ComponentWheelTire>
-          <ComponentTransmission>1</ComponentTransmission>
-          <Mechanism>10</Mechanism>
-          <ComponentIndustrial>8</ComponentIndustrial>
+          <HSKV_Chassis_WheeledLight>1</HSKV_Chassis_WheeledLight>
+          <VVE_CarWheel>2</VVE_CarWheel>
+          <VVE_CarTransmission>1</VVE_CarTransmission>
+          <Steel>80</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_Trucks</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>MTV_Passenger</key>
@@ -241,13 +246,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>180</Steel>
-          <ComponentWheelTire>2</ComponentWheelTire>
-          <ComponentTransmission>1</ComponentTransmission>
-          <Mechanism>8</Mechanism>
-          <ComponentIndustrial>8</ComponentIndustrial>
+          <HSKV_Chassis_WheeledLight>1</HSKV_Chassis_WheeledLight>
+          <VVE_CarWheel>2</VVE_CarWheel>
+          <VVE_CarTransmission>1</VVE_CarTransmission>
           <Cloth>40</Cloth>
+          <Steel>60</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_Trucks</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>
@@ -298,13 +305,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>140</Steel>
-          <AluminiumBar>60</AluminiumBar>
-          <AdvMechanism>10</AdvMechanism>
-          <ComponentAdvanced>8</ComponentAdvanced>
-          <ElectronicComponents>8</ElectronicComponents>
-          <Electronics>4</Electronics>
+          <HSKV_Mount_MG>1</HSKV_Mount_MG>
+          <AdvMechanism>4</AdvMechanism>
+          <AluminiumBar>30</AluminiumBar>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>MultibarrelWeapons</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_M230LFTurret</key>
@@ -350,14 +359,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>220</Steel>
-          <Titanium>60</Titanium>
-          <Plasteel>60</Plasteel>
-          <AdvMechanism>14</AdvMechanism>
-          <ComponentAdvanced>12</ComponentAdvanced>
-          <ElectronicComponents>12</ElectronicComponents>
-          <Electronics>6</Electronics>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <Titanium>30</Titanium>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Heavy_turrets_C3</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_RWSTurret</key>
@@ -403,13 +413,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>150</Steel>
-          <AluminiumBar>70</AluminiumBar>
-          <AdvMechanism>8</AdvMechanism>
-          <ComponentAdvanced>8</ComponentAdvanced>
-          <ElectronicComponents>8</ElectronicComponents>
-          <Electronics>4</Electronics>
+          <HSKV_Mount_MG>1</HSKV_Mount_MG>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <AdvMechanism>4</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>SniperTurret</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_RWSMTurret</key>
@@ -471,15 +483,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>220</Steel>
-          <Titanium>70</Titanium>
-          <Plasteel>80</Plasteel>
-          <AdvMechanism>14</AdvMechanism>
-          <ComponentAdvanced>14</ComponentAdvanced>
-          <ElectronicComponents>16</ElectronicComponents>
-          <Electronics>10</Electronics>
-          <Microchips>6</Microchips>
+          <HSKV_Mount_MG>1</HSKV_Mount_MG>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <Microchips>4</Microchips>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Rockets_C1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_RWSGTurret</key>
@@ -525,13 +538,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>160</Steel>
-          <AluminiumBar>70</AluminiumBar>
-          <AdvMechanism>10</AdvMechanism>
-          <ComponentAdvanced>10</ComponentAdvanced>
-          <ElectronicComponents>10</ElectronicComponents>
-          <Electronics>5</Electronics>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <AdvMechanism>4</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Grenade_launchers_C2</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_RWSGMTurret</key>
@@ -591,15 +606,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>240</Steel>
-          <Titanium>70</Titanium>
-          <Plasteel>80</Plasteel>
-          <AdvMechanism>15</AdvMechanism>
-          <ComponentAdvanced>15</ComponentAdvanced>
-          <ElectronicComponents>16</ElectronicComponents>
-          <Electronics>10</Electronics>
-          <Microchips>6</Microchips>
+          <HSKV_Mount_Rockets>2</HSKV_Mount_Rockets>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <Microchips>4</Microchips>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Rockets_C1</li>
+          <li>Grenade_launchers_C2</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_TOWTurret</key>
@@ -662,14 +678,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>180</Steel>
-          <Titanium>80</Titanium>
-          <Plasteel>60</Plasteel>
-          <AdvMechanism>12</AdvMechanism>
-          <ComponentAdvanced>12</ComponentAdvanced>
-          <ElectronicComponents>12</ElectronicComponents>
-          <Electronics>8</Electronics>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <Titanium>40</Titanium>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Rockets_C1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>RT_MATV_Mk19Turret</key>
@@ -732,13 +749,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>160</Steel>
-          <Plasteel>40</Plasteel>
-          <Mechanism>12</Mechanism>
-          <AdvMechanism>6</AdvMechanism>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
           <ReinforcedGlass>15</ReinforcedGlass>
-          <ComponentIndustrial>8</ComponentIndustrial>
+          <Mechanism>6</Mechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Grenade_launchers_C2</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>

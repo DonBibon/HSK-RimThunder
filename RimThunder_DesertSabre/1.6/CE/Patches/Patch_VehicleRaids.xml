@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>blakil.vehiclesceoverhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleRaidTuningDef[defName="VCEO_VehicleRaidTuning"]/adaptedVehicles</xpath>
+					<value>
+						<li>RT_M10_MainBattleTank</li>
+						<li>RT_M1A2SEP_MainBattleTank</li>
+						<li>RT_M2A3_Vehicle</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M10_MainBattleTank"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2SEP_MainBattleTank"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M2A3_Vehicle"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

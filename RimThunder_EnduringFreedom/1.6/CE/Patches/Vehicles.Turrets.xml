@@ -105,7 +105,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_FMJ</projectile>
+			<projectile>Bullet_30x113mmB_AP</projectile>
 		</value>
 	</Operation>
 
@@ -134,7 +134,7 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x113mmB</ammoSet>
 				<shotHeight>1.9</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
@@ -148,9 +148,15 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x113mmB_AP</li>
+						<li>Ammo_30x113mmB_Incendiary</li>
+						<li>Ammo_30x113mmB_HE</li>
+						<li>Ammo_30x113mmB_Sabot</li>
+						<li>Ammo_30x113mmBGrenade_HE</li>
+						<li>Ammo_30x113mmBGrenade_HE_TFuzed</li>
+						<li>Ammo_30x113mmBGrenade_HEDP</li>
+						<li>Ammo_30x113mmBGrenade_EMP</li>
+						<li>Ammo_30x113mmBGrenade_Smoke</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -160,9 +166,15 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x113mmB_AP</li>
+						<li>Ammo_30x113mmB_Incendiary</li>
+						<li>Ammo_30x113mmB_HE</li>
+						<li>Ammo_30x113mmB_Sabot</li>
+						<li>Ammo_30x113mmBGrenade_HE</li>
+						<li>Ammo_30x113mmBGrenade_HE_TFuzed</li>
+						<li>Ammo_30x113mmBGrenade_HEDP</li>
+						<li>Ammo_30x113mmBGrenade_EMP</li>
+						<li>Ammo_30x113mmBGrenade_Smoke</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -701,5 +713,96 @@
 				</ammunition>
 			</value>
 		</nomatch>
+	</Operation>
+
+	<!-- TurretAimExtension for all 9 EnduringFreedom combat turrets -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M134_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.25</sightsEfficiency>
+				<recoilAmount>0.90</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_M230LF_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.45</sightsEfficiency>
+				<recoilAmount>0.80</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSTurret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.35</sightsEfficiency>
+				<recoilAmount>0.85</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_MATV_RWSMTurret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.35</sightsEfficiency>
+				<recoilAmount>0.85</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_TOW2_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Javelin_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.60</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.15</sightsEfficiency>
+				<recoilAmount>1.10</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWS_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.35</sightsEfficiency>
+				<recoilAmount>0.95</recoilAmount>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_Mk19RWSM_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.35</sightsEfficiency>
+				<recoilAmount>0.95</recoilAmount>
+			</li>
+		</value>
 	</Operation>
 </Patch>

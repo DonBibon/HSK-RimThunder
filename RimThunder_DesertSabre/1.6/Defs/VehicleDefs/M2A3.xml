@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
@@ -16,23 +16,32 @@
     </statBases>
     <size>(3,6)</size>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>HSKV_ArmoredVehicles2</li>
+      <li>HSKV_VehicleWeapons</li>
+      <li>HSKV_CompositeArmor</li>
     </researchPrerequisites>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>3</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelRoad>14</ComponentWheelRoad>
-      <ComponentIndustrial>55</ComponentIndustrial>
-      <ComponentAdvanced>22</ComponentAdvanced>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>6</VVE_CarSuspension>
+      <HSKV_Armor_Light>6</HSKV_Armor_Light>
+      <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+      <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+      <ComponentIndustrial>50</ComponentIndustrial>
+      <ComponentAdvanced>18</ComponentAdvanced>
       <Mechanism>45</Mechanism>
-      <AdvMechanism>24</AdvMechanism>
+      <AdvMechanism>20</AdvMechanism>
       <Steel>650</Steel>
-      <Plasteel>300</Plasteel>
+      <AluminiumBar>120</AluminiumBar>
+      <Plasteel>250</Plasteel>
       <Titanium>120</Titanium>
-      <AluminiumBar>150</AluminiumBar>
-      <ReinforcedGlass>25</ReinforcedGlass>
+      <ReinforcedGlass>20</ReinforcedGlass>
       <Chemfuel>180</Chemfuel>
     </costList>
     <thingToSpawn>RT_M2A3_Vehicle</thingToSpawn>
@@ -55,7 +64,7 @@
       <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>2240</MarketValue>
+      <MarketValue>58000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>1500</Mass>
@@ -110,6 +119,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -119,6 +133,11 @@
           <label>gunner</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>BushMaster</li>
@@ -134,6 +153,11 @@
           <label>commander</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>leftSmoke_A</li>
@@ -146,6 +170,16 @@
           <key>passenger</key>
           <label>passenger</label>
           <slots>7</slots>
+          <hitbox>
+            <cells>
+              <li>(0, -1)</li>
+              <li>(0, -2)</li>
+              <li>(-1, -1)</li>
+              <li>(-1, -2)</li>
+              <li>(1, -1)</li>
+              <li>(1, -2)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>
@@ -489,6 +523,10 @@
         <health>158</health>
         <depth>External</depth>
         <hitWeight>5</hitWeight>
+        <armor>
+          <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+          <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+        </armor>
         <hitbox>
           <side>Back</side>
         </hitbox>

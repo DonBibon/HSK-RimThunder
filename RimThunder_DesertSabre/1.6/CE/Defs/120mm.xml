@@ -41,8 +41,8 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>480</damageAmountBase>
       <soundExplode>MortarBomb_Explode</soundExplode>
-      <armorPenetrationSharp>680</armorPenetrationSharp>
-      <armorPenetrationBlunt>180000</armorPenetrationBlunt>
+      <armorPenetrationSharp>195</armorPenetrationSharp>
+      <armorPenetrationBlunt>2600</armorPenetrationBlunt>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -78,7 +78,7 @@
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
-  <RecipeDef ParentName="CannonAmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_120mmTC_Sabot</defName>
     <label>make 120mm M29A4 Sabot cannon shells x5</label>
     <description>Craft 5 120mm M29A4 Sabot cannon shells.</description>
@@ -87,9 +87,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -127,8 +128,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>DepletedUranium</li>
         <li>Plasteel</li>
         <li>Powder</li>
@@ -141,9 +145,12 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
-  <RecipeDef ParentName="AmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_120mmTC_EMP</defName>
     <label>make 120mm M200E4 EMP cannon shells x5</label>
     <description>Craft 5 120mm M200E4 EMP cannon shells.</description>
@@ -152,9 +159,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>140</count>
       </li>
@@ -184,8 +192,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
         <li>ElectronicComponents</li>
@@ -197,6 +208,9 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
 </Defs>
