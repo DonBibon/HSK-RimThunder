@@ -336,8 +336,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T15_Vehicle"]/comps</xpath>
 		<value>
-			<li Class="VehiclesCE.CompProperties_ActiveProtection">
-				<compClass>VehiclesCE.CompActiveProtection</compClass>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
 				<maxCharges>12</maxCharges>
 				<salvo>2</salvo>
 				<cooldownTicks>70</cooldownTicks>

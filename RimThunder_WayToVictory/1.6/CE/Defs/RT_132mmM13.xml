@@ -71,7 +71,7 @@
 			<damageAmountBase>340</damageAmountBase>
 			<explosionRadius>4.5</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<flyOverhead>false</flyOverhead>
+			<flyOverhead>true</flyOverhead>
 			<gravityFactor>1.5</gravityFactor>
 			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
 		</projectile>
@@ -137,11 +137,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>Chemfuel</li>
 				<li>FSX</li>

@@ -77,6 +77,8 @@
           </li>
           <li Class="VehiclesCEOverhaul.TurretAimExtension">
             <sightsEfficiency>1.00</sightsEfficiency>
+            <circularError>0.9</circularError>
+            <indirectFirePenalty>0.2</indirectFirePenalty>
             <recoilAmount>1.00</recoilAmount>
           </li>
         </value>

@@ -45,7 +45,7 @@
 		<!-- 射程與射界相關 -->
 		<minRange>2</minRange>
 		<maxRange>40.9</maxRange>
-		<rotationSpeed>1.0</rotationSpeed>
+		<rotationSpeed>2.5</rotationSpeed>
 		<!-- 射擊相關 -->
 		<warmUpTimer>2</warmUpTimer>
 		<shotSound>RT_Shot_Zis2Sound</shotSound>
@@ -150,7 +150,7 @@
 		<!-- 射程與射界相關 -->
 		<minRange>2</minRange>
 		<maxRange>40.9</maxRange>
-		<rotationSpeed>1.0</rotationSpeed>
+		<rotationSpeed>2.5</rotationSpeed>
 		<!-- 射擊相關 -->
 		<warmUpTimer>2</warmUpTimer>
 		<shotSound>RT_Shot_Zis5Sound</shotSound>
@@ -230,7 +230,7 @@
 		<!-- 射程與射界相關 -->
 		<minRange>2</minRange>
 		<maxRange>40.9</maxRange>
-		<rotationSpeed>1.0</rotationSpeed>
+		<rotationSpeed>2.5</rotationSpeed>
 		<!-- 射擊相關 -->
 		<warmUpTimer>2</warmUpTimer>
 		<shotSound>RT_Shot_M58Sound</shotSound>

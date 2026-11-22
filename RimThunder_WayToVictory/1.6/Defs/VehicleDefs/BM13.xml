@@ -397,7 +397,7 @@
 							<east>(-1.5, 0.6)</east>
 							<west>(1.5, 0.6)</west>
 						</renderProperties>
-						<angleRestricted>(330,30)</angleRestricted>
+						<angleRestricted/>
 						<gizmoLabel>BM13</gizmoLabel>
 						<aimPieOffset>(0, 2)</aimPieOffset>
 						<!-- 預熱指示器的x,z偏移 -->
@@ -432,7 +432,7 @@
 		<genericAmmo>true</genericAmmo>
 		
 		<autoSnapTargeting>false</autoSnapTargeting>
-		<rotationSpeed>0.5</rotationSpeed>
+		<rotationSpeed>3.0</rotationSpeed>
 		
 		<projectileOffset>1</projectileOffset>
 		

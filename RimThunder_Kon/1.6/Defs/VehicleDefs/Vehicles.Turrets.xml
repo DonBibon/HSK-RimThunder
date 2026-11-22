@@ -317,7 +317,7 @@
 		</ammunition>
 		<minRange>25</minRange>
 		<maxRange>500</maxRange>
-		<rotationSpeed>1.35</rotationSpeed>
+		<rotationSpeed>3.0</rotationSpeed>
 		<shotSound>Mortar_LaunchA</shotSound>
 		<projectileOffset>1.5</projectileOffset>
 		<projectileShifting>

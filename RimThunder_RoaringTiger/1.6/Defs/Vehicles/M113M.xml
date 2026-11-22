@@ -517,7 +517,7 @@
     </ammunition>
     <minRange>16</minRange>
     <maxRange>100</maxRange>
-    <rotationSpeed>1</rotationSpeed>
+    <rotationSpeed>3.0</rotationSpeed>
     <warmUpTimer>2</warmUpTimer>
     <shotSound>Mortar_LaunchA</shotSound>
     <reloadSound>Artillery_ShellLoaded</reloadSound>

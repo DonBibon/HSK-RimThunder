@@ -267,23 +267,11 @@
 	</Operation>
 
 	<!-- Smoke Grenade Launcher -->
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]/projectile</xpath>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]</xpath>
 		<value>
 			<projectile>BulletCE_RTCSmoke</projectile>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]/chargePerAmmoCount</xpath>
-		<value>
 			<chargePerAmmoCount>5</chargePerAmmoCount>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]/genericAmmo</xpath>
-		<value>
 			<genericAmmo>false</genericAmmo>
 		</value>
 	</Operation>
@@ -496,8 +484,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/comps</xpath>
 		<value>
-			<li Class="VehiclesCE.CompProperties_ActiveProtection">
-				<compClass>VehiclesCE.CompActiveProtection</compClass>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
 				<maxCharges>14</maxCharges>
 				<salvo>2</salvo>
 				<cooldownTicks>70</cooldownTicks>

@@ -317,11 +317,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -379,11 +379,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -443,11 +443,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>Plasteel</li>
 				<li>ComponentIndustrial</li>
@@ -507,11 +507,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -571,11 +571,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
@@ -635,11 +635,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<categories>
+			<categories>
 				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
+			<thingDefs>
 				<li>Powder</li>
 				<li>ElectronicComponents</li>
 				<li>ComponentIndustrial</li>

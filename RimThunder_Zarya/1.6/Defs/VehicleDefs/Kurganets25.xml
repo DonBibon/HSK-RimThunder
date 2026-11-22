@@ -732,7 +732,7 @@
       <speed>80</speed>
     </projectile>
   </ThingDef>
-  <Vehicles.VehicleTurretDef ParentName="RT_GrenadeLauncher">
+  <Vehicles.VehicleTurretDef ParentName="RT_BaseLauncher">
     <defName>RT_GrenadeLauncherADV</defName>
     <label>Smoke grenade launcher</label>
     <magazineCapacity>2</magazineCapacity>
