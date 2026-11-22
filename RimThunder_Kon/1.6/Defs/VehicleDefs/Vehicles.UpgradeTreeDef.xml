@@ -394,6 +394,7 @@
                   <west>(0.88, 0.55)</west>
                 </renderProperties>
                 <gizmoLabel>Main Turret</gizmoLabel>
+                <angleRestricted>(300,60)</angleRestricted>
                 <aimPieOffset>(0, 1)</aimPieOffset>
                 <drawLayer>2</drawLayer>
                 <key>2S41</key>
@@ -408,10 +409,9 @@
                   <west>(0, 0)</west>
                 </renderProperties>
                 <gizmoLabel>Machine Gun</gizmoLabel>
-                <angleRestricted>(345,15)</angleRestricted>
+                <angleRestricted>(300,60)</angleRestricted>
                 <aimPieOffset>(-0.1, 0.15)</aimPieOffset>
                 <key>PKM</key>
-                <parentKey>2S41</parentKey>
               </li>
             </turrets>
           </li>
