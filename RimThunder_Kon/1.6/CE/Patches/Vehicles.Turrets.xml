@@ -476,10 +476,17 @@
 
 	<!-- 2S41 (RT_2S41_Turret) -->
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]</xpath>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]/projectile</xpath>
 		<value>
 			<projectile>Bullet_81mmMortarShell_HE_Vehicle</projectile>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]/genericAmmo</xpath>
+		<value>
+			<genericAmmo>false</genericAmmo>
 		</value>
 	</Operation>
 
@@ -498,8 +505,21 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationRemove">
+	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_2S41_Turret"]/ammunition</xpath>
+		<value>
+			<ammunition Inherit="False">
+				<thingDefs>
+					<li>Shell_HighExplosive</li>
+					<li>Shell_HighExplosive_HFuzed</li>
+					<li>Shell_Incendiary</li>
+					<li>Shell_EMP</li>
+					<li>Shell_Firefoam</li>
+					<li>Shell_Smoke</li>
+					<li>Shell_AntigrainWarhead</li>
+				</thingDefs>
+			</ammunition>
+		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAddModExtension">

@@ -310,6 +310,7 @@
 		<warmUpTimer>2.8</warmUpTimer>
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
 		<ammunition>
 			<categories>
 				<li>MortarShells</li>
@@ -319,6 +320,7 @@
 		<maxRange>500</maxRange>
 		<rotationSpeed>1.35</rotationSpeed>
 		<shotSound>Mortar_LaunchA</shotSound>
+		<projectile>Bullet_Shell_HighExplosive</projectile>
 		<projectileOffset>1.5</projectileOffset>
 		<projectileShifting>
 			<li>0</li>

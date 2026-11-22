@@ -279,6 +279,7 @@
 			<armorPenetrationBase>0.5</armorPenetrationBase>
 			<speed>50</speed>
 			<explosionRadius>3.9</explosionRadius>
+			<flyOverhead>true</flyOverhead>
 			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>

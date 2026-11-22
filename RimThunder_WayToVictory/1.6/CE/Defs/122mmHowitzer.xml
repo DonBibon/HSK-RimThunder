@@ -17,6 +17,7 @@
 			<Ammo_122mmHowitzer_AP>Bullet_122mmHowitzer_AP</Ammo_122mmHowitzer_AP>
 			<Ammo_122mmHowitzer_HE>Bullet_122mmHowitzer_HE</Ammo_122mmHowitzer_HE>
 		</ammoTypes>
+		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
@@ -117,6 +118,7 @@
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>300</damageAmountBase>
 			<explosionRadius>4</explosionRadius>
+			<flyOverhead>true</flyOverhead>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
 		</projectile>

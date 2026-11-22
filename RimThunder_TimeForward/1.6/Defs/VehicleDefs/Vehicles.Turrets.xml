@@ -542,6 +542,7 @@
 		<projectile>
 			<speed>40</speed>
 			<arcHeightFactor>1.0</arcHeightFactor>
+			<flyOverhead>true</flyOverhead>
 			<explosionRadius>7.9</explosionRadius>
 			<!-- Must be kept in sync with radius of CompProperties_DisruptorFlare -->
 			<landedEffecter MayRequireAnyOf="Ludeon.RimWorld.Anomaly">DisruptorFlareLanded</landedEffecter>
