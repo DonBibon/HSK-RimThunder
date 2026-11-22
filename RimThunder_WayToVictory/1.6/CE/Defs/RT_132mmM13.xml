@@ -28,7 +28,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo132mmM13Rocket</li>
@@ -66,13 +66,13 @@
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
-			<speed>85</speed>
+			<speed>60</speed>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>340</damageAmountBase>
 			<explosionRadius>4.5</explosionRadius>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			<flyOverhead>false</flyOverhead>
-			<gravityFactor>1.5</gravityFactor>
+			<flyOverhead>true</flyOverhead>
+			<gravityFactor>3.5</gravityFactor>
 			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
 		</projectile>
 		<comps>
@@ -87,7 +87,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_132mmM13_HE</defName>
 		<label>make 132mm M-13 (HE) rockets x4</label>
 		<description>Craft 4 132mm M-13 (HE) unguided rockets.</description>
@@ -96,9 +96,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>120</count>
 			</li>
@@ -136,8 +137,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Powder</li>
 				<li>Chemfuel</li>
 				<li>FSX</li>
@@ -150,7 +154,10 @@
 		<skillRequirements>
 			<Crafting>5</Crafting>
 		</skillRequirements>
-	    <researchPrerequisite>RT_WW2HeavyArmor</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Rockets_C1</li>
+		</researchPrerequisites>
   </RecipeDef>
 
 </Defs>

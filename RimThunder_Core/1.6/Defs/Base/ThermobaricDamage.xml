@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<DamageDef>
+		<defName>RT_ThermobaricExplosive_a</defName>
+		<label>Thermobaric Explosive</label>
+		<workerClass>DamageWorker_Flame</workerClass>
+		<externalViolence>true</externalViolence>
+		<isExplosive>true</isExplosive>
+		<deathMessage>{0} has burnning in hell.</deathMessage>
+		<hediff>Burn</hediff>
+		<hediffSolid>Burn</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+		<minDamageToFragment>2</minDamageToFragment>
+		<defaultDamage>15</defaultDamage>
+		<defaultStoppingPower>3</defaultStoppingPower>
+		<buildingDamageFactor>1</buildingDamageFactor>
+		<plantDamageFactor>3</plantDamageFactor>
+		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+		<explosionHeatEnergyPerCell>3</explosionHeatEnergyPerCell>
+		<explosionCellFleck>BlastFlame</explosionCellFleck>
+		<explosionColorCenter>(0.8, 0.9, 1)</explosionColorCenter>
+		<explosionColorEdge>(0.8, 0.9, 1)</explosionColorEdge>
+		<soundExplosion>Explosion_GiantBomb</soundExplosion>
+		<combatLogRules>Damage_Bomb</combatLogRules>
+		<additionalHediffs>
+			<li>
+				<hediff>RT_ThermobaricShock_a</hediff>
+				<severityFixed>1</severityFixed>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
+
+	<HediffDef ParentName="DiseaseBase">
+		<defName>RT_ThermobaricShock_a</defName>
+		<label>Thermobaric Shock</label>
+		<description>Thermobaric Shock.</description>
+		<isBad>true</isBad>
+		<initialSeverity>1</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>2500~3500</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>0.9</painFactor>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.7</setMax>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.95</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.55</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

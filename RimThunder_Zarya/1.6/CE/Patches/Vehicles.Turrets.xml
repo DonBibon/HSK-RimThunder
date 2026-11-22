@@ -6,7 +6,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="EpochAlmaty_Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_Incendiary</projectile>
+			<projectile>Bullet_30x165mm_AP</projectile>
 		</value>
 	</Operation>
 
@@ -35,10 +35,14 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="EpochAlmaty_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x165mm</ammoSet>
 				<shotHeight>1.9</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -49,9 +53,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -61,9 +66,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -107,6 +113,10 @@
 				<sway>0.02</sway>
 				<spread>0.02</spread>
 				<recoil>1.5</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -178,6 +188,10 @@
 				<shotHeight>1.9</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.55</sightsEfficiency>
+				<recoilAmount>0.60</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -282,6 +296,10 @@
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.15</sightsEfficiency>
+				<recoilAmount>0.80</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -375,6 +393,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.60</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -407,5 +429,28 @@
 				</ammunition>
 			</value>
 		</nomatch>
+	</Operation>
+
+	<!-- Smoke Grenade Launcher -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherADV"]</xpath>
+		<value>
+			<projectile>BulletCE_RTCSmoke</projectile>
+			<chargePerAmmoCount>5</chargePerAmmoCount>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherADV"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>RTC_AmmoSet_SmokeGrenade</ammoSet>
+				<shotHeight>2</shotHeight>
+				<speed>20</speed>
+				<sway>1</sway>
+				<spread>0.5</spread>
+			</li>
+		</value>
 	</Operation>
 </Patch>

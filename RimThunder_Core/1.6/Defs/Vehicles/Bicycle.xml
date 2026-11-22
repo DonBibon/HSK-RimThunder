@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild"><!-- 建築型態的載具，基本上與BuildingDef相同-->
 		<defName>RT_Bicycle_Blueprint</defName>
@@ -17,13 +17,13 @@
 		<size>(1,2)</size>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>	
 		<costList>
-			<ComponentTransmission>1</ComponentTransmission>
+			<VVE_CarTransmission>1</VVE_CarTransmission>
 			<ComponentIndustrial>2</ComponentIndustrial>
 			<AluminiumBar>75</AluminiumBar>
 		</costList>
 		<thingToSpawn>RT_Bicycle</thingToSpawn>	<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
 	    <researchPrerequisites Inherit="False">
-      <li>RT_EarlyMotorization</li>
+      <li>VVE_BasicVehicles</li>
     </researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 
@@ -145,4 +145,44 @@
 			</li>
 		</components>
 	</Vehicles.VehicleDef>
+	<VehiclesCEOverhaul.VehicleArmorDef>
+		<defName>RT_HSK_Armor_RT_Bicycle</defName>
+		<vehicle>RT_Bicycle</vehicle>
+		<scale>HSK</scale>
+		<hullSharp>1</hullSharp>
+		<hullBlunt>8</hullBlunt>
+		<mass>18</mass>
+		<components>
+			<li>
+				<key>Structure</key>
+				<sharp>2</sharp>
+				<blunt>10</blunt>
+				<health>30</health>
+			</li>
+			<li>
+				<key>Engine</key>
+				<sharp>2</sharp>
+				<blunt>10</blunt>
+				<health>25</health>
+			</li>
+			<li>
+				<key>TransmissionShaft</key>
+				<sharp>2</sharp>
+				<blunt>10</blunt>
+				<health>30</health>
+			</li>
+			<li>
+				<key>FrontWheel</key>
+				<sharp>2</sharp>
+				<blunt>10</blunt>
+				<health>20</health>
+			</li>
+			<li>
+				<key>BackWheel</key>
+				<sharp>2</sharp>
+				<blunt>10</blunt>
+				<health>20</health>
+			</li>
+		</components>
+	</VehiclesCEOverhaul.VehicleArmorDef>
 </Defs>

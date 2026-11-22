@@ -106,12 +106,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>250</Steel>
-          <Titanium>100</Titanium>
-          <Plasteel>120</Plasteel>
-          <AdvMechanism>15</AdvMechanism>
-          <ComponentAdvanced>12</ComponentAdvanced>
+          <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <Titanium>60</Titanium>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>HSKV_TankGuns</li>
+          <li>Artillery_C2</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T14FE</key>
@@ -135,11 +139,12 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>60</Steel>
-          <ComponentIndustrial>6</ComponentIndustrial>
-          <AdvMechanism>3</AdvMechanism>
-          <Chemfuel>40</Chemfuel>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <Steel>30</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T14UM</key>
@@ -258,12 +263,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <ComponentSpacer>5</ComponentSpacer>
-          <ComponentAdvanced>20</ComponentAdvanced>
-          <AdvMechanism>10</AdvMechanism>
-          <Plasteel>80</Plasteel>
-          <GoldBar>15</GoldBar>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <HSKV_EngineControl_Advanced>1</HSKV_EngineControl_Advanced>
+          <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+          <GoldBar>10</GoldBar>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>HSKV_TankGuns</li>
+          <li>Electronics_D1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T14SL</key>
@@ -279,40 +288,40 @@
               <li>
                 <key>Engine</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>FuelTank</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>Gearbox</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>AmmoRack</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>RoofArmorPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>45</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>6</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
@@ -320,11 +329,14 @@
           </li>
         </upgrades>
         <ingredients>
+          <HSKV_Armor_Heavy>2</HSKV_Armor_Heavy>
           <DevilstrandCloth>100</DevilstrandCloth>
-          <Plasteel>40</Plasteel>
-          <Steel>60</Steel>
-          <Titanium>40</Titanium>
+          <CarbonAlloy>30</CarbonAlloy>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>HSKV_CompositeArmor</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>
@@ -408,12 +420,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>160</Steel>
-          <Titanium>80</Titanium>
-          <Plasteel>60</Plasteel>
-          <AdvMechanism>12</AdvMechanism>
-          <ComponentAdvanced>14</ComponentAdvanced>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <Titanium>40</Titanium>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>Heavy_turrets_C3</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T15Apoch57</key>
@@ -523,13 +538,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>180</Steel>
-          <Titanium>90</Titanium>
-          <Plasteel>70</Plasteel>
-          <AdvMechanism>14</AdvMechanism>
-          <ComponentAdvanced>16</ComponentAdvanced>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <HSKV_EngineControl_Advanced>1</HSKV_EngineControl_Advanced>
           <FSX>20</FSX>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>Heavy_turrets_C3</li>
+          <li>Rockets_C1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T15FE</key>
@@ -553,11 +571,12 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>60</Steel>
-          <ComponentIndustrial>6</ComponentIndustrial>
-          <AdvMechanism>3</AdvMechanism>
-          <Chemfuel>40</Chemfuel>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <Steel>30</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T15Artillery</key>
@@ -582,12 +601,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <ComponentAdvanced>12</ComponentAdvanced>
-          <AdvMechanism>6</AdvMechanism>
-          <Plasteel>40</Plasteel>
+          <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+          <HSKV_EngineControl_Advanced>1</HSKV_EngineControl_Advanced>
           <GoldBar>10</GoldBar>
-          <Steel>50</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>Artillery_C2</li>
+          <li>Electronics_D1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T15UM</key>
@@ -721,12 +743,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <ComponentSpacer>5</ComponentSpacer>
-          <ComponentAdvanced>20</ComponentAdvanced>
-          <AdvMechanism>10</AdvMechanism>
-          <Plasteel>80</Plasteel>
-          <GoldBar>15</GoldBar>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <HSKV_EngineControl_Advanced>1</HSKV_EngineControl_Advanced>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <GoldBar>10</GoldBar>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>Heavy_turrets_C3</li>
+          <li>Electronics_D1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>T15SL</key>
@@ -742,40 +768,40 @@
               <li>
                 <key>Engine</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>FuelTank</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>Gearbox</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>AmmoRack</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>30</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>4</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>RoofArmorPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>45</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>6</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
@@ -783,11 +809,14 @@
           </li>
         </upgrades>
         <ingredients>
+          <HSKV_Armor_Heavy>2</HSKV_Armor_Heavy>
           <DevilstrandCloth>100</DevilstrandCloth>
-          <Plasteel>40</Plasteel>
-          <Steel>60</Steel>
-          <Titanium>40</Titanium>
+          <CarbonAlloy>30</CarbonAlloy>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>HSKV_CompositeArmor</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>

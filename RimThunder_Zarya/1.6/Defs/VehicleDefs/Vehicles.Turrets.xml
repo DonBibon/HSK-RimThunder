@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<!--Epoch Almaty -->
@@ -91,27 +91,6 @@
 	</Vehicles.VehicleTurretDef>
 
 	<!-- 主砲的投射物 -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_2A42Shell</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.5</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>58</damageAmountBase>
-			<armorPenetrationBase>0.6</armorPenetrationBase>
-			<speed>80</speed>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
 
 	<!-- 短号 -->
 	
@@ -156,43 +135,6 @@
 
 
 	<!-- 导弹投射物 -->
-	
-	<ThingDef Class="Missile_dml._ThingDef" ParentName="BaseBullet">
-		<defName>RT_9M133Missile</defName>
-		<label>high-explosive missile</label>
-		<thingClass>Missile_dml.missile_dml</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Ammo_9M133</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
-		</graphicData>
-		<fleck>RT_RocketSmoke</fleck>
-		<fleck1>RT_RocketExhaust</fleck1>
-		<frequency>0</frequency>
-		<scale>2.5</scale>
-		<shaking>0.3</shaking>
-		<searchRange>6</searchRange>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>275</damageAmountBase>
-			<armorPenetrationBase>2</armorPenetrationBase>
-			<speed>91</speed>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>4.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<damageAmountBase>175</damageAmountBase>
-				<explodeOnDestroyed>true</explodeOnDestroyed>
-				<explodeOnKilled>true</explodeOnKilled>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-		</comps>
-	</ThingDef>
 
 	<!--Baikal turret -->
 
@@ -284,27 +226,6 @@
 	</Vehicles.VehicleTurretDef>
 
 	<!-- 主砲的投射物 -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_57ACShell</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>67</damageAmountBase>
-			<armorPenetrationBase>0.85</armorPenetrationBase>
-			<speed>100</speed>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
 
 
 

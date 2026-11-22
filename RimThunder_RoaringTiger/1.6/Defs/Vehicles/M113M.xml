@@ -3,7 +3,10 @@
   <Vehicles.VehicleBuildDef ParentName="RT_BaseVehicleBuild">
     <defName>RT_M113M_APC_Blueprint</defName>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+      <li>HSKV_ArmoredVehicles2</li>
+      <li>HSKV_VehicleArmor</li>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Mortars</li>
     </researchPrerequisites>
     <label>M113(M) APC</label>
     <description>An armoured mortar carrier for infantry artillery support, equipped with an 81mm mortar and a support machine gun.</description>
@@ -19,18 +22,23 @@
     <size>(3,4)</size>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <costList>
-      <EngineMedium>1</EngineMedium>
-      <ComponentFuelTank>2</ComponentFuelTank>
-      <ComponentTransmission>1</ComponentTransmission>
-      <ComponentWheelRoad>10</ComponentWheelRoad>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>1</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>4</VVE_CarSuspension>
+      <HSKV_Armor_Light>4</HSKV_Armor_Light>
+      <HSKV_Mount_Mortar>1</HSKV_Mount_Mortar>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
       <ComponentIndustrial>40</ComponentIndustrial>
-      <ComponentAdvanced>12</ComponentAdvanced>
+      <ComponentAdvanced>10</ComponentAdvanced>
       <Mechanism>35</Mechanism>
-      <AdvMechanism>16</AdvMechanism>
-      <Steel>350</Steel>
-      <AluminiumBar>350</AluminiumBar>
-      <Plasteel>120</Plasteel>
-      <ReinforcedGlass>10</ReinforcedGlass>
+      <AdvMechanism>14</AdvMechanism>
+      <Steel>500</Steel>
+      <AluminiumBar>150</AluminiumBar>
+      <ReinforcedGlass>15</ReinforcedGlass>
       <Chemfuel>120</Chemfuel>
     </costList>
     <thingToSpawn>RT_M113M_APC</thingToSpawn>
@@ -53,10 +61,10 @@
       <ArmorRating_Blunt>0.92</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>2450</MarketValue>
+      <MarketValue>52000</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>800</Mass>
+      <Mass>12600</Mass>
       <MoveSpeed>7</MoveSpeed>
       <CargoCapacity>1200</CargoCapacity>
       <RepairRate>0.5</RepairRate>
@@ -124,6 +132,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -133,6 +146,11 @@
           <label>gunner</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 1)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>supportMG</li>
@@ -143,6 +161,12 @@
           <label>mortar gunner</label>
           <slots>2</slots>
           <slotsToOperate>2</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 0)</li>
+              <li>(0, -1)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>mainTurret</li>
@@ -152,6 +176,12 @@
           <key>passenger</key>
           <label>passenger</label>
           <slots>2</slots>
+          <hitbox>
+            <cells>
+              <li>(-1, -1)</li>
+              <li>(1, -1)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>
@@ -406,6 +436,9 @@
           <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
           <ArmorRating_Sharp>0.7</ArmorRating_Sharp>
         </armor>
+        <hitbox>
+          <side>Body</side>
+        </hitbox>
       </li>
       <li>
         <key>BackArmorPlating</key>

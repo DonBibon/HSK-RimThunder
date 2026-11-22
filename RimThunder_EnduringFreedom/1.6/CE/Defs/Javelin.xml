@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingCategoryDef>
     <defName>AmmoFGM148Javelin</defName>
@@ -22,7 +22,7 @@
     <stackLimit>25</stackLimit>
     <tradeTags>
       <li>CE_AutoEnableTrade</li>
-      <li>CE_AutoEnableCrafting_TableMachining</li>
+      <li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
     </tradeTags>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -95,8 +95,8 @@
     <projectile Class="CombatExtended.ProjectilePropertiesCE">
       <damageDef>Bullet</damageDef>
       <damageAmountBase>480</damageAmountBase>
-      <armorPenetrationSharp>750</armorPenetrationSharp>
-      <armorPenetrationBlunt>100</armorPenetrationBlunt>
+      <armorPenetrationSharp>210</armorPenetrationSharp>
+      <armorPenetrationBlunt>140</armorPenetrationBlunt>
     </projectile>
     <comps>
       <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -116,19 +116,23 @@
     </comps>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
-  <RecipeDef ParentName="LauncherAmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_Javelin_HEAT</defName>
     <label>Make Javelin Missiles x5</label>
     <description>Craft 5 Javelin Missiles.</description>
     <jobString>Making 5 Javelin Missiles.</jobString>
     <workAmount>18800</workAmount>
-    <researchPrerequisite>Range_C2</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Rockets_C2</li>
+    </researchPrerequisites>
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -190,8 +194,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>Titanium</li>
         <li>Plasteel</li>
         <li>FSX</li>

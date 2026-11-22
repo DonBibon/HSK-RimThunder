@@ -17,25 +17,33 @@
     </statBases>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>2</ComponentFuelTank>
-      <ComponentTransmission>1</ComponentTransmission>
-      <ComponentWheelTire>4</ComponentWheelTire>
-      <ComponentIndustrial>35</ComponentIndustrial>
-      <ComponentAdvanced>14</ComponentAdvanced>
-      <Mechanism>30</Mechanism>
-      <AdvMechanism>16</AdvMechanism>
-      <Steel>480</Steel>
-      <Plasteel>140</Plasteel>
-      <Titanium>75</Titanium>
-      <AluminiumBar>90</AluminiumBar>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <HSKV_Chassis_WheeledLight>1</HSKV_Chassis_WheeledLight>
+      <VVE_CarFuelTank>2</VVE_CarFuelTank>
+      <VVE_CarTransmission>1</VVE_CarTransmission>
+      <VVE_CarWheel>4</VVE_CarWheel>
+      <VVE_CarSuspension>4</VVE_CarSuspension>
+      <HSKV_Armor_Light>2</HSKV_Armor_Light>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
+      <HSKV_Mount_MG>1</HSKV_Mount_MG>
+      <ComponentIndustrial>20</ComponentIndustrial>
+      <Mechanism>20</Mechanism>
+      <AdvMechanism>10</AdvMechanism>
+      <Steel>300</Steel>
+      <Plasteel>100</Plasteel>
+      <Titanium>50</Titanium>
+      <AluminiumBar>70</AluminiumBar>
       <ReinforcedGlass>20</ReinforcedGlass>
-      <Chemfuel>120</Chemfuel>
+      <Plastic>50</Plastic>
+      <ElectronicComponents>10</ElectronicComponents>
+      <Chemfuel>100</Chemfuel>
     </costList>
     <thingToSpawn>RT_TyphoonVDV_Vehicle</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
-      <researchPrerequisites Inherit="False">
-      <li>RT_ModernIFV</li>
+    <researchPrerequisites Inherit="False">
+      <li>VVE_CombatVehicles</li>
+      <li>HSKV_VehicleArmor</li>
+      <li>HSKV_VehicleWeapons</li>
     </researchPrerequisites>
   </Vehicles.VehicleBuildDef>
   <Vehicles.VehicleDef ParentName="RT_BaseVehicle">
@@ -54,7 +62,7 @@
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>3000</MarketValue>
+      <MarketValue>26000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>735</Mass>
@@ -109,6 +117,11 @@
           <label>Driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 1)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -358,7 +371,7 @@
         <depth>External</depth>
         <hitWeight>3</hitWeight>
         <hitbox>
-          <side>Body</side>
+          <side>Front</side>
         </hitbox>
         <armor>
           <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
@@ -491,5 +504,20 @@
         <!-- 砲塔 -->
       </li>
     </comps>
+    <modExtensions>
+      <li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+        <mode>Factions</mode>
+        <factions>
+          <li>Pirate</li>
+          <li>OutlanderRough</li>
+          <li>Orion</li>
+          <li>Brotherhood</li>
+        </factions>
+        <costFactor>1.0</costFactor>
+      </li>
+      <li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+        <role>Support</role>
+      </li>
+    </modExtensions>
   </Vehicles.VehicleDef>
 </Defs>

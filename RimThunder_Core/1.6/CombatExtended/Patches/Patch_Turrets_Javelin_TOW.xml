@@ -3,18 +3,27 @@
 	<!-- Patch HSK Core stationary MS FGM-148 Javelin and BGM-71 TOW turrets to use authentic missiles instead of SPG-9 -->
 	<Operation Class="PatchOperationSequence">
 		<operations>
-			<!-- FGM-148 Javelin Turret Gun -->
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Gun_ATML"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
-				<value>
-					<defaultProjectile>Bullet_Javelin_HEAT</defaultProjectile>
-				</value>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/ThingDef[defName="Gun_ATML"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
-				<value>
-					<ammoSet>AmmoSet_FGM148Javelin</ammoSet>
-				</value>
+			<!-- FGM-148 Javelin Turret Gun (requires EnduringFreedom for Javelin missile defs) -->
+			<li Class="PatchOperationFindMod">
+				<mods>
+					<li>RimThunderTeams.RimThunder.EnduringFreedom</li>
+				</mods>
+				<match Class="PatchOperationSequence">
+					<operations>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="Gun_ATML"]/verbs/li[@Class="CombatExtended.VerbPropertiesCE"]/defaultProjectile</xpath>
+							<value>
+								<defaultProjectile>Bullet_Javelin_HEAT</defaultProjectile>
+							</value>
+						</li>
+						<li Class="PatchOperationReplace">
+							<xpath>Defs/ThingDef[defName="Gun_ATML"]/comps/li[@Class="CombatExtended.CompProperties_AmmoUser"]/ammoSet</xpath>
+							<value>
+								<ammoSet>AmmoSet_FGM148Javelin</ammoSet>
+							</value>
+						</li>
+					</operations>
+				</match>
 			</li>
 
 			<!-- BGM-71 TOW Turret Gun -->

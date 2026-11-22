@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingCategoryDef>
 		<defName>Ammo100mmShell</defName>
@@ -26,7 +26,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo100mmShell</li>
@@ -95,7 +95,7 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_100mmShell_HE</defName>
 		<label>make 3UOF19 HE Shell x5</label>
 		<description>Craft 5 3UOF19 HE Shell.</description>
@@ -104,9 +104,10 @@
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>28</count>
 			</li>
@@ -128,8 +129,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>Chemfuel</li>
 			</thingDefs>
@@ -137,6 +141,9 @@
 		<products>
 			<Ammo_100mmShell_HE>5</Ammo_100mmShell_HE>
 		</products>
-	    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
-  </RecipeDef>
+		<researchPrerequisites>
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
+	</RecipeDef>
 </Defs>

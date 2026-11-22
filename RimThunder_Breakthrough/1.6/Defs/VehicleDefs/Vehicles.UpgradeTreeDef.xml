@@ -80,14 +80,18 @@
             </removeTurrets>
           </li>
         </upgrades>
-        <ingredients>
-          <Titanium>80</Titanium>
-          <AluminiumBar>100</AluminiumBar>
-          <Steel>150</Steel>
-          <AdvMechanism>12</AdvMechanism>
-          <ComponentAdvanced>16</ComponentAdvanced>
-          <Plasteel>50</Plasteel>
+                <ingredients>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <HSKV_FireControl>1</HSKV_FireControl>
+          <HSKV_Armor_Light>2</HSKV_Armor_Light>
+          <Titanium>40</Titanium>
+          <AdvMechanism>6</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_ArmoredVehicles2</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Heavy_turrets_C3</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>

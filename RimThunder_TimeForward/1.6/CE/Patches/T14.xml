@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<!-- Turret -->
+	<!-- Turret: 2A82 125mm Gun -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A82_Turret"]/projectile</xpath>
 		<value>
@@ -49,6 +49,10 @@
 				<sway>0.02</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.85</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -83,7 +87,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- HMG -->
+	<!-- HMG: Kord / HCBT -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_NG_Turret"]</xpath>
 		<value>
@@ -147,6 +151,10 @@
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.75</sightsEfficiency>
+				<recoilAmount>0.65</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -179,11 +187,11 @@
 		</nomatch>
 	</Operation>
 
-	<!-- AC -->
+	<!-- AC: 2A72 30mm Coaxial (AmmoSet_30x165mm) -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A72_Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_Incendiary</projectile>
+			<projectile>Bullet_30x165mm_AP</projectile>
 		</value>
 	</Operation>
 
@@ -216,11 +224,15 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A72_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_30x165mm</ammoSet>
 				<shotHeight>1.8</shotHeight>
 				<sway>0.12</sway>
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.80</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -231,9 +243,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -243,24 +256,47 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_30x165mm_AP</li>
+						<li>Ammo_30x165mm_Sabot</li>
+						<li>Ammo_30x165mm_HE</li>
+						<li>Ammo_30x165mm_Incendiary</li>
 					</thingDefs>
 				</ammunition>
 			</value>
 		</nomatch>
 	</Operation>
 
-	<!-- Vehicle -->
+	<!-- Smoke Grenade Launcher -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]</xpath>
+		<value>
+			<projectile>BulletCE_RTCSmoke</projectile>
+			<chargePerAmmoCount>5</chargePerAmmoCount>
+			<genericAmmo>false</genericAmmo>
+		</value>
+	</Operation>
 
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_GrenadeLauncherRuNG"]</xpath>
+		<value>
+			<li Class="Vehicles.CETurretDataDefModExtension">
+				<ammoSet>RTC_AmmoSet_SmokeGrenade</ammoSet>
+				<shotHeight>2</shotHeight>
+				<speed>20</speed>
+				<sway>1</sway>
+				<spread>0.5</spread>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Vehicle: RT_T14_MainBattleTank -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]</xpath>
 		<value>
 			<descriptionHyperlinks>
 				<CombatExtended.AmmoSetDef>AmmoSet_125mmNG</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_127x108mm</CombatExtended.AmmoSetDef>
-				<CombatExtended.AmmoSetDef>AmmoSet_30x173mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x165mm</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_152mmNG</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_762x54mmR</CombatExtended.AmmoSetDef>
 				<ThingDef>Ammo_40x46mmGrenade_Smoke</ThingDef>
@@ -289,9 +325,7 @@
 		</value>
 	</Operation>
 
-
-	<!--Front Armor-->
-
+	<!-- Front Armor -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="FrontArmorPlating"]/health</xpath>
 		<value>
@@ -309,8 +343,7 @@
 		</value>
 	</Operation>
 
-	<!--turret-->
-
+	<!-- Turret -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="MainTurret"]/health</xpath>
 		<value>
@@ -332,8 +365,7 @@
 		</value>
 	</Operation>
 
-	<!--Side Armor-->
-
+	<!-- Side Armor -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftArmorPlating" or key="RightArmorPlating"]/health</xpath>
 		<value>
@@ -351,8 +383,7 @@
 		</value>
 	</Operation>
 
-	<!--SideERAPlating-->
-
+	<!-- SideERAPlating -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftERAPlating" or key="RightERAPlating"]/armor</xpath>
 		<value>
@@ -363,8 +394,7 @@
 		</value>
 	</Operation>
 
-	<!--Roof Armor-->
-
+	<!-- Roof Armor -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="RoofArmorPlating"]/health</xpath>
 		<value>
@@ -382,8 +412,7 @@
 		</value>
 	</Operation>
 
-	<!--Rear Armor-->
-
+	<!-- Rear Armor (Health only, no armor) -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="BackArmorPlating"]/health</xpath>
 		<value>
@@ -391,18 +420,7 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="BackArmorPlating"]</xpath>
-		<value>
-			<armor>
-				<ArmorRating_Blunt>10000</ArmorRating_Blunt>
-				<ArmorRating_Sharp>50</ArmorRating_Sharp>
-			</armor>
-		</value>
-	</Operation>
-
-	<!--ERA-->
-
+	<!-- ERA -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="FrontERAPlating" or key="TurretERAPlating"]/armor</xpath>
 		<value>
@@ -413,8 +431,7 @@
 		</value>
 	</Operation>
 
-	<!--Various exposed metallic stuff-->
-
+	<!-- Various exposed metallic stuff -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftTrack" or key="RightTrack"]</xpath>
 		<value>
@@ -443,13 +460,6 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftTrack" or key="RightTrack" or key="LeftRoadWheels" or key="RightRoadWheels" or key="LeftDriveSprocket" or key="RightDriveSprocket" or key="LeftTensionerWheel" or key="RightTensionerWheel"]/depth</xpath>
-		<value>
-			<depth>Internal</depth>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftRoadWheels" or key="RightRoadWheels"]/health</xpath>
 		<value>
 			<health>120</health>
@@ -467,6 +477,21 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
 		<value>
 			<health>90</health>
+		</value>
+	</Operation>
+
+	<!-- Tier 1.5 APS (CompProperties_ActiveProtection) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T14_MainBattleTank"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>14</maxCharges>
+				<salvo>2</salvo>
+				<cooldownTicks>70</cooldownTicks>
+				<range>6</range>
+				<minRange>1</minRange>
+				<chance>0.88</chance>
+			</li>
 		</value>
 	</Operation>
 </Patch>

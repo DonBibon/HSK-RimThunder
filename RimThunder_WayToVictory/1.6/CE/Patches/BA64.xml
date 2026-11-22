@@ -68,6 +68,15 @@
 			</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BA64_Turret"]</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.0</sightsEfficiency>
+				<recoilAmount>1.2</recoilAmount>
+			</li>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BA64_Turret"]/ammunition</xpath>
 		<match Class="PatchOperationReplace">
@@ -230,6 +239,15 @@
 				<ArmorRating_Sharp>5</ArmorRating_Sharp>
 				<ArmorRating_Blunt>10</ArmorRating_Blunt>
 			</armor>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_BA64_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 

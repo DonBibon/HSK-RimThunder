@@ -4,7 +4,9 @@
     <!-- 建築型態的載具，基本上與BuildingDef相同-->
     <defName>RT_M48H_MediumTank_Blueprint</defName>
     <researchPrerequisites Inherit="False">
-      <li>RT_ModernMBTs</li>
+      <li>HSKV_ArmoredVehicles2</li>
+      <li>HSKV_CompositeArmor</li>
+      <li>HSKV_TankGuns</li>
     </researchPrerequisites>
     <label>M48H Medium Tank</label>
     <description>Old-time workhorse medium tank variant used in jungle and mountain combat. 
@@ -21,20 +23,25 @@
     <size>(3,5)</size>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <costList>
-      <EngineHeavy>1</EngineHeavy>
-      <ComponentFuelTank>3</ComponentFuelTank>
-      <ComponentTransmission>2</ComponentTransmission>
-      <ComponentWheelRoad>16</ComponentWheelRoad>
-      <ComponentHeavyCasting>4</ComponentHeavyCasting>
+      <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+      <VVE_CarFuelTank>3</VVE_CarFuelTank>
+      <VVE_CarTransmission>2</VVE_CarTransmission>
+      <HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+      <VVE_CarSuspension>6</VVE_CarSuspension>
+      <HSKV_Armor_Heavy>6</HSKV_Armor_Heavy>
+      <HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+      <HSKV_Mount_MG>2</HSKV_Mount_MG>
+      <HSKV_FireControl>1</HSKV_FireControl>
+      <HSKV_Electronics_Onboard>1</HSKV_Electronics_Onboard>
       <ComponentIndustrial>55</ComponentIndustrial>
       <ComponentAdvanced>20</ComponentAdvanced>
       <Mechanism>50</Mechanism>
       <AdvMechanism>25</AdvMechanism>
-      <Steel>800</Steel>
-      <Plasteel>350</Plasteel>
-      <Titanium>140</Titanium>
-      <ReinforcedGlass>25</ReinforcedGlass>
-      <Chemfuel>220</Chemfuel>
+      <Steel>850</Steel>
+      <Plasteel>300</Plasteel>
+      <AluminiumBar>120</AluminiumBar>
+      <ReinforcedGlass>20</ReinforcedGlass>
+      <Chemfuel>200</Chemfuel>
     </costList>
     <thingToSpawn>RT_M48H_MediumTank</thingToSpawn>
     <!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
@@ -57,10 +64,10 @@
       <ArmorRating_Blunt>1.0</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>2240</MarketValue>
+      <MarketValue>78000</MarketValue>
     </statBases>
     <vehicleStats>
-      <Mass>1000</Mass>
+      <Mass>50000</Mass>
       <MoveSpeed>8</MoveSpeed>
       <CargoCapacity>300</CargoCapacity>
       <RepairRate>0.5</RepairRate>
@@ -112,6 +119,11 @@
           <label>driver</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 2)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>
             <li>Movement</li>
           </handlingTypes>
@@ -121,6 +133,12 @@
           <label>gunner</label>
           <slots>2</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(0, 0)</li>
+              <li>(1, 0)</li>
+            </cells>
+          </hitbox>
           <handlingTypes>Turret</handlingTypes>
           <turretIds>
             <li>mainTurret</li>
@@ -135,6 +153,11 @@
           <label>commander</label>
           <slots>1</slots>
           <slotsToOperate>1</slotsToOperate>
+          <hitbox>
+            <cells>
+              <li>(-1, 0)</li>
+            </cells>
+          </hitbox>
         </li>
       </roles>
     </properties>
@@ -429,6 +452,9 @@
           <ArmorRating_Blunt>1.08</ArmorRating_Blunt>
           <ArmorRating_Sharp>1.08</ArmorRating_Sharp>
         </armor>
+        <hitbox>
+          <side>Body</side>
+        </hitbox>
       </li>
       <li>
         <!-- BackArmorPlating 150-->

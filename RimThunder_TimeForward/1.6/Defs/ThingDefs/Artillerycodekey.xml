@@ -39,23 +39,45 @@
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>5000</workAmount>
-		<researchPrerequisite>AdvancedFabrication</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_MainBattleTank</li>
+			<li>Electronics_D1</li>
+		</researchPrerequisites>
 		<recipeUsers>
 			<li>FabricationBench</li>
+			<li>TableElectronics</li>
 		</recipeUsers>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentSpacer</li>
+						<li>Microchips</li>
 					</thingDefs>
 				</filter>
-				<count>3</count>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ComponentSpacer</li>
+				<li>Microchips</li>
+				<li>ElectronicComponents</li>
+				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>

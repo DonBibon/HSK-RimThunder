@@ -7,40 +7,32 @@
 				<li>
 					<key>FrontArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>400</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+						<ArmorRating_Blunt>195</ArmorRating_Blunt>
+						<ArmorRating_Sharp>14</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>LeftArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>700</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+						<ArmorRating_Blunt>140</ArmorRating_Blunt>
+						<ArmorRating_Sharp>10</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>RightArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>700</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+						<ArmorRating_Blunt>140</ArmorRating_Blunt>
+						<ArmorRating_Sharp>10</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>MainTurret</key>
 					<statModifiers>
-						<ArmorRating_Blunt>700</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
-					</statModifiers>
-					<type>Add</type>
-				</li>
-				<li>
-					<key>BackArmorPlating</key>
-					<statModifiers>
-						<ArmorRating_Blunt>700</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+						<ArmorRating_Blunt>195</ArmorRating_Blunt>
+						<ArmorRating_Sharp>14</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
@@ -55,32 +47,32 @@
 				<li>
 					<key>FrontArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>800</ArmorRating_Blunt>
-						<ArmorRating_Sharp>25</ArmorRating_Sharp>
+						<ArmorRating_Blunt>140</ArmorRating_Blunt>
+						<ArmorRating_Sharp>10</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>LeftArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>400</ArmorRating_Blunt>
-						<ArmorRating_Sharp>25</ArmorRating_Sharp>
+						<ArmorRating_Blunt>110</ArmorRating_Blunt>
+						<ArmorRating_Sharp>8</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>RightArmorPlating</key>
 					<statModifiers>
-						<ArmorRating_Blunt>400</ArmorRating_Blunt>
-						<ArmorRating_Sharp>25</ArmorRating_Sharp>
+						<ArmorRating_Blunt>110</ArmorRating_Blunt>
+						<ArmorRating_Sharp>8</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>
 				<li>
 					<key>MainTurret</key>
 					<statModifiers>
-						<ArmorRating_Blunt>800</ArmorRating_Blunt>
-						<ArmorRating_Sharp>30</ArmorRating_Sharp>
+						<ArmorRating_Blunt>140</ArmorRating_Blunt>
+						<ArmorRating_Sharp>10</ArmorRating_Sharp>
 					</statModifiers>
 					<type>Add</type>
 				</li>

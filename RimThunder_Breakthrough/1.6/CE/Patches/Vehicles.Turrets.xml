@@ -63,6 +63,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.55</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">

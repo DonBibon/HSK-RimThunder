@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 	<!-- Turret -->
 	<Operation Class="PatchOperationReplace">
@@ -62,6 +62,10 @@
 				<shotHeight>2.0</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.60</sightsEfficiency>
+				<recoilAmount>0.60</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -155,6 +159,10 @@
 				<sway>0.94</sway>
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.10</sightsEfficiency>
+				<recoilAmount>1.25</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -261,6 +269,10 @@
 				<sway>0.94</sway>
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.05</sightsEfficiency>
+				<recoilAmount>1.15</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -511,6 +523,15 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T80BVM_MainBattleTank"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
 		<value>
 			<health>90</health>
+		</value>
+	</Operation>
+	<!-- APS Tier 3 -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T80BVM_MainBattleTank"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 </Patch>

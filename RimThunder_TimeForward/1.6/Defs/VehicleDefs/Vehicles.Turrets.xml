@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>T14_2A83_Turret</defName>
@@ -249,28 +249,6 @@
 		</motes>
 	</Vehicles.VehicleTurretDef>
 
-	<!-- 主砲的投射物 -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_57ACShell</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>67</damageAmountBase>
-			<armorPenetrationBase>0.85</armorPenetrationBase>
-			<speed>100</speed>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
 
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseVehicleMG_Medium">
 		<defName>T15_Baikal_PKT_Turret</defName>
@@ -395,27 +373,6 @@
 		</motes>
 	</Vehicles.VehicleTurretDef>
 
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_57ACshortShell</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>2</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>75</damageAmountBase>
-			<armorPenetrationBase>0.5</armorPenetrationBase>
-			<speed>100</speed>
-			<explosionRadius>2.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
 
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>RT_T15_Min_Missile_Turret</defName>
@@ -455,109 +412,6 @@
 		</fireModes>
 	</Vehicles.VehicleTurretDef>
 
-	<ThingDef Class="Missile_dml._ThingDef" ParentName="BaseBullet">
-		<defName>RT_MinMissile</defName>
-		<label>high-explosive missile</label>
-		<thingClass>Missile_dml.missile_dml</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Mini_Missile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
-		</graphicData>
-		<fleck>RT_RocketSmoke</fleck>
-		<fleck1>RT_RocketExhaust</fleck1>
-		<frequency>0</frequency>
-		<scale>1</scale>
-		<shaking>0.3</shaking>
-		<projectile>
-			<damageDef>Flame</damageDef>
-			<damageAmountBase>80</damageAmountBase>
-			<explosionRadius>2.9</explosionRadius>
-			<speed>45</speed>
-			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
-			<preExplosionSpawnChance>0.65</preExplosionSpawnChance>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-			<ai_IsIncendiary>true</ai_IsIncendiary>
-		</projectile>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>3.9</explosiveRadius>
-				<explosiveDamageType>RT_ThermobaricExplosive_a</explosiveDamageType>
-				<damageAmountBase>10</damageAmountBase>
-				<explodeOnDestroyed>true</explodeOnDestroyed>
-				<explodeOnKilled>true</explodeOnKilled>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-		</comps>
-	</ThingDef>
-
-	<DamageDef>
-		<defName>RT_ThermobaricExplosive_a</defName>
-		<label>Thermobaric Explosive</label>
-		<workerClass>DamageWorker_Flame</workerClass>
-		<externalViolence>true</externalViolence>
-		<isExplosive>true</isExplosive>
-		<deathMessage>{0} has burnning in hell.</deathMessage>
-		<hediff>Burn</hediff>
-		<hediffSolid>Burn</hediffSolid>
-		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-		<impactSoundType>Blunt</impactSoundType>
-		<armorCategory>Blunt</armorCategory>
-		<minDamageToFragment>2</minDamageToFragment>
-		<defaultDamage>15</defaultDamage>
-		<defaultStoppingPower>3</defaultStoppingPower>
-		<buildingDamageFactor>1</buildingDamageFactor>
-		<plantDamageFactor>3</plantDamageFactor>
-		<explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
-		<explosionHeatEnergyPerCell>3</explosionHeatEnergyPerCell>
-		<explosionCellFleck>BlastFlame</explosionCellFleck>
-		<explosionColorCenter>(0.8, 0.9, 1)</explosionColorCenter>
-		<explosionColorEdge>(0.8, 0.9, 1)</explosionColorEdge>
-		<soundExplosion>Explosion_GiantBomb</soundExplosion>
-		<combatLogRules>Damage_Bomb</combatLogRules>
-		<additionalHediffs>
-			<li>
-				<hediff>RT_ThermobaricShock_a</hediff>
-				<severityFixed>1</severityFixed>
-			</li>
-		</additionalHediffs>
-	</DamageDef>
-
-	<HediffDef ParentName="DiseaseBase">
-		<defName>RT_ThermobaricShock_a</defName>
-		<label>Thermobaric Shock</label>
-		<description>Thermobaric Shock.</description>
-		<isBad>true</isBad>
-		<initialSeverity>1</initialSeverity>
-		<maxSeverity>1</maxSeverity>
-		<comps>
-			<li Class="HediffCompProperties_Disappears">
-				<disappearsAfterTicks>2500~3500</disappearsAfterTicks>
-			</li>
-		</comps>
-		<stages>
-			<li>
-				<painFactor>0.9</painFactor>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<setMax>0.7</setMax>
-					</li>
-					<li>
-						<capacity>Breathing</capacity>
-						<offset>-0.95</offset>
-					</li>
-					<li>
-						<capacity>Sight</capacity>
-						<offset>-0.55</offset>
-					</li>
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
 
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>RT_FireExtinguisher</defName>
@@ -688,6 +542,7 @@
 		<projectile>
 			<speed>40</speed>
 			<arcHeightFactor>1.0</arcHeightFactor>
+			<flyOverhead>true</flyOverhead>
 			<explosionRadius>7.9</explosionRadius>
 			<!-- Must be kept in sync with radius of CompProperties_DisruptorFlare -->
 			<landedEffecter MayRequireAnyOf="Ludeon.RimWorld.Anomaly">DisruptorFlareLanded</landedEffecter>

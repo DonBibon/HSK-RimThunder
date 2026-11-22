@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingCategoryDef>
@@ -47,7 +47,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting</li>
+			<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo30x113mmB</li>
@@ -335,25 +335,31 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmB_AP</defName>
 		<label>make 30x113mmB (AP) cartridge x150</label>
 		<description>Craft 150 30x113mmB (AP) cartridges.</description>
 		<jobString>Making 30x113mmB (AP) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>150</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_30x113mmB_AP>150</Ammo_30x113mmB_AP>
@@ -361,17 +367,22 @@
 		<workAmount>18000</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmB_Incendiary</defName>
 		<label>make 30x113mmB (AP-I) cartridge x150</label>
 		<description>Craft 150 30x113mmB (AP-I) cartridges.</description>
 		<jobString>Making 30x113mmB (AP-I) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>150</count>
 			</li>
@@ -385,8 +396,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Prometheum</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -396,17 +410,22 @@
 		<workAmount>23400</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmB_HE</defName>
 		<label>make 30x113mmB (AP-HE) cartridge x150</label>
 		<description>Craft 150 30x113mmB (AP-HE) cartridges.</description>
 		<jobString>Making 30x113mmB (AP-HE) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>150</count>
 			</li>
@@ -420,8 +439,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -431,63 +453,67 @@
 		<workAmount>30200</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmB_Sabot</defName>
 		<label>make 30x113mmB (Sabot) cartridge x150</label>
 		<description>Craft 150 30x113mmB (Sabot) cartridges.</description>
 		<jobString>Making 30x113mmB (Sabot) cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>66</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DepletedUranium</li>
+						<li>Uranium</li>
 					</thingDefs>
 				</filter>
-				<count>24</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>24</count>
+				<count>21</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
-				<li>DepletedUranium</li>
-				<li>Chemfuel</li>
+				<li>Uranium</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
 			<Ammo_30x113mmB_Sabot>150</Ammo_30x113mmB_Sabot>
 		</products>
-		<workAmount>21000</workAmount>
+		<workAmount>24000</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmBGrenade_HE</defName>
-		<label>make 30x113mmB HE cartridge x100</label>
-		<description>Craft 100 30x113mmB HE cartridges.</description>
-		<jobString>Making 30x113mmB HE cartridges.</jobString>
+		<label>make 30x113mmB HE grenade cartridge x100</label>
+		<description>Craft 100 30x113mmB HE grenade cartridges.</description>
+		<jobString>Making 30x113mmB HE grenade cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>68</count>
+				<count>100</count>
 			</li>
 			<li>
 				<filter>
@@ -495,7 +521,7 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>8</count>
+				<count>34</count>
 			</li>
 			<li>
 				<filter>
@@ -507,8 +533,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -516,67 +545,27 @@
 		<products>
 			<Ammo_30x113mmBGrenade_HE>100</Ammo_30x113mmBGrenade_HE>
 		</products>
-		<workAmount>11200</workAmount>
+		<workAmount>17600</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
-		<defName>MakeAmmo_30x113mmBGrenade_HE_TFuzed</defName>
-		<label>make 30x113mmB HE Time-Fuzed cartridge x100</label>
-		<description>Craft 100 30x113mmB HE Time-Fuzed cartridges.</description>
-		<jobString>Making 30x113mmB HE Time-Fuzed cartridges.</jobString>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>68</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>FSX</li>
-					</thingDefs>
-				</filter>
-				<count>8</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentIndustrial</li>
-					</thingDefs>
-				</filter>
-				<count>5</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>FSX</li>
-				<li>ComponentIndustrial</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<Ammo_30x113mmBGrenade_HE_TFuzed>100</Ammo_30x113mmBGrenade_HE_TFuzed>
-		</products>
-		<workAmount>12400</workAmount>
-	</RecipeDef>
-
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmBGrenade_HEDP</defName>
-		<label>make 30x113mmB HEDP cartridge x100</label>
-		<description>Craft 100 30x113mmB HEDP cartridges.</description>
-		<jobString>Making 30x113mmB HEDP cartridges.</jobString>
+		<label>make 30x113mmB HEDP grenade cartridge x100</label>
+		<description>Craft 100 30x113mmB HEDP grenade cartridges.</description>
+		<jobString>Making 30x113mmB HEDP grenade cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
-				<count>68</count>
+				<count>100</count>
 			</li>
 			<li>
 				<filter>
@@ -584,7 +573,7 @@
 						<li>FSX</li>
 					</thingDefs>
 				</filter>
-				<count>6</count>
+				<count>26</count>
 			</li>
 			<li>
 				<filter>
@@ -596,8 +585,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -605,24 +597,77 @@
 		<products>
 			<Ammo_30x113mmBGrenade_HEDP>100</Ammo_30x113mmBGrenade_HEDP>
 		</products>
-		<workAmount>10400</workAmount>
+		<workAmount>16600</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
-		<defName>MakeAmmo_30x113mmBGrenade_EMP</defName>
-		<label>make 30x113mmB EMP cartridge x100</label>
-		<description>Craft 100 30x113mmB EMP cartridges.</description>
-		<jobString>Making 30x113mmB EMP cartridges.</jobString>
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
+		<defName>MakeAmmo_30x113mmBGrenade_Airburst</defName>
+		<label>make 30x113mmB airburst grenade cartridge x100</label>
+		<description>Craft 100 30x113mmB airburst grenade cartridges.</description>
+		<jobString>Making 30x113mmB airburst grenade cartridges.</jobString>
 		<researchPrerequisites>
-			<li>MicroelectronicsBasics</li>
-			<li>Range_C2</li>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
 		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>100</count>
+			</li>
+			<li>
+				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>FSX</li>
 					</thingDefs>
+				</filter>
+				<count>34</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_30x113mmBGrenade_HE_TFuzed>100</Ammo_30x113mmBGrenade_HE_TFuzed>
+		</products>
+		<workAmount>20200</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
+		<defName>MakeAmmo_30x113mmBGrenade_EMP</defName>
+		<label>make 30x113mmB EMP grenade cartridge x100</label>
+		<description>Craft 100 30x113mmB EMP grenade cartridges.</description>
+		<jobString>Making 30x113mmB EMP grenade cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>68</count>
 			</li>
@@ -632,12 +677,15 @@
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
-				<count>11</count>
+				<count>6</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -647,17 +695,22 @@
 		<workAmount>13400</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_30x113mmBGrenade_Smoke</defName>
 		<label>make 30x113mmB smoke cartridge x100</label>
 		<description>Craft 100 30x113mmB smoke cartridges.</description>
 		<jobString>Making 30x113mmB smoke cartridges.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Heavy_turrets_C3</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>68</count>
 			</li>
@@ -679,8 +732,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Prometheum</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -690,5 +746,4 @@
 		</products>
 		<workAmount>9200</workAmount>
 	</RecipeDef>
-
 </Defs>

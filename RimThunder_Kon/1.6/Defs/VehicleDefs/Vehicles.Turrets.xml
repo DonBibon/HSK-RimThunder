@@ -175,30 +175,6 @@
 		</motes>
 	</Vehicles.VehicleTurretDef>
 
-	
-
-	<ThingDef ParentName="BaseBullet">
-		<defName>RT_Bullet_2A42Shell</defName>
-		<label>high-explosive shell</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Big</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.5</drawSize>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>58</damageAmountBase>
-			<armorPenetrationBase>0.6</armorPenetrationBase>
-			<speed>80</speed>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
-
 
 
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
@@ -240,42 +216,6 @@
 	</Vehicles.VehicleTurretDef>
 
 	<!-- 导弹投射物 -->
-	<ThingDef Class="Missile_dml._ThingDef" ParentName="BaseBullet">
-		<defName>RT_9M133Missile</defName>
-		<label>high-explosive missile</label>
-		<thingClass>Missile_dml.missile_dml</thingClass>
-		<graphicData>
-			<texPath>Things/Projectile/Ammo_9M133</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
-		</graphicData>
-		<fleck>RT_RocketSmoke</fleck>
-		<fleck1>RT_RocketExhaust</fleck1>
-		<frequency>0</frequency>
-		<scale>2.5</scale>
-		<shaking>0.3</shaking>
-		<searchRange>6</searchRange>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>275</damageAmountBase>
-			<armorPenetrationBase>2</armorPenetrationBase>
-			<speed>91</speed>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>4.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-				<damageAmountBase>175</damageAmountBase>
-				<explodeOnDestroyed>true</explodeOnDestroyed>
-				<explodeOnKilled>true</explodeOnKilled>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-			</li>
-		</comps>
-	</ThingDef>
 
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseTurret">
 		<defName>RT_VDV_AGS30_Turret</defName>
@@ -332,31 +272,6 @@
 		
 	</Vehicles.VehicleTurretDef>
 
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_VOG17M</defName>
-		<label>30mm VOG17 grenade</label>
-		<graphicData>
-			<texPath>Things/Projectile/LauncherShot</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1</drawSize>
-		</graphicData>
-		<thingClass>Projectile_Explosive</thingClass>
-		<projectile>
-			<speed>40</speed>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>48</damageAmountBase>
-			<armorPenetrationBase>0.4</armorPenetrationBase>
-			<arcHeightFactor>25</arcHeightFactor>
-			<flyOverhead>true</flyOverhead>
-			<explosionRadius>1.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>Explosion_GiantBomb</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
-
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseVehicleMG_Medium">
 		<defName>RT_VDV_PKT_MGTurret</defName>
 		<label>PKT machine gun</label>
@@ -395,6 +310,7 @@
 		<warmUpTimer>2.8</warmUpTimer>
 		<magazineCapacity>1</magazineCapacity>
 		<chargePerAmmoCount>1</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
 		<ammunition>
 			<categories>
 				<li>MortarShells</li>
@@ -404,11 +320,12 @@
 		<maxRange>500</maxRange>
 		<rotationSpeed>1.35</rotationSpeed>
 		<shotSound>Mortar_LaunchA</shotSound>
+		<projectile>Bullet_Shell_HighExplosive</projectile>
 		<projectileOffset>1.5</projectileOffset>
 		<projectileShifting>
 			<li>0</li>
 		</projectileShifting>
-		<fireModes Inherit = "false">
+		<fireModes Inherit="false">
 			<li>
 				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenBursts>1</ticksBetweenBursts>

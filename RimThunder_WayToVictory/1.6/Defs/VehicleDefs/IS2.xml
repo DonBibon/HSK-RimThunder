@@ -17,27 +17,31 @@
 		</statBases>
 		<size>(3,6)</size>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-				<costList>
-			<EngineHeavy>1</EngineHeavy>
-			<ComponentFuelTank>3</ComponentFuelTank>
-			<ComponentTransmission>2</ComponentTransmission>
-			<ComponentWheelRoad>16</ComponentWheelRoad>
-			<ComponentHeavyCasting>6</ComponentHeavyCasting>
-			<ComponentIndustrial>55</ComponentIndustrial>
-			<ComponentAdvanced>7</ComponentAdvanced>
-			<Mechanism>50</Mechanism>
-			<AdvMechanism>10</AdvMechanism>
-			<Steel>1200</Steel>
-			<AluminiumBar>350</AluminiumBar>
-			<Plasteel>120</Plasteel>
+		<costList>
+			<HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+			<VVE_CarFuelTank>3</VVE_CarFuelTank>
+			<VVE_CarTransmission>2</VVE_CarTransmission>
+			<HSKV_Chassis_Tracked>1</HSKV_Chassis_Tracked>
+			<VVE_CarSuspension>6</VVE_CarSuspension>
+			<HSKV_Armor_Heavy>8</HSKV_Armor_Heavy>
+			<HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
+			<HSKV_Mount_MG>2</HSKV_Mount_MG>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<ComponentAdvanced>6</ComponentAdvanced>
+			<Mechanism>42</Mechanism>
+			<AdvMechanism>8</AdvMechanism>
+			<Steel>1100</Steel>
+			<AluminiumBar>300</AluminiumBar>
+			<Plasteel>100</Plasteel>
 			<ReinforcedGlass>8</ReinforcedGlass>
-			<Chemfuel>220</Chemfuel>
+			<Chemfuel>200</Chemfuel>
 		</costList>
 		<thingToSpawn>RT_IS2_Vehicle</thingToSpawn>
 		<!-- 建造後生成的載具Kind,這是與建築唯一不一樣的-->
-	    <researchPrerequisites Inherit="False">
-      <li>RT_WW2HeavyArmor</li>
-    </researchPrerequisites>
+		<researchPrerequisites Inherit="False">
+			<li>HSKV_ArmoredVehicles2</li>
+			<li>HSKV_TankGuns</li>
+		</researchPrerequisites>
   </Vehicles.VehicleBuildDef>
 
 	<!-- 載具本體 -->
@@ -57,7 +61,7 @@
 			<ArmorRating_Blunt>0.8</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.6</ArmorRating_Sharp>
 			<Flammability>0</Flammability>
-			<MarketValue>4150</MarketValue>
+			<MarketValue>46000</MarketValue>
 		</statBases>
 		<vehicleStats>
 			<Mass>2300</Mass>
@@ -519,7 +523,7 @@
 
 					<li>
 						<!--同轴机枪-->
-						<turretDef>RT_DT_Turret_b</turretDef>
+						<turretDef>RT_DT_IS2_Turret</turretDef>
 						<renderProperties>
 							<north>(0.45,1.35)</north>
 							<south>(-0.45,-1.35)</south>
@@ -540,7 +544,7 @@
 					
 					<li>
 						<!--航向机枪-->
-						<turretDef>RT_DT_Turret_b</turretDef>
+						<turretDef>RT_DT_IS2_Turret</turretDef>
 						<renderProperties>
 							<north>(0.51,2.44)</north>
 							<south>(-0.51,-1.65)</south>
@@ -697,7 +701,7 @@
 		<!-- 主砲的Def -->
 	<!--平衡相关-->
 	<Vehicles.VehicleTurretDef ParentName="RT_BaseVehicleMG_Medium">
-		<defName>RT_DT_Turret_b</defName>
+		<defName>RT_DT_IS2_Turret</defName>
 		<label>hullDT</label>
 		<!-- 砲塔的渲染顯示 -->
 		<graphicData>

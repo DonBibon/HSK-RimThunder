@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+	<!-- 152mm 2A83 Main Gun -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A83_Turret"]/projectile</xpath>
 		<value>
@@ -35,7 +36,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T14_2A83_Turret"]/maxRange</xpath>
 		<value>
-			<maxRange>124</maxRange>
+			<maxRange>115</maxRange>
 		</value>
 	</Operation>
 
@@ -47,6 +48,10 @@
 				<shotHeight>1.8</shotHeight>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.85</sightsEfficiency>
+				<recoilAmount>0.55</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -78,7 +83,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- LMG -->
+	<!-- LMG: PKT -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_PKT_NG_MGTurret"]</xpath>
 		<value>
@@ -125,22 +130,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_PKT_NG_MGTurret"]</xpath>
-		<value>
-			<ammunition Inherit="False">
-				<thingDefs>
-					<li>Ammo_762x54mmR_FMJ</li>
-					<li>Ammo_762x54mmR_AP</li>
-					<li>Ammo_762x54mmR_HP</li>
-					
-					
-					
-				</thingDefs>
-			</ammunition>
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_PKT_NG_MGTurret"]</xpath>
 		<value>
@@ -151,6 +140,10 @@
 				<sway>0.12</sway>
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.75</sightsEfficiency>
+				<recoilAmount>0.60</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -182,7 +175,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- HMG -->
+	<!-- HMG: HCBT_B -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_HCBT_NG_Turret_B"]</xpath>
 		<value>
@@ -246,6 +239,10 @@
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.75</sightsEfficiency>
+				<recoilAmount>0.65</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -278,6 +275,7 @@
 		</nomatch>
 	</Operation>
 
+	<!-- Fire Extinguisher (Utility Exception) -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_FireExtinguisher"]/projectile</xpath>
 		<value>
@@ -292,8 +290,7 @@
 		</value>
 	</Operation>
 
-	<!-- Turret -->
-
+	<!-- Turret: 57mm Apoch57 -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T15_Apoch57_Turret"]/projectile</xpath>
 		<value>
@@ -342,6 +339,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.80</sightsEfficiency>
+				<recoilAmount>0.55</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -370,8 +371,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- blart -->
-
+	<!-- Min Missile -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T15_Min_Missile_Turret"]/projectile</xpath>
 		<value>
@@ -421,6 +421,10 @@
 				<spread>0.02</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.80</sightsEfficiency>
+				<recoilAmount>0.50</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -447,8 +451,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- ???? -->
-
+	<!-- Baikal 57mm -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_T15_Baikal_Turret"]/projectile</xpath>
 		<value>
@@ -490,6 +493,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.80</sightsEfficiency>
+				<recoilAmount>0.55</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -520,7 +527,7 @@
 		</nomatch>
 	</Operation>
 
-	<!-- LMG -->
+	<!-- LMG: Baikal PKT -->
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T15_Baikal_PKT_Turret"]</xpath>
 		<value>
@@ -567,22 +574,6 @@
 		</value>
 	</Operation>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T15_Baikal_PKT_Turret"]</xpath>
-		<value>
-			<ammunition Inherit="False">
-				<thingDefs>
-					<li>Ammo_762x54mmR_FMJ</li>
-					<li>Ammo_762x54mmR_AP</li>
-					<li>Ammo_762x54mmR_HP</li>
-					
-					
-					
-				</thingDefs>
-			</ammunition>
-		</value>
-	</Operation>
-
 	<Operation Class="PatchOperationAddModExtension">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="T15_Baikal_PKT_Turret"]</xpath>
 		<value>
@@ -593,6 +584,10 @@
 				<sway>0.94</sway>
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.75</sightsEfficiency>
+				<recoilAmount>0.60</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -623,7 +618,8 @@
 			</value>
 		</nomatch>
 	</Operation>
-	
+
+	<!-- Orbital Artillery Targeter (Utility Exception) -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_ArtillerySupport"]/projectile</xpath>
 		<value>

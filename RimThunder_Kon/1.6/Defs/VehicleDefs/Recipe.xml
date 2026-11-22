@@ -3,16 +3,15 @@
   <RecipeDef ParentName="RT_BaseVehicleRecipe">
     <defName>RT_Make_Kamaz5350_Vehicle_Blueprint</defName>
     <uiIconThing>RT_Kamaz5350_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
+    <researchPrerequisite>HSKV_Trucks</researchPrerequisite>
     <label>assemble Kamaz 5350</label>
     <description>assemble Kamaz 5350.</description>
     <workAmount>4500</workAmount>
-    <!--20000 -->
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>EngineMedium</li>
+            <li>HSKV_Engine_Diesel</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -20,7 +19,15 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentFuelTank</li>
+            <li>HSKV_Body_Car</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VVE_CarFuelTank</li>
           </thingDefs>
         </filter>
         <count>2</count>
@@ -28,7 +35,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentTransmission</li>
+            <li>VVE_CarTransmission</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -36,7 +43,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentWheelTire</li>
+            <li>VVE_CarWheel</li>
           </thingDefs>
         </filter>
         <count>6</count>
@@ -44,18 +51,50 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>VVE_CarSuspension</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>4</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentAdvanced</li>
+            <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>18</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>240</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AluminiumBar</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
       </li>
       <li>
         <filter>
@@ -63,7 +102,174 @@
             <li>ReinforcedGlass</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plastic</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HSKV_Engine_Diesel</li>
+        <li>HSKV_Body_Car</li>
+        <li>VVE_CarFuelTank</li>
+        <li>VVE_CarTransmission</li>
+        <li>VVE_CarWheel</li>
+        <li>VVE_CarSuspension</li>
+        <li>ComponentIndustrial</li>
+        <li>Mechanism</li>
+        <li>AdvMechanism</li>
+        <li>Steel</li>
+        <li>AluminiumBar</li>
+        <li>ReinforcedGlass</li>
+        <li>Plastic</li>
+        <li>ElectronicComponents</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <modExtensions>
+      <li Class="Motorization.ModExt_RTCVehicleRecipe">
+        <thing>RT_Kamaz5350_Blueprint</thing>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+
+  <RecipeDef ParentName="RT_BaseVehicleRecipe">
+    <defName>RT_Make_TyphoonVDV_Vehicle_Blueprint</defName>
+    <uiIconThing>RT_TyphoonVDV_Vehicle_Blueprint</uiIconThing>
+    <researchPrerequisites Inherit="False">
+      <li>VVE_CombatVehicles</li>
+      <li>HSKV_VehicleArmor</li>
+      <li>HSKV_VehicleWeapons</li>
+    </researchPrerequisites>
+    <label>assemble Kamaz Typhoon VDV</label>
+    <description>assemble Kamaz Typhoon VDV.</description>
+    <workAmount>6000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HSKV_Engine_Diesel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HSKV_Chassis_WheeledLight</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VVE_CarFuelTank</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VVE_CarTransmission</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VVE_CarWheel</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VVE_CarSuspension</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HSKV_Armor_Light</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HSKV_Electronics_Onboard</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HSKV_Mount_MG</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
       </li>
       <li>
         <filter>
@@ -71,7 +277,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>180</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -84,181 +290,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plastic</li>
-          </thingDefs>
-        </filter>
-        <count>110</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>AluminiumBar</li>
           </thingDefs>
         </filter>
-        <count>100</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Mechanism</li>
-          </thingDefs>
-        </filter>
-        <count>35</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AdvMechanism</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>8</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Electronics</li>
-          </thingDefs>
-        </filter>
-        <count>3</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>EngineMedium</li>
-        <li>ComponentFuelTank</li>
-        <li>ComponentTransmission</li>
-        <li>ComponentWheelTire</li>
-        <li>ComponentIndustrial</li>
-        <li>ComponentAdvanced</li>
-        <li>ReinforcedGlass</li>
-        <li>Plasteel</li>
-        <li>Titanium</li>
-        <li>Plastic</li>
-        <li>AluminiumBar</li>
-        <li>Mechanism</li>
-        <li>AdvMechanism</li>
-        <li>ElectronicComponents</li>
-        <li>Electronics</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <modExtensions>
-      <li Class="Motorization.ModExt_RTCVehicleRecipe">
-        <thing>RT_Kamaz5350_Blueprint</thing>
-      </li>
-    </modExtensions>
-  </RecipeDef>
-  <RecipeDef ParentName="RT_BaseVehicleRecipe">
-    <defName>RT_Make_TyphoonVDV_Vehicle_Blueprint</defName>
-    <uiIconThing>RT_TyphoonVDV_Vehicle_Blueprint</uiIconThing>
-    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
-    <label>assemble Kamaz Typhoon VDV</label>
-    <description>assemble Kamaz Typhoon VDV.</description>
-    <workAmount>6000</workAmount>
-    <!--20000 -->
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>EngineHeavy</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentFuelTank</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentTransmission</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentWheelTire</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>35</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentAdvanced</li>
-          </thingDefs>
-        </filter>
-        <count>14</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Mechanism</li>
-          </thingDefs>
-        </filter>
-        <count>30</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AdvMechanism</li>
-          </thingDefs>
-        </filter>
-        <count>16</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>480</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>140</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Titanium</li>
-          </thingDefs>
-        </filter>
-        <count>75</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>AluminiumBar</li>
-          </thingDefs>
-        </filter>
-        <count>90</count>
+        <count>70</count>
       </li>
       <li>
         <filter>
@@ -271,10 +306,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Chemfuel</li>
+            <li>Plastic</li>
           </thingDefs>
         </filter>
-        <count>120</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
@@ -282,36 +317,38 @@
             <li>ElectronicComponents</li>
           </thingDefs>
         </filter>
-        <count>18</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Electronics</li>
+            <li>Chemfuel</li>
           </thingDefs>
         </filter>
-        <count>8</count>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>EngineMedium</li>
-        <li>ComponentFuelTank</li>
-        <li>ComponentTransmission</li>
-        <li>ComponentWheelTire</li>
+        <li>HSKV_Engine_Diesel</li>
+        <li>HSKV_Chassis_WheeledLight</li>
+        <li>VVE_CarFuelTank</li>
+        <li>VVE_CarTransmission</li>
+        <li>VVE_CarWheel</li>
+        <li>VVE_CarSuspension</li>
+        <li>HSKV_Armor_Light</li>
+        <li>HSKV_Electronics_Onboard</li>
+        <li>HSKV_Mount_MG</li>
         <li>ComponentIndustrial</li>
-        <li>ComponentAdvanced</li>
-        <li>ReinforcedGlass</li>
-        <li>Plasteel</li>
-        <li>Titanium</li>
-        <li>Plastic</li>
-        <li>AluminiumBar</li>
         <li>Mechanism</li>
         <li>AdvMechanism</li>
-        <li>ElectronicComponents</li>
-        <li>Electronics</li>
-        <li>EngineHeavy</li>
         <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Titanium</li>
+        <li>AluminiumBar</li>
+        <li>ReinforcedGlass</li>
+        <li>Plastic</li>
+        <li>ElectronicComponents</li>
         <li>Chemfuel</li>
       </thingDefs>
     </fixedIngredientFilter>

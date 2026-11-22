@@ -6,12 +6,22 @@
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_TyphoonVDV_Vehicle"]</xpath>
 		<value>
 			<descriptionHyperlinks>
-				<CombatExtended.AmmoSetDef>AmmoSet_30x173mm</CombatExtended.AmmoSetDef>
-				<CombatExtended.AmmoSetDef>AmmoSet_81mmMortarShell</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_30x165mm</CombatExtended.AmmoSetDef>
+				<CombatExtended.AmmoSetDef>AmmoSet_81mmMortarShell_Vehicle</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_9M133M</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_30x29mmGrenade</CombatExtended.AmmoSetDef>
 				<CombatExtended.AmmoSetDef>AmmoSet_762x54mmR</CombatExtended.AmmoSetDef>
 			</descriptionHyperlinks>
+		</value>
+	</Operation>
+
+	<!-- Tier 3 Active Protection (blocked / 0 charges) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_TyphoonVDV_Vehicle"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>0</maxCharges>
+			</li>
 		</value>
 	</Operation>
 	

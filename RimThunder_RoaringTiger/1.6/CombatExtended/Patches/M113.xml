@@ -75,6 +75,12 @@
             <sway>1.61</sway>
             <spread>0.02</spread>
           </li>
+          <li Class="VehiclesCEOverhaul.TurretAimExtension">
+            <sightsEfficiency>1.00</sightsEfficiency>
+            <circularError>0.9</circularError>
+            <indirectFirePenalty>0.2</indirectFirePenalty>
+            <recoilAmount>1.00</recoilAmount>
+          </li>
         </value>
       </li>
     </operations>
@@ -305,5 +311,23 @@
         </value>
       </li>
     </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/Vehicles.VehicleDef[defName="RT_M113_APC"]/comps</xpath>
+    <value>
+      <li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+        <maxCharges>0</maxCharges>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/Vehicles.VehicleDef[defName="RT_M113M_APC"]/comps</xpath>
+    <value>
+      <li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+        <maxCharges>0</maxCharges>
+      </li>
+    </value>
   </Operation>
 </Patch>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 	<ThingCategoryDef>
@@ -32,7 +32,7 @@
 		</statBases>
 		<tradeTags>
 			<li>CE_AutoEnableTrade</li>
-			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
 		</tradeTags>
 		<thingCategories>
 			<li>Ammo40x53mmGrenades</li>
@@ -207,17 +207,22 @@
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_40x53mmGrenade_HE</defName>
 		<label>make 40x53mm HE grenades x100</label>
 		<description>Craft 100 40x53mm HE grenades.</description>
 		<jobString>Making 40x53mm HE grenades.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Grenade_launchers_C2</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>76</count>
 			</li>
@@ -239,8 +244,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -251,18 +259,22 @@
 		<workAmount>12400</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_40x53mmGrenade_HE_TFuzed</defName>
 		<label>make 40x53mm HE Time-Fuzed grenades x100</label>
 		<description>Craft 100 40x53mm HE Time-Fuzed grenades.</description>
 		<jobString>Making 40x53mm HE Time-Fuzed grenades.</jobString>
-		<researchPrerequisite>Range_C2</researchPrerequisite>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Grenade_launchers_C2</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>76</count>
 			</li>
@@ -284,8 +296,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -296,17 +311,22 @@
 		<workAmount>14200</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_40x53mmGrenade_HEDP</defName>
 		<label>make 40x53mm HEDP grenades x100</label>
 		<description>Craft 100 40x53mm HEDP grenades.</description>
 		<jobString>Making 40x53mm HEDP grenades.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Grenade_launchers_C2</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>76</count>
 			</li>
@@ -328,8 +348,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>FSX</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -340,21 +363,22 @@
 		<workAmount>11600</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_40x53mmGrenade_EMP</defName>
 		<label>make 40x53mm EMP grenades x100</label>
 		<description>Craft 100 40x53mm EMP grenades.</description>
 		<jobString>Making 40x53mm EMP grenades.</jobString>
 		<researchPrerequisites>
-			<li>MicroelectronicsBasics</li>
-			<li>Range_C2</li>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Grenade_launchers_C2</li>
 		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>76</count>
 			</li>
@@ -368,8 +392,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -379,17 +406,22 @@
 		<workAmount>14200</workAmount>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
 		<defName>MakeAmmo_40x53mmGrenade_Smoke</defName>
 		<label>make 40x53mm smoke grenades x100</label>
 		<description>Craft 100 40x53mm smoke grenades.</description>
 		<jobString>Making 40x53mm smoke grenades.</jobString>
+		<researchPrerequisites>
+			<li>HSKV_VehicleWeapons</li>
+			<li>Grenade_launchers_C2</li>
+		</researchPrerequisites>
 		<ingredients>
 			<li>
 				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
 				</filter>
 				<count>76</count>
 			</li>
@@ -411,8 +443,11 @@
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Prometheum</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -422,5 +457,4 @@
 		</products>
 		<workAmount>10000</workAmount>
 	</RecipeDef>
-
 </Defs>

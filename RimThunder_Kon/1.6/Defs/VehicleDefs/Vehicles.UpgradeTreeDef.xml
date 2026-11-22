@@ -99,10 +99,13 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>80</Steel>
+          <HSKV_Body_Car>1</HSKV_Body_Car>
+          <Steel>40</Steel>
           <Mechanism>4</Mechanism>
-          <ComponentIndustrial>4</ComponentIndustrial>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_Trucks</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>
@@ -165,11 +168,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>120</Steel>
-          <AluminiumBar>80</AluminiumBar>
-          <AdvMechanism>8</AdvMechanism>
-          <ComponentAdvanced>10</ComponentAdvanced>
+          <HSKV_Mount_Autocannon>1</HSKV_Mount_Autocannon>
+          <AluminiumBar>40</AluminiumBar>
+          <AdvMechanism>4</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Heavy_turrets_C3</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>VDV_Kornet</key>
@@ -256,12 +263,16 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>150</Steel>
-          <Titanium>60</Titanium>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <HSKV_FireControl>1</HSKV_FireControl>
           <FSX>30</FSX>
-          <AdvMechanism>10</AdvMechanism>
-          <ComponentAdvanced>14</ComponentAdvanced>
+          <Titanium>30</Titanium>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Rockets_C1</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>VDV_AGS</key>
@@ -348,11 +359,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>100</Steel>
-          <AluminiumBar>60</AluminiumBar>
-          <AdvMechanism>8</AdvMechanism>
-          <ComponentAdvanced>8</ComponentAdvanced>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
+          <AluminiumBar>30</AluminiumBar>
+          <AdvMechanism>4</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Grenade_launchers_C2</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>VDV_2S41</key>
@@ -435,11 +450,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <Steel>120</Steel>
-          <Titanium>50</Titanium>
-          <AdvMechanism>8</AdvMechanism>
-          <ComponentAdvanced>8</ComponentAdvanced>
+          <HSKV_Mount_Mortar>1</HSKV_Mount_Mortar>
+          <Titanium>30</Titanium>
+          <AdvMechanism>4</AdvMechanism>
         </ingredients>
+        <researchPrerequisites>
+          <li>VVE_CombatVehicles</li>
+          <li>HSKV_VehicleWeapons</li>
+          <li>Mortars</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>

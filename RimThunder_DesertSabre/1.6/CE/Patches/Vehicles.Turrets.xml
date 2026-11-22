@@ -57,6 +57,10 @@
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.20</sightsEfficiency>
+				<recoilAmount>0.85</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -146,6 +150,10 @@
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.20</sightsEfficiency>
+				<recoilAmount>0.85</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -182,7 +190,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BUSK_Tank_Turret"]/projectile</xpath>
 		<value>
-			<projectile>Bullet_30x173mm_FMJ</projectile>
+			<projectile>Bullet_25x137mmNATO_AP</projectile>
 		</value>
 	</Operation>
 
@@ -229,11 +237,15 @@
 		<xpath>Defs/Vehicles.VehicleTurretDef[defName="RT_BUSK_Tank_Turret"]</xpath>
 		<value>
 			<li Class="Vehicles.CETurretDataDefModExtension">
-				<ammoSet>AmmoSet_30x173mm</ammoSet>
+				<ammoSet>AmmoSet_25x137mmNATO</ammoSet>
 				<shotHeight>2.0</shotHeight>
 				<speed>170</speed>
 				<sway>0.82</sway>
 				<spread>0.01</spread>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.50</sightsEfficiency>
+				<recoilAmount>0.70</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -244,9 +256,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_25x137mmNATO_AP</li>
+						<li>Ammo_25x137mmNATO_Incendiary</li>
+						<li>Ammo_25x137mmNATO_HE</li>
+						<li>Ammo_25x137mmNATO_Sabot</li>
 					</thingDefs>
 				</ammunition>
 			</value>
@@ -256,9 +269,10 @@
 			<value>
 				<ammunition Inherit="False">
 					<thingDefs>
-						<li>Ammo_30x173mm_FMJ</li>
-						<li>Ammo_30x173mm_HE</li>
-						<li>Ammo_30x173mm_Incendiary</li>
+						<li>Ammo_25x137mmNATO_AP</li>
+						<li>Ammo_25x137mmNATO_Incendiary</li>
+						<li>Ammo_25x137mmNATO_HE</li>
+						<li>Ammo_25x137mmNATO_Sabot</li>
 					</thingDefs>
 				</ammunition>
 			</value>

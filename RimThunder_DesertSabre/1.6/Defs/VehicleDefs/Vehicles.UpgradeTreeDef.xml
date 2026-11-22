@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <Vehicles.UpgradeTreeDef>
     <defName>RT_M1A2SEP_Vehicle_UpgradeTree</defName>
@@ -133,72 +133,33 @@
               <li>
                 <key>LeftSkirtPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>420</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>30</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>RightSkirtPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>420</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>30</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
             </armor>
-            <health>
-              <li>
-                <key>LeftTrack</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightTrack</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftRoadWheels</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightRoadWheels</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftDriveSprocket</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightDriveSprocket</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftTensionerWheel</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightTensionerWheel</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-            </health>
           </li>
         </upgrades>
         <ingredients>
-          <Steel>120</Steel>
-          <Titanium>60</Titanium>
-          <Plasteel>80</Plasteel>
+          <HSKV_Armor_Heavy>3</HSKV_Armor_Heavy>
+          <HSKV_Mount_MG>1</HSKV_Mount_MG>
           <FSX>50</FSX>
-          <AdvMechanism>6</AdvMechanism>
+          <Titanium>40</Titanium>
           <ReinforcedGlass>15</ReinforcedGlass>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_MainBattleTank</li>
+          <li>HSKV_CompositeArmor</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>
@@ -317,87 +278,49 @@
               <li>
                 <key>MainTurret</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>165</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>12</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>FrontArmorPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>165</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>12</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>LeftSkirtPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>360</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>26</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
               <li>
                 <key>RightSkirtPlating</key>
                 <statModifiers>
-                  <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
-                  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+                  <ArmorRating_Blunt>360</ArmorRating_Blunt>
+                  <ArmorRating_Sharp>26</ArmorRating_Sharp>
                 </statModifiers>
                 <type>Add</type>
               </li>
             </armor>
-            <health>
-              <li>
-                <key>LeftTrack</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightTrack</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftRoadWheels</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightRoadWheels</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftDriveSprocket</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightDriveSprocket</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>LeftTensionerWheel</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-              <li>
-                <key>RightTensionerWheel</key>
-                <depth>Internal</depth>
-                <type>Set</type>
-              </li>
-            </health>
           </li>
         </upgrades>
         <ingredients>
-          <Steel>100</Steel>
-          <AluminiumBar>80</AluminiumBar>
-          <Plasteel>60</Plasteel>
+          <HSKV_Armor_Light>4</HSKV_Armor_Light>
+          <HSKV_Mount_Rockets>1</HSKV_Mount_Rockets>
           <FSX>40</FSX>
-          <AdvMechanism>5</AdvMechanism>
+          <AluminiumBar>40</AluminiumBar>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_ArmoredVehicles2</li>
+          <li>HSKV_VehicleArmor</li>
+          <li>HSKV_VehicleWeapons</li>
+        </researchPrerequisites>
       </li>
       <li>
         <key>M2A3_Engine_Upgrade</key>
@@ -427,12 +350,15 @@
           </li>
         </upgrades>
         <ingredients>
-          <EngineHeavy>1</EngineHeavy>
-          <ComponentTransmission>1</ComponentTransmission>
-          <AdvMechanism>6</AdvMechanism>
-          <ComponentAdvanced>4</ComponentAdvanced>
-          <Steel>60</Steel>
+          <HSKV_Engine_Diesel>1</HSKV_Engine_Diesel>
+          <VVE_CarTransmission>1</VVE_CarTransmission>
+          <AdvMechanism>4</AdvMechanism>
+          <Steel>40</Steel>
         </ingredients>
+        <researchPrerequisites>
+          <li>HSKV_ArmoredVehicles2</li>
+          <li>HSKV_VehicleArmor</li>
+        </researchPrerequisites>
       </li>
     </nodes>
   </Vehicles.UpgradeTreeDef>

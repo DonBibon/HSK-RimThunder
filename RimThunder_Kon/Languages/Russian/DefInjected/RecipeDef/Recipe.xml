@@ -9,7 +9,7 @@
   <RT_Make_TyphoonVDV_Blueprint.description>Сборка техники КамАЗ «Тайфун-ВДВ» на монтажном портале (Assembly gantry).
 
 &lt;color=#b0e0e6&gt;Необходимые боеприпасы для крафта на верстаке боеприпасов:&lt;/color&gt;
-- 30-мм автопушка 2А42: 30x173mm cartridge (FMJ / HE / AP-I)
+- 30-мм автопушка 2А42: 30x165mm cartridge (AP / Sabot / HE / Incendiary)
 - 7.62-мм пулемёт ПКТМ: 7.62x54mmR cartridge (FMJ / AP / HP)
 - (Улучшение ПТУР «Корнет»): 9M133 "Kornet"AntiTank missile(HEAT)
 - (Улучшение 30-мм АГС-30): 30x29mm grenade (HE / HE Time-Fuzed / HEDP / EMP / Smoke)</RT_Make_TyphoonVDV_Blueprint.description>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingCategoryDef>
     <defName>Ammo57x348sr</defName>
@@ -127,17 +127,19 @@
     </projectile>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
-  <RecipeDef ParentName="AmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_57x348sr_AP</defName>
     <label>make 57x348mmSR (AP) cartridge x50</label>
     <description>Craft 50 57x348mmSR (AP) cartridges.</description>
     <jobString>Making 57x348mmSR (AP) cartridges.</jobString>
+    <workAmount>12000</workAmount>
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>200</count>
       </li>
@@ -159,8 +161,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
       </thingDefs>
@@ -168,20 +173,25 @@
     <products>
       <Ammo_57x348sr_AP>50</Ammo_57x348sr_AP>
     </products>
-    <workAmount>12000</workAmount>
-    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
   </RecipeDef>
-  <RecipeDef ParentName="AmmoRecipeBase">
+
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_57x348sr_HE</defName>
-    <label>make 57x348mmSR (AP-HE) cartridge x50</label>
-    <description>Craft 50 57x348mmSR (AP-HE) cartridges.</description>
-    <jobString>Making 57x348mmSR (AP-HE) cartridges.</jobString>
+    <label>make 57x348mmSR (HE) cartridge x50</label>
+    <description>Craft 50 57x348mmSR (HE) cartridges.</description>
+    <jobString>Making 57x348mmSR (HE) cartridges.</jobString>
+    <workAmount>14000</workAmount>
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>180</count>
       </li>
@@ -211,8 +221,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>FSX</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
@@ -221,20 +234,25 @@
     <products>
       <Ammo_57x348sr_HE>50</Ammo_57x348sr_HE>
     </products>
-    <workAmount>14000</workAmount>
-    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
   </RecipeDef>
-  <RecipeDef ParentName="AdvancedAmmoRecipeBase">
+
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_57x348sr_Sabot</defName>
     <label>make 57x348mmSR (Sabot) cartridge x50</label>
     <description>Craft 50 57x348mmSR (Sabot) cartridges.</description>
     <jobString>Making 57x348mmSR (Sabot) cartridges.</jobString>
+    <workAmount>16000</workAmount>
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>150</count>
       </li>
@@ -264,8 +282,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>DepletedUranium</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
@@ -274,7 +295,9 @@
     <products>
       <Ammo_57x348sr_Sabot>50</Ammo_57x348sr_Sabot>
     </products>
-    <workAmount>16000</workAmount>
-    <researchPrerequisite>RT_ModernIFV</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_VehicleWeapons</li>
+      <li>Heavy_turrets_C3</li>
+    </researchPrerequisites>
   </RecipeDef>
 </Defs>

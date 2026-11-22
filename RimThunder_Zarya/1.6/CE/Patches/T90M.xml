@@ -60,6 +60,10 @@
 				<sway>0.82</sway>
 				<spread>0.01</spread>
 			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.65</sightsEfficiency>
+				<recoilAmount>0.65</recoilAmount>
+			</li>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationConditional">
@@ -157,6 +161,10 @@
 				<sway>0.94</sway>
 				<spread>0.05</spread>
 				<recoil>1.5</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.25</sightsEfficiency>
+				<recoilAmount>0.90</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -260,6 +268,10 @@
 				<sway>0.12</sway>
 				<spread>0.05</spread>
 				<recoil>0.8</recoil>
+			</li>
+			<li Class="VehiclesCEOverhaul.TurretAimExtension">
+				<sightsEfficiency>1.15</sightsEfficiency>
+				<recoilAmount>0.80</recoilAmount>
 			</li>
 		</value>
 	</Operation>
@@ -490,30 +502,22 @@
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T90M_MainBattleTank"]/components/li[key="LeftTrack" or key="RightTrack" or key="LeftRoadWheels" or key="RightRoadWheels" or key="LeftDriveSprocket" or key="RightDriveSprocket" or key="LeftTensionerWheel" or key="RightTensionerWheel"]/depth</xpath>
-		<value>
-			<depth>Internal</depth>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T90M_MainBattleTank"]/components/li[key="LeftRoadWheels" or key="RightRoadWheels"]/health</xpath>
-		<value>
-			<health>120</health>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T90M_MainBattleTank"]/components/li[key="LeftDriveSprocket" or key="RightDriveSprocket"]/health</xpath>
-		<value>
-			<health>90</health>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T90M_MainBattleTank"]/components/li[key="LeftTensionerWheel" or key="RightTensionerWheel"]/health</xpath>
 		<value>
 			<health>90</health>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/Vehicles.VehicleDef[defName="RT_T90M_MainBattleTank"]/comps</xpath>
+		<value>
+			<li Class="VehiclesCEOverhaul.CompProperties_ActiveProtection">
+				<maxCharges>6</maxCharges>
+				<salvo>1</salvo>
+				<cooldownTicks>90</cooldownTicks>
+				<range>5</range>
+				<chance>0.85</chance>
+			</li>
 		</value>
 	</Operation>
 </Patch>

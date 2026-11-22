@@ -51,10 +51,13 @@
 					</li>
 				</upgrades>
 				<ingredients>
-					<ComponentIndustrial>5</ComponentIndustrial>
+					<HSKV_Mount_TankGun>1</HSKV_Mount_TankGun>
 					<Steel>30</Steel>
 				</ingredients>
-			</li>
+			<researchPrerequisites>
+					<li>HSKV_ArmoredVehicles2</li>
+					<li>HSKV_TankGuns</li>
+				</researchPrerequisites></li>
 			<li>
 				<key>T34E_Armor</key>
 				<label>T-34E</label>
@@ -71,30 +74,32 @@
 							<li>
 								<key>FrontArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+									<ArmorRating_Blunt>140</ArmorRating_Blunt>
+									<ArmorRating_Sharp>10</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>LeftArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+									<ArmorRating_Blunt>110</ArmorRating_Blunt>
+									<ArmorRating_Sharp>8</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>RightArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+									<ArmorRating_Blunt>110</ArmorRating_Blunt>
+									<ArmorRating_Sharp>8</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>MainTurret</key>
 								<statModifiers>
-									<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+									<ArmorRating_Blunt>140</ArmorRating_Blunt>
+									<ArmorRating_Sharp>10</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
@@ -138,9 +143,14 @@
 					</li>
 				</upgrades>
 				<ingredients>
-					<Steel>50</Steel>
+					<HSKV_Armor_Light>3</HSKV_Armor_Light>
+					<HSKV_Mount_MG>1</HSKV_Mount_MG>
+					<Steel>30</Steel>
 				</ingredients>
-			</li>
+			<researchPrerequisites>
+					<li>HSKV_ArmoredVehicles2</li>
+					<li>HSKV_VehicleArmor</li>
+				</researchPrerequisites></li>
 			<li>
 				<key>OT34_Flamethrower</key>
 				<label>OT-34</label>
@@ -173,11 +183,14 @@
 					</li>
 				</upgrades>
 				<ingredients>
-					<ComponentIndustrial>2</ComponentIndustrial>
-					<Steel>30</Steel>
-					<Chemfuel>30</Chemfuel>
+					<HSKV_Mount_MG>1</HSKV_Mount_MG>
+					<Chemfuel>40</Chemfuel>
+					<Steel>20</Steel>
 				</ingredients>
-			</li>
+			<researchPrerequisites>
+					<li>HSKV_ArmoredVehicles2</li>
+					<li>HSKV_VehicleWeapons</li>
+				</researchPrerequisites></li>
 		</nodes>
 	</Vehicles.UpgradeTreeDef>
 	<Vehicles.UpgradeTreeDef>
@@ -215,10 +228,13 @@
 					</li>
 				</upgrades>
 				<ingredients>
-					<ComponentIndustrial>5</ComponentIndustrial>
-					<Steel>50</Steel>
+					<HSKV_Mount_Mortar>1</HSKV_Mount_Mortar>
+					<Steel>30</Steel>
 				</ingredients>
-			</li>
+			<researchPrerequisites>
+					<li>HSKV_ArmoredVehicles2</li>
+					<li>Mortars</li>
+				</researchPrerequisites></li>
 		</nodes>
 	</Vehicles.UpgradeTreeDef>
 	<Vehicles.UpgradeTreeDef>
@@ -257,32 +273,32 @@
 							<li>
 								<key>FrontArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+									<ArmorRating_Blunt>195</ArmorRating_Blunt>
+									<ArmorRating_Sharp>14</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>LeftArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+									<ArmorRating_Blunt>140</ArmorRating_Blunt>
+									<ArmorRating_Sharp>10</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>RightArmorPlating</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.14</ArmorRating_Sharp>
+									<ArmorRating_Blunt>140</ArmorRating_Blunt>
+									<ArmorRating_Sharp>10</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
 							<li>
 								<key>MainTurret</key>
 								<statModifiers>
-									<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-									<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+									<ArmorRating_Blunt>195</ArmorRating_Blunt>
+									<ArmorRating_Sharp>14</ArmorRating_Sharp>
 								</statModifiers>
 								<type>Add</type>
 							</li>
@@ -290,10 +306,14 @@
 					</li>
 				</upgrades>
 				<ingredients>
-					<ComponentIndustrial>2</ComponentIndustrial>
-					<Steel>80</Steel>
+					<HSKV_Armor_Light>3</HSKV_Armor_Light>
+					<HSKV_Mount_MG>1</HSKV_Mount_MG>
+					<Steel>40</Steel>
 				</ingredients>
-			</li>
+			<researchPrerequisites>
+					<li>HSKV_ArmoredVehicles2</li>
+					<li>HSKV_VehicleArmor</li>
+				</researchPrerequisites></li>
 		</nodes>
 	</Vehicles.UpgradeTreeDef>
 </Defs>

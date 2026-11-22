@@ -16,17 +16,17 @@
       <Flammability>0.05</Flammability>
     </statBases>
     <researchPrerequisites Inherit="False">
-      <li>RT_AviationHeavyTransport</li>
+      <li>HSKV_Aviation2</li>
     </researchPrerequisites>
     <size>(5,12)</size>
     <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <costList>
-      <EngineJet>3</EngineJet>
-      <ComponentFuelTank>6</ComponentFuelTank>
-      <ComponentTransmission>3</ComponentTransmission>
-      <ComponentWheelTire>4</ComponentWheelTire>
-      <ComponentIndustrial>45</ComponentIndustrial>
-      <ComponentAdvanced>16</ComponentAdvanced>
+      <HSKV_Engine_Turbine>3</HSKV_Engine_Turbine>
+      <HSKV_Body_Airframe>4</HSKV_Body_Airframe>
+      <HSKV_Avionics>2</HSKV_Avionics>
+      <VVE_CarFuelTank>3</VVE_CarFuelTank>
+      <VVE_CarWheel>4</VVE_CarWheel>
+
       <Mechanism>40</Mechanism>
       <AdvMechanism>22</AdvMechanism>
       <Steel>800</Steel>
@@ -63,7 +63,7 @@
       <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
       <Flammability>0</Flammability>
-      <MarketValue>3500</MarketValue>
+      <MarketValue>78000</MarketValue>
     </statBases>
     <vehicleStats>
       <Mass>15000</Mass>

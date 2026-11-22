@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>blakil.vehiclesceoverhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/VehiclesCEOverhaul.VehicleRaidTuningDef[defName="VCEO_VehicleRaidTuning"]/adaptedVehicles</xpath>
+					<value>
+						<li>RT_M113_APC</li>
+						<li>RT_M113M_APC</li>
+						<li>RT_M1A2_MainBattleTank</li>
+						<li>RT_M48H_MediumTank</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1A2_MainBattleTank"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M48H_MediumTank"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M113_APC"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Breacher</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M113M_APC"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Factions</mode>
+							<factions>
+								<li>Pirate</li>
+								<li>OutlanderRough</li>
+								<li>Orion</li>
+								<li>Brotherhood</li>
+							</factions>
+							<costFactor>1.0</costFactor>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>Support</role>
+						</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAddModExtension">
+					<xpath>Defs/Vehicles.VehicleDef[defName="RT_M1075_HEMTT"]</xpath>
+					<value>
+						<li Class="VehiclesCEOverhaul.VehicleRaidExtension">
+							<mode>Off</mode>
+						</li>
+						<li Class="VehiclesCEOverhaul.VehicleRaidRoleExtension">
+							<role>None</role>
+						</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

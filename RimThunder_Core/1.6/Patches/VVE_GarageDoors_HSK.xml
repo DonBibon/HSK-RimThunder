@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Switch VVE garage doors to HSK metallic alloys -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="VVE_GarageDoorAbstract"]/stuffCategories</xpath>
+    <value>
+      <stuffCategories>
+        <li>Metallic</li>
+        <li>RuggedMetallic</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+
+  <!-- Manual garage door (1x4) -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VVE_GarageDoor"]/costList</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VVE_GarageDoor"]/costList</xpath>
+      <value>
+        <costList>
+          <ComponentIndustrial>15</ComponentIndustrial>
+          <Mechanism>10</Mechanism>
+        </costList>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VVE_GarageDoor"]</xpath>
+      <value>
+        <costList>
+          <ComponentIndustrial>15</ComponentIndustrial>
+          <Mechanism>10</Mechanism>
+        </costList>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Manual wide garage door (1x5) -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VVE_GarageDoorLarge"]/costList</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VVE_GarageDoorLarge"]/costList</xpath>
+      <value>
+        <costList>
+          <ComponentIndustrial>20</ComponentIndustrial>
+          <Mechanism>15</Mechanism>
+        </costList>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VVE_GarageDoorLarge"]</xpath>
+      <value>
+        <costList>
+          <ComponentIndustrial>20</ComponentIndustrial>
+          <Mechanism>15</Mechanism>
+        </costList>
+      </value>
+    </nomatch>
+  </Operation>
+
+  <!-- Automatic garage door (1x4) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VVE_GarageAutoDoor"]/costList</xpath>
+    <value>
+      <costList>
+        <ComponentIndustrial>15</ComponentIndustrial>
+        <Mechanism>10</Mechanism>
+        <ElectronicComponents>2</ElectronicComponents>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Automatic wide garage door (1x5) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VVE_GarageAutoDoorLarge"]/costList</xpath>
+    <value>
+      <costList Inherit="False">
+        <ComponentIndustrial>20</ComponentIndustrial>
+        <Mechanism>15</Mechanism>
+        <ElectronicComponents>5</ElectronicComponents>
+      </costList>
+    </value>
+  </Operation>
+</Patch>

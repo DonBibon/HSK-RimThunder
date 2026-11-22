@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingCategoryDef>
     <defName>Ammo125mmTC</defName>
@@ -22,7 +22,7 @@
     <stackLimit>25</stackLimit>
     <tradeTags>
       <li>CE_AutoEnableTrade</li>
-      <li>CE_AutoEnableCrafting_TableMachining</li>
+      <li>CE_AutoEnableCrafting_TableHeavyAmmunition</li>
     </tradeTags>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -88,7 +88,7 @@
     </comps>
   </ThingDef>
   <!-- ==================== Recipes ========================== -->
-  <RecipeDef ParentName="AmmoRecipeBase">
+  <RecipeDef ParentName="AmmoRecipeHighCaliber">
     <defName>MakeAmmo_125mmTC_HE</defName>
     <label>make 125mm 3OF26 HE cannon shells x5</label>
     <description>Craft 5 125mm 3OF26 HE cannon shells.</description>
@@ -97,9 +97,10 @@
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>160</count>
       </li>
@@ -129,8 +130,11 @@
       </li>
     </ingredients>
     <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
       <thingDefs>
-        <li>Steel</li>
         <li>FSX</li>
         <li>Powder</li>
         <li>ComponentIndustrial</li>
@@ -142,6 +146,9 @@
     <skillRequirements>
       <Crafting>4</Crafting>
     </skillRequirements>
-    <researchPrerequisite>RT_ModernMBTs</researchPrerequisite>
+    <researchPrerequisites>
+      <li>HSKV_MainBattleTank</li>
+      <li>HSKV_TankGuns</li>
+    </researchPrerequisites>
   </RecipeDef>
 </Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- Remove stock unscaled VCEO armor profiles for Talvisota vehicles so HSK scale is purely used -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_BT5_Vehicle"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_BT5_Vehicle"]</xpath>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T28_Vehicle"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T28_Vehicle"]</xpath>
+		</match>
+	</Operation>
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T34_Vehicle"]</xpath>
+		<match Class="PatchOperationRemove">
+			<xpath>Defs/VehiclesCEOverhaul.VehicleArmorDef[defName="VCEO_Armor_RT_T34_Vehicle"]</xpath>
+		</match>
+	</Operation>
+</Patch>
